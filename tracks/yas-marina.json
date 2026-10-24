@@ -1,0 +1,531 @@
+{
+  "trackId": "yas-marina",
+  "name": "Yas Marina",
+  "lengthMeters": 5281,
+  "rotationDeg": 97,
+  "geojsonFile": "ae-2009",
+  "startOffsetS": 0.9717,
+  "corners": [
+    {
+      "number": 1,
+      "s": 0.0813,
+      "name": {
+        "ko": "T1",
+        "en": "Turn 1"
+      },
+      "dirX": -0.5401,
+      "dirY": 0.8416
+    },
+    {
+      "number": 2,
+      "s": 0.1285,
+      "name": {
+        "ko": "T2",
+        "en": "Turn 2"
+      },
+      "dirX": 0.6821,
+      "dirY": 0.7313
+    },
+    {
+      "number": 3,
+      "s": 0.1657,
+      "name": {
+        "ko": "T3",
+        "en": "Turn 3"
+      },
+      "dirX": -0.2705,
+      "dirY": -0.9627
+    },
+    {
+      "number": 4,
+      "s": 0.2099,
+      "name": {
+        "ko": "T4",
+        "en": "Turn 4"
+      },
+      "dirX": -0.1395,
+      "dirY": 0.9902
+    },
+    {
+      "number": 5,
+      "s": 0.2777,
+      "name": {
+        "ko": "T5",
+        "en": "Turn 5"
+      },
+      "dirX": 0.8981,
+      "dirY": 0.4398
+    },
+    {
+      "number": 6,
+      "s": 0.5047,
+      "name": {
+        "ko": "T6",
+        "en": "Turn 6"
+      },
+      "dirX": 0.2534,
+      "dirY": -0.9674
+    },
+    {
+      "number": 7,
+      "s": 0.5205,
+      "name": {
+        "ko": "T7",
+        "en": "Turn 7"
+      },
+      "dirX": -0.5428,
+      "dirY": -0.8399
+    },
+    {
+      "number": 8,
+      "s": 0.5662,
+      "name": {
+        "ko": "T8",
+        "en": "Turn 8"
+      },
+      "dirX": 0.5543,
+      "dirY": 0.8323
+    },
+    {
+      "number": 9,
+      "s": 0.7105,
+      "name": {
+        "ko": "T9",
+        "en": "Turn 9"
+      },
+      "dirX": -0.5359,
+      "dirY": 0.8443
+    },
+    {
+      "number": 10,
+      "s": 0.7794,
+      "name": {
+        "ko": "T10",
+        "en": "Turn 10"
+      },
+      "dirX": 0.9433,
+      "dirY": 0.332
+    },
+    {
+      "number": 11,
+      "s": 0.8029,
+      "name": {
+        "ko": "T11",
+        "en": "Turn 11"
+      },
+      "dirX": 0.7199,
+      "dirY": 0.6941
+    },
+    {
+      "number": 12,
+      "s": 0.8324,
+      "name": {
+        "ko": "T12",
+        "en": "Turn 12"
+      },
+      "dirX": 0.9884,
+      "dirY": -0.1522
+    },
+    {
+      "number": 13,
+      "s": 0.8529,
+      "name": {
+        "ko": "T13",
+        "en": "Turn 13"
+      },
+      "dirX": -0.7802,
+      "dirY": 0.6255
+    },
+    {
+      "number": 14,
+      "s": 0.8733,
+      "name": {
+        "ko": "T14",
+        "en": "Turn 14"
+      },
+      "dirX": 0.3102,
+      "dirY": 0.9507
+    },
+    {
+      "number": 15,
+      "s": 0.9303,
+      "name": {
+        "ko": "T15",
+        "en": "Turn 15"
+      },
+      "dirX": 0.9038,
+      "dirY": 0.428
+    },
+    {
+      "number": 16,
+      "s": 0.976,
+      "name": {
+        "ko": "T16",
+        "en": "Turn 16"
+      },
+      "dirX": -0.8892,
+      "dirY": 0.4575,
+      "labelOffsetScale": 0.708
+    }
+  ],
+  "lapRecords": [
+    {
+      "driver": "Kevin Magnussen",
+      "team": "Haas",
+      "time": "1:25.637",
+      "year": 2024,
+      "session": "race",
+      "isTrackRecord": true
+    }
+  ],
+  "segments": [
+    {
+      "type": "sector",
+      "label": "S1",
+      "sStart": 0,
+      "sEnd": 0.21936790380609733
+    },
+    {
+      "type": "sector",
+      "label": "S2",
+      "sStart": 0.21936790380609733,
+      "sEnd": 0.7010320961939027
+    },
+    {
+      "type": "sector",
+      "label": "S3",
+      "sStart": 0.7010320961939027,
+      "sEnd": 1
+    }
+  ],
+  "trackData": {
+    "lengthMeters": 5281,
+    "laps": 58,
+    "cornerCount": 16,
+    "topSpeedKmh": 321,
+    "fullThrottlePercent": 60,
+    "firstHeld": 2009
+  },
+  "sections": [
+    {
+      "id": "t1-t4",
+      "name": {
+        "ko": "T1~T4",
+        "en": "Turn 1 to Turn 4"
+      },
+      "corners": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "guide": {
+        "ko": "메인 스트레이트 끝의 1번은 진입이 넓고 안쪽으로 갈수록 조여드는 중속 좌코너다. 오르막의 2번 좌코너를 풀스로틀로 오르고, 언덕 꼭대기를 넘는 3번 우코너와 내리막의 4번 좌측 킹크를 지나 5번 헤어핀으로 향한다.",
+        "en": "Turn 1 at the end of the main straight is a medium-speed left-hander that is wide on entry and tightens toward the apex. Cars climb the uphill left at Turn 2 flat out, then go over the crest in the right-hander at Turn 3 and through the downhill left-hand kink at Turn 4 on the way to the hairpin at Turn 5."
+      },
+      "sim": {
+        "summary": {
+          "ko": "100m 보드 · 4단 · 조여드는 에이펙스",
+          "en": "100 m board · 4th · Tightening apex"
+        },
+        "popup": {
+          "brake": {
+            "ko": "1번 100m 보드",
+            "en": "T1 100 m board"
+          },
+          "gear": {
+            "ko": "1번 4단",
+            "en": "4th at T1"
+          },
+          "watch": {
+            "ko": "일찍 꺾으면 안쪽에서 밀림",
+            "en": "Turning in early gets pushed wide"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 1번은 100m 보드에서, 2번은 풀스로틀, 3번은 살짝 리프트\n기어: 1번 4단\n라인: 1번은 넓게 들어가 조여드는 에이펙스에 늦게 붙는다\n스로틀: 1번 탈출부터 일찍\n핵심: 3번 언덕을 넘을 때 차가 가벼워지니 부드럽게\n주의: 1번에서 일찍 꺾으면 조여드는 안쪽에서 밀린다",
+          "en": "Braking: 100 m board at T1, flat out at T2, a slight lift at T3\nGear: 4th at T1\nLine: Enter T1 wide and get onto the tightening apex late\nThrottle: Early from the T1 exit\nKey: The car goes light over the T3 crest, so be smooth\nWatch: Turn in early at T1 and you get pushed wide on the tightening inside"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t5",
+      "name": {
+        "ko": "T5",
+        "en": "Turn 5"
+      },
+      "corners": [
+        5
+      ],
+      "guide": {
+        "ko": "2021년 개편 때 넓어진 좌측 헤어핀이다. 탈출하자마자 약 1.2km의 서킷에서 가장 긴 직선이 이어지기 때문에, 진입 속도보다 탈출 속도가 훨씬 중요하다.",
+        "en": "A left-hand hairpin that was widened in the 2021 revamp. The longest straight on the circuit, about 1.2 km, starts right at the exit, so exit speed matters far more than entry speed."
+      },
+      "sim": {
+        "summary": {
+          "ko": "100m 보드 직후 · 2단 · 탈출 우선",
+          "en": "Just after the 100 m board · 2nd · Prioritise exit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "5번 100m 보드 직후",
+            "en": "T5 just after the 100 m board"
+          },
+          "gear": {
+            "ko": "2단",
+            "en": "2nd"
+          },
+          "watch": {
+            "ko": "탈출 휠스핀",
+            "en": "Wheelspin on exit"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 4번 탈출 뒤 직선 끝 100m 보드 직후에서 강하게\n기어: 2단\n라인: 늦은 에이펙스로 탈출을 곧게 편다\n스로틀: 휠스핀 없이 점진적으로, 일찍 변속\n핵심: 탈출 속도가 1.2km 직선과 6번 추월을 결정\n주의: 진입을 서두르면 탈출이 늦어진다",
+          "en": "Braking: Hard just after the 100 m board at the end of the straight after the T4 exit\nGear: 2nd\nLine: Straighten the exit with a late apex\nThrottle: Gradually without wheelspin, and shift early\nKey: Exit speed decides the 1.2 km straight and your T6 overtake\nWatch: Rush the entry and the exit comes late"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t6-t7",
+      "name": {
+        "ko": "T6~T7",
+        "en": "Turn 6 to Turn 7"
+      },
+      "corners": [
+        6,
+        7
+      ],
+      "guide": {
+        "ko": "약 1.2km 직선 끝에서 랩에서 가장 강하게 제동하는 좌우 시케인이다. 서킷에서 가장 좋은 추월 지점으로, 서쪽 관중석에서 대부분의 추월 장면을 볼 수 있다.",
+        "en": "A left-right chicane braked harder than anywhere else on the lap at the end of the straight of about 1.2 km. It is the best overtaking spot on the circuit, and most of the passes can be seen from the west grandstand."
+      },
+      "sim": {
+        "summary": {
+          "ko": "100m 보드 · 2단 · 최대 추월 지점",
+          "en": "100 m board · 2nd · Best overtaking spot"
+        },
+        "popup": {
+          "brake": {
+            "ko": "6번 100m 보드",
+            "en": "T6 100 m board"
+          },
+          "gear": {
+            "ko": "2단",
+            "en": "2nd"
+          },
+          "watch": {
+            "ko": "거친 연석",
+            "en": "Rough kerbs"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 직선 끝 100m 보드에서 강하게\n기어: 2단\n라인: 6번 안쪽을 지키고 7번 탈출을 곧게\n스로틀: 7번 탈출에서 점진적으로\n핵심: 서킷에서 가장 좋은 추월 지점\n주의: 연석이 거칠어 과하게 타면 차가 튄다",
+          "en": "Braking: Hard at the 100 m board at the end of the straight\nGear: 2nd\nLine: Defend the inside at T6 and straighten the T7 exit\nThrottle: Build up gradually on the T7 exit\nKey: The best overtaking spot on the circuit\nWatch: The kerbs are rough, and riding them hard bounces the car"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t8-t9",
+      "name": {
+        "ko": "T8~T9",
+        "en": "Turn 8 to Turn 9"
+      },
+      "corners": [
+        8,
+        9
+      ],
+      "guide": {
+        "ko": "8번은 두 번째 직선 위에서 거의 느껴지지 않을 만큼 살짝 휘는 왼쪽 곡선으로, 풀스로틀로 지난다. 직선 끝의 9번은 2021년에 예전 네 코너를 하나로 합쳐 만든 180도 뱅크 좌코너로, 기울어진 노면이 차를 돌려준다.",
+        "en": "Turn 8 is a left-hand curve on the second straight so slight that it is barely felt, taken flat out. Turn 9 at the end of the straight is a 180-degree banked left-hander made in 2021 by merging the four old corners into one, and the tilted surface helps turn the car."
+      },
+      "sim": {
+        "summary": {
+          "ko": "9번 일찍 제동 · 3단 · 뱅크 코너",
+          "en": "Brake early at T9 · 3rd · Banked corner"
+        },
+        "popup": {
+          "brake": {
+            "ko": "9번 직선 끝 일찍",
+            "en": "Early at the end of the straight for T9"
+          },
+          "gear": {
+            "ko": "9번 3단",
+            "en": "3rd at T9"
+          },
+          "watch": {
+            "ko": "과한 조향 시 탈출 손해",
+            "en": "Over-steering costs exit speed"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 8번은 풀스로틀, 9번은 직선 끝에서 일찍\n기어: 9번 3단\n라인: 9번은 뱅크를 믿고 길게 돌린다\n스로틀: 9번 중간부터 균형을 맞추며 점진적으로\n핵심: 뱅크가 회전을 도와주니 과하게 꺾지 않는다\n주의: 9번에서 욕심내면 탈출 속도가 떨어진다",
+          "en": "Braking: Flat out at T8, early at the end of the straight for T9\nGear: 3rd at T9\nLine: Trust the banking at T9 and take a long arc\nThrottle: Build up progressively from the middle of T9 while keeping the balance\nKey: The banking helps you rotate, so don't over-steer\nWatch: Get greedy at T9 and your exit speed drops"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t10-t12",
+      "name": {
+        "ko": "T10~T12",
+        "en": "Turn 10 to Turn 12"
+      },
+      "corners": [
+        10,
+        11,
+        12
+      ],
+      "guide": {
+        "ko": "10·11번 빠른 우코너를 지나자마자 12번 90도 우코너에서 강하게 제동한다. 차에 옆으로 쏠리는 힘이 남아 있는 상태에서 제동해야 해서 서킷에서 가장 까다로운 구간으로 꼽힌다. 12번부터 야스 호텔 아래 저속 구간이 시작된다.",
+        "en": "Right after the fast right-handers at Turns 10 and 11, cars brake hard for the 90-degree right-hander at Turn 12. They must brake while sideways load is still on the car, so this is regarded as the trickiest section on the circuit. The low-speed section under the Yas hotel starts at Turn 12."
+      },
+      "sim": {
+        "summary": {
+          "ko": "12번 옆 하중 속 제동 · 3단 · 까다로운 진입",
+          "en": "Braking under side load at T12 · 3rd · Tricky entry"
+        },
+        "popup": {
+          "brake": {
+            "ko": "12번 11번 탈출 직후",
+            "en": "T12 right after the T11 exit"
+          },
+          "gear": {
+            "ko": "12번 3단",
+            "en": "3rd at T12"
+          },
+          "watch": {
+            "ko": "꺾은 채 제동 시 락업",
+            "en": "Lock-up if braking while turning"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 10·11번은 스로틀 조절, 12번은 옆 하중이 남은 채 강하게\n기어: 10·11번 4~5단, 12번 3단\n라인: 11번 탈출에서 차를 곧게 펴고 제동한다\n스로틀: 12번 탈출에서 점진적으로\n핵심: 12번 제동 시작 전에 차를 얼마나 곧게 펴느냐\n주의: 꺾은 채 제동하면 안쪽 앞바퀴가 잠긴다",
+          "en": "Braking: Throttle control at T10 and T11, hard at T12 with side load still on the car\nGear: 4th–5th at T10 and T11, 3rd at T12\nLine: Straighten the car on the T11 exit and then brake\nThrottle: Build up gradually on the T12 exit\nKey: How straight you can get the car before the T12 braking starts\nWatch: Brake while turned in and the inside front wheel locks"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "hotel",
+      "name": {
+        "ko": "야스 호텔 구간",
+        "en": "Yas Hotel Section"
+      },
+      "corners": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "guide": {
+        "ko": "13번 저속 좌코너를 지나면 서킷을 가로질러 걸친 야스 호텔 아래를 통과해 14번 좌코너로 들어간다. 14번은 탈출이 열려 있지만 욕심내면 사고가 나기 쉬운 곳이다. 고속 15번 우코너는 탈출에서 트랙 리밋을 넘기 쉽고, 마지막 16번은 탈출 트랙션이 메인 스트레이트 속도를 정한다.",
+        "en": "After the low-speed left-hander at Turn 13, cars pass under the Yas hotel, which spans the circuit, and enter the left-hander at Turn 14. The exit of Turn 14 is open, but it is an easy place to crash if a driver gets greedy. The fast right-hander at Turn 15 makes it easy to exceed track limits on exit, and at the final corner, Turn 16, traction on exit sets the speed down the main straight."
+      },
+      "sim": {
+        "summary": {
+          "ko": "저속 연속 · 2~3단 · 15번 트랙 리밋",
+          "en": "Low-speed sequence · 2nd–3rd · T15 track limits"
+        },
+        "popup": {
+          "brake": {
+            "ko": "13·14번 짧게",
+            "en": "Brief braking at T13 and T14"
+          },
+          "gear": {
+            "ko": "2~3단",
+            "en": "2nd–3rd"
+          },
+          "watch": {
+            "ko": "15번 트랙 리밋",
+            "en": "Track limits at T15"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 13·14번 진입에서 짧게, 15번은 풀스로틀, 16번 진입에서 다시\n기어: 13·14번 2~3단\n라인: 14번은 열리는 탈출을 살리되 욕심내지 않는다\n스로틀: 16번 탈출에서 휠스핀 없이 일찍\n핵심: 16번 탈출이 메인 스트레이트와 1번 공방을 결정\n주의: 15번 탈출 트랙 리밋, 14번 과욕",
+          "en": "Braking: Short on entry to T13 and T14, flat out at T15, and again on entry to T16\nGear: 2nd–3rd at T13 and T14\nLine: At T14, make use of the exit as it opens up, but don't be greedy\nThrottle: Early on the T16 exit without wheelspin\nKey: The T16 exit decides the main straight and the fight into T1\nWatch: Track limits at the T15 exit, and overreaching at T14"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    }
+  ],
+  "highlights": [
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.49470000000000003,
+      "sEnd": 0.5047,
+      "label": "T6",
+      "note": {
+        "ko": "1.2km 직선 끝, 랩에서 가장 강한 제동이자 최대 추월 지점",
+        "en": "The end of the 1.2 km straight — the hardest braking of the lap and the best overtaking spot"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.7005,
+      "sEnd": 0.7105,
+      "label": "T9",
+      "note": {
+        "ko": "예전 네 코너를 하나로 합친 180도 뱅크 코너",
+        "en": "A 180-degree banked corner that merged the four old corners into one"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.8633,
+      "sEnd": 0.8733,
+      "label": "야스 호텔",
+      "note": {
+        "ko": "서킷 위에 걸친 호텔 아래를 지나는 구간",
+        "en": "The section that passes under the hotel spanning the circuit"
+      }
+    }
+  ],
+  "aero": {
+    "season": 2026,
+    "status": "pending",
+    "straightModeZones": [],
+    "overtake": null,
+    "source": "2026 아부다비 GP 대회 주 FIA 발표 예정"
+  },
+  "character": {
+    "type": "permanent",
+    "summary": {
+      "ko": "시즌 마지막 경기가 열리는 서킷. 2021년 개수로 빨라졌고, 긴 직선 끝 제동 구간에서 추월이 나온다.",
+      "en": "Home of the season finale, made faster by its 2021 rework. Passing happens in the braking zones at the ends of the long straights."
+    }
+  }
+}

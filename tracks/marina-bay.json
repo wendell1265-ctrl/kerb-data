@@ -1,0 +1,648 @@
+{
+  "trackId": "marina-bay",
+  "reverseWaypoints": true,
+  "name": "Marina Bay",
+  "lengthMeters": 4927,
+  "rotationDeg": 0,
+  "geojsonFile": "sg-2008",
+  "startOffsetS": 0.976,
+  "corners": [
+    {
+      "number": 1,
+      "s": 0.0845,
+      "name": {
+        "ko": "시어스",
+        "en": "Sheares"
+      },
+      "dirX": 0.3729,
+      "dirY": -0.9279
+    },
+    {
+      "number": 2,
+      "s": 0.0954,
+      "name": {
+        "ko": "T2",
+        "en": "Turn 2"
+      },
+      "dirX": 0.266,
+      "dirY": -0.964
+    },
+    {
+      "number": 3,
+      "s": 0.1122,
+      "name": {
+        "ko": "T3",
+        "en": "Turn 3"
+      },
+      "dirX": 0.2556,
+      "dirY": -0.9668
+    },
+    {
+      "number": 4,
+      "s": 0.1413,
+      "name": {
+        "ko": "T4",
+        "en": "Turn 4"
+      },
+      "dirX": 0.9867,
+      "dirY": -0.1625
+    },
+    {
+      "number": 5,
+      "s": 0.1978,
+      "name": {
+        "ko": "T5",
+        "en": "Turn 5"
+      },
+      "dirX": -0.5768,
+      "dirY": -0.8169
+    },
+    {
+      "number": 6,
+      "s": 0.2869,
+      "name": {
+        "ko": "T6",
+        "en": "Turn 6"
+      },
+      "dirX": 0.1832,
+      "dirY": -0.9831
+    },
+    {
+      "number": 7,
+      "s": 0.3638,
+      "name": {
+        "ko": "메모리얼",
+        "en": "Memorial"
+      },
+      "dirX": -0.3418,
+      "dirY": -0.9398
+    },
+    {
+      "number": 8,
+      "s": 0.4065,
+      "name": {
+        "ko": "T8",
+        "en": "Turn 8"
+      },
+      "dirX": -0.2388,
+      "dirY": -0.9711
+    },
+    {
+      "number": 9,
+      "s": 0.4477,
+      "name": {
+        "ko": "T9",
+        "en": "Turn 9"
+      },
+      "dirX": -0.1962,
+      "dirY": -0.9806
+    },
+    {
+      "number": 10,
+      "s": 0.5385,
+      "name": {
+        "ko": "T10",
+        "en": "Turn 10"
+      },
+      "dirX": -0.9874,
+      "dirY": 0.1582
+    },
+    {
+      "number": 11,
+      "s": 0.5642,
+      "name": {
+        "ko": "T11",
+        "en": "Turn 11"
+      },
+      "dirX": 0.9247,
+      "dirY": -0.3807
+    },
+    {
+      "number": 12,
+      "s": 0.5788,
+      "name": {
+        "ko": "T12",
+        "en": "Turn 12"
+      },
+      "dirX": -0.8153,
+      "dirY": 0.579
+    },
+    {
+      "number": 13,
+      "s": 0.6196,
+      "name": {
+        "ko": "T13",
+        "en": "Turn 13"
+      },
+      "dirX": -0.022,
+      "dirY": 0.9998
+    },
+    {
+      "number": 14,
+      "s": 0.7287,
+      "name": {
+        "ko": "T14",
+        "en": "Turn 14"
+      },
+      "dirX": 0.5548,
+      "dirY": 0.832
+    },
+    {
+      "number": 15,
+      "s": 0.7808,
+      "name": {
+        "ko": "T15",
+        "en": "Turn 15"
+      },
+      "dirX": -0.2613,
+      "dirY": 0.9653
+    },
+    {
+      "number": 16,
+      "s": 0.8791,
+      "name": {
+        "ko": "T16",
+        "en": "Turn 16"
+      },
+      "dirX": 0.0692,
+      "dirY": -0.9976
+    },
+    {
+      "number": 17,
+      "s": 0.8972,
+      "name": {
+        "ko": "T17",
+        "en": "Turn 17"
+      },
+      "dirX": -0.2527,
+      "dirY": 0.9675
+    },
+    {
+      "number": 18,
+      "s": 0.9523,
+      "name": {
+        "ko": "T18",
+        "en": "Turn 18"
+      },
+      "dirX": 0.4353,
+      "dirY": 0.9003
+    },
+    {
+      "number": 19,
+      "s": 0.9715,
+      "name": {
+        "ko": "T19",
+        "en": "Turn 19"
+      },
+      "dirX": 0.9806,
+      "dirY": 0.1961
+    }
+  ],
+  "lapRecords": [
+    {
+      "driver": "Lewis Hamilton",
+      "team": "Ferrari",
+      "time": "1:33.808",
+      "year": 2025,
+      "session": "race",
+      "isTrackRecord": true
+    }
+  ],
+  "segments": [
+    {
+      "type": "sector",
+      "label": "S1",
+      "sStart": 0,
+      "sEnd": 0.35365183681753604
+    },
+    {
+      "type": "sector",
+      "label": "S2",
+      "sStart": 0.35365183681753604,
+      "sEnd": 0.7185518368175361
+    },
+    {
+      "type": "sector",
+      "label": "S3",
+      "sStart": 0.7185518368175361,
+      "sEnd": 1
+    }
+  ],
+  "trackData": {
+    "lengthMeters": 4927,
+    "laps": 62,
+    "cornerCount": 19,
+    "topSpeedKmh": 320,
+    "fullThrottlePercent": 45,
+    "firstHeld": 2008
+  },
+  "sections": [
+    {
+      "id": "sheares",
+      "name": {
+        "ko": "시어스~T3",
+        "en": "Sheares to Turn 3"
+      },
+      "corners": [
+        1,
+        2,
+        3
+      ],
+      "guide": {
+        "ko": "메인 스트레이트 끝의 1번 좌코너에서 시작해 완만한 2번 우코너, 135도로 꺾이는 3번 좌측 헤어핀까지 세 코너가 시케인처럼 이어진다. 1번은 서킷의 주요 추월 지점이자 첫 랩 사고가 잦은 곳이고, 3번에서도 다시 추월을 노릴 수 있다.",
+        "en": "Starting with the left-hander at Turn 1 at the end of the main straight, three corners run together like a chicane: the gentle right at Turn 2, then the 135-degree left-hand hairpin at Turn 3. Turn 1 is the circuit's main overtaking spot and a frequent site of first-lap incidents, and Turn 3 offers another chance to pass."
+      },
+      "sim": {
+        "summary": {
+          "ko": "1번 100m 보드 강한 제동 · 1번 3단·3번 2단 · 3번 헤어핀",
+          "en": "Hard braking at the T1 100 m board · 3rd at T1, 2nd at T3 · T3 hairpin"
+        },
+        "popup": {
+          "brake": {
+            "ko": "1번 100m 보드",
+            "en": "T1 100 m board"
+          },
+          "gear": {
+            "ko": "1번 3단·3번 2단",
+            "en": "3rd at T1, 2nd at T3"
+          },
+          "watch": {
+            "ko": "첫 랩 1번 사고",
+            "en": "First-lap incidents at T1"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 1번은 100m 보드에서, 3번은 다시 강하게\n기어: 1번 3단, 3번 2단\n라인: 1번을 희생해서라도 2번 탈출과 3번 진입 위치를 잡는다\n스로틀: 3번 탈출에서 점진적으로\n핵심: 1번은 서킷의 주요 추월 지점\n주의: 첫 랩에 1번에서 사고가 잦다",
+          "en": "Braking: 100 m board at T1, and hard again at T3\nGear: 3rd at T1, 2nd at T3\nLine: Even if you have to sacrifice T1, set up the T2 exit and the T3 entry position\nThrottle: Build up gradually on the T3 exit\nKey: T1 is a major overtaking spot on the circuit\nWatch: Incidents at T1 are frequent on the first lap"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t4-t5",
+      "name": {
+        "ko": "T4~T5",
+        "en": "Turn 4 to Turn 5"
+      },
+      "corners": [
+        4,
+        5
+      ],
+      "guide": {
+        "ko": "전용 구간을 벗어나 시내 도로로 들어서며 4번을 지나 5번으로 간다. 5번을 가속하며 빠져나가는 속도가 서킷에서 가장 긴 래플스 불러바드 직선의 속도를 결정한다.",
+        "en": "Leaving the dedicated section for the city streets, the track passes Turn 4 and continues to Turn 5. The speed at which cars accelerate through Turn 5 sets the speed down Raffles Boulevard, the longest straight on the circuit."
+      },
+      "sim": {
+        "summary": {
+          "ko": "4번 잠깐 리프트 · 4단 · 5번 가속 통과",
+          "en": "Brief lift at T4 · 4th · Accelerate through T5"
+        },
+        "popup": {
+          "brake": {
+            "ko": "4번 잠깐 리프트",
+            "en": "Brief lift at T4"
+          },
+          "gear": {
+            "ko": "4단",
+            "en": "4th"
+          },
+          "watch": {
+            "ko": "4번 안쪽 벽 접촉",
+            "en": "Contact with the inside wall at T4"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 4번에서 잠깐 리프트, 5번은 가속하며 통과\n기어: 4단\n라인: 4번은 안쪽 벽에 붙고, 5번은 넓게 열어 직선으로\n스로틀: 5번부터 래플스 불러바드 직선까지 가속\n핵심: 5번 탈출이 긴 직선과 7번 추월을 결정\n주의: 4번에서 벽에 너무 붙으면 접촉",
+          "en": "Braking: A brief lift at T4, and accelerate through T5\nGear: 4th\nLine: Hug the inside wall at T4, and open T5 wide onto the straight\nThrottle: Accelerate from T5 along the Raffles Boulevard straight\nKey: The T5 exit decides the long straight and your T7 overtake\nWatch: Get too close to the wall at T4 and you make contact"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "memorial-t8",
+      "name": {
+        "ko": "T6~T8",
+        "en": "Turn 6 to Turn 8"
+      },
+      "corners": [
+        6,
+        7,
+        8
+      ],
+      "guide": {
+        "ko": "래플스 불러바드 직선에서 6번 킹크를 지나면 7번 메모리얼에서 강하게 감속한다. 긴 직선 끝이라 서킷에서 가장 좋은 추월 지점 중 하나다. 이어지는 8번은 110도로 꺾이는 좁은 우코너다. 7번은 강한 제동 뒤 바깥으로 밀리기 쉬워, 밀리면 8번 진입까지 손해를 본다.",
+        "en": "After the Turn 6 kink on the Raffles Boulevard straight, cars brake hard at Turn 7, Memorial. At the end of a long straight, it is one of the best overtaking spots on the circuit. Turn 8 that follows is a tight right-hander turning through about 110 degrees. Heavy braking into T7 makes it easy to run wide, which also compromises the approach to T8."
+      },
+      "sim": {
+        "summary": {
+          "ko": "7번 75m 보드 강한 제동 · 7번 2단 · 직선 끝 추월",
+          "en": "Hard braking at the T7 75 m board · 2nd at T7 · End-of-straight overtake"
+        },
+        "popup": {
+          "brake": {
+            "ko": "7번 75m 보드",
+            "en": "T7 75 m board"
+          },
+          "gear": {
+            "ko": "7번 2단",
+            "en": "2nd at T7"
+          },
+          "watch": {
+            "ko": "7번 늦은 제동 시 벽",
+            "en": "Brake late at T7 and you hit the wall"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 7번은 75m 보드에서 일찍, 8번은 살짝\n기어: 7번 2단\n라인: 7번 탈출을 넓게 쓰지 말고 8번 진입 위치를 남긴다\n스로틀: 8번 탈출에서 점진적으로\n핵심: 서킷에서 가장 좋은 추월 지점 중 하나\n주의: 7번에서 늦게 밟으면 바로 벽이다",
+          "en": "Braking: Early at the 75 m board for T7, and a little at T8\nGear: 2nd at T7\nLine: Don't use the T7 exit wide; leave your T8 entry position\nThrottle: Build up gradually on the T8 exit\nKey: One of the best overtaking spots on the circuit\nWatch: Brake late at T7 and it is the wall immediately"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t9-t10",
+      "name": {
+        "ko": "T9~T10",
+        "en": "Turn 9 to Turn 10"
+      },
+      "corners": [
+        9,
+        10
+      ],
+      "guide": {
+        "ko": "9번에서 10번으로 이어진다. 10번은 예전엔 높은 연석 때문에 드라이버들의 불만이 많던 시케인이었지만, 2013년부터 흐르는 좌코너로 바뀌었다.",
+        "en": "Turn 9 flows into Turn 10. Turn 10 used to be a chicane that drivers complained about because of its high kerbs, but since 2013 it has been a flowing left-hander."
+      },
+      "sim": {
+        "summary": {
+          "ko": "9번 강한 제동 · 10번 2단 · 리듬 유지",
+          "en": "Hard braking at T9 · 2nd at T10 · Keep the rhythm"
+        },
+        "popup": {
+          "brake": {
+            "ko": "9번 진입 강하게",
+            "en": "Hard, on entry to T9"
+          },
+          "gear": {
+            "ko": "10번 2단",
+            "en": "2nd at T10"
+          },
+          "watch": {
+            "ko": "울퉁불퉁한 노면",
+            "en": "Bumpy street surface"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 9번 진입 강하게, 10번은 제동이 까다로움\n기어: 10번 2단\n라인: 9번과 10번을 하나의 흐름으로\n스로틀: 10번 탈출에서 일찍\n핵심: 리듬이 끊기지 않게 잇는 것이 중요\n주의: 울퉁불퉁한 시가지 노면이라 차가 튀기 쉽다",
+          "en": "Braking: Hard on entry to T9; T10 is tricky to brake for\nGear: 2nd at T10\nLine: Take T9 and T10 as one flow\nThrottle: Early on the T10 exit\nKey: What matters is linking them without breaking the rhythm\nWatch: The bumpy street surface makes the car bounce easily"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t11-t13",
+      "name": {
+        "ko": "T11~T13",
+        "en": "Turn 11 to Turn 13"
+      },
+      "corners": [
+        11,
+        12,
+        13
+      ],
+      "guide": {
+        "ko": "저속 코너가 이어지는 기술 구간으로, 앞차를 바짝 따라가기 쉬운 곳이다. 13번 탈출이 만 위의 다리를 건너는 직선으로 이어져 14번 진입 속도를 정한다.",
+        "en": "A technical section of linked slow corners where it is easy to follow the car ahead closely. The Turn 13 exit leads onto the straight across the bridge over the bay and sets the speed into Turn 14."
+      },
+      "sim": {
+        "summary": {
+          "ko": "반복 제동 · 2단 · 13번 탈출",
+          "en": "Repeated braking · 2nd · T13 exit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "11번 강하게, 13번 일찍",
+            "en": "Hard at T11, early at T13"
+          },
+          "gear": {
+            "ko": "2단",
+            "en": "2nd"
+          },
+          "watch": {
+            "ko": "뒤 타이어 과열",
+            "en": "Rear tyre overheating"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 11번과 13번 진입에서 강하게, 13번은 노면이 바깥으로 기울어 일찍\n기어: 2단\n라인: 13번은 늦은 에이펙스로 다리 위 직선 탈출을 우선\n스로틀: 13번 탈출에서 점진적으로\n핵심: 13번 탈출이 14번 추월 시도의 출발점\n주의: 저속 코너가 이어져 뒤 타이어 과열이 쌓인다",
+          "en": "Braking: Hard on entry to T11 and T13; brake early at T13 because the surface slopes toward the outside\nGear: 2nd\nLine: Take a late apex at T13, prioritising the exit onto the straight over the bridge\nThrottle: Build up gradually on the T13 exit\nKey: The T13 exit is the starting point for your T14 overtake attempt\nWatch: Low-speed corners follow one another, so rear tyre overheating builds up"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t14-t16",
+      "name": {
+        "ko": "T14~T16",
+        "en": "Turn 14 to Turn 16"
+      },
+      "corners": [
+        14,
+        15,
+        16
+      ],
+      "guide": {
+        "ko": "다리 위 짧은 직선 끝의 14번을 지나면, 2023년 옛 16~19번을 없애고 만든 직선이 이어진다. 15번 킹크까지 포함해 16번 제동 지점까지 풀스로틀로 달리고, 그 끝의 날카로운 16번은 새로 생긴 추월 지점이다. 15번 뒤 직선은 스트레이트 모드 구간이고, 16번 탈출에서 오버테이크를 감지한다.",
+        "en": "Past Turn 14 at the end of the short straight on the bridge, the straight created in 2023 by removing the old Turns 16 to 19 follows. Drivers stay flat out through the Turn 15 kink all the way to the Turn 16 braking point, and the sharp Turn 16 at its end is a newly created overtaking spot. The straight after T15 is a Straight Mode zone, and Overtake Mode is detected on the exit of T16."
+      },
+      "sim": {
+        "summary": {
+          "ko": "14번 100m 보드 직후·16번 직선 끝 제동 · 14번 2~3단·16번 2단 · 새 직선 끝",
+          "en": "Just after the 100 m board at T14, end of the straight at T16 · 2nd–3rd at T14, 2nd at T16 · End of the new straight"
+        },
+        "popup": {
+          "brake": {
+            "ko": "14번 100m 보드 직후, 16번 직선 끝",
+            "en": "T14 just after the 100 m board, T16 at the end of the straight"
+          },
+          "gear": {
+            "ko": "14번 2~3단·16번 2단",
+            "en": "2nd–3rd at T14, 2nd at T16"
+          },
+          "watch": {
+            "ko": "14번 무리한 추월",
+            "en": "Over-ambitious pass attempts at T14"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 14번은 100m 보드 직후, 16번은 직선 끝에서 강하게\n기어: 14번 2~3단, 16번 2단\n라인: 15번 킹크는 최단 거리로, 16번은 안쪽 방어\n스로틀: 14번 탈출부터 16번 제동까지 풀스로틀\n핵심: 16번은 2023년 이후 생긴 추월 지점\n주의: 14번은 직선이 짧아 무리한 추월이 실패하기 쉽다",
+          "en": "Braking: Just after the 100 m board at T14, hard at the end of the straight at T16\nGear: 2nd–3rd at T14, 2nd at T16\nLine: Take the T15 kink by the shortest route, and defend the inside at T16\nThrottle: Flat out from the T14 exit to the T16 braking zone\nKey: T16 is an overtaking spot that has existed since 2023\nWatch: The straight into T14 is short, so over-ambitious passes tend to fail"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t17-t19",
+      "name": {
+        "ko": "T17~T19",
+        "en": "Turn 17 to Turn 19"
+      },
+      "corners": [
+        17,
+        18,
+        19
+      ],
+      "guide": {
+        "ko": "메인 스트레이트로 돌아가는 마지막 구간이다. 마지막 코너 탈출이 메인 스트레이트와 1번 추월 시도를 결정한다. 이쯤이면 높은 습도와 울퉁불퉁한 노면 탓에 드라이버의 체력 소모가 극에 달해, 레이스 동안 체중이 최대 3kg까지 빠진다.",
+        "en": "The final section leads back onto the main straight. The exit of the last corner decides the main straight and the overtaking attempt at Turn 1. By this point, the high humidity and bumpy surface have pushed drivers' physical exertion to the limit, and they can lose up to 3 kg of body weight over the race."
+      },
+      "sim": {
+        "summary": {
+          "ko": "짧은 제동 · 3단 · 마지막 탈출",
+          "en": "Short braking · 3rd · Final exit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "17번 진입 짧게",
+            "en": "Briefly, on entry to T17"
+          },
+          "gear": {
+            "ko": "3단",
+            "en": "3rd"
+          },
+          "watch": {
+            "ko": "후반 체력 저하 실수",
+            "en": "Mistakes as fatigue builds late in the race"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 17번 진입에서 짧게\n기어: 3단\n라인: 19번은 늦은 에이펙스로 메인 스트레이트 탈출을 우선\n스로틀: 19번 탈출에서 일찍\n핵심: 19번 탈출 속도가 1번 추월 시도를 결정\n주의: 레이스 후반엔 체력 저하로 작은 실수가 잦아진다",
+          "en": "Braking: Short on entry to T17\nGear: 3rd\nLine: Take a late apex at T19, prioritising the exit onto the main straight\nThrottle: Early on the T19 exit\nKey: T19 exit speed decides your T1 overtake attempt\nWatch: Late in the race fatigue sets in and small mistakes become more frequent"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    }
+  ],
+  "highlights": [
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.07450000000000001,
+      "sEnd": 0.0845,
+      "label": "시어스",
+      "note": {
+        "ko": "메인 스트레이트 끝, 주요 추월 지점이자 첫 랩 사고가 잦은 곳",
+        "en": "At the end of the main straight — the main overtaking spot and a frequent site of first-lap incidents"
+      }
+    },
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.3538,
+      "sEnd": 0.3638,
+      "label": "메모리얼",
+      "note": {
+        "ko": "가장 긴 직선 끝, 강한 감속",
+        "en": "At the end of the longest straight — heavy braking"
+      }
+    },
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.8691,
+      "sEnd": 0.8791,
+      "label": "T16",
+      "note": {
+        "ko": "2023년 새로 생긴 직선 끝의 추월 지점",
+        "en": "The overtaking spot at the end of the straight added in 2023"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.6096,
+      "sEnd": 0.6196,
+      "label": "T13",
+      "note": {
+        "ko": "만 위의 다리로 이어지는 마리나 베이 야경 구간",
+        "en": "The section leading onto the bridge over the bay — the Marina Bay night-view stretch"
+      }
+    }
+  ],
+  "aero": {
+    "season": 2026,
+    "status": "confirmed",
+    "straightModeZones": [
+      {
+        "from": 19,
+        "to": 1
+      },
+      {
+        "from": 5,
+        "to": 7
+      },
+      {
+        "from": 9,
+        "to": 10
+      },
+      {
+        "from": 13,
+        "to": 14
+      },
+      {
+        "from": 15,
+        "to": 16
+      }
+    ],
+    "overtake": {
+      "detection": {
+        "corner": 16,
+        "position": "after"
+      },
+      "activation": {
+        "corner": 17,
+        "position": "after"
+      }
+    },
+    "source": "FIA 2026 싱가포르 GP 서킷맵 (f1ingenerale, F1 Oversteer, F1 Live Pulse, PlanetF1 인용)"
+  },
+  "character": {
+    "type": "street",
+    "summary": {
+      "ko": "느린 코너가 많은 야간 시가지 서킷. 덥고 습한 날씨와 벽으로 둘러싸인 구간 탓에 체력과 집중력 소모가 크다.",
+      "en": "A night street circuit full of slow corners. Heat, humidity and walls on every side make it physically and mentally demanding."
+    }
+  }
+}

@@ -1,0 +1,580 @@
+{
+  "trackId": "zandvoort",
+  "name": "Zandvoort",
+  "lengthMeters": 4259,
+  "rotationDeg": 186,
+  "geojsonFile": "nl-1948",
+  "startOffsetS": 0.0225,
+  "corners": [
+    {
+      "number": 1,
+      "s": 0.084,
+      "name": {
+        "ko": "타잔",
+        "en": "Tarzanbocht"
+      },
+      "dirX": -0.6463,
+      "dirY": 0.7631
+    },
+    {
+      "number": 2,
+      "s": 0.1569,
+      "name": {
+        "ko": "게를라흐",
+        "en": "Gerlachbocht"
+      },
+      "dirX": -0.7063,
+      "dirY": -0.7079
+    },
+    {
+      "number": 3,
+      "s": 0.192,
+      "name": {
+        "ko": "휘헨홀츠",
+        "en": "Hugenholtzbocht"
+      },
+      "dirX": -0.9634,
+      "dirY": 0.2681
+    },
+    {
+      "number": 4,
+      "s": 0.2374,
+      "name": {
+        "ko": "훈서뤼흐",
+        "en": "Hunserug"
+      },
+      "dirX": 0.0797,
+      "dirY": 0.9968
+    },
+    {
+      "number": 5,
+      "s": 0.2866,
+      "name": {
+        "ko": "롭 슬로테마커",
+        "en": "Rob Slotemakerbocht"
+      },
+      "dirX": 0.0994,
+      "dirY": 0.995
+    },
+    {
+      "number": 6,
+      "s": 0.3256,
+      "name": {
+        "ko": "T6",
+        "en": "Turn 6"
+      },
+      "dirX": 0.1758,
+      "dirY": 0.9844
+    },
+    {
+      "number": 7,
+      "s": 0.3938,
+      "name": {
+        "ko": "스헤이플라크",
+        "en": "Scheivlak"
+      },
+      "dirX": -0.9072,
+      "dirY": 0.4208
+    },
+    {
+      "number": 8,
+      "s": 0.4695,
+      "name": {
+        "ko": "마스터스",
+        "en": "Mastersbocht"
+      },
+      "dirX": -0.2305,
+      "dirY": -0.9731
+    },
+    {
+      "number": 9,
+      "s": 0.5236,
+      "name": {
+        "ko": "T9",
+        "en": "Turn 9"
+      },
+      "dirX": 0.9878,
+      "dirY": -0.1556
+    },
+    {
+      "number": 10,
+      "s": 0.5832,
+      "name": {
+        "ko": "T10",
+        "en": "Turn 10"
+      },
+      "dirX": -0.9872,
+      "dirY": -0.1595
+    },
+    {
+      "number": 11,
+      "s": 0.7214,
+      "name": {
+        "ko": "한스 에른스트 1",
+        "en": "Hans Ernst Bocht 1"
+      },
+      "dirX": 0.2915,
+      "dirY": -0.9566
+    },
+    {
+      "number": 12,
+      "s": 0.7412,
+      "name": {
+        "ko": "한스 에른스트 2",
+        "en": "Hans Ernst Bocht 2"
+      },
+      "dirX": -0.3277,
+      "dirY": -0.9448
+    },
+    {
+      "number": 13,
+      "s": 0.8191,
+      "name": {
+        "ko": "T13",
+        "en": "Turn 13"
+      },
+      "dirX": -0.8321,
+      "dirY": -0.5546
+    },
+    {
+      "number": 14,
+      "s": 0.8835,
+      "name": {
+        "ko": "아리 라위엔데이크",
+        "en": "Arie Luyendykbocht"
+      },
+      "dirX": 0.908,
+      "dirY": -0.4189
+    }
+  ],
+  "lapRecords": [
+    {
+      "driver": "Lewis Hamilton",
+      "team": "Mercedes",
+      "time": "1:11.097",
+      "year": 2021,
+      "session": "race",
+      "isTrackRecord": true
+    }
+  ],
+  "segments": [
+    {
+      "type": "sector",
+      "label": "S1",
+      "sStart": 0,
+      "sEnd": 0.33733984503404557
+    },
+    {
+      "type": "sector",
+      "label": "S2",
+      "sStart": 0.33733984503404557,
+      "sEnd": 0.7096601549659545
+    },
+    {
+      "type": "sector",
+      "label": "S3",
+      "sStart": 0.7096601549659545,
+      "sEnd": 1
+    }
+  ],
+  "trackData": {
+    "lengthMeters": 4259,
+    "laps": 72,
+    "cornerCount": 14,
+    "topSpeedKmh": 310,
+    "fullThrottlePercent": 60,
+    "firstHeld": 1952
+  },
+  "sections": [
+    {
+      "id": "tarzan",
+      "name": {
+        "ko": "타잔",
+        "en": "Tarzanbocht"
+      },
+      "corners": [
+        1
+      ],
+      "guide": {
+        "ko": "메인 스트레이트 끝의 180도 우측 헤어핀으로, 1948년 서킷이 생길 때부터 있던 코너다. 추월이 어려운 잔드보르트에서 몇 안 되는 현실적인 추월 지점이다. 메인 스트레이트는 스트레이트 모드 구간이다.",
+        "en": "A 180-degree right-hand hairpin at the end of the main straight, present since the circuit opened in 1948. It is one of the few realistic overtaking spots at Zandvoort, where passing is difficult. The main straight is a Straight Mode zone."
+      },
+      "sim": {
+        "summary": {
+          "ko": "100m 보드 강한 제동 · 2단 · 안쪽 방어",
+          "en": "Hard at the 100 m board · 2nd · Defend the inside"
+        },
+        "popup": {
+          "brake": {
+            "ko": "100m 보드",
+            "en": "100 m board"
+          },
+          "gear": {
+            "ko": "2단",
+            "en": "2nd"
+          },
+          "watch": {
+            "ko": "안쪽 비우면 추월당함",
+            "en": "Leave the inside open and you get passed"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 100m 보드에서 강하게\n기어: 2단\n라인: 180도로 길게 도는 코너라 늦은 에이펙스로 탈출 각도 확보\n스로틀: 탈출에서 점진적으로\n핵심: 잔드보르트에서 가장 확실한 추월 지점\n주의: 안쪽을 비우면 바로 추월당한다",
+          "en": "Braking: Hard at the 100 m board\nGear: 2nd\nLine: A corner that turns through 180 degrees, so take a late apex to secure the exit angle\nThrottle: Progressively on exit\nKey: The surest overtaking spot at Zandvoort\nWatch: Leave the inside open and you get passed immediately"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "gerlach-hugenholtz",
+      "name": {
+        "ko": "게를라흐~휘헨홀츠",
+        "en": "Gerlach to Hugenholtz"
+      },
+      "corners": [
+        2,
+        3
+      ],
+      "guide": {
+        "ko": "2번은 진입할 때 출구가 보이지 않는 코너이고, 이어지는 3번은 약 18도로 기울어진 그릇 모양의 좌코너다. 이론상 여러 라인이 가능하지만 대부분 바깥 라인으로 돌며 탈출에 집중한다. 2023년엔 알론소가 안쪽 라인으로 러셀을 추월하기도 했다.",
+        "en": "Turn 2 is a corner where the exit can't be seen on entry, and the following Turn 3 is a bowl-shaped left banked at about 18 degrees. In theory several lines are possible, but most drivers take the outside line and focus on the exit. In 2023, Alonso passed Russell around the inside here."
+      },
+      "sim": {
+        "summary": {
+          "ko": "3번 직선 제동 · 2~3단 · 뱅크 탈출",
+          "en": "Braking in a straight line at T3 · 2nd–3rd · Banked exit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "3번 직선에서 제동",
+            "en": "Brake on the straight into T3"
+          },
+          "gear": {
+            "ko": "2~3단",
+            "en": "2nd–3rd"
+          },
+          "watch": {
+            "ko": "2번 출구 안 보임",
+            "en": "T2 exit can't be seen"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 2번은 풀스로틀, 3번은 직선 상태에서 제동\n기어: 2~3단\n라인: 3번은 뱅크 아래쪽 라인이 접지와 탈출에 유리\n스로틀: 뱅크를 믿고 일찍 개방\n핵심: 경사 덕에 평평한 코너보다 훨씬 빠르게 돌 수 있다\n주의: 2번은 진입에서 출구가 안 보인다",
+          "en": "Braking: Flat out at T2, braking in a straight line at T3\nGear: 2nd–3rd\nLine: At T3 the line low on the banking helps both grip and exit\nThrottle: Trust the banking and open early\nKey: Thanks to the slope, you can corner much faster than on a flat corner\nWatch: At T2 you can't see the exit on entry"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "hunserug-slotemaker",
+      "name": {
+        "ko": "훈서뤼흐~T6",
+        "en": "Hunserug to Turn 6"
+      },
+      "corners": [
+        4,
+        5,
+        6
+      ],
+      "guide": {
+        "ko": "4번 훈서뤼흐는 코너라기보다 짧은 직선에 가깝고, 이어서 5번 롭 슬로테마커와 6번을 지나며 모래언덕을 오르내리는 구간으로 들어간다. 5번은 이곳에서 숨진 네덜란드 드라이버 롭 슬로테마커의 이름을 땄다. 기복이 심해 망설이지 않고 들어가야 하며, 고속에서 뒤가 갑자기 미끄러지지 않게 차를 안정시키는 게 중요하다.",
+        "en": "Turn 4, Hunserug, is closer to a short straight than a corner, and it leads through Turn 5, Rob Slotemakerbocht, and Turn 6 into a section that rises and falls through the sand dunes. Turn 5 is named after the Dutch driver Rob Slotemaker, who died here. The undulations demand committing without hesitation, and it's important to keep the car stable so the rear doesn't suddenly slide at high speed."
+      },
+      "sim": {
+        "summary": {
+          "ko": "5번 살짝 리프트 · 4~5단 · 기복 구간",
+          "en": "Slight lift at T5 · 4th–5th · Undulating section"
+        },
+        "popup": {
+          "brake": {
+            "ko": "5번 살짝 리프트",
+            "en": "Slight lift at T5"
+          },
+          "gear": {
+            "ko": "4~5단",
+            "en": "4th–5th"
+          },
+          "watch": {
+            "ko": "고속에서 뒤 미끄러짐",
+            "en": "Rear can step out at high speed"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 4·6번은 풀스로틀, 5번은 살짝 리프트 또는 가볍게\n기어: 4~5단\n라인: 5번과 6번을 하나의 흐름으로 잇고, 오르막·내리막에서 차가 뜨지 않게 잡는다\n스로틀: 망설이지 않고 일정하게\n핵심: 기복이 심한 구간이라 과감함이 랩타임을 가른다\n주의: 고속에서 뒤가 갑자기 미끄러지기 쉽다",
+          "en": "Braking: Flat out at T4 and T6, a slight lift or light braking at T5\nGear: 4th–5th\nLine: Link T5 and T6 into one flow, and keep the car from going light over the ups and downs\nThrottle: Steady, without hesitating\nKey: In a section with heavy elevation changes, boldness separates lap times\nWatch: At high speed the rear can suddenly step out"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "scheivlak-masters",
+      "name": {
+        "ko": "스헤이플라크~마스터스",
+        "en": "Scheivlak to Mastersbocht"
+      },
+      "corners": [
+        7,
+        8
+      ],
+      "guide": {
+        "ko": "스헤이플라크는 잔드보르트에서 가장 빠른 구간 중 하나로, 예전부터 드라이버 실력을 가르는 코너로 불렸다. 이름은 옛 네덜란드어로 '경계'라는 뜻이다. 이어지는 8번 마스터스는 1990년대 말에 새로 만든 코너다.",
+        "en": "Scheivlak is one of the fastest sections at Zandvoort and has long been called the corner that separates the great drivers from the rest. The name means 'boundary' in old Dutch. The following Turn 8, Mastersbocht, is a corner added in the late 1990s."
+      },
+      "sim": {
+        "summary": {
+          "ko": "7번 부드럽게 · 8번 4단 · 과감한 진입",
+          "en": "Smooth at T7 · 4th at T8 · Bold entry"
+        },
+        "popup": {
+          "brake": {
+            "ko": "8번 진입 제동",
+            "en": "Brake on entry to T8"
+          },
+          "gear": {
+            "ko": "8번 4단",
+            "en": "4th at T8"
+          },
+          "watch": {
+            "ko": "고속 구간 작은 실수",
+            "en": "Small mistakes at high speed"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 7번은 부드럽게, 8번은 제동 후 4단\n기어: 8번 4단\n라인: 7번은 최소한의 조향으로 매끄럽게\n스로틀: 7번은 풀스로틀 유지\n핵심: 과감하게 들어갈수록 시간을 번다\n주의: 고속이라 작은 실수도 크게 번진다",
+          "en": "Braking: Smoothly at T7, and 4th gear after braking at T8\nGear: 4th at T8\nLine: Take T7 smoothly with minimal steering\nThrottle: Stay flat out at T7\nKey: The bolder you go in, the more time you gain\nWatch: At high speed even a small mistake spreads"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t9-t10",
+      "name": {
+        "ko": "T9~T10",
+        "en": "Turn 9 to Turn 10"
+      },
+      "corners": [
+        9,
+        10
+      ],
+      "guide": {
+        "ko": "9번은 트랙션이 중요한 느린 좌코너이고, 10번 헤어핀을 빠져나오면 11번까지 스트레이트 모드 구간이 이어진다.",
+        "en": "Turn 9 is a slow left where traction is key, and after the Turn 10 hairpin a Straight Mode zone runs through to Turn 11."
+      },
+      "sim": {
+        "summary": {
+          "ko": "10번 강한 제동 · 9번 3단 · 10번 탈출",
+          "en": "Hard braking at T10 · 3rd at T9 · T10 exit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "10번 진입 강하게",
+            "en": "Hard, on entry to T10"
+          },
+          "gear": {
+            "ko": "9번 3단",
+            "en": "3rd at T9"
+          },
+          "watch": {
+            "ko": "9번 급가속 시 휠스핀",
+            "en": "Wheelspin if you accelerate too hard out of T9"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 9번은 부드럽게, 10번은 강하게\n기어: 9번 3단\n라인: 10번은 늦은 에이펙스로 직선 탈출 각도 확보\n스로틀: 9번 탈출은 트랙션을 확인하며 점진적으로\n핵심: 10번 탈출이 한스 에른스트 추월 기회를 만든다\n주의: 9번에서 급하게 가속하면 뒷바퀴가 헛돈다",
+          "en": "Braking: Smoothly at T9, hard at T10\nGear: 3rd at T9\nLine: Take a late apex at T10 to secure the straight exit angle\nThrottle: On the T9 exit, build up gradually while checking traction\nKey: The T10 exit creates your Hans Ernst overtaking chance\nWatch: Accelerate hard out of T9 and the rear wheels spin"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "hans-ernst",
+      "name": {
+        "ko": "한스 에른스트",
+        "en": "Hans Ernst Bocht"
+      },
+      "corners": [
+        11,
+        12
+      ],
+      "guide": {
+        "ko": "스트레이트 모드 구간 끝에 있는 시케인으로, 타잔과 함께 추월을 노릴 수 있는 곳이다.",
+        "en": "A chicane at the end of the Straight Mode zone, and along with Tarzan one of the places to attempt a pass."
+      },
+      "sim": {
+        "summary": {
+          "ko": "직선 강한 제동 · 2단 · 추월 시도",
+          "en": "Hard braking on the straight · 2nd · Overtaking attempts"
+        },
+        "popup": {
+          "brake": {
+            "ko": "11번 직선에서 강하게",
+            "en": "Hard, on the straight into T11"
+          },
+          "gear": {
+            "ko": "2단",
+            "en": "2nd"
+          },
+          "watch": {
+            "ko": "넓어지면 12번 탈출 늦어짐",
+            "en": "Running wide slows the T12 exit"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 직선 상태에서 강하게\n기어: 2단\n라인: 11번을 넓게 들어가 12번 탈출을 살린다\n스로틀: 12번 탈출에서 점진적으로\n핵심: 타잔 다음가는 추월 지점\n주의: 제동 경쟁에서 라인이 넓어지면 12번 탈출이 늦어진다",
+          "en": "Braking: Hard in a straight line\nGear: 2nd\nLine: Enter T11 wide to make the most of the T12 exit\nThrottle: Progressively on the T12 exit\nKey: The next best overtaking spot after Tarzan\nWatch: If your line runs wide in the braking fight, the T12 exit comes late"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t13-luyendyk",
+      "name": {
+        "ko": "T13~아리 라위엔데이크",
+        "en": "Turn 13 to Arie Luyendykbocht"
+      },
+      "corners": [
+        13,
+        14
+      ],
+      "guide": {
+        "ko": "마지막 코너 아리 라위엔데이크는 약 18도로 기울어진 우코너로, 인디500을 두 번 우승한 네덜란드 드라이버의 이름을 땄다. 경사 덕에 풀스로틀로 돌아 메인 스트레이트로 튕겨 나간다. 13번 진입 직전에서 오버테이크를 감지하고, 13번과 14번 사이부터 작동해 메인 스트레이트에서 쓸 수 있다.",
+        "en": "The final corner, Arie Luyendykbocht, is a right-hander banked at about 18 degrees, named after the Dutch driver who won the Indy 500 twice. The banking lets drivers take it flat out and slingshot onto the main straight. Overtake is detected just before Turn 13 and activates between Turns 13 and 14, so it can be used on the main straight."
+      },
+      "sim": {
+        "summary": {
+          "ko": "거의 풀스로틀 · 고단 · 뱅크 풀스로틀",
+          "en": "Almost flat out · High gear · Flat out on the banking"
+        },
+        "popup": {
+          "brake": {
+            "ko": "거의 풀스로틀",
+            "en": "Almost flat out"
+          },
+          "gear": {
+            "ko": "고단",
+            "en": "High gear"
+          },
+          "watch": {
+            "ko": "13번 넓어지면 14번 흐트러짐",
+            "en": "Running wide at T13 upsets the T14 entry"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 13·14번 모두 거의 풀스로틀\n기어: 고단\n라인: 14번은 뱅크 중간~아래 라인\n스로틀: 14번은 풀스로틀\n핵심: 14번 탈출 속도가 타잔 추월 시도를 결정\n주의: 13번에서 넓어지면 14번 뱅크 진입이 흐트러진다",
+          "en": "Braking: Almost flat out through both T13 and T14\nGear: High gear\nLine: At T14 take the middle-to-lower line on the banking\nThrottle: Flat out at T14\nKey: The T14 exit speed decides your Tarzan overtake attempt\nWatch: Run wide at T13 and your T14 banking entry is upset"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    }
+  ],
+  "highlights": [
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.07400000000000001,
+      "sEnd": 0.084,
+      "label": "타잔",
+      "note": {
+        "ko": "메인 스트레이트 끝 180도 헤어핀, 가장 확실한 추월 지점",
+        "en": "A 180-degree hairpin at the end of the main straight — the most reliable overtaking spot"
+      }
+    },
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.7114,
+      "sEnd": 0.7214,
+      "label": "한스 에른스트",
+      "note": {
+        "ko": "스트레이트 모드 구간 끝 시케인, 두 번째 추월 기회",
+        "en": "A chicane at the end of the Straight Mode zone — the second overtaking chance"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.182,
+      "sEnd": 0.192,
+      "label": "휘헨홀츠",
+      "note": {
+        "ko": "약 18도로 기울어진 그릇 모양 코너",
+        "en": "A bowl-shaped corner banked at about 18 degrees"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.8734999999999999,
+      "sEnd": 0.8835,
+      "label": "아리 라위엔데이크",
+      "note": {
+        "ko": "인디애나폴리스보다 가파른 약 18도 뱅크의 마지막 코너",
+        "en": "The final corner, banked at about 18 degrees — steeper than Indianapolis"
+      }
+    }
+  ],
+  "aero": {
+    "season": 2026,
+    "status": "confirmed",
+    "straightModeZones": [
+      {
+        "from": 14,
+        "to": 1
+      },
+      {
+        "from": 10,
+        "to": 11
+      }
+    ],
+    "overtake": {
+      "detection": {
+        "corner": 13,
+        "position": "before"
+      },
+      "activation": {
+        "corner": 14,
+        "position": "before"
+      }
+    },
+    "source": "F1 공식 2026 잔드보르트 가이드(감지 13번 진입 직전, 작동 13·14번 사이)"
+  },
+  "character": {
+    "type": "permanent",
+    "summary": {
+      "ko": "모래 언덕 사이를 굽이치는 좁은 서킷. 경사진 뱅크 코너 3번과 14번이 특징이고 추월이 어렵다.",
+      "en": "A narrow, winding circuit through the dunes, known for its banked T3 and T14. Overtaking is hard."
+    }
+  }
+}

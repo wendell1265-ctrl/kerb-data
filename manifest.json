@@ -1,0 +1,152 @@
+{
+  "dataVersion": 2,
+  "minAppVersion": "1.0",
+  "generatedAt": "2026-10-21T15:33:29Z",
+  "files": [
+    {
+      "path": "tracks/albert-park.json",
+      "sha256": "4f9e883b35592b3377695a621db7bc5cfdf0940279c45d2ab2b48fe664482d25",
+      "size": 19806
+    },
+    {
+      "path": "tracks/baku.json",
+      "sha256": "fdcd6521f2091b4fd96e837c08cca1c83129de31d2e002ee4da773b3d851f340",
+      "size": 22936
+    },
+    {
+      "path": "tracks/catalunya.json",
+      "sha256": "ee37eefeccacc2394014e878c03e3cb44e32379305236a40e6aa1dd3fae14d0f",
+      "size": 23110
+    },
+    {
+      "path": "tracks/cota.json",
+      "sha256": "649d9d35dc1441ac8f3c14d75a929052625c3fc4171512dc210b70505e58474c",
+      "size": 25531
+    },
+    {
+      "path": "tracks/gilles-villeneuve.json",
+      "sha256": "41fa754ea908d3a5943848b125e791feeedf353198b22e0f0d0478aa735444b2",
+      "size": 20381
+    },
+    {
+      "path": "tracks/hermanos-rodriguez.json",
+      "sha256": "53f4dc5e99f91e5d502b6ea1d9e3d647807d315942f70963b6c3b734f288455d",
+      "size": 18212
+    },
+    {
+      "path": "tracks/hu.json",
+      "sha256": "4ea14bcd7d58c87d12d5671e897600f6ff56b45acb6505562ddbfe14f94c5b89",
+      "size": 17817
+    },
+    {
+      "path": "tracks/interlagos.json",
+      "sha256": "f55cbb7a5b3fd2e7463426798ed075f41db490570ff78a020b0c1ce57051998a",
+      "size": 21330
+    },
+    {
+      "path": "tracks/istanbul-park.json",
+      "sha256": "7af395aa5834c32a87ea8c97d049efd443c9bfe386e1de2766ad8a070b98d7dd",
+      "size": 17526
+    },
+    {
+      "path": "tracks/jeddah.json",
+      "sha256": "57655ae0e244db563f0deda0d82bf52cfa69bf7955e2500248b68e7719b79e3b",
+      "size": 27542
+    },
+    {
+      "path": "tracks/las-vegas.json",
+      "sha256": "e1a8107f8daaee000990857b75c8acbd0fc652f233c2ca9c3619ace33fe82038",
+      "size": 20304
+    },
+    {
+      "path": "tracks/lusail.json",
+      "sha256": "727b1d73a871d5a1ae0c70bd0d4abae624642247e72c53bf2b87e0f11d6696d3",
+      "size": 18801
+    },
+    {
+      "path": "tracks/madring.json",
+      "sha256": "9f4de1818acf09b08e7d2158092a7f309d7d518a3835cdf7c12f6654806d8af7",
+      "size": 25070
+    },
+    {
+      "path": "tracks/marina-bay.json",
+      "sha256": "dd6978538c3da0f2108d8149298365de1f33d575176646ba38c5019207ad55dd",
+      "size": 22566
+    },
+    {
+      "path": "tracks/miami.json",
+      "sha256": "ffdd3e3c7d4a35e35b080a485deda4c245c878d290229f7ca49eb77ad83c0bbd",
+      "size": 22692
+    },
+    {
+      "path": "tracks/monaco.json",
+      "sha256": "124beb3d7e636aeca219afb769a74a3602bab82a433d1367855b7f4d44cce389",
+      "size": 23687
+    },
+    {
+      "path": "tracks/monza.json",
+      "sha256": "fc0ef84c805ff8578d5812dad1eba673b8c95b949e89143141d202db3e3c3259",
+      "size": 21728
+    },
+    {
+      "path": "tracks/portimao.json",
+      "sha256": "a6eaaec6c0c47613e68d5e74bc0958869743dcaf2147d89b7ebb3205c34a25b5",
+      "size": 20656
+    },
+    {
+      "path": "tracks/red-bull-ring.json",
+      "sha256": "22f3450cba796ea3d7adf5f83394e3ecfb4754beab1e4a7aa6ecde8f4b0ba138",
+      "size": 19330
+    },
+    {
+      "path": "tracks/sakhir.json",
+      "sha256": "479628bf895fa4437c742c698343cd0eb42c089e8713127f51a4d4612cf1b97a",
+      "size": 22455
+    },
+    {
+      "path": "tracks/sepang.json",
+      "sha256": "407c320c320367da2e70fc53db46a091a73d6b9d1c3af2c8da4be162aa418efb",
+      "size": 22336
+    },
+    {
+      "path": "tracks/shanghai.json",
+      "sha256": "8531890b781b018545e08cc08eb57bd009d99b946b055ad5fbde601918149ce1",
+      "size": 19516
+    },
+    {
+      "path": "tracks/silverstone.json",
+      "sha256": "ea8a932bead80a01da894013ca8b7cb7e5091d73621e2773f7275824283cd853",
+      "size": 21858
+    },
+    {
+      "path": "tracks/spa.json",
+      "sha256": "2a04054630551a7f66591d9c36778252bde0251b92fda312ffe778f06c067d0f",
+      "size": 23328
+    },
+    {
+      "path": "tracks/suzuka.json",
+      "sha256": "d987a5d97dc7dc56518707a4dd3170595ccea5a319fb0599e171bbadbfbb413b",
+      "size": 26556
+    },
+    {
+      "path": "tracks/yas-marina.json",
+      "sha256": "678ba81ebe868f0b9febf05ef6e7586c37e0296f3e4c0453d0b821583f1394fb",
+      "size": 18642
+    },
+    {
+      "path": "tracks/zandvoort.json",
+      "sha256": "41b6dd5f13b0a0b2e20dd215c85116e85742af2fe9b855bb3278f297cda17188",
+      "size": 21091
+    },
+    {
+      "path": "glossary.json",
+      "sha256": "b588b6e4ebc11ab7daace4832427646cd0333dfaefb4044464d00e3733e0a14d",
+      "size": 11511
+    },
+    {
+      "path": "circuit-map.json",
+      "sha256": "765ae485118a957c86fa472fcc25883d8fdec04165de6e7fbe272fc95c6ae97c",
+      "size": 780
+    }
+  ]
+}

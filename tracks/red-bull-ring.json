@@ -1,0 +1,502 @@
+{
+  "trackId": "red-bull-ring",
+  "name": "Red Bull Ring",
+  "lengthMeters": 4326,
+  "rotationDeg": 0,
+  "geojsonFile": "at-1969",
+  "startOffsetS": 0.9627,
+  "corners": [
+    {
+      "number": 1,
+      "s": 0.112,
+      "name": {
+        "ko": "니키 라우다",
+        "en": "Niki Lauda Turn"
+      },
+      "dirX": 0.0753,
+      "dirY": 0.9972
+    },
+    {
+      "number": 2,
+      "s": 0.2649,
+      "name": {
+        "ko": "뮌처",
+        "en": "Münzer Turn"
+      },
+      "dirX": 0.8507,
+      "dirY": -0.5256
+    },
+    {
+      "number": 3,
+      "s": 0.3308,
+      "name": {
+        "ko": "인터베텐",
+        "en": "Interwetten Turn"
+      },
+      "dirX": -0.9989,
+      "dirY": -0.0479
+    },
+    {
+      "number": 4,
+      "s": 0.5197,
+      "name": {
+        "ko": "라우흐",
+        "en": "Rauch Turn"
+      },
+      "dirX": 0.956,
+      "dirY": -0.2934
+    },
+    {
+      "number": 5,
+      "s": 0.5661,
+      "name": {
+        "ko": "T5",
+        "en": "Turn 5"
+      },
+      "dirX": 0.3145,
+      "dirY": 0.9493
+    },
+    {
+      "number": 6,
+      "s": 0.6404,
+      "name": {
+        "ko": "T6",
+        "en": "Turn 6"
+      },
+      "dirX": 0.7243,
+      "dirY": 0.6895
+    },
+    {
+      "number": 7,
+      "s": 0.7122,
+      "name": {
+        "ko": "그라츠",
+        "en": "Graz Turn"
+      },
+      "dirX": 0.2196,
+      "dirY": -0.9756
+    },
+    {
+      "number": 8,
+      "s": 0.7553,
+      "name": {
+        "ko": "T8",
+        "en": "Turn 8"
+      },
+      "dirX": -0.5088,
+      "dirY": -0.8609
+    },
+    {
+      "number": 9,
+      "s": 0.8814,
+      "name": {
+        "ko": "요헨 린트",
+        "en": "Jochen Rindt Turn"
+      },
+      "dirX": 0.3313,
+      "dirY": -0.9435
+    },
+    {
+      "number": 10,
+      "s": 0.9339,
+      "name": {
+        "ko": "T10",
+        "en": "Turn 10"
+      },
+      "dirX": 0.9691,
+      "dirY": 0.2468
+    }
+  ],
+  "lapRecords": [
+    {
+      "driver": "Oscar Piastri",
+      "team": "McLaren",
+      "time": "1:07.924",
+      "year": 2025,
+      "session": "race",
+      "isTrackRecord": true
+    }
+  ],
+  "segments": [
+    {
+      "type": "sector",
+      "label": "S1",
+      "sStart": 0,
+      "sEnd": 0.31924197873324084
+    },
+    {
+      "type": "sector",
+      "label": "S2",
+      "sStart": 0.31924197873324084,
+      "sEnd": 0.700641978733241
+    },
+    {
+      "type": "sector",
+      "label": "S3",
+      "sStart": 0.700641978733241,
+      "sEnd": 1
+    }
+  ],
+  "trackData": {
+    "lengthMeters": 4326,
+    "laps": 71,
+    "cornerCount": 10,
+    "topSpeedKmh": 331,
+    "fullThrottlePercent": 79,
+    "firstHeld": 1970
+  },
+  "sections": [
+    {
+      "id": "niki-lauda",
+      "name": {
+        "ko": "니키 라우다",
+        "en": "Niki Lauda Turn"
+      },
+      "corners": [
+        1
+      ],
+      "guide": {
+        "ko": "메인 스트레이트 끝 오르막에 있는 90도 우코너로, 오스트리아의 3회 챔피언 니키 라우다의 이름을 2019년에 붙였다. 생각보다 빠르게 지날 수 있는 코너이고, 오르막이라 제동 거리가 짧아진다. 너무 늦게 밟으면 연석 밖으로 밀리고, 너무 일찍 밟으면 뒤차에게 추월당해 레이스 중 가장 많은 공방이 벌어진다. 탈출부터 3번까지 스트레이트 모드 구간이다.",
+        "en": "A 90-degree right-hander on the uphill run at the end of the main straight, renamed in 2019 for three-time Austrian champion Niki Lauda. It can be taken faster than it looks, and the uphill gradient shortens the braking distance. Brake too late and you run off the kerb; brake too early and the car behind gets past — it's the site of the most action in the race. The Straight Mode zone runs from the exit through to Turn 3."
+      },
+      "sim": {
+        "summary": {
+          "ko": "100m 보드 강한 제동 · 4단 · 제동 타이밍",
+          "en": "Hard braking at the 100 m board · 4th · Braking timing"
+        },
+        "popup": {
+          "brake": {
+            "ko": "100m 보드",
+            "en": "100 m board"
+          },
+          "gear": {
+            "ko": "4단",
+            "en": "4th"
+          },
+          "watch": {
+            "ko": "늦으면 연석 밖, 이르면 추월당함",
+            "en": "Too late runs off the kerb, too early gets passed"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 100m 보드에서 강하게\n기어: 4단\n라인: 바깥에서 진입해 안쪽 연석을 스치고 탈출은 넓게\n스로틀: 탈출 직후부터 3번까지 이어지는 오르막을 위해 일찍\n핵심: 늦게 밟으면 연석 밖, 일찍 밟으면 추월당하는 타이밍 싸움\n주의: 생각보다 빠른 코너라 과하게 감속하기 쉽다",
+          "en": "Braking: Hard at the 100 m board\nGear: 4th\nLine: Enter from the outside, brush the inside kerb and exit wide\nThrottle: Early on exit for the uphill that runs to T3\nKey: A timing battle: brake too late and you run out past the kerb, too early and you get passed\nWatch: It's a faster corner than it feels, so it is easy to slow too much"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "munzer-interwetten",
+      "name": {
+        "ko": "뮌처~인터베텐",
+        "en": "Münzer to Interwetten"
+      },
+      "corners": [
+        2,
+        3
+      ],
+      "guide": {
+        "ko": "2번은 풀스로틀로 지나는 매우 빠른 좌코너로, 서킷에서 가장 가파른 12% 오르막 직선으로 이어진다. 그 끝의 3번 우측 헤어핀은 서킷에서 가장 느린 코너이자 가장 좋은 추월 지점이다. 탈출부터 4번까지 다시 스트레이트 모드 구간이다.",
+        "en": "Turn 2 is a very fast left taken flat out, leading into the circuit's steepest uphill straight at 12%. The right-hand hairpin of Turn 3 at the top is the slowest corner on the circuit and its best overtaking spot. The Straight Mode zone resumes from the exit through to Turn 4."
+      },
+      "sim": {
+        "summary": {
+          "ko": "3번 110m 보드 랩 최강 제동 · 2단 · 늦은 제동 추월",
+          "en": "Hardest braking of the lap at the T3 110 m board · 2nd · Late-braking overtake"
+        },
+        "popup": {
+          "brake": {
+            "ko": "3번 110m 보드",
+            "en": "T3 110 m board"
+          },
+          "gear": {
+            "ko": "3번 2단",
+            "en": "2nd at T3"
+          },
+          "watch": {
+            "ko": "3번 늦은 제동 과욕",
+            "en": "Overreaching on a late brake at T3"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 2번은 제동 없음, 3번은 110m 보드에서 랩 최강으로\n기어: 3번 2단\n라인: 3번 안쪽 연석에 차를 정확히 붙인다\n스로틀: 3번 탈출 뒤 내리막 직선을 위해 휠스핀 없이 점진적으로\n핵심: 서킷에서 가장 좋은 추월 지점\n주의: 오르막 끝이라 제동 지점을 늦게 가져가기 쉽다",
+          "en": "Braking: No braking at T2, the hardest of the lap at the 110 m board at T3\nGear: 2nd at T3\nLine: Place the car precisely on the T3 inside kerb\nThrottle: Build up gradually without wheelspin after the T3 exit for the downhill straight\nKey: The best overtaking spot on the circuit\nWatch: It's the end of an uphill, so it's easy to brake later than you should"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "rauch",
+      "name": {
+        "ko": "라우흐",
+        "en": "Rauch Turn"
+      },
+      "corners": [
+        4
+      ],
+      "guide": {
+        "ko": "내리막으로 제동해 들어가는 우코너로, 노면이 코너 바깥쪽으로 기울어 있다. 파머가 가장 실수하기 쉬운 코너로 꼽을 만큼 탈출에서 자갈로 밀려나는 차가 많다. 3번에서 못 넘긴 차가 한 번 더 추월을 노리는 곳이다.",
+        "en": "A right-hander braked for downhill, on a surface that cambers away from the corner. Rated by Palmer as the easiest corner to get wrong, with cars frequently pushed wide into the gravel on exit. It's where a move that failed at Turn 3 gets a second attempt."
+      },
+      "sim": {
+        "summary": {
+          "ko": "100m 보드 내리막 제동 · 3단 · 탈출 자갈",
+          "en": "Downhill braking at the 100 m board · 3rd · Gravel on exit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "100m 보드 (내리막)",
+            "en": "100 m board (downhill)"
+          },
+          "gear": {
+            "ko": "3단",
+            "en": "3rd"
+          },
+          "watch": {
+            "ko": "탈출 넓어지면 자갈",
+            "en": "Running wide on exit finds the gravel"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 내리막이라 100m 보드에서 조금 일찍\n기어: 3단, 탈출 뒤 7단까지 일찍 올린다\n라인: 바깥으로 기운 노면이라 에이펙스를 욕심내지 않는다\n스로틀: 탈출에서 뒤가 흐르지 않게 점진적으로\n핵심: 3번 다음가는 추월 지점\n주의: 탈출에서 넓어지면 바로 자갈",
+          "en": "Braking: A little earlier at the 100 m board because it is downhill\nGear: 3rd, and shift up early to 7th after the exit\nLine: The surface slopes toward the outside, so don't be greedy at the apex\nThrottle: Build up gradually on exit so the rear doesn't slide\nKey: The next best overtaking spot after T3\nWatch: Run wide on exit and it's straight into the gravel"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t5-graz",
+      "name": {
+        "ko": "T5~그라츠",
+        "en": "Turn 5 to Graz Turn"
+      },
+      "corners": [
+        5,
+        6,
+        7
+      ],
+      "guide": {
+        "ko": "5번 우코너는 까다롭지 않지만 이어지는 6·7번 좌코너 두 개를 준비하는 위치가 중요하다. 6번은 내리막이라 에이펙스가 늦게 보여 거의 보지 않고 꺾어야 하고, 7번 그라츠는 한 번 푹 꺼졌다가 다시 오르막이 된다.",
+        "en": "Turn 5 is a straightforward right-hander, but positioning through it matters for the two lefts that follow. Turn 6 is downhill, with the apex appearing so late it's taken almost blind, and Turn 7 (Graz) dips down before climbing again."
+      },
+      "sim": {
+        "summary": {
+          "ko": "5번 50m 보드 짧게 · 5단 · 6번 블라인드",
+          "en": "Short at the T5 50 m board · 5th · Blind T6"
+        },
+        "popup": {
+          "brake": {
+            "ko": "5번 50m 보드 짧게",
+            "en": "T5 50 m board, brief"
+          },
+          "gear": {
+            "ko": "5단",
+            "en": "5th"
+          },
+          "watch": {
+            "ko": "6번 에이펙스 늦게 보임",
+            "en": "The T6 apex appears late"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 5번은 50m 보드에서 짧게, 6번도 짧게만\n기어: 5단\n라인: 5번 탈출에서 6번 진입 위치를 미리 잡는다\n스로틀: 6·7번은 가능한 한 일정하게 유지\n핵심: 5번 위치 선정이 6·7번 두 코너의 흐름을 결정\n주의: 6번은 에이펙스가 늦게 보여 턴인이 늦어지기 쉽다",
+          "en": "Braking: Short at the 50 m board for T5, and only short at T6 as well\nGear: 5th\nLine: Set your T6 entry position in advance from the T5 exit\nThrottle: Keep it as steady as possible through T6 and T7\nKey: Your position at T5 decides the flow of both T6 and T7\nWatch: The T6 apex appears late, so it's easy to turn in late"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t8-rindt",
+      "name": {
+        "ko": "T8~요헨 린트",
+        "en": "Turn 8 to Jochen Rindt Turn"
+      },
+      "corners": [
+        8,
+        9
+      ],
+      "guide": {
+        "ko": "8번 우코너를 지나며 크게 가속하는데, 끝에서 연석이 금방 끝나 바깥으로 밀리지 않게 차를 둬야 한다. 8번 탈출부터 9번까지 짧은 스트레이트 모드 구간이고, 이어지는 9번은 오스트리아 첫 챔피언 요헨 린트의 이름을 딴 내리막 고속 우코너로 탈출이 거의 보이지 않는다.",
+        "en": "Turn 8 is a right-hander where cars accelerate hard, but the kerb runs out early on exit, so the car needs to be positioned to avoid running wide. A short Straight Mode zone runs from the Turn 8 exit through to Turn 9, a downhill, high-speed right named for Austria's first champion Jochen Rindt with the exit almost out of sight."
+      },
+      "sim": {
+        "summary": {
+          "ko": "9번 50m 보드 늦게 · 5단 · 9번 블라인드 탈출",
+          "en": "Late at the T9 50 m board · 5th · Blind T9 exit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "9번 50m 보드",
+            "en": "T9 50 m board"
+          },
+          "gear": {
+            "ko": "5단",
+            "en": "5th"
+          },
+          "watch": {
+            "ko": "9번 탈출 트랙 리밋",
+            "en": "Track limits on the T9 exit"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 8번은 제동 없이, 9번은 내리막이지만 50m 보드에서 늦게\n기어: 5단\n라인: 8번 끝 연석 안에 머물 수 있게 위치를 잡는다\n스로틀: 8번은 가속하며 통과\n핵심: 9번 탈출 속도가 10번과 메인 스트레이트로 이어진다\n주의: 9번 탈출에서 넓어지면 트랙 리밋 위반",
+          "en": "Braking: No braking at T8; at T9 it is downhill, but brake late at the 50 m board\nGear: 5th\nLine: Position yourself so you can stay inside the kerb at the end of T8\nThrottle: Accelerate through T8\nKey: The T9 exit speed carries through to T10 and the main straight\nWatch: Run wide on the T9 exit and you break track limits"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t10",
+      "name": {
+        "ko": "T10",
+        "en": "Turn 10"
+      },
+      "corners": [
+        10
+      ],
+      "guide": {
+        "ko": "626m 메인 스트레이트로 나가는 마지막 우코너다. 10번 진입 직전에서 오버테이크를 감지하고 탈출부터 작동해, 여기서 1초 이내로 따라붙은 차는 메인 스트레이트에서 추가 전기 에너지를 쓸 수 있다. 라인을 놓치면 마지막 몇 미터에서 순위를 잃을 수 있다.",
+        "en": "The final right-hander onto the 626m main straight. Overtake Mode is detected just before the Turn 10 entry and activates from the exit, so a car within one second here can draw on extra electrical energy down the main straight. Missing the line can cost a position in the closing metres of the lap."
+      },
+      "sim": {
+        "summary": {
+          "ko": "피트 입구 옆 제동 · 4단 · 탈출 속도",
+          "en": "Braking beside the pit entry · 4th · Carry speed onto the straight"
+        },
+        "popup": {
+          "brake": {
+            "ko": "피트 입구 옆에서",
+            "en": "Beside the pit entry"
+          },
+          "gear": {
+            "ko": "4단",
+            "en": "4th"
+          },
+          "watch": {
+            "ko": "라인 놓치면 직선 끝까지 손해",
+            "en": "Missing the line costs speed all the way down the straight"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 피트 입구 옆을 지날 때 제동\n기어: 4단\n라인: 늦은 에이펙스로 탈출에서 트랙 폭을 모두 쓴다\n스로틀: 탈출에서 일찍 풀스로틀\n핵심: 탈출 속도가 메인 스트레이트와 1번 공방을 결정\n주의: 라인을 놓치면 메인 스트레이트 끝까지 손해",
+          "en": "Braking: Brake as you pass the pit entry\nGear: 4th\nLine: Late apex, using the full track width on exit\nThrottle: Flat out early on exit\nKey: Exit speed decides the main straight and the fight into T1\nWatch: Miss the line and you lose speed all the way to the end of the main straight"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    }
+  ],
+  "highlights": [
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.3208,
+      "sEnd": 0.3308,
+      "label": "인터베텐",
+      "note": {
+        "ko": "12% 오르막 끝의 가장 느린 코너, 서킷 최고의 추월 지점",
+        "en": "The slowest corner on the circuit, at the top of a 12% climb — its best overtaking spot"
+      }
+    },
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.5097,
+      "sEnd": 0.5197,
+      "label": "라우흐",
+      "note": {
+        "ko": "내리막 제동, 3번에서 못 넘긴 차의 두 번째 기회",
+        "en": "A downhill braking zone — a second chance for a move that failed at Turn 3"
+      }
+    },
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.10200000000000001,
+      "sEnd": 0.112,
+      "label": "니키 라우다",
+      "note": {
+        "ko": "오르막 90도 코너, 제동 타이밍 싸움이 가장 치열한 곳",
+        "en": "An uphill 90-degree corner — where the braking-point battle is fiercest"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.8714,
+      "sEnd": 0.8814,
+      "label": "요헨 린트",
+      "note": {
+        "ko": "내리막 고속 우코너",
+        "en": "A downhill, high-speed right-hander"
+      }
+    }
+  ],
+  "aero": {
+    "season": 2026,
+    "status": "confirmed",
+    "straightModeZones": [
+      {
+        "from": 10,
+        "to": 1
+      },
+      {
+        "from": 1,
+        "to": 3
+      },
+      {
+        "from": 3,
+        "to": 4
+      },
+      {
+        "from": 8,
+        "to": 9
+      }
+    ],
+    "overtake": {
+      "detection": {
+        "corner": 10,
+        "position": "before"
+      },
+      "activation": {
+        "corner": 10,
+        "position": "after"
+      }
+    },
+    "source": "F1 공식 2026 레드불링 가이드"
+  },
+  "character": {
+    "type": "permanent",
+    "summary": {
+      "ko": "코너 10개뿐인 짧은 랩에 오르막 직선과 내리막이 몰려 있다. 직선 끝 제동 구간마다 추월 기회가 있고 랩 타임 차이가 작다.",
+      "en": "A short, 10-corner lap packed with uphill straights and descents. Every braking zone at the end of a straight is a passing chance, and lap times are tightly bunched."
+    }
+  }
+}

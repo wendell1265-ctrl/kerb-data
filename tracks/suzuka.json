@@ -1,0 +1,666 @@
+{
+  "trackId": "suzuka",
+  "name": "Suzuka",
+  "lengthMeters": 5807,
+  "rotationDeg": 0,
+  "geojsonFile": "jp-1962",
+  "corners": [
+    {
+      "number": 1,
+      "s": 0.0742,
+      "name": {
+        "en": "Turn 1",
+        "ko": "1번 코너"
+      },
+      "dirX": 0.9455,
+      "dirY": -0.3257
+    },
+    {
+      "number": 2,
+      "s": 0.11,
+      "name": {
+        "en": "Turn 2",
+        "ko": "2번 코너"
+      },
+      "dirX": -0.1451,
+      "dirY": 0.9894
+    },
+    {
+      "number": 3,
+      "s": 0.15,
+      "name": {
+        "en": "S Curves 1",
+        "ko": "S자 1"
+      },
+      "dirX": -0.5577,
+      "dirY": 0.83
+    },
+    {
+      "number": 4,
+      "s": 0.17,
+      "name": {
+        "en": "S Curves 2",
+        "ko": "S자 2"
+      },
+      "dirX": 0.6524,
+      "dirY": -0.7578
+    },
+    {
+      "number": 5,
+      "s": 0.1992,
+      "name": {
+        "en": "S Curves 3",
+        "ko": "S자 3"
+      },
+      "dirX": -0.6146,
+      "dirY": 0.7889
+    },
+    {
+      "number": 6,
+      "s": 0.2308,
+      "name": {
+        "en": "S Curves 4",
+        "ko": "S자 4"
+      },
+      "dirX": 0.8758,
+      "dirY": -0.4827
+    },
+    {
+      "number": 7,
+      "s": 0.265,
+      "name": {
+        "en": "Dunlop Curve",
+        "ko": "던롭 커브"
+      },
+      "dirX": -0.9006,
+      "dirY": 0.4346
+    },
+    {
+      "number": 8,
+      "s": 0.3533,
+      "name": {
+        "en": "Degner 1",
+        "ko": "데그너 1"
+      },
+      "dirX": 0.5055,
+      "dirY": 0.8629
+    },
+    {
+      "number": 9,
+      "s": 0.3825,
+      "name": {
+        "en": "Degner 2",
+        "ko": "데그너 2"
+      },
+      "dirX": -0.5607,
+      "dirY": 0.828
+    },
+    {
+      "number": 10,
+      "s": 0.4392,
+      "name": {
+        "en": "Turn 10",
+        "ko": "10번 코너"
+      },
+      "dirX": 0.9952,
+      "dirY": 0.0976
+    },
+    {
+      "number": 11,
+      "s": 0.4633,
+      "name": {
+        "en": "Hairpin",
+        "ko": "헤어핀"
+      },
+      "dirX": 0.5513,
+      "dirY": -0.8343
+    },
+    {
+      "number": 12,
+      "s": 0.5183,
+      "name": {
+        "en": "200R",
+        "ko": "200R"
+      },
+      "dirX": -0.2051,
+      "dirY": -0.9787
+    },
+    {
+      "number": 13,
+      "s": 0.6167,
+      "name": {
+        "en": "Spoon Curve 1",
+        "ko": "스푼 커브 1"
+      },
+      "dirX": 0.5153,
+      "dirY": -0.857
+    },
+    {
+      "number": 14,
+      "s": 0.6533,
+      "name": {
+        "en": "Spoon Curve 2",
+        "ko": "스푼 커브 2"
+      },
+      "dirX": -0.9925,
+      "dirY": 0.1222
+    },
+    {
+      "number": 15,
+      "s": 0.825,
+      "name": {
+        "en": "130R",
+        "ko": "130R"
+      },
+      "dirX": -0.1929,
+      "dirY": -0.9812
+    },
+    {
+      "number": 16,
+      "s": 0.8883,
+      "name": {
+        "en": "Casio Triangle 1",
+        "ko": "카시오 트라이앵글 1"
+      },
+      "dirX": -0.3934,
+      "dirY": -0.9194
+    },
+    {
+      "number": 17,
+      "s": 0.8992,
+      "name": {
+        "en": "Casio Triangle 2",
+        "ko": "카시오 트라이앵글 2"
+      },
+      "dirX": -0.2512,
+      "dirY": -0.9679
+    },
+    {
+      "number": 18,
+      "s": 0.9167,
+      "name": {
+        "en": "Final Corner",
+        "ko": "마지막 코너"
+      },
+      "dirX": -0.0439,
+      "dirY": -0.999
+    }
+  ],
+  "lapRecords": [
+    {
+      "driver": "Kimi Antonelli",
+      "team": "Mercedes",
+      "time": "1:30.965",
+      "year": 2025,
+      "session": "race",
+      "isTrackRecord": true
+    }
+  ],
+  "segments": [
+    {
+      "type": "sector",
+      "label": "S1",
+      "sStart": 0,
+      "sEnd": 0.265
+    },
+    {
+      "type": "sector",
+      "label": "S2",
+      "sStart": 0.265,
+      "sEnd": 0.6533
+    },
+    {
+      "type": "sector",
+      "label": "S3",
+      "sStart": 0.6533,
+      "sEnd": 1
+    }
+  ],
+  "trackData": {
+    "lengthMeters": 5807,
+    "laps": 53,
+    "cornerCount": 18,
+    "topSpeedKmh": 315,
+    "fullThrottlePercent": 65,
+    "firstHeld": 1987
+  },
+  "sections": [
+    {
+      "id": "first-curve",
+      "name": {
+        "en": "First Curve",
+        "ko": "퍼스트 커브"
+      },
+      "corners": [
+        1,
+        2
+      ],
+      "guide": {
+        "ko": "메인 스트레이트 끝에서 내리막으로 진입하는 고속 우코너. 두 코너를 하나로 연결해 돌며, T2 탈출 속도가 이어지는 S자 구간 전체를 좌우한다.",
+        "en": "A fast, downhill right-hander at the end of the main straight. The two corners are taken as one, and the exit speed from T2 sets up the entire S Curves sequence that follows."
+      },
+      "sim": {
+        "summary": {
+          "ko": "리프트 후 가벼운 제동 · 3단 · T2 탈출",
+          "en": "Lift, then light braking · 3rd · T2 exit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "리프트 후 가벼운 제동",
+            "en": "Lift then light braking"
+          },
+          "gear": {
+            "ko": "3단",
+            "en": "3rd"
+          },
+          "watch": {
+            "ko": "내리막에서 리어 가벼움",
+            "en": "Rear feels light downhill"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 리프트 후 가벼운 제동으로 차의 방향을 잡는다. T1 진입까지 브레이크 압력을 점진적으로 줄인다\n기어: 6단 → 3단\n라인: T1과 T2를 하나의 긴 코너처럼 연결. T1에서 일찍 안쪽으로 붙지 말 것\n스로틀: T1에서 부분 스로틀 유지, T2 에이펙스 이후 점진적 풀스로틀\n주의: 내리막과 높은 횡G로 리어가 가벼워진다. 급격한 제동/스티어링 금지\n핵심: T1 진입보다 T2 탈출이 중요. S Curves 진입 속도를 만든다",
+          "en": "Braking: Lift, then use light braking to point the car. Release brake pressure gradually until T1 turn-in\nGear: 6th → 3rd\nLine: Link T1 and T2 as one long corner. Don't tuck in to the inside too early at T1\nThrottle: Hold partial throttle through T1, then build to flat out after the T2 apex\nWatch: The downhill and high lateral g make the rear light. No sudden braking or steering\nKey: T2 exit matters more than T1 entry — it builds your entry speed for the S Curves"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "s-curves",
+      "name": {
+        "en": "S Curves",
+        "ko": "S자 커브"
+      },
+      "corners": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "guide": {
+        "ko": "직선 없이 좌-우-좌-우로 이어지는 스즈카의 상징적인 구간. 고저차까지 겹쳐 차의 밸런스와 드라이버의 리듬이 그대로 드러난다.",
+        "en": "Suzuka's signature sequence — a left-right-left-right run with no straight to recover on. Combined with elevation change, it exposes both the car's balance and the driver's rhythm."
+      },
+      "sim": {
+        "summary": {
+          "ko": "리프트만 · 4~5단 · 리듬",
+          "en": "Lifts only · 4th–5th · Rhythm"
+        },
+        "popup": {
+          "brake": {
+            "ko": "짧은 리프트",
+            "en": "Short lift"
+          },
+          "gear": {
+            "ko": "4~5단",
+            "en": "4th–5th"
+          },
+          "watch": {
+            "ko": "진입 과속 시 이후 손해",
+            "en": "Overspeed here costs the rest"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 강한 제동 없음. 방향 전환마다 짧은 리프트 또는 가벼운 브레이크로 자세만 조절\n기어: 4~5단\n라인: 첫 진입 속도는 차량에 맞춰 조정하고, T3~T6 전체를 독립된 코너가 아닌 하나의 연속된 리듬으로 연결\n스로틀: 완전히 닫기보다 하중 이동에 맞춰 부분 스로틀 유지\n주의: 차를 안정시킬 직선이 없다. 한 코너에서 과하게 진입하면 이후 계속 손해\n핵심: 공격성보다 정밀함",
+          "en": "Braking: No hard braking. Just a short lift or light brake at each change of direction to adjust the car's attitude\nGear: 4th–5th\nLine: Adjust your first entry speed to suit the car, and link T3–T6 as one continuous rhythm rather than separate corners\nThrottle: Keep partial throttle as the weight transfers instead of closing it completely\nWatch: There's no straight to settle the car. Over-entering one corner costs you in every corner after it\nKey: Precision over aggression"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "dunlop",
+      "name": {
+        "en": "Dunlop Curve",
+        "ko": "던롭 커브"
+      },
+      "corners": [
+        7
+      ],
+      "guide": {
+        "ko": "오르막 좌코너로, 속도를 유지한 채 통과하는 것이 관건이다. 바깥쪽 자갈이 가까워 스로틀 조절에 신경 써야 한다.",
+        "en": "An uphill left-hander where carrying speed through the corner is the main challenge. The outside gravel trap sits close, so throttle control matters."
+      },
+      "sim": {
+        "summary": {
+          "ko": "풀스로틀 또는 거의 · 5단 · 속도 유지",
+          "en": "Flat out or nearly · 5th · Keep speed"
+        },
+        "popup": {
+          "brake": {
+            "ko": "풀스로틀 또는 거의",
+            "en": "Flat out or nearly"
+          },
+          "gear": {
+            "ko": "5단",
+            "en": "5th"
+          },
+          "watch": {
+            "ko": "바깥 연석 욕심 금지",
+            "en": "Don't push the outside kerb"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 풀스로틀 또는 거의\n기어: 5단\n라인: T6 탈출에서 우측으로 넓게 나간 뒤 좌측으로 이동\n스로틀: 코너 중 풀스로틀 복귀. 바깥으로 밀리면 짧게 리프트\n주의: 바깥 연석을 과하게 쓰면 트랙 밖으로 밀리거나 자갈에 걸린다\n핵심: 탈출 후 Degner를 위해 자연스럽게 좌측 이동",
+          "en": "Braking: Flat out or nearly\nGear: 5th\nLine: Run wide to the right out of T6, then move across to the left\nThrottle: Back to flat out mid-corner. If you drift wide, lift briefly\nWatch: Using the outside kerb too much pushes you off track or into the gravel\nKey: Move naturally to the left after the exit to set up Degner"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "degner",
+      "name": {
+        "en": "Degner",
+        "ko": "데그너"
+      },
+      "corners": [
+        8,
+        9
+      ],
+      "guide": {
+        "ko": "블라인드에 가까운 고속 우코너 두 개가 연속된다. 두 번째가 반경이 더 작아 탈출에서 코스아웃이 자주 나온다.",
+        "en": "Two fast, near-blind right-handers in quick succession. The second has a tighter radius, and cars frequently run wide on exit."
+      },
+      "sim": {
+        "summary": {
+          "ko": "8번 가볍게·9번 강하게 · 8번 5단·9번 3단 · T9 탈출",
+          "en": "Light at T8, hard at T9 · 5th at T8, 3rd at T9 · T9 exit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "8번 가볍게, 9번 강하게",
+            "en": "Light at T8, hard at T9"
+          },
+          "gear": {
+            "ko": "8번 5단·9번 3단",
+            "en": "5th at T8, 3rd at T9"
+          },
+          "watch": {
+            "ko": "T9 탈출 코스아웃 주의",
+            "en": "Watch for T9 exit run-off"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 8번은 가볍게, 9번은 강하게\n기어: 8번 5단, 9번 3단\n라인: 블라인드에 가까운 고속 우코너라 진입 과속 시 바깥 자갈로 밀려나며, 안쪽 연석을 활용해 코너를 최대한 직선화한다. T9는 T8보다 반경이 작으니 차를 안정시키고 늦은 에이펙스로\n스로틀: T9 안쪽 에이펙스 통과하며 강하게 가속, 탈출 연석까지 활용\n주의: T9 탈출에서 과도한 스로틀은 리어를 날린다\n핵심: T8에서 무리하지 말고 T9 탈출을 깨끗하게",
+          "en": "Braking: Light at T8, hard at T9\nGear: 5th at T8, 3rd at T9\nLine: A fast, near-blind right-hander, so over-speeding on entry sends you out to the gravel on the outside. Use the inside kerb to straighten the corner as much as possible. T9 has a smaller radius than T8, so settle the car and take a late apex\nThrottle: Accelerate hard through the T9 inside apex, using the exit kerb too\nWatch: Too much throttle on the T9 exit throws the rear out\nKey: Don't force T8; get a clean exit from T9"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "hairpin",
+      "name": {
+        "en": "Hairpin",
+        "ko": "헤어핀"
+      },
+      "corners": [
+        10,
+        11,
+        12
+      ],
+      "guide": {
+        "ko": "스즈카에서 가장 느린 코너. 1~2단까지 떨어지는 강한 감속 구간이라 레이스 중 추월 시도가 집중된다. 탈출 후에는 200R로 이어지는데, 풀스로틀로 감기는 완만한 우코너라 헤어핀과는 완전히 다른 리듬을 요구한다.",
+        "en": "Suzuka's slowest corner. The hard braking zone down to 1st or 2nd gear makes it a focal point for overtaking attempts during the race. The exit leads into 200R, a gentle right-hander taken flat out — a completely different rhythm from the hairpin itself."
+      },
+      "sim": {
+        "summary": {
+          "ko": "11번 오르막 강한 제동 · 1~2단 · 탈출 우선",
+          "en": "Hard uphill braking into T11 · 1st–2nd · Prioritise exit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "11번 오르막 강하게",
+            "en": "Hard, uphill into T11"
+          },
+          "gear": {
+            "ko": "1~2단",
+            "en": "1st–2nd"
+          },
+          "watch": {
+            "ko": "일찍 가속하면 탈출 손해",
+            "en": "Early throttle loses exit speed"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 11번 헤어핀은 오르막에서 강하게, 브레이크를 조금 남겨 차를 에이펙스로 회전시킨다\n기어: 1~2단\n라인: 우코너를 깔끔하게 통과하며 T11 진입을 위해 좌측 배치, 늦게 턴인해 긴 좌측 에이펙스로 아웃-인-아웃. 이어지는 200R은 헤어핀 탈출 직후 풀스로틀로 감기는 완만한 우코너, 스로틀을 유지한 채 자연스럽게 스티어링만 더한다\n스로틀: 에이펙스 이후 리어 안정을 확인하며 점진적 풀스로틀\n주의: 일찍 가속하면 탈출 속도를 잃는다\n핵심: 스즈카에서 가장 느린 구간이자 주요 추월 포인트. 진입보다 탈출",
+          "en": "Braking: The T11 hairpin is a hard stop on the uphill — keep a little brake on to rotate the car to the apex\nGear: 1st–2nd\nLine: Take the right cleanly and position to the left for T11, then turn in late for a long left-hand apex, out–in–out. The 200R that follows is a gentle right-hander taken flat out straight after the hairpin exit — stay on the throttle and just add steering\nThrottle: Build to flat out after the apex while checking the rear is stable\nWatch: Getting on the throttle early costs exit speed\nKey: Suzuka's slowest section and a main overtaking spot. Exit matters more than entry"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "spoon",
+      "name": {
+        "en": "Spoon Curve",
+        "ko": "스푼 커브"
+      },
+      "corners": [
+        13,
+        14
+      ],
+      "guide": {
+        "ko": "두 개의 에이펙스를 가진 긴 좌코너. 탈출 후 이어지는 긴 백스트레이트의 최고속도가 여기서 결정된다. 스푼 탈출부터 130R 직전까지 스트레이트 모드 구간이다.",
+        "en": "A long left-hander with two apexes. The exit speed here sets up the top speed down the long back straight that follows. The Straight Mode zone runs from the Spoon exit through to just before 130R."
+      },
+      "sim": {
+        "summary": {
+          "ko": "50m 보드 점진적 제동 · 4단→3단 · 탈출 속도",
+          "en": "Gradual braking at the 50 m board · 4th → 3rd · Exit speed"
+        },
+        "popup": {
+          "brake": {
+            "ko": "50m 보드",
+            "en": "50 m board"
+          },
+          "gear": {
+            "ko": "4단→3단",
+            "en": "4th down to 3rd"
+          },
+          "watch": {
+            "ko": "두 번째 코너 과속 주의",
+            "en": "Careful with speed at the second apex"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 50m 보드에서 첫 진입에 가볍게, 두 번째 코너를 위해 추가 감속\n기어: 4단 → 3단\n라인: 진입에서 속도를 너무 남기지 않는다(과속 시 프론트가 밀려 첫 에이펙스를 놓친다), 첫 에이펙스는 공격적으로 찍지 말고 두 번째 코너에 맞게 배치하며, 핵심인 두 번째 우코너는 약간의 브레이크를 남겨 프론트 그립을 확보한다\n스로틀: T14 에이펙스 이후 점진적 풀스로틀. 바깥쪽 최대 활용\n주의: 두 번째 코너 과속 시 언더스티어로 탈출 라인이 바깥으로 밀린다\n핵심: 다음 긴 직선의 최고속도를 결정. T14 탈출 속도 최우선",
+          "en": "Braking: Light braking at the 50 m board for the first entry, then extra braking for the second corner\nGear: 4th → 3rd\nLine: Don't carry too much speed in — overspeed pushes the front and you miss the first apex. Don't attack the first apex; place the car for the second corner. The key is the second right-hander: keep a little brake on to build front grip\nThrottle: Build to flat out after the T14 apex. Use the full width on the outside\nWatch: Too much speed in the second corner causes understeer and pushes your exit line wide\nKey: It sets your top speed down the next long straight. T14 exit speed comes first"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "r130",
+      "name": {
+        "en": "130R",
+        "ko": "130R"
+      },
+      "corners": [
+        15
+      ],
+      "guide": {
+        "ko": "서킷 최고속 코너. 현대 F1에서는 대부분 풀스로틀로 돌지만 진입 실수의 대가가 크다.",
+        "en": "The fastest corner on the circuit. Modern F1 cars go through mostly flat out, but the cost of a mistake on entry is severe."
+      },
+      "sim": {
+        "summary": {
+          "ko": "풀스로틀 · 7단 · 최고속 유지",
+          "en": "Flat out · 7th · Hold top speed"
+        },
+        "popup": {
+          "brake": {
+            "ko": "풀스로틀",
+            "en": "Flat out"
+          },
+          "gear": {
+            "ko": "7단",
+            "en": "7th"
+          },
+          "watch": {
+            "ko": "급격한 스티어링 금지",
+            "en": "No sudden steering inputs"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 풀스로틀\n기어: 7단\n라인: 진입 전 우측에서 차를 안정시키고 정확한 타이밍에 좌측 에이펙스로 턴인, 탈출은 바깥쪽을 최대 활용해 Casio 진입을 위한 좌측 포지션을 확보한다\n스로틀: 가능한 한 풀스로틀 유지\n주의: 높은 속도에서 횡하중이 매우 크다. 급격한 스티어링 금지. 리프트가 필요하면 짧고 부드럽게\n핵심: 속도를 유지할수록 시케인 제동 포인트에 더 빠르게 도달. 단 한계를 넘으면 큰 손실",
+          "en": "Braking: Flat out\nGear: 7th\nLine: Settle the car on the right before entry, turn in to the left apex at the right moment, and use the full width on the outside on exit to take the left-hand position for the Casio entry\nThrottle: Stay flat out as much as possible\nWatch: Lateral load is very high at this speed. No sudden steering. If you need to lift, make it short and smooth\nKey: The more speed you keep, the sooner you reach the chicane braking point. Go past the limit and the loss is big"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "casio",
+      "name": {
+        "en": "Casio Triangle",
+        "ko": "카시오 트라이앵글"
+      },
+      "corners": [
+        16,
+        17,
+        18
+      ],
+      "guide": {
+        "ko": "랩의 마지막 시케인. 랩에서 가장 강한 제동 구간이자 대표 추월 지점이며, 탈출 트랙션이 다음 랩 메인 스트레이트 속도를 결정한다. 17번에서 오버테이크를 감지하고, 마지막 코너 탈출부터 메인 스트레이트에서 오버테이크 모드를 쓸 수 있다. 메인 스트레이트는 스트레이트 모드 구간이다.",
+        "en": "The final chicane of the lap. It's the hardest braking zone on the lap and one of the main overtaking spots, and exit traction here sets the speed down the main straight for the next lap. Overtake Mode is detected at Turn 17, and can be used on the main straight from the final corner's exit. The main straight is a Straight Mode zone."
+      },
+      "sim": {
+        "summary": {
+          "ko": "150m 전후 · 2단 · T18 트랙션",
+          "en": "Around 150 m · 2nd · T18 traction"
+        },
+        "popup": {
+          "brake": {
+            "ko": "150m 보드 전후",
+            "en": "Around the 150m board"
+          },
+          "gear": {
+            "ko": "2단",
+            "en": "2nd"
+          },
+          "watch": {
+            "ko": "T18 급가속 시 리어 미끄러짐",
+            "en": "Hard throttle at T18 slides the rear"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 좌측 브레이크 마커 기준 150m 보드 부근에서 강하게\n기어: 6단 이상 → 2단\n라인: 첫 우코너에서 강하게 감속하며 안쪽 연석을 최대 활용하고, 좌측으로 빠르게 방향을 전환해 시케인 전체를 하나의 라인으로 연결한다. 메인 스트레이트로 이어지므로 트랙션 확보가 최우선\n스로틀: T17 이후 점진적으로 열고, T18에서 스티어링을 부드럽게 풀며 풀스로틀\n주의: 마지막 코너에서 급가속하면 리어가 미끄러져 메인 스트레이트 전체에서 손해\n핵심: 제동보다 마지막 코너 탈출이 중요",
+          "en": "Braking: Hard from around the 150 m board, using the left-hand brake marker\nGear: 6th or higher → 2nd\nLine: Slow hard for the first right-hander, use the inside kerb as much as possible, switch quickly to the left, and link the whole chicane as one line. It leads onto the main straight, so traction comes first\nThrottle: Open gradually after T17, then unwind the steering smoothly at T18 and go flat out\nWatch: Accelerating hard out of the last corner slides the rear and costs you along the whole main straight\nKey: The exit of the last corner matters more than braking"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    }
+  ],
+  "highlights": [
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.4392,
+      "sEnd": 0.4633,
+      "label": "Hairpin",
+      "note": {
+        "ko": "스즈카에서 가장 느린 구간. 긴 제동 거리를 활용한 대표 추월 지점이다.",
+        "en": "Suzuka's slowest section — a long braking zone makes it one of the main overtaking spots."
+      }
+    },
+    {
+      "tags": [
+        "overtake",
+        "view"
+      ],
+      "sStart": 0.8883,
+      "sEnd": 0.9167,
+      "label": "Casio Triangle",
+      "note": {
+        "ko": "랩에서 가장 강한 제동 구간이자 대표 추월 지점.",
+        "en": "The hardest braking zone on the lap and one of the main overtaking spots."
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.15,
+      "sEnd": 0.2308,
+      "label": "S Curves",
+      "note": {
+        "ko": "직선 없이 좌-우-좌-우로 이어지는 구간. 드라이버 실력 차이가 가장 잘 드러나는 구간.",
+        "en": "A left-right-left-right run with no straight to recover on — where driver skill differences show most clearly."
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.815,
+      "sEnd": 0.825,
+      "label": "130R",
+      "note": {
+        "ko": "서킷 최고속 지점.",
+        "en": "The fastest point on the circuit."
+      }
+    }
+  ],
+  "aero": {
+    "season": 2026,
+    "status": "confirmed",
+    "straightModeZones": [
+      {
+        "from": 18,
+        "to": 1
+      },
+      {
+        "from": 14,
+        "to": 15
+      }
+    ],
+    "overtake": {
+      "detection": {
+        "corner": 17,
+        "position": "at"
+      },
+      "activation": {
+        "corner": 18,
+        "position": "after"
+      }
+    },
+    "source": "F1 공식 2026 스즈카 가이드(감지 17번), Formula Live Pulse 2026(작동 마지막 코너 이후), Alpine 2026(두 번째 구간은 스푼 이후~130R 직전)"
+  },
+  "character": {
+    "type": "permanent",
+    "summary": {
+      "ko": "F1에서 드문 8자 구조. S자 커브, 데그너, 스푼, 130R로 고속 코너가 이어져 라인과 리듬의 정확성이 중요하다.",
+      "en": "A rare figure-of-eight layout. The S Curves, Degner, Spoon and 130R form a run of fast corners that rewards precise lines and rhythm."
+    }
+  }
+}

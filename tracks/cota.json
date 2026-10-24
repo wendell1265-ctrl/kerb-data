@@ -1,0 +1,689 @@
+{
+  "trackId": "cota",
+  "name": "COTA",
+  "lengthMeters": 5513,
+  "rotationDeg": 0,
+  "geojsonFile": "us-2012",
+  "startOffsetS": 0.9456,
+  "corners": [
+    {
+      "number": 1,
+      "s": 0.1159,
+      "name": {
+        "ko": "빅 레드",
+        "en": "Big Red"
+      },
+      "dirX": 0.5213,
+      "dirY": 0.8534
+    },
+    {
+      "number": 2,
+      "s": 0.1609,
+      "name": {
+        "ko": "T2",
+        "en": "Turn 2"
+      },
+      "dirX": 0.9589,
+      "dirY": 0.2836
+    },
+    {
+      "number": 3,
+      "s": 0.2087,
+      "name": {
+        "ko": "T3",
+        "en": "Turn 3"
+      },
+      "dirX": 0.8039,
+      "dirY": 0.5948
+    },
+    {
+      "number": 4,
+      "s": 0.225,
+      "name": {
+        "ko": "T4",
+        "en": "Turn 4"
+      },
+      "dirX": 0.7895,
+      "dirY": 0.6138
+    },
+    {
+      "number": 5,
+      "s": 0.2429,
+      "name": {
+        "ko": "T5",
+        "en": "Turn 5"
+      },
+      "dirX": 0.775,
+      "dirY": 0.632
+    },
+    {
+      "number": 6,
+      "s": 0.2738,
+      "name": {
+        "ko": "T6",
+        "en": "Turn 6"
+      },
+      "dirX": 0.4907,
+      "dirY": 0.8713
+    },
+    {
+      "number": 7,
+      "s": 0.3102,
+      "name": {
+        "ko": "T7",
+        "en": "Turn 7"
+      },
+      "dirX": 0.3876,
+      "dirY": 0.9218
+    },
+    {
+      "number": 8,
+      "s": 0.3431,
+      "name": {
+        "ko": "T8",
+        "en": "Turn 8"
+      },
+      "dirX": -0.2744,
+      "dirY": 0.9616
+    },
+    {
+      "number": 9,
+      "s": 0.3583,
+      "name": {
+        "ko": "T9",
+        "en": "Turn 9"
+      },
+      "dirX": 0,
+      "dirY": 1
+    },
+    {
+      "number": 10,
+      "s": 0.3932,
+      "name": {
+        "ko": "T10",
+        "en": "Turn 10"
+      },
+      "dirX": 0.4734,
+      "dirY": 0.8809
+    },
+    {
+      "number": 11,
+      "s": 0.4655,
+      "name": {
+        "ko": "T11",
+        "en": "Turn 11"
+      },
+      "dirX": 0.6105,
+      "dirY": -0.792
+    },
+    {
+      "number": 12,
+      "s": 0.6826,
+      "name": {
+        "ko": "T12",
+        "en": "Turn 12"
+      },
+      "dirX": -0.9493,
+      "dirY": -0.3144
+    },
+    {
+      "number": 13,
+      "s": 0.7214,
+      "name": {
+        "ko": "T13",
+        "en": "Turn 13"
+      },
+      "dirX": 0.9689,
+      "dirY": -0.2473
+    },
+    {
+      "number": 14,
+      "s": 0.7418,
+      "name": {
+        "ko": "T14",
+        "en": "Turn 14"
+      },
+      "dirX": 0.7564,
+      "dirY": -0.6541
+    },
+    {
+      "number": 15,
+      "s": 0.7776,
+      "name": {
+        "ko": "T15",
+        "en": "Turn 15"
+      },
+      "dirX": -0.9647,
+      "dirY": -0.2635
+    },
+    {
+      "number": 16,
+      "s": 0.8158,
+      "name": {
+        "ko": "T16",
+        "en": "Turn 16"
+      },
+      "dirX": 0.9861,
+      "dirY": -0.1664
+    },
+    {
+      "number": 17,
+      "s": 0.8313,
+      "name": {
+        "ko": "T17",
+        "en": "Turn 17"
+      },
+      "dirX": -0.7933,
+      "dirY": -0.6089
+    },
+    {
+      "number": 18,
+      "s": 0.8723,
+      "name": {
+        "ko": "T18",
+        "en": "Turn 18"
+      },
+      "dirX": -0.5979,
+      "dirY": 0.8015
+    },
+    {
+      "number": 19,
+      "s": 0.9147,
+      "name": {
+        "ko": "T19",
+        "en": "Turn 19"
+      },
+      "dirX": 0.2018,
+      "dirY": -0.9794
+    },
+    {
+      "number": 20,
+      "s": 0.9675,
+      "name": {
+        "ko": "디 안드레티",
+        "en": "The Andretti"
+      },
+      "dirX": -0.9598,
+      "dirY": -0.2806
+    }
+  ],
+  "lapRecords": [
+    {
+      "driver": "Charles Leclerc",
+      "team": "Ferrari",
+      "time": "1:36.169",
+      "year": 2019,
+      "session": "race",
+      "isTrackRecord": true
+    }
+  ],
+  "segments": [
+    {
+      "type": "sector",
+      "label": "S1",
+      "sStart": 0,
+      "sEnd": 0.3011305278432795
+    },
+    {
+      "type": "sector",
+      "label": "S2",
+      "sStart": 0.3011305278432795,
+      "sEnd": 0.7123305278432795
+    },
+    {
+      "type": "sector",
+      "label": "S3",
+      "sStart": 0.7123305278432795,
+      "sEnd": 1
+    }
+  ],
+  "trackData": {
+    "lengthMeters": 5513,
+    "laps": 56,
+    "cornerCount": 20,
+    "topSpeedKmh": 325,
+    "fullThrottlePercent": 59,
+    "firstHeld": 2012
+  },
+  "sections": [
+    {
+      "id": "t1",
+      "name": {
+        "ko": "빅 레드",
+        "en": "Big Red"
+      },
+      "corners": [
+        1
+      ],
+      "guide": {
+        "ko": "출발선에서 에이펙스까지 약 31m를 단숨에 오르는 급경사 끝, 서킷 최고점에 있는 좁은 좌측 헤어핀이다. 서킷 공동 창립자 레드 맥콤스를 기려 '빅 레드'라는 이름이 붙었다. 오르막이 스파의 라디용보다 가파르고, 에이펙스가 언덕에 가려 거의 보이지 않는다. 코너 폭이 넓어 출발 직후엔 여러 라인이 엇갈리며 혼잡해진다.",
+        "en": "A tight left-hand hairpin at the highest point of the circuit, at the top of a steep climb of about 31 m from the start line up to the apex. It is named Big Red in honour of Red McCombs, a co-founder of the circuit. The climb is steeper than Raidillon at Spa, and the apex is hidden by the crest and almost impossible to see. The corner is wide, so right after the start several lines cross and it gets crowded."
+      },
+      "sim": {
+        "summary": {
+          "ko": "100m 보드 · 1~2단 · 블라인드 오르막",
+          "en": "100 m board · 1st–2nd · Blind uphill"
+        },
+        "popup": {
+          "brake": {
+            "ko": "오르막 끝 100m 보드",
+            "en": "100 m board at the top of the climb"
+          },
+          "gear": {
+            "ko": "1~2단",
+            "en": "1st–2nd"
+          },
+          "watch": {
+            "ko": "에이펙스 안 보임",
+            "en": "The apex is out of sight"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 오르막 끝 100m 보드에서 강하게\n기어: 1~2단\n라인: 에이펙스가 안 보이니 일찍 겨냥하고 늦게 붙는다\n스로틀: 언덕을 넘어 평평해지는 순간 뒤가 미끄러지지 않게 점진적으로\n핵심: 넓은 코너라 출발 직후 여러 라인으로 추월이 오간다\n주의: 오르막이라 제동 지점을 늦추기 쉽지만 에이펙스가 안 보인다",
+          "en": "Braking: Hard at the 100 m board at the top of the climb\nGear: 1st–2nd\nLine: The apex is out of sight, so aim for it early and turn in late\nThrottle: Build up gradually the moment the hill levels out so the rear doesn't slide\nKey: A wide corner, so passes swap between several lines right after the start\nWatch: The uphill makes it easy to brake later, but the apex is out of sight"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "esses",
+      "name": {
+        "ko": "T2~T6",
+        "en": "Turn 2 to Turn 6"
+      },
+      "corners": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "guide": {
+        "ko": "1번을 지나 내리막의 2번 우코너를 풀스로틀로 내려간 뒤, 실버스톤의 매고츠·베케츠를 본뜬 3~6번 S자 구간으로 들어간다. 좌우로 빠르게 방향을 바꾸며 리듬을 찾아야 하고, 한 코너에서 라인이 어긋나면 남은 코너가 전부 어긋난다.",
+        "en": "After Turn 1, cars take the downhill right-hander at Turn 2 flat out, then enter the S-curves of Turns 3 to 6, modelled on Maggotts and Becketts at Silverstone. Drivers have to find a rhythm while changing direction quickly from left to right, and if the line goes wrong at one corner, every corner after it goes wrong too."
+      },
+      "sim": {
+        "summary": {
+          "ko": "3번 살짝 리프트 · 6단 · 리듬 유지",
+          "en": "Slight lift at T3 · 6th · Keep the rhythm"
+        },
+        "popup": {
+          "brake": {
+            "ko": "3번 살짝 리프트",
+            "en": "Slight lift at T3"
+          },
+          "gear": {
+            "ko": "6단",
+            "en": "6th"
+          },
+          "watch": {
+            "ko": "에이펙스 하나 놓치면 연쇄",
+            "en": "Miss one apex and the rest follow"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 2번은 풀스로틀, 3번은 살짝 리프트, 4~6번은 제동 최소화\n기어: 6단\n라인: 트랙 폭을 모두 쓰며 다음 코너 진입 위치를 미리 잡는다\n스로틀: 리프트 후 바로 다시 열어 속도를 유지\n핵심: 첫 코너 라인이 S자 전체의 속도를 결정\n주의: 에이펙스 하나만 놓쳐도 남은 코너가 전부 어긋난다",
+          "en": "Braking: Flat out at T2, a slight lift at T3, and minimal braking from T4 to T6\nGear: 6th\nLine: Use the full width of the track and set your position for the next corner entry in advance\nThrottle: Back on the power straight after the lift to keep your speed\nKey: The first corner's line sets the speed through the whole esses\nWatch: Miss a single apex and all the remaining corners go out of line"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t7-t10",
+      "name": {
+        "ko": "T7~T10",
+        "en": "Turn 7 to Turn 10"
+      },
+      "corners": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "guide": {
+        "ko": "7·8번에서 짧은 리프트나 가벼운 제동으로 좌우를 바꾸며 다시 오르막을 오르고, 언덕 꼭대기의 9번 좌코너를 넘는다. 이어지는 10번은 풀스로틀로 지나는 좌측 킹크로, 11번 제동 구간으로 내려간다.",
+        "en": "At Turns 7 and 8, cars switch from side to side with a short lift or light braking while climbing again, then crest the hill at the left-hander at Turn 9. Turn 10 that follows is a left-hand kink taken flat out, leading down into the Turn 11 braking zone."
+      },
+      "sim": {
+        "summary": {
+          "ko": "짧은 리프트 · 4~5단 · 9번 꼭대기",
+          "en": "Short lift · 4th–5th · T9 crest"
+        },
+        "popup": {
+          "brake": {
+            "ko": "7·8번 짧은 리프트",
+            "en": "Short lift at T7 and T8"
+          },
+          "gear": {
+            "ko": "4~5단",
+            "en": "4th–5th"
+          },
+          "watch": {
+            "ko": "8·9번 서두르면 흔들림",
+            "en": "Rushing T8 and T9 unsettles the car"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 7·8번은 짧은 리프트나 가벼운 제동, 10번은 풀스로틀\n기어: 4~5단\n라인: 9번은 언덕 꼭대기라 진입 위치를 미리 잡는다\n스로틀: 9번을 넘으면서 10번까지 풀스로틀\n핵심: 공격성보다 균형과 리듬\n주의: 8·9번에서 서두르면 차가 흔들린다",
+          "en": "Braking: Short lift or light braking at T7 and T8, flat out at T10\nGear: 4th–5th\nLine: T9 is at the crest of the hill, so set your entry position in advance\nThrottle: Flat out over T9 all the way to T10\nKey: Balance and rhythm over aggression\nWatch: Rushing T8 and T9 unsettles the car"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t11",
+      "name": {
+        "ko": "T11",
+        "en": "Turn 11"
+      },
+      "corners": [
+        11
+      ],
+      "guide": {
+        "ko": "내리막에서 강하게 제동하는 좌측 헤어핀으로, 안쪽으로 갈수록 조여든다. 탈출이 서킷에서 가장 긴 약 1km 백 스트레이트로 이어져, 여기서의 탈출 속도가 12번 추월 시도를 결정한다. 백 스트레이트는 스트레이트 모드 구간이다.",
+        "en": "A left-hand hairpin braked hard on a downhill, tightening toward the inside. The exit leads onto the longest straight on the circuit, the back straight of about 1 km, so exit speed here decides the overtaking attempt at Turn 12. The back straight is a Straight Mode zone."
+      },
+      "sim": {
+        "summary": {
+          "ko": "100m 보드 · 1~2단 · 탈출 우선",
+          "en": "100 m board · 1st–2nd · Prioritise exit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "내리막 100m 보드",
+            "en": "100 m board on the downhill"
+          },
+          "gear": {
+            "ko": "1~2단",
+            "en": "1st–2nd"
+          },
+          "watch": {
+            "ko": "탈출 휠스핀",
+            "en": "Wheelspin on exit"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 내리막 100m 보드에서 강하게, 트레일 브레이킹으로 회전\n기어: 1~2단\n라인: 늦게 조여드는 코너라 진입을 서두르지 않는다\n스로틀: 백 스트레이트를 위해 휠스핀 없이 점진적으로\n핵심: 탈출 속도가 백 스트레이트와 12번 추월을 결정\n주의: 탈출에서 뒤가 쉽게 미끄러진다",
+          "en": "Braking: Hard at the 100 m board on the downhill, rotating the car with trail braking\nGear: 1st–2nd\nLine: A corner that tightens late, so don't rush the entry\nThrottle: Build up gradually without wheelspin for the back straight\nKey: Exit speed sets the back straight and your T12 overtake\nWatch: The rear slides easily on exit"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t12",
+      "name": {
+        "ko": "T12",
+        "en": "Turn 12"
+      },
+      "corners": [
+        12
+      ],
+      "guide": {
+        "ko": "약 1km 백 스트레이트 끝의 좌측 헤어핀으로, 서킷에서 가장 좋은 추월 지점이다. 바깥 런오프가 넓어 무리하게 늦게 밟는 유혹이 있지만, 제동 지점을 정확히 지키는 것이 핵심이다. 여기서부터 관중석에 둘러싸인 스타디움 구간이 시작된다.",
+        "en": "A left-hand hairpin at the end of the back straight of about 1 km, and the best overtaking spot on the circuit. The wide outside run-off tempts drivers to brake too late, but hitting the braking point exactly is the key. From here the stadium section, surrounded by grandstands, begins."
+      },
+      "sim": {
+        "summary": {
+          "ko": "100m 보드 · 2단 · 최대 추월 지점",
+          "en": "100 m board · 2nd · Best overtaking spot"
+        },
+        "popup": {
+          "brake": {
+            "ko": "백 스트레이트 끝 100m 보드",
+            "en": "100 m board at the end of the back straight"
+          },
+          "gear": {
+            "ko": "2단",
+            "en": "2nd"
+          },
+          "watch": {
+            "ko": "런오프 믿고 늦은 제동",
+            "en": "Braking late trusting the run-off"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 백 스트레이트 끝 100m 보드에서 강하게\n기어: 2단\n라인: 안쪽을 지키고 일찍 회전시켜 13번 진입을 준비\n스로틀: 탈출에서 점진적으로\n핵심: 서킷에서 가장 좋은 추월 지점\n주의: 넓은 런오프 때문에 제동을 늦추다 지나치기 쉽다",
+          "en": "Braking: Hard at the 100 m board at the end of the back straight\nGear: 2nd\nLine: Defend the inside and rotate early to prepare the T13 entry\nThrottle: Build up gradually on exit\nKey: The best overtaking spot on the circuit\nWatch: The wide run-off makes it easy to brake late and overshoot"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "stadium",
+      "name": {
+        "ko": "T13~T15",
+        "en": "Turn 13 to Turn 15"
+      },
+      "corners": [
+        13,
+        14,
+        15
+      ],
+      "guide": {
+        "ko": "관중석에 둘러싸인 스타디움 구간으로, 파머가 서킷에서 가장 어렵다고 꼽은 곳이다. 13번 우코너와 14번 좌코너를 지나 에이펙스가 두 개인 넓은 15번 좌코너로 이어지며, 15번은 여러 라인을 시도해볼 수 있다.",
+        "en": "The stadium section, surrounded by grandstands, which Palmer singles out as the hardest part of the circuit. After the right-hander at Turn 13 and the left-hander at Turn 14, it leads into the wide left-hander at Turn 15 with two apexes, where several different lines can be tried."
+      },
+      "sim": {
+        "summary": {
+          "ko": "부드러운 제동 · 2~3단 · 15번 두 에이펙스",
+          "en": "Smooth braking · 2nd–3rd · Two apex options at T15"
+        },
+        "popup": {
+          "brake": {
+            "ko": "13번 진입 부드럽게",
+            "en": "Smoothly, on entry to T13"
+          },
+          "gear": {
+            "ko": "2~3단",
+            "en": "2nd–3rd"
+          },
+          "watch": {
+            "ko": "연석 과용 시 흔들림",
+            "en": "Overusing the kerbs unsettles the car"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 13번 진입에서 부드럽게, 15번 진입에서 다시\n기어: 2~3단\n라인: 15번은 늦은 에이펙스로 탈출을 곧게 펴거나 안쪽에 붙는 두 방식 중 선택\n스로틀: 15번 탈출에서 휠스핀 없이 점진적으로\n핵심: 흐름이 어색해 리듬을 잃기 쉬운 서킷 최난 구간\n주의: 연석을 과하게 타면 차가 흔들린다",
+          "en": "Braking: Smoothly on entry to T13, then again on entry to T15\nGear: 2nd–3rd\nLine: At T15 choose between a late apex that straightens the exit, or hugging the inside\nThrottle: Build up gradually on the T15 exit without wheelspin\nKey: The hardest section of the circuit, where the awkward flow makes it easy to lose your rhythm\nWatch: Overusing the kerbs unsettles the car"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t16-t18",
+      "name": {
+        "ko": "T16~T18",
+        "en": "Turn 16 to Turn 18"
+      },
+      "corners": [
+        16,
+        17,
+        18
+      ],
+      "guide": {
+        "ko": "이스탄불 파크의 8번을 좌우 반전해 옮긴, 에이펙스가 세 개인 긴 우코너다. 진입에서 살짝 리프트한 뒤 스로틀을 일정하게 유지하며 세 에이펙스를 차례로 잇는다.",
+        "en": "A long right-hander with three apexes, copied from Turn 8 at Istanbul Park and mirrored left to right. After a slight lift on entry, drivers keep the throttle steady and link the three apexes one after another."
+      },
+      "sim": {
+        "summary": {
+          "ko": "진입 리프트 · 5~6단 · 세 에이펙스",
+          "en": "Lift on entry · 5th–6th · Three apexes"
+        },
+        "popup": {
+          "brake": {
+            "ko": "16번 진입 리프트",
+            "en": "Lift on entry to T16"
+          },
+          "gear": {
+            "ko": "5~6단",
+            "en": "5th–6th"
+          },
+          "watch": {
+            "ko": "스로틀 일정하게",
+            "en": "Keep the throttle steady"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 16번 진입에서 살짝 리프트\n기어: 5~6단\n라인: 세 에이펙스를 하나의 긴 코너처럼 잇는다\n스로틀: 리프트 뒤 일정하게 유지\n핵심: 균형이 맞으면 높은 속도를 끝까지 유지할 수 있다\n주의: 스로틀을 들쭉날쭉하게 쓰면 앞이 밀린다",
+          "en": "Braking: A slight lift on entry to T16\nGear: 5th–6th\nLine: Link the three apexes like one long corner\nThrottle: Hold it steady after the lift\nKey: With the balance right, you can keep high speed all the way through\nWatch: Ragged throttle makes the front push"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t19-t20",
+      "name": {
+        "ko": "T19~디 안드레티",
+        "en": "Turn 19 to The Andretti"
+      },
+      "corners": [
+        19,
+        20
+      ],
+      "guide": {
+        "ko": "19번 좌코너는 리듬이 좋은 코너지만 탈출에서 트랙 리밋을 넘기 쉽다. 마지막 20번 90도 좌코너에서 크게 감속한 뒤 메인 스트레이트로 나가는데, 탈출에서 휠스핀을 내기 쉬워 트랙션이 랩의 마무리를 좌우한다. 마지막 20번은 1978년 F1 챔피언 마리오 안드레티의 이름을 딴 코너다. 20번 탈출에서 오버테이크를 감지하고, 메인 스트레이트는 스트레이트 모드 구간이다.",
+        "en": "The left-hander at Turn 19 has a good rhythm, but it is easy to run over the track limits on exit. After slowing heavily for the final 90-degree left at Turn 20, cars head onto the main straight; it is easy to spin the wheels on exit, so traction decides how the lap finishes. The last corner, Turn 20, is named after Mario Andretti, the 1978 F1 champion. Overtake Mode is detected on the exit of T20, and the main straight is a Straight Mode zone."
+      },
+      "sim": {
+        "summary": {
+          "ko": "20번 75m 보드 · 2단 · 탈출 트랙션",
+          "en": "75 m board at T20 · 2nd · Exit traction"
+        },
+        "popup": {
+          "brake": {
+            "ko": "20번 75m 보드",
+            "en": "T20 75 m board"
+          },
+          "gear": {
+            "ko": "20번 2단",
+            "en": "2nd at T20"
+          },
+          "watch": {
+            "ko": "19번 트랙 리밋",
+            "en": "Track limits at T19"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 19번은 가볍게, 20번은 75m 보드에서\n기어: 19번 4단, 20번 2단\n라인: 20번은 안쪽 연석에 붙어 탈출 각도 확보\n스로틀: 20번 탈출에서 휠스핀 없이 점진적으로\n핵심: 20번 탈출이 메인 스트레이트와 1번 공방을 결정\n주의: 19번 탈출 트랙 리밋, 20번 탈출 휠스핀",
+          "en": "Braking: Light at T19, 75 m board at T20\nGear: 4th at T19, 2nd at T20\nLine: Hug the inside kerb at T20 to secure the exit angle\nThrottle: Build up gradually on the T20 exit without wheelspin\nKey: The T20 exit decides the main straight and the fight into T1\nWatch: Track limits at the T19 exit, wheelspin at the T20 exit"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    }
+  ],
+  "highlights": [
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.6726,
+      "sEnd": 0.6826,
+      "label": "T12",
+      "note": {
+        "ko": "약 1km 백 스트레이트 끝, 서킷 최대 추월 지점",
+        "en": "At the end of the back straight of about 1 km — the biggest overtaking spot on the circuit"
+      }
+    },
+    {
+      "tags": [
+        "overtake",
+        "view"
+      ],
+      "sStart": 0.10590000000000001,
+      "sEnd": 0.1159,
+      "label": "빅 레드",
+      "note": {
+        "ko": "약 31m 오르막 끝의 넓은 헤어핀, 출발 직후 여러 라인이 엇갈리는 곳",
+        "en": "A wide hairpin at the top of a climb of about 31 m, where several lines cross right after the start"
+      }
+    },
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.4555,
+      "sEnd": 0.4655,
+      "label": "T11",
+      "note": {
+        "ko": "내리막 강한 제동의 헤어핀, 백 스트레이트로 이어지는 탈출",
+        "en": "A hairpin braked hard on a downhill, with an exit that leads onto the back straight"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.8058,
+      "sEnd": 0.8158,
+      "label": "T16",
+      "note": {
+        "ko": "이스탄불 8번을 옮겨온 에이펙스 세 개짜리 우코너",
+        "en": "A right-hander with three apexes, brought over from Turn 8 at Istanbul Park"
+      }
+    }
+  ],
+  "aero": {
+    "season": 2026,
+    "status": "confirmed",
+    "straightModeZones": [
+      {
+        "from": 11,
+        "to": 12
+      },
+      {
+        "from": 20,
+        "to": 1
+      }
+    ],
+    "overtake": {
+      "detection": {
+        "corner": 20,
+        "position": "after"
+      },
+      "activation": {
+        "corner": 20,
+        "position": "after"
+      }
+    },
+    "source": "F1 Live Pulse 2026-10-19(공식 서킷맵 인용), ScuderiaFans 2026-10-20. FIA 원본 PDF 미확인"
+  },
+  "character": {
+    "type": "permanent",
+    "summary": {
+      "ko": "가파른 오르막 끝 1번 헤어핀과 고속으로 이어지는 3~6번 S자가 특징. 긴 백 스트레이트 끝 12번이 가장 큰 추월 지점이다.",
+      "en": "Known for the steep climb to the T1 hairpin and the fast T3–T6 esses. T12, at the end of the long back straight, is the main overtaking spot."
+    }
+  }
+}

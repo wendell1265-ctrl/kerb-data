@@ -1,0 +1,630 @@
+{
+  "trackId": "catalunya",
+  "name": "Catalunya",
+  "lengthMeters": 4657,
+  "rotationDeg": 58,
+  "geojsonFile": "es-1991",
+  "startOffsetS": 0.9737,
+  "corners": [
+    {
+      "number": 1,
+      "s": 0.1794,
+      "name": {
+        "ko": "엘프",
+        "en": "Elf"
+      },
+      "dirX": -0.5509,
+      "dirY": 0.8346
+    },
+    {
+      "number": 2,
+      "s": 0.2026,
+      "name": {
+        "ko": "T2",
+        "en": "Turn 2"
+      },
+      "dirX": -0.7162,
+      "dirY": 0.6979
+    },
+    {
+      "number": 3,
+      "s": 0.2552,
+      "name": {
+        "ko": "르노",
+        "en": "Renault"
+      },
+      "dirX": -0.9972,
+      "dirY": -0.0753
+    },
+    {
+      "number": 4,
+      "s": 0.3703,
+      "name": {
+        "ko": "렙솔",
+        "en": "Repsol"
+      },
+      "dirX": 0.9041,
+      "dirY": -0.4274
+    },
+    {
+      "number": 5,
+      "s": 0.4567,
+      "name": {
+        "ko": "세아트",
+        "en": "Seat"
+      },
+      "dirX": -0.8918,
+      "dirY": -0.4524
+    },
+    {
+      "number": 6,
+      "s": 0.5003,
+      "name": {
+        "ko": "T6",
+        "en": "Turn 6"
+      },
+      "dirX": 0.4409,
+      "dirY": -0.8976
+    },
+    {
+      "number": 7,
+      "s": 0.5495,
+      "name": {
+        "ko": "뷔르트",
+        "en": "Würth"
+      },
+      "dirX": 0.8747,
+      "dirY": 0.4847
+    },
+    {
+      "number": 8,
+      "s": 0.5666,
+      "name": {
+        "ko": "T8",
+        "en": "Turn 8"
+      },
+      "dirX": -0.9593,
+      "dirY": -0.2824
+    },
+    {
+      "number": 9,
+      "s": 0.624,
+      "name": {
+        "ko": "캄프사",
+        "en": "Campsa"
+      },
+      "dirX": -0.0564,
+      "dirY": -0.9984
+    },
+    {
+      "number": 10,
+      "s": 0.7488,
+      "name": {
+        "ko": "라 카이샤",
+        "en": "La Caixa"
+      },
+      "dirX": 0.1177,
+      "dirY": 0.9931
+    },
+    {
+      "number": 11,
+      "s": 0.7768,
+      "name": {
+        "ko": "T11",
+        "en": "Turn 11"
+      },
+      "dirX": 0.6901,
+      "dirY": -0.7238
+    },
+    {
+      "number": 12,
+      "s": 0.8154,
+      "name": {
+        "ko": "T12",
+        "en": "Turn 12"
+      },
+      "dirX": -0.9015,
+      "dirY": -0.4327
+    },
+    {
+      "number": 13,
+      "s": 0.8726,
+      "name": {
+        "ko": "T13",
+        "en": "Turn 13"
+      },
+      "dirX": 0.7552,
+      "dirY": -0.6555
+    },
+    {
+      "number": 14,
+      "s": 0.9348,
+      "name": {
+        "ko": "T14",
+        "en": "Turn 14"
+      },
+      "dirX": 0.6822,
+      "dirY": 0.7312
+    }
+  ],
+  "lapRecords": [
+    {
+      "driver": "Oscar Piastri",
+      "team": "McLaren",
+      "time": "1:15.743",
+      "year": 2025,
+      "session": "race",
+      "isTrackRecord": true
+    }
+  ],
+  "segments": [
+    {
+      "type": "sector",
+      "label": "S1",
+      "sStart": 0,
+      "sEnd": 0.31275
+    },
+    {
+      "type": "sector",
+      "label": "S2",
+      "sStart": 0.31275,
+      "sEnd": 0.6864
+    },
+    {
+      "type": "sector",
+      "label": "S3",
+      "sStart": 0.6864,
+      "sEnd": 1
+    }
+  ],
+  "trackData": {
+    "lengthMeters": 4657,
+    "laps": 66,
+    "cornerCount": 14,
+    "topSpeedKmh": 329,
+    "fullThrottlePercent": 60,
+    "firstHeld": 1991
+  },
+  "sections": [
+    {
+      "id": "elf-t2",
+      "name": {
+        "ko": "엘프~T2",
+        "en": "Elf to Turn 2"
+      },
+      "corners": [
+        1,
+        2
+      ],
+      "guide": {
+        "ko": "약 1km 메인 스트레이트 끝의 1번 우코너에서 곧바로 2번 좌코너로 방향을 바꾼다. 1번은 사실상 유일한 확실한 추월 지점이자 가장 까다로운 코너이고, 2번 탈출이 이어지는 3번의 리듬을 만든다. 메인 스트레이트는 스트레이트 모드 구간이다.",
+        "en": "Turn 1, a right-hander at the end of a roughly 1km main straight, flips straight into the left of Turn 2. Turn 1 is effectively the only reliable overtaking spot and the trickiest corner on the lap, and the Turn 2 exit sets up the rhythm for Turn 3. The main straight is a Straight Mode zone."
+      },
+      "sim": {
+        "summary": {
+          "ko": "100m 보드 · 4단 · 2번 방향 전환",
+          "en": "100 m board · 4th · Change direction for T2"
+        },
+        "popup": {
+          "brake": {
+            "ko": "100m 보드",
+            "en": "100m board"
+          },
+          "gear": {
+            "ko": "4단",
+            "en": "4th"
+          },
+          "watch": {
+            "ko": "1번 흔들리면 2번 라인까지 밀림",
+            "en": "Unsettling T1 pushes the T2 line wide too"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 100m 보드에서 강하게\n기어: 4단\n라인: 1번 안쪽을 잡되 2번 진입 각도까지 생각해서 탈출\n스로틀: 2번에서 부드럽게 다시 가속해 3번으로 이어간다\n핵심: 사실상 유일한 확실한 추월 지점\n주의: 1번 제동 중 차가 흔들리면 2번까지 라인이 바깥으로 밀린다",
+          "en": "Braking: Hard at the 100 m board\nGear: 4th\nLine: Take the inside at T1, but exit with the T2 entry angle in mind\nThrottle: Get back on the power smoothly at T2 and carry it into T3\nKey: Effectively the only reliable overtaking spot\nWatch: If the car gets unsettled under braking at T1, your line runs wide through T2 as well"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "renault",
+      "name": {
+        "ko": "르노",
+        "en": "Renault"
+      },
+      "corners": [
+        3
+      ],
+      "guide": {
+        "ko": "길게 이어지는 오르막 우코너로, 예선에선 풀스로틀인 경우가 많다. 앞 왼쪽 타이어에 가장 큰 부담을 주는 코너라 레이스에선 타이어를 아끼며 달린다. 탈출부터 4번까지 짧은 스트레이트 모드 구간이다.",
+        "en": "A long, uphill right-hander, often flat out in qualifying. It loads the front-left tyre more than any other corner, so drivers manage tyre wear here in the race. A short Straight Mode zone runs from the exit through to Turn 4."
+      },
+      "sim": {
+        "summary": {
+          "ko": "제동 없음 · 5단 · 앞 왼쪽 타이어",
+          "en": "No braking · 5th · Front-left tyre"
+        },
+        "popup": {
+          "brake": {
+            "ko": "없음",
+            "en": "None"
+          },
+          "gear": {
+            "ko": "5단",
+            "en": "5th"
+          },
+          "watch": {
+            "ko": "앞 왼쪽 타이어 과열",
+            "en": "Front-left tyre overheats"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 제동 없음\n기어: 5단\n라인: 안쪽에 최대한 붙었다가 코너가 넓어지는 만큼 스티어링을 푼다\n스로틀: 예선엔 풀스로틀, 레이스에선 타이어를 아끼며 조절\n핵심: 탈출이 4번까지 이어지는 짧은 스트레이트 모드 구간 속도를 결정\n주의: 앞 왼쪽 타이어가 과열되기 쉽다",
+          "en": "Braking: No braking\nGear: 5th\nLine: Stay as close to the inside as you can, then unwind the steering as the corner opens\nThrottle: Flat out in qualifying; manage it to save the tyres in the race\nKey: The exit sets your speed through the short Straight Mode zone that runs to T4\nWatch: The front-left tyre overheats easily"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "repsol-seat",
+      "name": {
+        "ko": "렙솔~세아트",
+        "en": "Repsol to Seat"
+      },
+      "corners": [
+        4,
+        5
+      ],
+      "guide": {
+        "ko": "4번 우코너는 짧은 직선 끝의 까다로운 제동 구간이고, 이어서 내리막으로 제동해 5번 좌코너에 들어간다. 5번은 내리막이라 늦게 밟기 쉽지만 노면 경사 덕에 에이펙스를 조금 놓쳐도 손해가 크지 않다. 5번 탈출부터 7번까지 스트레이트 모드 구간이다.",
+        "en": "Turn 4, a right-hander at the end of a short straight, is a tricky braking zone, leading into downhill braking for the left of Turn 5. T5 is easy to brake for late since it is downhill, but the camber means missing the apex slightly costs less than expected. The Straight Mode zone runs from the T5 exit through to Turn 7."
+      },
+      "sim": {
+        "summary": {
+          "ko": "4번 75m 보드 · 3~4단 · 5번 내리막 제동",
+          "en": "75 m board at T4 · 3rd–4th · Downhill braking at T5"
+        },
+        "popup": {
+          "brake": {
+            "ko": "4번 75m 보드",
+            "en": "75m board at T4"
+          },
+          "gear": {
+            "ko": "3~4단",
+            "en": "3rd–4th"
+          },
+          "watch": {
+            "ko": "5번 내리막에서 늦은 제동",
+            "en": "Braking too late downhill into T5"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 4번은 75m 보드, 5번은 내리막이라 평소보다 일찍\n기어: 4번 3~4단, 5번 3단\n라인: 4번 탈출에서 바깥으로 흘렀다가 오른쪽으로 옮겨 5번 진입\n스로틀: 5번 탈출은 예상보다 일찍 열 수 있지만 휠스핀 주의\n핵심: 5번은 에이펙스를 조금 놓쳐도 경사가 받쳐준다\n주의: 내리막이라 5번 제동을 늦게 가져가기 쉽다",
+          "en": "Braking: 75 m board at T4, and earlier than usual at T5 because it is downhill\nGear: 3rd–4th at T4, 3rd at T5\nLine: Let the car drift wide on the T4 exit, then move right to enter T5\nThrottle: You can get on the throttle earlier than expected at the T5 exit, but watch for wheelspin\nKey: The slope helps even if you miss the T5 apex slightly\nWatch: Because it's downhill, it's easy to brake too late for T5"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t6-wurth",
+      "name": {
+        "ko": "T6~T8",
+        "en": "Turn 6 to Turn 8"
+      },
+      "corners": [
+        6,
+        7,
+        8
+      ],
+      "guide": {
+        "ko": "6번은 스트레이트 모드 구간 안에 있어 풀스로틀로 지나는 좌측 킹크이고, 이어지는 7번 좌코너와 8번 우코너는 오르막으로 방향을 바꾸는 중속 구간이다. 연석을 세게 밟으면 차가 흔들린다.",
+        "en": "Turn 6 is a left-hand kink taken flat out inside the Straight Mode zone, leading into the medium-speed direction changes of the uphill Turn 7 (left) and Turn 8 (right). Hitting the kerbs hard unsettles the car."
+      },
+      "sim": {
+        "summary": {
+          "ko": "7번 연석에서 제동 · 4단 · 연석 절제",
+          "en": "Brake at the T7 kerb · 4th · Restrain the kerbs"
+        },
+        "popup": {
+          "brake": {
+            "ko": "7번 연석 시작점",
+            "en": "Where the T7 kerb begins"
+          },
+          "gear": {
+            "ko": "4단",
+            "en": "4th"
+          },
+          "watch": {
+            "ko": "연석 세게 밟으면 흔들림",
+            "en": "Hitting the kerbs hard unsettles the car"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 7번은 오른쪽 연석이 시작되는 지점에서 제동\n기어: 4단\n라인: 연석은 살짝만, 넓어지지 않게\n스로틀: 8번 탈출부터 9번까지 오르막을 일찍 가속\n핵심: 8번 탈출이 9번 진입 속도를 결정\n주의: 연석을 세게 밟으면 차가 흔들린다",
+          "en": "Braking: Brake where the right-hand kerb begins at T7\nGear: 4th\nLine: Touch the kerbs only lightly, and don't run wide\nThrottle: Accelerate early up the hill from the T8 exit to T9\nKey: The T8 exit decides your entry speed at T9\nWatch: Riding the kerbs hard unsettles the car"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "campsa",
+      "name": {
+        "ko": "캄프사",
+        "en": "Campsa"
+      },
+      "corners": [
+        9
+      ],
+      "guide": {
+        "ko": "앞이 안 보이는 빠른 우코너. 예선에선 풀스로틀이지만 연료가 무거운 레이스 초반엔 살짝 리프트가 필요할 수 있다. 탈출부터 10번까지 백 스트레이트가 스트레이트 모드 구간이다.",
+        "en": "A fast, blind right-hander. It's flat out in qualifying, but a small lift may be needed early in the race with a heavy fuel load. The back straight from the exit through to Turn 10 is a Straight Mode zone."
+      },
+      "sim": {
+        "summary": {
+          "ko": "제동 없음 · 고단 · 블라인드 진입",
+          "en": "No braking · High gear · Blind entry"
+        },
+        "popup": {
+          "brake": {
+            "ko": "없음 (레이스 초반 리프트)",
+            "en": "None (slight lift early in the race)"
+          },
+          "gear": {
+            "ko": "고단",
+            "en": "High gear"
+          },
+          "watch": {
+            "ko": "넓어지면 바로 자갈",
+            "en": "Running wide puts you straight in the gravel"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 제동 없음, 레이스 초반엔 살짝 리프트\n기어: 고단 유지\n라인: 진입 전 왼쪽 연석까지 넓게 쓰고 에이펙스 연석을 충분히 탄다\n스로틀: 풀스로틀 유지\n핵심: 탈출 속도가 백 스트레이트와 10번 추월을 좌우\n주의: 앞이 안 보이는 진입, 넓어지면 자갈",
+          "en": "Braking: No braking, with a slight lift early in the race\nGear: Stay in a high gear\nLine: Use the width out to the left kerb before entry, and take enough of the apex kerb\nThrottle: Stay flat out\nKey: Exit speed decides your run down the back straight and the T10 overtake\nWatch: A blind entry, and if you run wide you're in the gravel"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "la-caixa",
+      "name": {
+        "ko": "라 카이샤",
+        "en": "La Caixa"
+      },
+      "corners": [
+        10
+      ],
+      "guide": {
+        "ko": "백 스트레이트 끝의 좌코너로 랩에서 가장 강하게 제동한다. 2021년 재설계 뒤 추월이 나오는 지점이 됐다.",
+        "en": "A left-hander at the end of the back straight where the hardest braking of the lap happens. It has become an overtaking spot since the 2021 redesign."
+      },
+      "sim": {
+        "summary": {
+          "ko": "100m 보드 직전 랩 최강 제동 · 3단 · 탈출 트랙션",
+          "en": "Hardest braking of the lap just before the 100 m board · 3rd · Traction on exit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "100m 보드 직전",
+            "en": "Just before the 100 m board"
+          },
+          "gear": {
+            "ko": "3단",
+            "en": "3rd"
+          },
+          "watch": {
+            "ko": "제동 중 뒤 미끄러짐",
+            "en": "Rear can slide under braking"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 100m 보드 직전에서 랩에서 가장 강하게\n기어: 3단\n라인: 늦은 에이펙스로 탈출 각도 확보\n스로틀: 트랙션을 확인하며 점진적으로\n핵심: 1번 다음가는 추월 지점\n주의: 제동 중 뒤가 미끄러지기 쉽다",
+          "en": "Braking: The hardest of the lap, just before the 100 m board\nGear: 3rd\nLine: Late apex to secure the exit angle\nThrottle: Build up gradually while checking traction\nKey: The next best overtaking spot after T1\nWatch: The rear slides easily under braking"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t11-t12",
+      "name": {
+        "ko": "T11~T12",
+        "en": "Turn 11 to Turn 12"
+      },
+      "corners": [
+        11,
+        12
+      ],
+      "guide": {
+        "ko": "11번에서 왼쪽으로 빠르게 방향을 바꾼 뒤 좁게 돌아 나가는 12번 우코너로 이어진다. 12번은 코스 경계선 판정이 엄격하다.",
+        "en": "A quick left flick at Turn 11 leads into the tight right of Turn 12. Track limits are strictly enforced at Turn 12."
+      },
+      "sim": {
+        "summary": {
+          "ko": "11번 짧은 감속 · 4단 · 12번 트랙 리밋",
+          "en": "Short braking at T11 · 4th · T12 track limits"
+        },
+        "popup": {
+          "brake": {
+            "ko": "11번 진입 짧게",
+            "en": "Short braking into T11"
+          },
+          "gear": {
+            "ko": "4단",
+            "en": "4th"
+          },
+          "watch": {
+            "ko": "12번 넓어지면 트랙 리밋 위반",
+            "en": "Running wide at T12 breaks track limits"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 11·12번은 짧게\n기어: 4단\n라인: 11번 안쪽 연석을 공략해 12번 진입을 넓힌다\n스로틀: 12번 탈출에서 13번을 위해 일찍\n핵심: 12번 탈출이 마지막 고속 코너 진입 속도를 결정\n주의: 12번에서 넓어지면 트랙 리밋 위반",
+          "en": "Braking: Short at T11 and T12\nGear: 4th\nLine: Attack the inside kerb at T11 to widen the T12 entry\nThrottle: Early out of T12 to set up T13\nKey: The T12 exit sets your entry speed into the last fast corner\nWatch: Run wide at T12 and you break track limits"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t13-t14",
+      "name": {
+        "ko": "T13~T14",
+        "en": "Turn 13 to Turn 14"
+      },
+      "corners": [
+        13,
+        14
+      ],
+      "guide": {
+        "ko": "2023년 느린 시케인을 없애고 되살린 빠른 우코너 두 개로 메인 스트레이트에 나간다. 13번에서 오버테이크를 감지하고 14번 직전부터 오버테이크 모드를 쓸 수 있어, 여기서의 탈출이 다음 랩 1번 추월을 결정한다.",
+        "en": "Two fast right-handers, reinstated in 2023 after the slow chicane there was removed, lead onto the main straight. Overtake Mode is detected at Turn 13 and becomes available just before Turn 14, so the exit here decides the overtaking attempt into Turn 1 on the next lap."
+      },
+      "sim": {
+        "summary": {
+          "ko": "13·14번 풀스로틀 · 14번 7단 · 14번 탈출 속도",
+          "en": "Flat out through T13 and T14 · 7th at T14 · Carry speed out of T14"
+        },
+        "popup": {
+          "brake": {
+            "ko": "13·14번 풀스로틀",
+            "en": "Flat out through T13 and T14"
+          },
+          "gear": {
+            "ko": "14번 7단 (안전하게는 6단)",
+            "en": "7th at T14 (6th to play safe)"
+          },
+          "watch": {
+            "ko": "진입에서 망설이면 직선 손해",
+            "en": "Hesitating on entry costs speed down the straight"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 13·14번 풀스로틀 (안전하게는 14번에서 살짝 리프트)\n기어: 14번 7단 (안전하게는 살짝 리프트 6단)\n라인: 두 코너를 하나처럼 이어 탈출에서 트랙 폭을 모두 쓴다\n스로틀: 14번 탈출부터 풀스로틀\n핵심: 탈출 속도가 1번 추월 시도를 결정\n주의: 진입에서 망설이면 메인 스트레이트 전체에서 손해",
+          "en": "Braking: Flat out through T13 and T14 (a slight lift at T14 to play safe)\nGear: 7th at T14 (a slight lift in 6th to play safe)\nLine: Link the two corners as one, and use the whole track width on exit\nThrottle: Flat out from the T14 exit\nKey: Exit speed decides your attempt at T1\nWatch: Hesitating on entry costs you along the whole main straight"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    }
+  ],
+  "highlights": [
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.1694,
+      "sEnd": 0.1794,
+      "label": "엘프",
+      "note": {
+        "ko": "약 1km 메인 스트레이트 끝, 사실상 유일한 확실한 추월 지점",
+        "en": "The end of a roughly 1km main straight — effectively the only reliable overtaking spot"
+      }
+    },
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.7388,
+      "sEnd": 0.7488,
+      "label": "라 카이샤",
+      "note": {
+        "ko": "백 스트레이트 끝 랩 최강 제동, 두 번째 추월 지점",
+        "en": "The hardest braking of the lap at the end of the back straight — the second overtaking spot"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.24519999999999997,
+      "sEnd": 0.2552,
+      "label": "르노",
+      "note": {
+        "ko": "차의 공기역학 성능과 타이어 관리가 드러나는 긴 오르막 우코너",
+        "en": "A long, uphill right-hander that shows off a car's aero performance and tyre management"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.614,
+      "sEnd": 0.624,
+      "label": "캄프사",
+      "note": {
+        "ko": "앞이 안 보이는 고속 우코너",
+        "en": "A blind, high-speed right-hander"
+      }
+    }
+  ],
+  "aero": {
+    "season": 2026,
+    "status": "confirmed",
+    "straightModeZones": [
+      {
+        "from": 14,
+        "to": 1
+      },
+      {
+        "from": 3,
+        "to": 4
+      },
+      {
+        "from": 5,
+        "to": 7
+      },
+      {
+        "from": 9,
+        "to": 10
+      }
+    ],
+    "overtake": {
+      "detection": {
+        "corner": 13,
+        "position": "at"
+      },
+      "activation": {
+        "corner": 14,
+        "position": "before"
+      }
+    },
+    "source": "F1 공식 2026 카탈루냐 가이드"
+  },
+  "character": {
+    "type": "permanent",
+    "summary": {
+      "ko": "고속·중속·저속 코너가 고르게 섞여 차의 공기역학 밸런스가 그대로 드러난다. 추월은 주로 1번과 10번 제동 구간에서 나온다.",
+      "en": "An even mix of fast, medium and slow corners that shows each car's aerodynamic balance. Passing mostly happens under braking into T1 and T10."
+    }
+  }
+}

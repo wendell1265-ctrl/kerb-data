@@ -1,0 +1,615 @@
+{
+  "trackId": "sakhir",
+  "name": "Sakhir",
+  "lengthMeters": 5412,
+  "rotationDeg": 267,
+  "geojsonFile": "bh-2002",
+  "startOffsetS": 0.971,
+  "corners": [
+    {
+      "number": 1,
+      "s": 0.134,
+      "name": {
+        "ko": "마이클 슈마허 코너",
+        "en": "Michael Schumacher Corner"
+      },
+      "dirX": -0.3417,
+      "dirY": 0.9398
+    },
+    {
+      "number": 2,
+      "s": 0.1527,
+      "name": {
+        "ko": "T2",
+        "en": "Turn 2"
+      },
+      "dirX": 0.9529,
+      "dirY": 0.3033
+    },
+    {
+      "number": 3,
+      "s": 0.1742,
+      "name": {
+        "ko": "T3",
+        "en": "Turn 3"
+      },
+      "dirX": -0.9867,
+      "dirY": 0.1625
+    },
+    {
+      "number": 4,
+      "s": 0.2827,
+      "name": {
+        "ko": "T4",
+        "en": "Turn 4"
+      },
+      "dirX": -0.2296,
+      "dirY": -0.9733
+    },
+    {
+      "number": 5,
+      "s": 0.3326,
+      "name": {
+        "ko": "T5",
+        "en": "Turn 5"
+      },
+      "dirX": -0.4556,
+      "dirY": 0.8902
+    },
+    {
+      "number": 6,
+      "s": 0.3486,
+      "name": {
+        "ko": "T6",
+        "en": "Turn 6"
+      },
+      "dirX": 0.8068,
+      "dirY": -0.5908
+    },
+    {
+      "number": 7,
+      "s": 0.3711,
+      "name": {
+        "ko": "T7",
+        "en": "Turn 7"
+      },
+      "dirX": -0.9699,
+      "dirY": 0.2434
+    },
+    {
+      "number": 8,
+      "s": 0.4194,
+      "name": {
+        "ko": "T8",
+        "en": "Turn 8"
+      },
+      "dirX": 0.82,
+      "dirY": 0.5724
+    },
+    {
+      "number": 9,
+      "s": 0.4872,
+      "name": {
+        "ko": "T9",
+        "en": "Turn 9"
+      },
+      "dirX": -0.3285,
+      "dirY": -0.9445
+    },
+    {
+      "number": 10,
+      "s": 0.5045,
+      "name": {
+        "ko": "T10",
+        "en": "Turn 10"
+      },
+      "dirX": -0.9231,
+      "dirY": -0.3845
+    },
+    {
+      "number": 11,
+      "s": 0.643,
+      "name": {
+        "ko": "T11",
+        "en": "Turn 11"
+      },
+      "dirX": 0.9081,
+      "dirY": 0.4188
+    },
+    {
+      "number": 12,
+      "s": 0.7138,
+      "name": {
+        "ko": "T12",
+        "en": "Turn 12"
+      },
+      "dirX": -0.9566,
+      "dirY": 0.2913
+    },
+    {
+      "number": 13,
+      "s": 0.7609,
+      "name": {
+        "ko": "T13",
+        "en": "Turn 13"
+      },
+      "dirX": -0.5581,
+      "dirY": -0.8298
+    },
+    {
+      "number": 14,
+      "s": 0.9096,
+      "name": {
+        "ko": "T14",
+        "en": "Turn 14"
+      },
+      "dirX": 0.9965,
+      "dirY": -0.0835
+    },
+    {
+      "number": 15,
+      "s": 0.9245,
+      "name": {
+        "ko": "T15",
+        "en": "Turn 15"
+      },
+      "dirX": 0.1555,
+      "dirY": 0.9878
+    }
+  ],
+  "lapRecords": [
+    {
+      "driver": "Pedro de la Rosa",
+      "team": "McLaren",
+      "time": "1:31.447",
+      "year": 2005,
+      "session": "race",
+      "isTrackRecord": true
+    }
+  ],
+  "segments": [
+    {
+      "type": "sector",
+      "label": "S1",
+      "sStart": 0,
+      "sEnd": 0.32262
+    },
+    {
+      "type": "sector",
+      "label": "S2",
+      "sStart": 0.32262,
+      "sEnd": 0.75148
+    },
+    {
+      "type": "sector",
+      "label": "S3",
+      "sStart": 0.75148,
+      "sEnd": 1
+    }
+  ],
+  "trackData": {
+    "lengthMeters": 5412,
+    "laps": 57,
+    "cornerCount": 15,
+    "topSpeedKmh": 320,
+    "fullThrottlePercent": 65,
+    "firstHeld": 2004
+  },
+  "sections": [
+    {
+      "id": "schumacher-t2-t3",
+      "name": {
+        "ko": "마이클 슈마허 코너~T3",
+        "en": "Michael Schumacher Corner to Turn 3"
+      },
+      "corners": [
+        1,
+        2,
+        3
+      ],
+      "guide": {
+        "ko": "메인 스트레이트 끝에서 강하게 제동하는 우측 헤어핀. 탈출 직후 2번 좌코너로 방향을 바꾸고, 3번 우측 킹크는 풀스로틀로 지나 긴 직선으로 이어진다. 2번이 오르막 탈출이라 휠스핀이 나기 쉽다.",
+        "en": "A right-hand hairpin demanding hard braking at the end of the main straight. Right on exit it flips into the left of Turn 2, then a flat-out right kink at Turn 3 leads onto a long straight. The uphill exit at Turn 2 makes wheelspin easy to trigger."
+      },
+      "sim": {
+        "summary": {
+          "ko": "100m 보드 · 2단 · 2번 탈출 우선",
+          "en": "100 m board · 2nd · Prioritise the T2 exit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "100m 보드 부근에서 강하게",
+            "en": "Hard around the 100m board"
+          },
+          "gear": {
+            "ko": "2단",
+            "en": "2nd"
+          },
+          "watch": {
+            "ko": "1번 탈출 리어 흔들림",
+            "en": "Rear can get unsettled on Turn 1 exit"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 100m 보드 부근에서 직선 상태로 강하게\n기어: 2단\n라인: 1번 탈출은 오른쪽에 남겨 2번 탈출을 살린다, 3번은 트랙 폭 전부 사용\n스로틀: 2번 오르막 탈출에서는 점진적으로, 3번은 풀스로틀\n핵심: 3번 이후 긴 직선이라 2번 탈출 속도가 4번까지 영향을 준다\n주의: 1번에서 과하게 제동하면 언더스티어, 탈출에서 리어가 흔들리기 쉽다",
+          "en": "Braking: Hard in a straight line around the 100 m board\nGear: 2nd\nLine: Leave the T1 exit on the right to set up the T2 exit; use the whole track width at T3\nThrottle: Build up gradually on the T2 uphill exit, flat out at T3\nKey: With a long straight after T3, T2 exit speed carries all the way to T4\nWatch: Brake too hard at T1 and you get understeer, and the rear unsettles on exit"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t4",
+      "name": {
+        "ko": "T4",
+        "en": "Turn 4"
+      },
+      "corners": [
+        4
+      ],
+      "guide": {
+        "ko": "긴 오르막 직선 끝의 중속 우코너. 여러 라인이 가능해 1번과 함께 대표적인 추월 지점이다.",
+        "en": "A medium-speed right-hander at the end of a long uphill straight. Multiple lines are possible, making it — alongside Turn 1 — one of the signature overtaking spots on the lap."
+      },
+      "sim": {
+        "summary": {
+          "ko": "100m 보드 강한 제동 · 3~4단 · 여러 라인",
+          "en": "Hard at the 100 m board · 3rd–4th · Multiple lines"
+        },
+        "popup": {
+          "brake": {
+            "ko": "4번 100m 보드에서 강하게",
+            "en": "Hard at the 100 m board into T4"
+          },
+          "gear": {
+            "ko": "3~4단",
+            "en": "3rd–4th"
+          },
+          "watch": {
+            "ko": "탈출 욕심내면 5번 진입 라인 손해",
+            "en": "Pushing the exit costs the line into Turn 5"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 직선 끝 100m 보드에서 강하게\n기어: 3~4단\n라인: 탈출이 넓게 열리는 코너라 방어 라인과 공격 라인 모두 가능\n핵심: 1번과 함께 랩의 주요 추월 지점\n주의: 탈출에서 욕심내면 5번 진입 라인이 바깥으로 밀린다",
+          "en": "Braking: Hard at the 100 m board at the end of the straight\nGear: 3rd–4th\nLine: The exit opens up wide, so both a defending and an attacking line are possible\nKey: Along with T1, a main overtaking spot of the lap\nWatch: Get greedy on the exit and your line into T5 is pushed wide"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t5-t7",
+      "name": {
+        "ko": "T5~T7 에세스",
+        "en": "Turn 5-7 Esses"
+      },
+      "corners": [
+        5,
+        6,
+        7
+      ],
+      "guide": {
+        "ko": "좌-우-좌로 빠르게 방향이 바뀌는 고속 구간. 6번보다 7번 진입을 우선해야 흐름이 산다. 오르막이라 탈출 트랙션이 중요하다.",
+        "en": "A fast left-right-left sequence. Prioritizing the entry into Turn 7 over the exit of Turn 6 is what keeps the flow alive. Being uphill, exit traction matters here."
+      },
+      "sim": {
+        "summary": {
+          "ko": "가벼운 탭 · 5단 · 7번 진입 우선",
+          "en": "Light tap · 5th · Prioritise the T7 entry"
+        },
+        "popup": {
+          "brake": {
+            "ko": "5번 연석 이후 가볍게, 7번 살짝",
+            "en": "Light after the Turn 5 kerb, slight at Turn 7"
+          },
+          "gear": {
+            "ko": "5단",
+            "en": "5th"
+          },
+          "watch": {
+            "ko": "오르막 연석에서 트랙션 손실",
+            "en": "Traction loss over the uphill kerbs"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 5번 연석 이후 가볍게 탭, 7번은 살짝 제동\n기어: 5단\n라인: 5번은 왼쪽에 붙여 6번 진입을 넓히고, 7번 진입을 위해 6번 탈출은 오른쪽\n스로틀: 연석을 넘는 동안에도 크게 떼지 않는다\n핵심: 6번 탈출보다 7번 진입이 우선\n주의: 오르막 구간이라 탈출 연석을 밟으면 트랙션이 떨어진다",
+          "en": "Braking: A light tap after the T5 kerb, slight braking at T7\nGear: 5th\nLine: Hug the left at T5 to widen the T6 entry, and exit T6 to the right to set up the T7 entry\nThrottle: Don't lift much even while crossing the kerbs\nKey: The T7 entry matters more than the T6 exit\nWatch: It's uphill, so riding the exit kerb costs traction"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t8",
+      "name": {
+        "ko": "T8",
+        "en": "Turn 8"
+      },
+      "corners": [
+        8
+      ],
+      "guide": {
+        "ko": "에세스 뒤 급격히 꺾이는 우측 헤어핀. 차를 깔끔하게 돌린 뒤 스로틀을 점진적으로 여는 게 핵심이다.",
+        "en": "A sharp right-hand hairpin right after the esses. Rotating the car cleanly and then feeding in throttle progressively is the key here."
+      },
+      "sim": {
+        "summary": {
+          "ko": "강한 제동 · 2단 · 점진적 스로틀",
+          "en": "Hard braking · 2nd · Progressive throttle"
+        },
+        "popup": {
+          "brake": {
+            "ko": "7번 탈출 후 직선, 내리막 강하게",
+            "en": "In a straight line after Turn 7 exit, hard on the downhill"
+          },
+          "gear": {
+            "ko": "2단",
+            "en": "2nd"
+          },
+          "watch": {
+            "ko": "성급한 스로틀에 리어 불안정",
+            "en": "Early throttle unsettles the rear"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 7번 탈출 후 왼쪽에서 직선으로, 내리막에서 강하게 제동\n기어: 2단\n라인: 깔끔하게 회전시키고 탈출 연석은 피한다\n스로틀: 성급하게 열면 리어가 불안정해진다\n핵심: 9·10번 구간 진입 위치를 여기서 만든다\n주의: 탈출 연석을 밟으면 차가 흔들린다",
+          "en": "Braking: Straight from the left after the T7 exit, hard braking on the downhill\nGear: 2nd\nLine: Rotate the car cleanly and avoid the exit kerb\nThrottle: Open it hastily and the rear becomes unstable\nKey: You build your entry position into the T9–T10 section here\nWatch: Riding the exit kerb unsettles the car"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t9-t10",
+      "name": {
+        "ko": "T9~T10",
+        "en": "Turn 9 to Turn 10"
+      },
+      "corners": [
+        9,
+        10
+      ],
+      "guide": {
+        "ko": "9번 좌코너에 이어 내리막에서 제동하며 꺾는 10번 좌코너로 들어간다. 코너를 돌면서 제동하는 구간이라 락업이 잦고, 10번 탈출이 백 스트레이트 전체 속도를 결정한다.",
+        "en": "The left of Turn 9 leads into Turn 10, a left-hander braked for downhill and mid-corner. Braking while turning here makes lock-ups common, and Turn 10 exit speed sets up the entire back straight."
+      },
+      "sim": {
+        "summary": {
+          "ko": "내리막 제동 · 2~3단 · 9번 희생",
+          "en": "Downhill braking · 2nd–3rd · Sacrifice T9"
+        },
+        "popup": {
+          "brake": {
+            "ko": "9번 희생, 10번은 직선에 가깝게",
+            "en": "Sacrifice 9, brake 10 as straight as possible"
+          },
+          "gear": {
+            "ko": "2~3단",
+            "en": "2nd–3rd"
+          },
+          "watch": {
+            "ko": "내리막 회전 중 락업",
+            "en": "Lock-ups braking downhill mid-turn"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 9번 에이펙스를 희생해 10번 제동을 최대한 직선에 가깝게\n기어: 2~3단\n라인: 9번은 오른쪽에 붙여 10번 진입 라인 확보, 10번은 늦은 에이펙스\n스로틀: 10번 탈출부터 백 스트레이트까지 점진적으로 전개\n핵심: 10번 탈출 속도가 백 스트레이트 전체를 좌우\n주의: 내리막에서 회전 중 제동이라 앞바퀴 락업이 잦다",
+          "en": "Braking: Sacrifice the T9 apex to make the T10 braking as close to a straight line as possible\nGear: 2nd–3rd\nLine: Hug the right at T9 to secure the T10 entry line, and take a late apex at T10\nThrottle: Build up progressively from the T10 exit to the back straight\nKey: The T10 exit speed decides the whole back straight\nWatch: You brake mid-turn on the downhill, so front-wheel lock-ups are frequent"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t11-t12",
+      "name": {
+        "ko": "T11~T12",
+        "en": "Turn 11 to Turn 12"
+      },
+      "corners": [
+        11,
+        12
+      ],
+      "guide": {
+        "ko": "백 스트레이트 끝 오르막 좌코너 11번은 짧게 제동하고 꺾는다. 탈출이 넓게 벌어지기 쉽고, 이어지는 12번 우코너는 빠르게 통과하며 중간 섹터를 마무리한다.",
+        "en": "Turn 11, an uphill left at the end of the back straight, is taken with a short stab of the brakes. The exit tends to run wide, and the right-hander at Turn 12 that follows is taken quickly to close out the middle sector."
+      },
+      "sim": {
+        "summary": {
+          "ko": "짧은 제동 · 4단 · 11번 탈출 폭",
+          "en": "Short braking · 4th · T11 exit width"
+        },
+        "popup": {
+          "brake": {
+            "ko": "11번은 탭 수준으로 짧게",
+            "en": "Just a short tap at Turn 11"
+          },
+          "gear": {
+            "ko": "4단",
+            "en": "4th"
+          },
+          "watch": {
+            "ko": "12번 안쪽 연석에서 튕김",
+            "en": "Kicks off the inside kerb at Turn 12"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 11번은 짧게 탭하는 수준\n기어: 4단\n라인: 11번 탈출에서 왼쪽으로 옮겨 12번 진입 준비\n스로틀: 12번은 풀스로틀 유지\n핵심: 11번은 레이스 상황에서 추월 시도가 나오는 지점\n주의: 12번 안쪽 연석을 밟으면 차가 튕겨 나간다",
+          "en": "Braking: At T11 little more than a short tap\nGear: 4th\nLine: Move left on the T11 exit to prepare for the T12 entry\nThrottle: Stay flat out at T12\nKey: T11 is a spot where overtaking attempts come up in race conditions\nWatch: Riding the inside kerb at T12 kicks the car off"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t13",
+      "name": {
+        "ko": "T13",
+        "en": "Turn 13"
+      },
+      "corners": [
+        13
+      ],
+      "guide": {
+        "ko": "회전하면서 제동해야 하는 감속 반경 우코너로, 서킷에서 가장 까다로운 코너로 꼽힌다. 탈출 뒤 긴 직선이 이어진다.",
+        "en": "A decreasing-radius right-hander braked for while still turning — widely regarded as the trickiest corner on the circuit. A long straight follows the exit."
+      },
+      "sim": {
+        "summary": {
+          "ko": "회전 중 제동 · 4단 · 탈출 우선",
+          "en": "Braking while turning · 4th · Prioritise exit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "확신 없으면 일찍, 회전하며",
+            "en": "Brake early if unsure, while turning"
+          },
+          "gear": {
+            "ko": "4단",
+            "en": "4th"
+          },
+          "watch": {
+            "ko": "늦은 제동 시 직선 속도 손실",
+            "en": "Late braking costs straight-line speed"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 확신이 없으면 늦게보다 일찍, 회전하면서 제동\n기어: 4단\n라인: 코너가 점점 조여지므로 늦은 에이펙스\n스로틀: 에이펙스 이후 점진적으로\n핵심: 탈출 속도가 14번까지 이어지는 긴 직선을 좌우\n주의: 늦게 제동하면 바깥으로 밀려 직선 속도를 크게 잃는다",
+          "en": "Braking: If you're unsure, brake earlier rather than later, while turning\nGear: 4th\nLine: The corner keeps tightening, so take a late apex\nThrottle: Build up progressively after the apex\nKey: Exit speed decides the long straight that runs to T14\nWatch: Brake late and you are pushed wide and lose a lot of straight-line speed"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t14-t15",
+      "name": {
+        "ko": "T14~T15",
+        "en": "Turn 14 to Turn 15"
+      },
+      "corners": [
+        14,
+        15
+      ],
+      "guide": {
+        "ko": "긴 직선 끝의 강한 제동 우코너 14번이 사실상 마지막 코너이고, 15번은 14번 탈출에 붙은 우측 킹크다. 탈출 속도가 메인 스트레이트와 다음 랩 1번 추월을 결정한다.",
+        "en": "Turn 14, a hard-braking right-hander at the end of a long straight, is effectively the final corner — Turn 15 is a right kink tacked onto its exit. Exit speed here shapes the main straight and next lap's overtaking attempt into Turn 1."
+      },
+      "sim": {
+        "summary": {
+          "ko": "100m 보드 강한 제동 · 3단 · 탈출 속도",
+          "en": "Hard at the 100 m board · 3rd · Exit speed"
+        },
+        "popup": {
+          "brake": {
+            "ko": "14번 100m 보드에서 강하게",
+            "en": "Hard at the 100 m board into T14"
+          },
+          "gear": {
+            "ko": "3단",
+            "en": "3rd"
+          },
+          "watch": {
+            "ko": "15번 탈출 트랙 리밋",
+            "en": "Track limits on the Turn 15 exit"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 직선 끝 100m 보드에서 직선 상태로 강하게\n기어: 3단\n라인: 늦은 턴인, 늦은 에이펙스\n스로틀: 점진적으로, 과하면 15번에서 바깥으로 밀린다\n핵심: 탈출 속도가 다음 랩 1번 추월 시도를 결정\n주의: 15번 탈출 흰 선 트랙 리밋",
+          "en": "Braking: Hard in a straight line at the 100 m board at the end of the straight\nGear: 3rd\nLine: Late turn-in, late apex\nThrottle: Progressively; too much pushes you wide at T15\nKey: Exit speed decides your T1 overtake attempt next lap\nWatch: Track limits at the white line on the T15 exit"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    }
+  ],
+  "highlights": [
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.12400000000000001,
+      "sEnd": 0.134,
+      "label": "마이클 슈마허 코너",
+      "note": {
+        "ko": "메인 스트레이트 끝 강한 제동, 서킷의 대표 추월 지점",
+        "en": "Hard braking at the end of the main straight — the circuit's signature overtaking spot"
+      }
+    },
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.2727,
+      "sEnd": 0.2827,
+      "label": "T4",
+      "note": {
+        "ko": "긴 오르막 직선 끝, 여러 라인이 가능한 두 번째 추월 지점",
+        "en": "The end of a long uphill straight — a second overtaking spot with multiple lines available"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.3326,
+      "sEnd": 0.3711,
+      "label": "T5~T7 에세스",
+      "note": {
+        "ko": "좌-우-좌로 빠르게 이어지는 고속 방향 전환",
+        "en": "A fast left-right-left sequence of direction changes"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.49449999999999994,
+      "sEnd": 0.5045,
+      "label": "T10",
+      "note": {
+        "ko": "내리막에서 회전하며 제동, 락업이 자주 나오는 지점",
+        "en": "Braking mid-turn on a downhill section — lock-ups are common here"
+      }
+    }
+  ],
+  "aero": {
+    "season": 2026,
+    "status": "notHeld",
+    "straightModeZones": [],
+    "overtake": null,
+    "source": "2026년 대회 취소로 FIA 발표 없음"
+  },
+  "character": {
+    "type": "permanent",
+    "summary": {
+      "ko": "사막 위 서킷. 긴 직선 끝 강한 제동 구간이 여러 개라 추월이 많고, 거친 노면 탓에 타이어 마모가 크다.",
+      "en": "A desert circuit with several heavy braking zones at the end of long straights, making passing common. Abrasive tarmac means high tyre wear."
+    }
+  }
+}

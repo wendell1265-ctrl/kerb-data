@@ -1,0 +1,562 @@
+{
+  "trackId": "portimao",
+  "name": "Portimão",
+  "lengthMeters": 4653,
+  "rotationDeg": 286,
+  "geojsonFile": "pt-2008",
+  "startOffsetS": 0.951,
+  "corners": [
+    {
+      "number": 1,
+      "s": 0.1356,
+      "name": {
+        "ko": "프리메이라",
+        "en": "Primeira"
+      },
+      "dirX": -0.7076,
+      "dirY": 0.7066
+    },
+    {
+      "number": 2,
+      "s": 0.1717,
+      "name": {
+        "ko": "T2",
+        "en": "Turn 2"
+      },
+      "dirX": -1,
+      "dirY": 0.004
+    },
+    {
+      "number": 3,
+      "s": 0.2053,
+      "name": {
+        "ko": "라구스",
+        "en": "Lagos"
+      },
+      "dirX": -0.1049,
+      "dirY": -0.9945
+    },
+    {
+      "number": 4,
+      "s": 0.2375,
+      "name": {
+        "ko": "T4",
+        "en": "Turn 4"
+      },
+      "dirX": -0.5885,
+      "dirY": 0.8085
+    },
+    {
+      "number": 5,
+      "s": 0.3637,
+      "name": {
+        "ko": "토레 VIP",
+        "en": "Torre VIP"
+      },
+      "dirX": 0.9737,
+      "dirY": -0.2279
+    },
+    {
+      "number": 6,
+      "s": 0.4167,
+      "name": {
+        "ko": "T6",
+        "en": "Turn 6"
+      },
+      "dirX": 0.0078,
+      "dirY": 1
+    },
+    {
+      "number": 7,
+      "s": 0.4626,
+      "name": {
+        "ko": "T7",
+        "en": "Turn 7"
+      },
+      "dirX": -0.3739,
+      "dirY": 0.9275
+    },
+    {
+      "number": 8,
+      "s": 0.4965,
+      "name": {
+        "ko": "T8",
+        "en": "Turn 8"
+      },
+      "dirX": -0.8904,
+      "dirY": -0.4552
+    },
+    {
+      "number": 9,
+      "s": 0.5744,
+      "name": {
+        "ko": "T9",
+        "en": "Turn 9"
+      },
+      "dirX": 0.1896,
+      "dirY": 0.9819
+    },
+    {
+      "number": 10,
+      "s": 0.6228,
+      "name": {
+        "ko": "T10",
+        "en": "Turn 10"
+      },
+      "dirX": -0.5065,
+      "dirY": -0.8622
+    },
+    {
+      "number": 11,
+      "s": 0.6439,
+      "name": {
+        "ko": "T11",
+        "en": "Turn 11"
+      },
+      "dirX": 0.7467,
+      "dirY": -0.6652
+    },
+    {
+      "number": 12,
+      "s": 0.6876,
+      "name": {
+        "ko": "T12",
+        "en": "Turn 12"
+      },
+      "dirX": -0.9171,
+      "dirY": 0.3987
+    },
+    {
+      "number": 13,
+      "s": 0.7379,
+      "name": {
+        "ko": "T13",
+        "en": "Turn 13"
+      },
+      "dirX": 0.9185,
+      "dirY": 0.3953
+    },
+    {
+      "number": 14,
+      "s": 0.7916,
+      "name": {
+        "ko": "T14",
+        "en": "Turn 14"
+      },
+      "dirX": -0.5344,
+      "dirY": -0.8452
+    },
+    {
+      "number": 15,
+      "s": 0.8822,
+      "name": {
+        "ko": "갈프",
+        "en": "Galp"
+      },
+      "dirX": 0.9624,
+      "dirY": 0.2717
+    }
+  ],
+  "lapRecords": [
+    {
+      "driver": "Lewis Hamilton",
+      "team": "Mercedes",
+      "time": "1:18.750",
+      "year": 2020,
+      "session": "race",
+      "isTrackRecord": true
+    }
+  ],
+  "segments": [
+    {
+      "type": "sector",
+      "label": "S1",
+      "sStart": 0,
+      "sEnd": 0.3006
+    },
+    {
+      "type": "sector",
+      "label": "S2",
+      "sStart": 0.3006,
+      "sEnd": 0.6768542445733935
+    },
+    {
+      "type": "sector",
+      "label": "S3",
+      "sStart": 0.6768542445733935,
+      "sEnd": 1
+    }
+  ],
+  "trackData": {
+    "lengthMeters": 4653,
+    "laps": 66,
+    "cornerCount": 15,
+    "topSpeedKmh": 318,
+    "fullThrottlePercent": 60,
+    "firstHeld": 2020
+  },
+  "sections": [
+    {
+      "id": "primeira",
+      "name": {
+        "ko": "프리메이라",
+        "en": "Primeira"
+      },
+      "corners": [
+        1,
+        2
+      ],
+      "guide": {
+        "ko": "1km 가까운 메인 스트레이트가 내리막으로 떨어지며 1번으로 들어가는, 롤러코스터 같은 포르티망을 상징하는 코너다. 내리막 끝에서 차가 바닥에 눌렸다가 오르막으로 빠져나가며, 랩에서 가장 좋은 추월 지점이다. 이어지는 2번 우측 킹크는 거의 풀스로틀로 지난다. 2020년 해밀턴이 이곳에서 슈마허를 넘는 통산 92승을 거뒀다.",
+        "en": "The corner that symbolises roller-coaster Portimão: the main straight, close to 1 km long, drops downhill into Turn 1. At the bottom of the descent the car is pressed into the ground, then climbs away uphill, and it is the best overtaking spot on the lap. The right-hand kink at Turn 2 that follows is taken almost flat out. In 2020 Hamilton won here to pass Schumacher with his 92nd career victory."
+      },
+      "sim": {
+        "summary": {
+          "ko": "내리막 직선 끝 · 3단 · 최대 추월 지점",
+          "en": "End of the downhill straight · 3rd · Best overtaking spot"
+        },
+        "popup": {
+          "brake": {
+            "ko": "1번 내리막 직선 끝",
+            "en": "T1 end of the downhill straight"
+          },
+          "gear": {
+            "ko": "3단",
+            "en": "3rd"
+          },
+          "watch": {
+            "ko": "내리막 락업",
+            "en": "Downhill lock-up"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 내리막 메인 스트레이트 끝에서 짧고 단호하게\n기어: 3단\n라인: 1번 안쪽을 잡고 오르막 탈출을 넓게\n스로틀: 바닥을 지나 오르막에 올라서는 순간부터\n핵심: 서킷에서 가장 좋은 추월 지점\n주의: 내리막이라 제동이 짧아도 앞바퀴가 잠기기 쉽다",
+          "en": "Braking: Short and decisive at the end of the downhill main straight\nGear: 3rd\nLine: Take the inside at T1 and use the uphill exit wide\nThrottle: From the moment you pass the bottom and start up the hill\nKey: The best overtaking spot on the circuit\nWatch: It's downhill, so even short braking easily locks the front wheels"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "lagos-t4",
+      "name": {
+        "ko": "라구스~T4",
+        "en": "Lagos to Turn 4"
+      },
+      "corners": [
+        3,
+        4
+      ],
+      "guide": {
+        "ko": "3번 라구스는 오르막으로 꺾이는 좁은 우측 헤어핀이다. 짧은 직선 뒤 4번은 가파른 오르막을 오르며 언덕을 넘는 블라인드 좌코너라, 꼭대기에서 차 뒤가 가벼워져 미끄러지기 쉽다.",
+        "en": "Turn 3, Lagos, is a tight right-hand hairpin that turns uphill. After a short straight, Turn 4 is a blind left-hander that climbs a steep hill and crests it, so the rear of the car goes light at the top and slides easily."
+      },
+      "sim": {
+        "summary": {
+          "ko": "3번 오르막 헤어핀 · 2단 · 4번 블라인드 언덕",
+          "en": "Uphill hairpin at T3 · 2nd · Blind crest at T4"
+        },
+        "popup": {
+          "brake": {
+            "ko": "3번 오르막 진입 전",
+            "en": "Before the uphill entry of T3"
+          },
+          "gear": {
+            "ko": "3번 2단",
+            "en": "2nd at T3"
+          },
+          "watch": {
+            "ko": "4번 언덕 오버스티어",
+            "en": "Oversteer on the T4 crest"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 3번은 오르막 진입 전 강하게, 4번은 짧게\n기어: 3번 2단, 4번 4단\n라인: 4번은 언덕 너머 출구를 미리 그린다\n스로틀: 4번 꼭대기를 넘을 때 부드럽게\n핵심: 4번 탈출이 5번까지 이어지는 직선 속도를 결정\n주의: 4번 언덕에서 뒤가 가벼워져 오버스티어",
+          "en": "Braking: Hard before the uphill entry at T3, short at T4\nGear: 2nd at T3, 4th at T4\nLine: At T4, plan the exit beyond the crest in advance\nThrottle: Smoothly as you go over the T4 crest\nKey: The T4 exit decides the straight speed that runs to T5\nWatch: The rear goes light on the T4 crest and you oversteer"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "torre-vip",
+      "name": {
+        "ko": "토레 VIP",
+        "en": "Torre VIP"
+      },
+      "corners": [
+        5
+      ],
+      "guide": {
+        "ko": "언덕을 넘어 급하게 내려가는 직선 끝의 서킷에서 가장 좁은 좌측 헤어핀으로, 랩에서 가장 강하게 제동하는 곳이다. 이름은 바로 옆 VIP 타워에서 따왔다. 1번 다음가는 추월 지점이다.",
+        "en": "The narrowest corner on the circuit, a left-hand hairpin at the end of a straight that crests a hill and drops away steeply, and the place where cars brake hardest on the lap. It is named after the VIP tower right beside it. It is the overtaking spot second only to Turn 1."
+      },
+      "sim": {
+        "summary": {
+          "ko": "내리막 직선 끝 · 1~2단 · 두 번째 추월 지점",
+          "en": "End of the downhill straight · 1st–2nd · Second overtaking spot"
+        },
+        "popup": {
+          "brake": {
+            "ko": "5번 내리막 직선 끝",
+            "en": "T5 end of the downhill straight"
+          },
+          "gear": {
+            "ko": "1~2단",
+            "en": "1st–2nd"
+          },
+          "watch": {
+            "ko": "언덕 너머 제동 지점",
+            "en": "Braking point beyond the crest"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 언덕 너머 내리막 직선 끝에서 랩에서 가장 강하게\n기어: 1~2단\n라인: 늦은 에이펙스로 탈출을 곧게\n스로틀: 휠스핀 없이 점진적으로\n핵심: 1번 다음가는 추월 지점\n주의: 언덕을 넘자마자 내리막 제동이라 지점을 잡기 어렵다",
+          "en": "Braking: The hardest of the lap, at the end of the downhill straight beyond the crest\nGear: 1st–2nd\nLine: Late apex to straighten the exit\nThrottle: Build up gradually without wheelspin\nKey: The next best overtaking spot after T1\nWatch: You brake downhill as soon as you're over the crest, so the point is hard to judge"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t6-t8",
+      "name": {
+        "ko": "T6~T8",
+        "en": "Turn 6 to Turn 8"
+      },
+      "corners": [
+        6,
+        7,
+        8
+      ],
+      "guide": {
+        "ko": "6번은 앞이 보이지 않는 채 풀스로틀로 지나고, 빠른 7번 우코너로 이어진다. 8번은 7번에서 아직 돌고 있는 상태로 제동해야 해 까다롭지만, 브레이크를 서서히 풀며 속도를 싣고 오르막으로 빠져나간다.",
+        "en": "Turn 6 is taken flat out without being able to see ahead, and leads into the fast right-hander at Turn 7. Turn 8 is tricky because cars must brake while still turning from Turn 7, but they ease off the brake gradually, carry speed and climb away uphill."
+      },
+      "sim": {
+        "summary": {
+          "ko": "8번 꺾은 채 제동 · 4단 · 블라인드 6번",
+          "en": "Braking at T8 while turned in · 4th · Blind T6"
+        },
+        "popup": {
+          "brake": {
+            "ko": "8번 7번에서 돌면서",
+            "en": "T8 while still turning from T7"
+          },
+          "gear": {
+            "ko": "4단",
+            "en": "4th"
+          },
+          "watch": {
+            "ko": "꺾은 채 제동 락업",
+            "en": "Lock-up when braking while turning"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 6·7번은 제동 없이, 8번은 7번에서 돌면서\n기어: 8번 4단\n라인: 8번은 브레이크를 풀며 에이펙스까지 속도를 싣는다\n스로틀: 8번 에이펙스부터 오르막을 위해 일찍\n핵심: 8번에서 브레이크를 얼마나 부드럽게 푸느냐\n주의: 꺾은 채 제동해 안쪽 앞바퀴가 잠기기 쉽다",
+          "en": "Braking: No braking at T6 and T7, braking at T8 while still turning from T7\nGear: 4th at T8\nLine: At T8, release the brake and carry speed to the apex\nThrottle: Early from the T8 apex for the uphill\nKey: How smoothly you release the brake at T8\nWatch: Braking while turned in makes the inside front wheel lock easily"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t9-t11",
+      "name": {
+        "ko": "T9~T11",
+        "en": "Turn 9 to Turn 11"
+      },
+      "corners": [
+        9,
+        10,
+        11
+      ],
+      "guide": {
+        "ko": "가파른 언덕을 오른 뒤 다시 떨어지며 들어가는 9번은 빠르고 대담해야 하는 좌코너로, 앞을 멀리 내다보는 시야가 중요하다. 이어지는 10·11번은 길게 돌다가 조여드는 우코너로, 전문가들이 랩타임을 가르는 핵심 구간으로 꼽는다.",
+        "en": "Turn 9, entered after climbing a steep hill and then dropping away, is a fast left-hander that demands boldness, and looking far ahead is important. Turns 10 and 11 that follow are a right-hander that runs wide and then tightens, which experts regard as the key section that decides lap time."
+      },
+      "sim": {
+        "summary": {
+          "ko": "9번 내리막 고속 · 4~5단 · 조여드는 우코너",
+          "en": "Fast downhill T9 · 4th–5th · Tightening right-hander"
+        },
+        "popup": {
+          "brake": {
+            "ko": "9번 짧게, 10번 진입",
+            "en": "Brief at T9, then the T10 entry"
+          },
+          "gear": {
+            "ko": "4~5단",
+            "en": "4th–5th"
+          },
+          "watch": {
+            "ko": "조여드는 11번",
+            "en": "The tightening T11"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 9번은 짧게, 10번 진입에서 다시\n기어: 4~5단\n라인: 10·11번은 조여드는 코너라 늦게 붙는다\n스로틀: 11번 탈출에서 점진적으로\n핵심: 랩타임이 가장 크게 갈리는 구간\n주의: 9번은 내리막이라 시야를 멀리 둬야 한다",
+          "en": "Braking: Short at T9, and again on entry to T10\nGear: 4th–5th\nLine: T10 and T11 are tightening corners, so turn in late\nThrottle: Build up gradually on the T11 exit\nKey: The section where lap times differ the most\nWatch: T9 is downhill, so look far ahead"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t12-t13",
+      "name": {
+        "ko": "T12~T13",
+        "en": "Turn 12 to Turn 13"
+      },
+      "corners": [
+        12,
+        13
+      ],
+      "guide": {
+        "ko": "12·13번은 지형이 오르내려 앞이 몇 미터밖에 보이지 않는 구간이다. 코너가 보이기 전에 기준점을 미리 잡아두는 것이 중요하다.",
+        "en": "At Turns 12 and 13 the terrain rises and falls so that only a few metres of track ahead are visible. It is important to fix reference points before the corner comes into view."
+      },
+      "sim": {
+        "summary": {
+          "ko": "블라인드 진입 · 3~4단 · 기준점이 핵심",
+          "en": "Blind entry · 3rd–4th · Reference points are key"
+        },
+        "popup": {
+          "brake": {
+            "ko": "12번 진입 짧게",
+            "en": "Brief at the T12 entry"
+          },
+          "gear": {
+            "ko": "3~4단",
+            "en": "3rd–4th"
+          },
+          "watch": {
+            "ko": "언덕 너머 블라인드",
+            "en": "Blind beyond the crest"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 12번 진입에서 짧게\n기어: 3~4단\n라인: 보이지 않는 에이펙스를 미리 정한 기준점으로 잡는다\n스로틀: 13번 탈출에서 점진적으로\n핵심: 블라인드 구간이라 자신감이 랩타임\n주의: 언덕 너머 노면이 보이지 않는다",
+          "en": "Braking: Short on entry to T12\nGear: 3rd–4th\nLine: Take the apex you can't see using a reference point you set beforehand\nThrottle: Build up gradually on the T13 exit\nKey: In a blind section, confidence is lap time\nWatch: You can't see the road surface beyond the crest"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "galp",
+      "name": {
+        "ko": "T14~갈프",
+        "en": "Turn 14 to Galp"
+      },
+      "corners": [
+        14,
+        15
+      ],
+      "guide": {
+        "ko": "마지막 두 코너는 길게 도는 코너로, 14번은 노면이 바깥쪽으로 기울어 차가 밀려나기 쉽고, 내리막으로 떨어지는 15번 갈프는 울퉁불퉁한 노면을 지나 메인 스트레이트로 이어진다. 탈출 속도가 1번 추월로 이어져 마지막까지 나란히 싸우는 장면이 많다.",
+        "en": "The last two corners are long, sweeping ones. At Turn 14 the track tilts outward so the car is easily pushed wide, and Turn 15, Galp, drops downhill and runs over a bumpy surface onto the main straight. Exit speed carries into the pass at Turn 1, so cars often fight side by side to the very end."
+      },
+      "sim": {
+        "summary": {
+          "ko": "15번 탈출 · 4~5단 · 울퉁불퉁한 노면",
+          "en": "T15 exit · 4th–5th · Bumpy surface"
+        },
+        "popup": {
+          "brake": {
+            "ko": "14번 진입 짧게",
+            "en": "Brief at the T14 entry"
+          },
+          "gear": {
+            "ko": "4~5단",
+            "en": "4th–5th"
+          },
+          "watch": {
+            "ko": "15번 요철",
+            "en": "Bumps at T15"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 14번 진입에서 짧게, 15번은 거의 스로틀 유지\n기어: 4~5단\n라인: 15번은 넓게 빠져 메인 스트레이트 진입 속도를 살린다\n스로틀: 15번 중간부터 일찍\n핵심: 15번 탈출이 내리막 직선과 1번 추월을 결정\n주의: 14번 기운 노면과 15번 요철에서 차가 흔들린다",
+          "en": "Braking: Short on entry to T14, and T15 almost on the throttle\nGear: 4th–5th\nLine: Run wide at T15 to carry your speed onto the main straight\nThrottle: Early from the middle of T15\nKey: The T15 exit decides the downhill straight and your T1 overtake\nWatch: The car is unsettled by the sloping surface at T14 and the bumps at T15"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    }
+  ],
+  "highlights": [
+    {
+      "tags": [
+        "overtake",
+        "view"
+      ],
+      "sStart": 0.1256,
+      "sEnd": 0.1356,
+      "label": "프리메이라",
+      "note": {
+        "ko": "내리막으로 떨어지는 직선 끝, 서킷 최대 추월 지점",
+        "en": "The end of the straight that drops downhill — the best overtaking spot on the circuit"
+      }
+    },
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.3537,
+      "sEnd": 0.3637,
+      "label": "토레 VIP",
+      "note": {
+        "ko": "언덕 너머 내리막 끝의 가장 좁은 헤어핀",
+        "en": "The narrowest hairpin, at the end of the descent beyond the hill"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.5644,
+      "sEnd": 0.5744,
+      "label": "T9",
+      "note": {
+        "ko": "언덕을 넘어 떨어지는 대담한 고속 코너",
+        "en": "A bold high-speed corner that drops away over the hill"
+      }
+    }
+  ],
+  "aero": {
+    "season": 2026,
+    "status": "notHeld",
+    "straightModeZones": [],
+    "overtake": null,
+    "source": "2026 캘린더 미포함. 2027년 6월 18~20일 복귀 확정(2027~2028 계약)"
+  },
+  "character": {
+    "type": "permanent",
+    "summary": {
+      "ko": "오르막과 내리막이 급하게 이어지는 서킷. 블라인드 크레스트가 많아 외워 둔 기준점을 보고 들어가야 한다.",
+      "en": "A circuit of steep climbs and drops, with many blind crests where drivers rely on memorised reference points."
+    }
+  }
+}

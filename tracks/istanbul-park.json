@@ -1,0 +1,508 @@
+{
+  "trackId": "istanbul-park",
+  "name": "Istanbul Park",
+  "lengthMeters": 5338,
+  "rotationDeg": 11,
+  "geojsonFile": "tr-2005",
+  "startOffsetS": 0.9675,
+  "corners": [
+    {
+      "number": 1,
+      "s": 0.0818,
+      "name": {
+        "ko": "T1",
+        "en": "Turn 1"
+      },
+      "dirX": 0.7858,
+      "dirY": 0.6184
+    },
+    {
+      "number": 2,
+      "s": 0.1345,
+      "name": {
+        "ko": "T2",
+        "en": "Turn 2"
+      },
+      "dirX": -0.3357,
+      "dirY": -0.942
+    },
+    {
+      "number": 3,
+      "s": 0.2179,
+      "name": {
+        "ko": "T3",
+        "en": "Turn 3"
+      },
+      "dirX": 0.5586,
+      "dirY": 0.8294
+    },
+    {
+      "number": 4,
+      "s": 0.2484,
+      "name": {
+        "ko": "T4",
+        "en": "Turn 4"
+      },
+      "dirX": -0.5283,
+      "dirY": -0.849
+    },
+    {
+      "number": 5,
+      "s": 0.2738,
+      "name": {
+        "ko": "T5",
+        "en": "Turn 5"
+      },
+      "dirX": 0.0596,
+      "dirY": 0.9982
+    },
+    {
+      "number": 6,
+      "s": 0.2952,
+      "name": {
+        "ko": "T6",
+        "en": "Turn 6"
+      },
+      "dirX": 0.7485,
+      "dirY": -0.6631
+    },
+    {
+      "number": 7,
+      "s": 0.3905,
+      "name": {
+        "ko": "T7",
+        "en": "Turn 7"
+      },
+      "dirX": -0.8763,
+      "dirY": -0.4818
+    },
+    {
+      "number": 8,
+      "s": 0.5165,
+      "name": {
+        "ko": "T8",
+        "en": "Turn 8"
+      },
+      "dirX": 0.867,
+      "dirY": -0.4984
+    },
+    {
+      "number": 9,
+      "s": 0.648,
+      "name": {
+        "ko": "T9",
+        "en": "Turn 9"
+      },
+      "dirX": -0.6651,
+      "dirY": -0.7468
+    },
+    {
+      "number": 10,
+      "s": 0.6638,
+      "name": {
+        "ko": "T10",
+        "en": "Turn 10"
+      },
+      "dirX": 0.9816,
+      "dirY": 0.1908
+    },
+    {
+      "number": 11,
+      "s": 0.7644,
+      "name": {
+        "ko": "T11",
+        "en": "Turn 11"
+      },
+      "dirX": -0.6566,
+      "dirY": -0.7542
+    },
+    {
+      "number": 12,
+      "s": 0.9062,
+      "name": {
+        "ko": "T12",
+        "en": "Turn 12"
+      },
+      "dirX": -0.9418,
+      "dirY": -0.3362
+    },
+    {
+      "number": 13,
+      "s": 0.926,
+      "name": {
+        "ko": "T13",
+        "en": "Turn 13"
+      },
+      "dirX": 0.5709,
+      "dirY": -0.821
+    },
+    {
+      "number": 14,
+      "s": 0.9488,
+      "name": {
+        "ko": "T14",
+        "en": "Turn 14"
+      },
+      "dirX": -0.8167,
+      "dirY": 0.577
+    }
+  ],
+  "lapRecords": [
+    {
+      "driver": "Juan Pablo Montoya",
+      "team": "McLaren",
+      "time": "1:24.770",
+      "year": 2005,
+      "session": "race",
+      "isTrackRecord": true
+    }
+  ],
+  "segments": [
+    {
+      "type": "sector",
+      "label": "S1",
+      "sStart": 0,
+      "sEnd": 0.38113319595354067
+    },
+    {
+      "type": "sector",
+      "label": "S2",
+      "sStart": 0.38113319595354067,
+      "sEnd": 0.7550331959535406
+    },
+    {
+      "type": "sector",
+      "label": "S3",
+      "sStart": 0.7550331959535406,
+      "sEnd": 1
+    }
+  ],
+  "trackData": {
+    "lengthMeters": 5338,
+    "laps": 58,
+    "cornerCount": 14,
+    "topSpeedKmh": 345,
+    "fullThrottlePercent": 60,
+    "firstHeld": 2005
+  },
+  "sections": [
+    {
+      "id": "t1-t2",
+      "name": {
+        "ko": "T1~T2",
+        "en": "Turn 1 to Turn 2"
+      },
+      "corners": [
+        1,
+        2
+      ],
+      "guide": {
+        "ko": "메인 스트레이트 끝에서 내리막으로 떨어지며 꺾이는 블라인드 좌코너로, 에이펙스가 보이지 않아 놓치기 쉽다. 내리막은 2번 탈출까지 이어진다. 제동 구간이 길지 않아 추월하려면 직선에서 이미 나란히 붙어 있어야 한다.",
+        "en": "A blind left-hander at the end of the main straight that turns while dropping downhill, so the apex cannot be seen and is easy to miss. The descent continues to the Turn 2 exit. The braking zone is not long, so to pass, cars need to be side by side already on the straight."
+      },
+      "sim": {
+        "summary": {
+          "ko": "내리막 블라인드 · 3단 · 에이펙스 놓치기 쉬움",
+          "en": "Blind downhill · 3rd · Easy to miss the apex"
+        },
+        "popup": {
+          "brake": {
+            "ko": "1번 내리막 진입 직전",
+            "en": "Just before the downhill T1 entry"
+          },
+          "gear": {
+            "ko": "3단",
+            "en": "3rd"
+          },
+          "watch": {
+            "ko": "에이펙스 놓침",
+            "en": "Missing the apex"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 메인 스트레이트 끝 내리막 진입 직전\n기어: 3단\n라인: 보이지 않는 에이펙스를 미리 겨냥한다\n스로틀: 2번 탈출까지 내리막을 따라 점진적으로\n핵심: 추월하려면 직선에서 이미 나란히\n주의: 내리막 제동이라 바퀴가 잠기거나 넓게 밀린다",
+          "en": "Braking: Just before the downhill entry at the end of the main straight\nGear: 3rd\nLine: Aim for the apex you can't see in advance\nThrottle: Build up gradually down the hill to the T2 exit\nKey: To overtake, you must already be alongside on the straight\nWatch: Braking downhill, the wheels lock or you get pushed wide"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t3-t6",
+      "name": {
+        "ko": "T3~T6",
+        "en": "Turn 3 to Turn 6"
+      },
+      "corners": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "guide": {
+        "ko": "언덕 꼭대기의 3번을 넘어 4·5·6번을 따라 내리막을 달리는 연속 구간이다. 오르내림이 심해 리듬을 잃지 않는 것이 중요하다.",
+        "en": "A run of corners that crosses the crest at Turn 3 and then goes downhill through Turns 4, 5 and 6. The ups and downs are pronounced, so it is important not to lose rhythm."
+      },
+      "sim": {
+        "summary": {
+          "ko": "짧은 제동 · 3~4단 · 내리막 리듬",
+          "en": "Short braking · 3rd–4th · Downhill rhythm"
+        },
+        "popup": {
+          "brake": {
+            "ko": "4번 진입 짧게",
+            "en": "Brief at the T4 entry"
+          },
+          "gear": {
+            "ko": "3~4단",
+            "en": "3rd–4th"
+          },
+          "watch": {
+            "ko": "3번 꼭대기",
+            "en": "The T3 crest"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 4번 진입에서 짧게\n기어: 3~4단\n라인: 내리막에서 다음 코너 진입 위치를 미리 잡는다\n스로틀: 6번 탈출에서 일찍\n핵심: 연속 코너의 리듬\n주의: 3번 꼭대기를 넘을 때 차가 가벼워진다",
+          "en": "Braking: Short on entry to T4\nGear: 3rd–4th\nLine: Set your position for the next corner entry in advance on the downhill\nThrottle: Early on the T6 exit\nKey: The rhythm of the linked corners\nWatch: The car goes light as you cross the T3 crest"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t7",
+      "name": {
+        "ko": "T7",
+        "en": "Turn 7"
+      },
+      "corners": [
+        7
+      ],
+      "guide": {
+        "ko": "짧은 직선 끝의 좁은 오르막 코너로, 이어지는 8번 진입 속도를 정한다.",
+        "en": "A tight uphill corner at the end of a short straight, which sets the speed into Turn 8 that follows."
+      },
+      "sim": {
+        "summary": {
+          "ko": "오르막 제동 · 3단 · 8번 준비",
+          "en": "Uphill braking · 3rd · Prepare for T8"
+        },
+        "popup": {
+          "brake": {
+            "ko": "7번 오르막 직선 끝",
+            "en": "T7 end of the uphill straight"
+          },
+          "gear": {
+            "ko": "3단",
+            "en": "3rd"
+          },
+          "watch": {
+            "ko": "8번 진입 속도",
+            "en": "Speed into T8"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 짧은 직선 끝 오르막에서\n기어: 3단\n라인: 8번을 위해 탈출을 넓게\n스로틀: 탈출부터 8번까지 일찍\n핵심: 7번 탈출이 8번 전체 속도를 결정\n주의: 오르막이라 제동 지점을 늦추기 쉽다",
+          "en": "Braking: Uphill at the end of the short straight\nGear: 3rd\nLine: Take the exit wide for T8\nThrottle: Early from the exit through to T8\nKey: The T7 exit decides your speed through the whole of T8\nWatch: Being uphill, it is easy to brake later than you should"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t8",
+      "name": {
+        "ko": "T8",
+        "en": "Turn 8"
+      },
+      "corners": [
+        8
+      ],
+      "guide": {
+        "ko": "에이펙스가 네 개나 되는 긴 좌코너로, 길이가 약 640m에 달해 한 바퀴의 12%를 차지한다. 약 8초 넘게 옆으로 쏠린 상태가 이어져 타이어 에너지의 40% 가까이를 이 코너에서 쓰고, 반시계 방향이라 드라이버 목에도 평소와 반대쪽으로 부담이 걸린다. 진입이 울퉁불퉁하고 바깥 연석이 점점 좁혀 들어온다.",
+        "en": "A long left-hander with four apexes, about 640 m in length and taking up 12% of a lap. The sideways load lasts for more than 8 seconds, so close to 40% of the tyre energy is used in this one corner, and because it runs anticlockwise the strain on the driver's neck comes on the opposite side from usual. The entry is bumpy and the outside kerb gradually closes in."
+      },
+      "sim": {
+        "summary": {
+          "ko": "짧은 리프트 · 5단 · 에이펙스 네 개",
+          "en": "Short lift · 5th · Four apexes"
+        },
+        "popup": {
+          "brake": {
+            "ko": "8번 진입 짧게 리프트",
+            "en": "Brief lift at the T8 entry"
+          },
+          "gear": {
+            "ko": "5단",
+            "en": "5th"
+          },
+          "watch": {
+            "ko": "오른쪽 앞 타이어",
+            "en": "Front-right tyre"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 진입에서 짧게 리프트\n기어: 5단\n라인: 네 에이펙스를 하나의 긴 코너처럼 잇는다\n스로틀: 리프트 뒤 일정하게 유지\n핵심: 오른쪽 앞 타이어를 아끼며 끝까지 버티는 것\n주의: 바깥 연석이 좁혀 들어와 끝에서 밀려나기 쉽다",
+          "en": "Braking: A short lift on entry\nGear: 5th\nLine: Link the four apexes like one long corner\nThrottle: Hold it steady after the lift\nKey: Looking after the front-right tyre and lasting to the end\nWatch: The outside kerb narrows in, so it is easy to be pushed out at the end"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t9-t11",
+      "name": {
+        "ko": "T9~T11",
+        "en": "Turn 9 to Turn 11"
+      },
+      "corners": [
+        9,
+        10,
+        11
+      ],
+      "guide": {
+        "ko": "9번은 평범한 90도 코너처럼 보이지만 가장 긴 직선으로 이어져 랩에서 가장 중요한 코너 중 하나다. 진입을 욕심내면 탈출이 늦어지고, 바로 이어지는 10번이 탈출을 조인다. 11번은 직선 위에서 풀스로틀로 지나는 킹크다.",
+        "en": "Turn 9 looks like an ordinary 90-degree corner but leads onto the longest straight, making it one of the most important corners of the lap. Being greedy on entry delays the exit, and Turn 10 right after it squeezes the exit. Turn 11 is a kink on the straight taken flat out."
+      },
+      "sim": {
+        "summary": {
+          "ko": "9번 탈출 우선 · 3단 · 가장 긴 직선",
+          "en": "Prioritise the T9 exit · 3rd · Longest straight"
+        },
+        "popup": {
+          "brake": {
+            "ko": "9번 진입",
+            "en": "T9 entry"
+          },
+          "gear": {
+            "ko": "9번 3단",
+            "en": "3rd at T9"
+          },
+          "watch": {
+            "ko": "진입 과욕 시 탈출 손해",
+            "en": "Greedy entry costs exit speed"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 9번 진입에서, 11번은 풀스로틀\n기어: 9번 3단\n라인: 9번은 진입보다 탈출, 10번 연석을 활용\n스로틀: 10번 탈출부터 풀스로틀\n핵심: 9번 탈출이 가장 긴 직선과 12번 추월을 결정\n주의: 9번 진입을 욕심내면 직선 전체에서 손해",
+          "en": "Braking: On entry to T9, and flat out at T11\nGear: 3rd at T9\nLine: At T9 the exit matters more than the entry; use the T10 kerb\nThrottle: Flat out from the T10 exit\nKey: The T9 exit decides the longest straight and your T12 overtake\nWatch: Get greedy on the T9 entry and you lose time along the whole straight"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t12-t14",
+      "name": {
+        "ko": "T12~T14",
+        "en": "Turn 12 to Turn 14"
+      },
+      "corners": [
+        12,
+        13,
+        14
+      ],
+      "guide": {
+        "ko": "가장 긴 직선 끝의 12번은 랩에서 가장 강하게 제동하는 가장 느린 코너이자 최고의 추월 지점이다. 이어지는 13·14번 스타디움 구간은 짧지만 얕보면 메인 스트레이트 탈출에서 손해를 본다.",
+        "en": "Turn 12 at the end of the longest straight is the slowest corner, braked harder than anywhere else on the lap, and the best overtaking spot. The stadium section of Turns 13 and 14 that follows is short, but underestimating it costs time on the exit onto the main straight."
+      },
+      "sim": {
+        "summary": {
+          "ko": "가장 긴 직선 끝 · 2단 · 최대 추월 지점",
+          "en": "End of the longest straight · 2nd · Best overtaking spot"
+        },
+        "popup": {
+          "brake": {
+            "ko": "12번 가장 긴 직선 끝",
+            "en": "T12 end of the longest straight"
+          },
+          "gear": {
+            "ko": "2단",
+            "en": "2nd"
+          },
+          "watch": {
+            "ko": "평지 전환점 제동",
+            "en": "Braking where the climb flattens"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 12번은 오르막을 지나 평평해지는 직선 끝에서 랩에서 가장 강하게\n기어: 12번 2단, 13·14번 3단\n라인: 12번 안쪽을 지키고 14번 탈출을 곧게\n스로틀: 14번 탈출에서 점진적으로\n핵심: 서킷 최대 추월 지점\n주의: 오르막 뒤 평평해지는 지점이라 제동 시점을 잡기 어렵다",
+          "en": "Braking: The hardest of the lap at T12, at the end of the straight where it flattens after the climb\nGear: 2nd at T12, 3rd at T13 and T14\nLine: Defend the inside at T12 and straighten the T14 exit\nThrottle: Build up gradually on the T14 exit\nKey: The best overtaking spot on the circuit\nWatch: It flattens out after a climb, so the braking point is hard to judge"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    }
+  ],
+  "highlights": [
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.8962,
+      "sEnd": 0.9062,
+      "label": "T12",
+      "note": {
+        "ko": "가장 긴 직선 끝, 랩에서 가장 강한 제동이자 최대 추월 지점",
+        "en": "The end of the longest straight — the hardest braking of the lap and the best overtaking spot"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.5065,
+      "sEnd": 0.5165,
+      "label": "T8",
+      "note": {
+        "ko": "에이펙스 네 개, 한 바퀴의 12%를 차지하는 긴 좌코너",
+        "en": "Four apexes — a long left-hander that takes up 12% of a lap"
+      }
+    },
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.0718,
+      "sEnd": 0.0818,
+      "label": "T1",
+      "note": {
+        "ko": "내리막으로 떨어지는 블라인드 첫 코너",
+        "en": "A blind first corner that drops downhill"
+      }
+    }
+  ],
+  "aero": {
+    "season": 2026,
+    "status": "notHeld",
+    "straightModeZones": [],
+    "overtake": null,
+    "source": "2026 캘린더 미포함. 2027년 10월 1~3일 복귀 확정(2031년까지, FIA 서킷 승인 조건부)"
+  },
+  "character": {
+    "type": "permanent",
+    "summary": {
+      "ko": "고저차가 있는 반시계 방향 서킷. 여러 에이펙스를 지나는 긴 고속 좌코너 8번에서 큰 횡G가 오래 걸린다.",
+      "en": "An anticlockwise circuit with elevation changes. Its long, fast T8 left-hander runs through several apexes and holds high lateral g for a long time."
+    }
+  }
+}

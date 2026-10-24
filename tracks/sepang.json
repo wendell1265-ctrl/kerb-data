@@ -1,0 +1,599 @@
+{
+  "trackId": "sepang",
+  "name": "Sepang",
+  "lengthMeters": 5543,
+  "rotationDeg": 4,
+  "geojsonFile": "my-1999",
+  "startOffsetS": 0.9447,
+  "corners": [
+    {
+      "number": 1,
+      "s": 0.1211,
+      "name": {
+        "ko": "T1",
+        "en": "Turn 1"
+      },
+      "dirX": -0.9996,
+      "dirY": -0.0296
+    },
+    {
+      "number": 2,
+      "s": 0.1448,
+      "name": {
+        "ko": "T2",
+        "en": "Turn 2"
+      },
+      "dirX": 0.946,
+      "dirY": 0.3242
+    },
+    {
+      "number": 3,
+      "s": 0.1948,
+      "name": {
+        "ko": "T3",
+        "en": "Turn 3"
+      },
+      "dirX": -0.8548,
+      "dirY": -0.519
+    },
+    {
+      "number": 4,
+      "s": 0.2884,
+      "name": {
+        "ko": "T4",
+        "en": "Turn 4"
+      },
+      "dirX": 0.1085,
+      "dirY": -0.9941
+    },
+    {
+      "number": 5,
+      "s": 0.3544,
+      "name": {
+        "ko": "T5",
+        "en": "Turn 5"
+      },
+      "dirX": 0.5318,
+      "dirY": -0.8469
+    },
+    {
+      "number": 6,
+      "s": 0.3984,
+      "name": {
+        "ko": "T6",
+        "en": "Turn 6"
+      },
+      "dirX": 0.0369,
+      "dirY": -0.9993
+    },
+    {
+      "number": 7,
+      "s": 0.4674,
+      "name": {
+        "ko": "T7",
+        "en": "Turn 7"
+      },
+      "dirX": 0.9996,
+      "dirY": -0.0288
+    },
+    {
+      "number": 8,
+      "s": 0.4865,
+      "name": {
+        "ko": "T8",
+        "en": "Turn 8"
+      },
+      "dirX": 0.5148,
+      "dirY": 0.8573
+    },
+    {
+      "number": 9,
+      "s": 0.5759,
+      "name": {
+        "ko": "T9",
+        "en": "Turn 9"
+      },
+      "dirX": -0.9542,
+      "dirY": -0.2991
+    },
+    {
+      "number": 10,
+      "s": 0.5998,
+      "name": {
+        "ko": "T10",
+        "en": "Turn 10"
+      },
+      "dirX": 0.9327,
+      "dirY": -0.3605
+    },
+    {
+      "number": 11,
+      "s": 0.6405,
+      "name": {
+        "ko": "T11",
+        "en": "Turn 11"
+      },
+      "dirX": 0.0954,
+      "dirY": 0.9954
+    },
+    {
+      "number": 12,
+      "s": 0.7008,
+      "name": {
+        "ko": "T12",
+        "en": "Turn 12"
+      },
+      "dirX": -0.1279,
+      "dirY": 0.9918
+    },
+    {
+      "number": 13,
+      "s": 0.7345,
+      "name": {
+        "ko": "T13",
+        "en": "Turn 13"
+      },
+      "dirX": -0.2461,
+      "dirY": 0.9692
+    },
+    {
+      "number": 14,
+      "s": 0.7664,
+      "name": {
+        "ko": "T14",
+        "en": "Turn 14"
+      },
+      "dirX": -0.8122,
+      "dirY": -0.5834
+    },
+    {
+      "number": 15,
+      "s": 0.9341,
+      "name": {
+        "ko": "T15",
+        "en": "Turn 15"
+      },
+      "dirX": 0.9825,
+      "dirY": -0.1861
+    }
+  ],
+  "lapRecords": [
+    {
+      "driver": "Sebastian Vettel",
+      "team": "Ferrari",
+      "time": "1:34.080",
+      "year": 2017,
+      "session": "race",
+      "isTrackRecord": true
+    }
+  ],
+  "segments": [
+    {
+      "type": "sector",
+      "label": "S1",
+      "sStart": 0,
+      "sEnd": 0.27937961392747607
+    },
+    {
+      "type": "sector",
+      "label": "S2",
+      "sStart": 0.27937961392747607,
+      "sEnd": 0.6917796139274761
+    },
+    {
+      "type": "sector",
+      "label": "S3",
+      "sStart": 0.6917796139274761,
+      "sEnd": 1
+    }
+  ],
+  "trackData": {
+    "lengthMeters": 5543,
+    "laps": 56,
+    "cornerCount": 15,
+    "topSpeedKmh": 320,
+    "fullThrottlePercent": 65,
+    "firstHeld": 1999
+  },
+  "sections": [
+    {
+      "id": "t1-t2",
+      "name": {
+        "ko": "T1~T2",
+        "en": "Turn 1 to Turn 2"
+      },
+      "corners": [
+        1,
+        2
+      ],
+      "guide": {
+        "ko": "메인 스트레이트 끝의 1번 우코너는 캘린더에서 가장 넓은 제동 구간 중 하나다. 강하게 제동한 뒤 늦은 에이펙스로 붙어야 바로 이어지는 더 좁은 2번 좌측 헤어핀을 잘 빠져나갈 수 있다. 2번은 에이펙스에서 노면이 내리막으로 꺼져 과속하면 쉽게 밀려난다. 메인 스트레이트는 스트레이트 모드 구간이다.",
+        "en": "The right-hander at Turn 1 at the end of the main straight is one of the widest braking zones on the calendar. Brake hard, then clip a late apex to set up the tighter left-hand hairpin at Turn 2 that follows. The surface drops away downhill at the Turn 2 apex, so carrying too much speed easily pushes the car wide. The main straight is a Straight Mode zone."
+      },
+      "sim": {
+        "summary": {
+          "ko": "1번 100m 보드 직후 강한 제동 · 2~3단 · 2번 내리막",
+          "en": "Hard braking just after the T1 100 m board · 2nd–3rd · Downhill T2"
+        },
+        "popup": {
+          "brake": {
+            "ko": "1번 100m 보드 직후",
+            "en": "T1 just after the 100 m board"
+          },
+          "gear": {
+            "ko": "2~3단",
+            "en": "2nd–3rd"
+          },
+          "watch": {
+            "ko": "2번 내리막에서 과속하면 밀림",
+            "en": "Too fast on the T2 downhill and the car runs wide"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 1번은 100m 보드 직후에 강하게\n기어: 2~3단 (2번 2단)\n라인: 1번은 늦은 에이펙스로 2번 진입 위치를 잡는다\n스로틀: 2번 탈출부터 휘어진 오르막 직선을 위해 점진적으로\n핵심: 넓은 제동 구간이라 여러 라인으로 추월이 가능하다\n주의: 2번 에이펙스에서 노면이 꺼져 과속하면 밀린다",
+          "en": "Braking: Hard just after the 100 m board at T1\nGear: 2nd–3rd (2nd at T2)\nLine: Take a late apex at T1 to set your T2 entry position\nThrottle: Build up gradually from the T2 exit for the curved uphill straight\nKey: A wide braking zone, so passes are possible on several lines\nWatch: The surface drops away at the T2 apex, so excess speed pushes you wide"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t3-t4",
+      "name": {
+        "ko": "T3~T4",
+        "en": "Turn 3 to Turn 4"
+      },
+      "corners": [
+        3,
+        4
+      ],
+      "guide": {
+        "ko": "3번은 가속하며 길게 도는 우코너이고, 탈출부터 4번까지 스트레이트 모드 구간이다. 4번 90도 우코너는 제동 기준점이 뚜렷해 뒤차가 안쪽으로 파고들기 좋다.",
+        "en": "Turn 3 is a long right-hander taken while accelerating, and a Straight Mode zone runs from its exit to Turn 4. The 90-degree right at Turn 4 has clear braking references, which makes it easy for the car behind to dive down the inside."
+      },
+      "sim": {
+        "summary": {
+          "ko": "4번 100m 보드 강한 제동 · 4번 2단 · 안쪽 추월",
+          "en": "Hard at the T4 100 m board · 2nd at T4 · Inside overtake"
+        },
+        "popup": {
+          "brake": {
+            "ko": "4번 100m 보드",
+            "en": "T4 100 m board"
+          },
+          "gear": {
+            "ko": "4번 2단",
+            "en": "2nd at T4"
+          },
+          "watch": {
+            "ko": "4번 안쪽 비우면 추월당함",
+            "en": "Leave the T4 inside open and you get passed"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 3번은 제동 없음, 4번은 100m 보드에서 강하게\n기어: 4번 2단\n라인: 4번 에이펙스 연석을 잡고 탈출은 넓게\n스로틀: 4번 탈출에서 점진적으로\n핵심: 4번은 안쪽 추월 시도가 잦은 지점\n주의: 4번 안쪽을 비우면 바로 파고든다",
+          "en": "Braking: No braking at T3, hard at the 100 m board at T4\nGear: 2nd at T4\nLine: Catch the T4 apex kerb and exit wide\nThrottle: Build up gradually on the T4 exit\nKey: T4 is where inside overtaking attempts are frequent\nWatch: Leave the T4 inside open and someone goes straight in"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t5-t6",
+      "name": {
+        "ko": "T5~T6",
+        "en": "Turn 5 to Turn 6"
+      },
+      "corners": [
+        5,
+        6
+      ],
+      "guide": {
+        "ko": "서킷에서 가장 빠르면서 가장 어려운 코너 구간이다. 5번은 노면이 코너 바깥으로 기울어 있고 에이펙스가 늦어, 너무 과감하게 들어가면 스핀하기 쉽다. 곧바로 이어지는 6번은 노면이 살짝 꺼지는 곳에서 방향을 정확히 바꿔야 한다.",
+        "en": "This is both the fastest and the most difficult stretch of corners on the circuit. The surface at Turn 5 tilts toward the outside and the apex comes late, so going in too aggressively can easily cause a spin. Turn 6 follows immediately, where the surface dips slightly and the change of direction has to be precise."
+      },
+      "sim": {
+        "summary": {
+          "ko": "제동 없음 · 고단 · 방향 전환",
+          "en": "No braking · High gear · Change of direction"
+        },
+        "popup": {
+          "brake": {
+            "ko": "5·6번 제동 없음",
+            "en": "No braking at T5–T6"
+          },
+          "gear": {
+            "ko": "고단",
+            "en": "High gear"
+          },
+          "watch": {
+            "ko": "5번 과하면 스핀",
+            "en": "Overdo T5 and the car spins"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 제동 없음\n기어: 고단 유지\n라인: 5번은 늦은 에이펙스, 6번 진입은 5번 탈출에 맞춰 타협한다\n스로틀: 5번 진입은 망설이지 않고, 6번까지 일정하게\n핵심: 서킷에서 가장 빠른 코너링 구간\n주의: 5번에서 과하면 기운 노면 때문에 스핀한다",
+          "en": "Braking: No braking\nGear: Stay in a high gear\nLine: Late apex at T5, and compromise the T6 entry to suit the T5 exit\nThrottle: Don't hesitate on the T5 entry, and keep it steady through to T6\nKey: The fastest cornering section on the circuit\nWatch: Overdo it at T5 and the sloping surface spins you"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t7-t8",
+      "name": {
+        "ko": "T7~T8",
+        "en": "Turn 7 to Turn 8"
+      },
+      "corners": [
+        7,
+        8
+      ],
+      "guide": {
+        "ko": "7번과 8번은 에이펙스가 두 개인 하나의 긴 우코너처럼 이어진다. 7번 진입이 깔끔하면 생각보다 늦게 제동하고 두 에이펙스를 모두 빠르게 지날 수 있다. 7번 탈출에서 넓어지기 쉽고, 8번 탈출부터 9번까지 스트레이트 모드 구간이다.",
+        "en": "Turns 7 and 8 run together like one long right-hander with two apexes. If the Turn 7 entry is clean, you can brake later than expected and carry speed through both apexes. It is easy to run wide on the Turn 7 exit, and a Straight Mode zone runs from the Turn 8 exit to Turn 9."
+      },
+      "sim": {
+        "summary": {
+          "ko": "짧은 제동 · 4단 · 두 에이펙스",
+          "en": "Short braking · 4th · Two apexes"
+        },
+        "popup": {
+          "brake": {
+            "ko": "7번 진입 짧게",
+            "en": "Briefly, on entry to T7"
+          },
+          "gear": {
+            "ko": "4단",
+            "en": "4th"
+          },
+          "watch": {
+            "ko": "7번 탈출 넓어짐",
+            "en": "Running wide on the T7 exit"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 7번 진입에서 짧게, 생각보다 늦게\n기어: 4단\n라인: 7번 탈출에서 넓어지지 않게 두 에이펙스를 잇는다\n스로틀: 8번 탈출부터 가속\n핵심: 7번 진입이 두 코너 전체의 속도를 결정\n주의: 7번 탈출에서 넓어지기 쉽다",
+          "en": "Braking: Short on entry to T7, later than you think\nGear: 4th\nLine: Link the two apexes without running wide on the T7 exit\nThrottle: Accelerate from the T8 exit\nKey: The T7 entry decides the speed through both corners\nWatch: It is easy to run wide on the T7 exit"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t9-t10",
+      "name": {
+        "ko": "T9~T10",
+        "en": "Turn 9 to Turn 10"
+      },
+      "corners": [
+        9,
+        10
+      ],
+      "guide": {
+        "ko": "9번은 오르막 끝의 좌측 헤어핀으로, 추월이 자주 나오는 곳이다. 2012년엔 우승을 노리던 페레스가 여기서 넓어지며 알론소에게 승리를 내줬다. 이어지는 10번은 계속 오르며 휘어지는 가속 구간으로, 망설이면 다음 구간까지 손해를 본다.",
+        "en": "Turn 9 is a left-hand hairpin at the top of a rise, and passes happen here often. In 2012, Pérez, chasing the win, ran wide here and handed victory to Alonso. Turn 10 that follows is a curving acceleration zone that keeps climbing, and hesitating there costs time into the next section."
+      },
+      "sim": {
+        "summary": {
+          "ko": "9번 100m 보드 강한 제동 · 2단 · 오르막 헤어핀",
+          "en": "Hard at the T9 100 m board · 2nd · Uphill hairpin"
+        },
+        "popup": {
+          "brake": {
+            "ko": "9번 100m 보드",
+            "en": "T9 100 m board"
+          },
+          "gear": {
+            "ko": "2단",
+            "en": "2nd"
+          },
+          "watch": {
+            "ko": "9번 넓어지면 추월당함",
+            "en": "Run wide at T9 and you get passed"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 9번은 100m 보드에서 강하게\n기어: 2단\n라인: 9번은 오르막 에이펙스를 정확히 잡는다\n스로틀: 10번은 망설이지 않고 최대한 일찍\n핵심: 9번은 추월이 자주 나오는 지점\n주의: 9번에서 넓어지면 바로 뒤차에게 기회를 준다",
+          "en": "Braking: Hard at the 100 m board at T9\nGear: 2nd\nLine: Hit the uphill apex at T9 precisely\nThrottle: At T10, as early as possible without hesitating\nKey: T9 is a spot where overtaking often happens\nWatch: Run wide at T9 and you give the car behind a chance straight away"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t11-t13",
+      "name": {
+        "ko": "T11~T13",
+        "en": "Turn 11 to Turn 13"
+      },
+      "corners": [
+        11,
+        12,
+        13
+      ],
+      "guide": {
+        "ko": "11번은 늦은 에이펙스로 길게 도는 우코너로, 오른쪽으로 휘는 구간에서 제동해야 해 감각이 필요하다. 조금 더 늦게 밟는 차가 안쪽으로 추월할 수 있다. 이어지는 12·13번을 지나 백 스트레이트 앞 14번으로 향한다.",
+        "en": "Turn 11 is a long right-hander with a late apex, and since you have to brake while the track is still curving right, it takes feel. A car braking slightly later can pass on the inside. After Turns 12 and 13, the track heads to Turn 14 ahead of the back straight."
+      },
+      "sim": {
+        "summary": {
+          "ko": "11번 감각 제동 · 3단 · 늦은 에이펙스",
+          "en": "Braking by feel at T11 · 3rd · Late apex"
+        },
+        "popup": {
+          "brake": {
+            "ko": "11번 부드럽게",
+            "en": "Smoothly, at T11"
+          },
+          "gear": {
+            "ko": "3단",
+            "en": "3rd"
+          },
+          "watch": {
+            "ko": "11번 거친 제동 시 불안정",
+            "en": "Harsh braking at T11 unsettles the car"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 11번은 휘는 구간에서 부드럽게 점진적으로\n기어: 3단\n라인: 11번은 늦은 에이펙스, 12·13번은 흐름을 이어 14번 진입을 준비\n스로틀: 13번 탈출에서 14번까지 가속\n핵심: 11번은 안쪽 추월이 가능한 지점\n주의: 11번 제동이 거칠면 차가 불안정해진다",
+          "en": "Braking: Smoothly and progressively through the curve at T11\nGear: 3rd\nLine: Late apex at T11, and link T12 and T13 in one flow to prepare for the T14 entry\nThrottle: Accelerate from the T13 exit to T14\nKey: T11 is a spot where inside passes are possible\nWatch: Harsh braking at T11 unsettles the car"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t14-t15",
+      "name": {
+        "ko": "T14~T15",
+        "en": "Turn 14 to Turn 15"
+      },
+      "corners": [
+        14,
+        15
+      ],
+      "guide": {
+        "ko": "14번은 오른쪽으로 휘며 제동하는 코너라 오른쪽 앞바퀴가 잠기기 쉽고, 탈출이 백 스트레이트 속도를 결정한다. 백 스트레이트는 스트레이트 모드 구간이고, 그 끝의 15번 헤어핀에서 마지막으로 강하게 제동한다. 15번은 노면이 바깥으로 기울어 있고, 2016년 늦은 에이펙스를 유도하려고 약 1m 높였다. 15번 탈출에서 오버테이크를 감지하고 메인 스트레이트 시작 지점부터 작동한다.",
+        "en": "Turn 14 is braked while the track is still curving right, so the right-front wheel locks easily, and its exit sets the speed down the back straight. The back straight is a Straight Mode zone, and the Turn 15 hairpin at its end is the last heavy braking zone of the lap. The surface at Turn 15 tilts toward the outside, and in 2016 it was raised by about 1 m to encourage a later apex. Overtake is detected on the Turn 15 exit and activates from the start of the main straight."
+      },
+      "sim": {
+        "summary": {
+          "ko": "15번 강한 제동 · 15번 7단→2단 · 14번 락업",
+          "en": "Hard braking at T15 · 7th → 2nd at T15 · T14 lock-up"
+        },
+        "popup": {
+          "brake": {
+            "ko": "15번 백 스트레이트 끝 강하게",
+            "en": "Hard, at the end of the back straight into T15"
+          },
+          "gear": {
+            "ko": "15번 7단→2단",
+            "en": "7th down to 2nd at T15"
+          },
+          "watch": {
+            "ko": "14번 오른쪽 앞 락업",
+            "en": "Right-front lock-up at T14"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 14번은 휘는 구간에서 부드럽게, 15번은 백 스트레이트 끝에서 강하게\n기어: 15번 7단에서 2단까지\n라인: 15번은 늦은 에이펙스로 메인 스트레이트 탈출을 우선\n스로틀: 15번 탈출에서 휠스핀 없이 점진적으로\n핵심: 15번은 추월 지점이자 메인 스트레이트 속도를 정하는 코너\n주의: 14번 제동에서 오른쪽 앞바퀴가 잠기기 쉽다",
+          "en": "Braking: Smoothly through the curve at T14, hard at the end of the back straight at T15\nGear: 7th down to 2nd at T15\nLine: Take a late apex at T15, prioritising the exit onto the main straight\nThrottle: Build up gradually on the T15 exit without wheelspin\nKey: T15 is an overtaking spot and the corner that sets your main straight speed\nWatch: The right-front wheel locks easily under braking at T14"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    }
+  ],
+  "highlights": [
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.1111,
+      "sEnd": 0.1211,
+      "label": "T1",
+      "note": {
+        "ko": "캘린더에서 가장 넓은 제동 구간 중 하나, 여러 라인으로 추월 가능",
+        "en": "One of the widest braking zones on the calendar — passing is possible on several lines"
+      }
+    },
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.9241,
+      "sEnd": 0.9341,
+      "label": "T15",
+      "note": {
+        "ko": "백 스트레이트 끝 헤어핀, 마지막 강한 제동과 추월 기회",
+        "en": "A hairpin at the end of the back straight — the last heavy braking zone and an overtaking chance"
+      }
+    },
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.5659,
+      "sEnd": 0.5759,
+      "label": "T9",
+      "note": {
+        "ko": "오르막 좌측 헤어핀, 2012년 승부가 갈린 추월 지점",
+        "en": "An uphill left-hand hairpin — the overtaking spot that decided the 2012 race"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.3444,
+      "sEnd": 0.3544,
+      "label": "T5",
+      "note": {
+        "ko": "서킷에서 가장 빠르고 어려운 코너링 구간의 시작",
+        "en": "The start of the fastest and most difficult cornering stretch on the circuit"
+      }
+    }
+  ],
+  "aero": {
+    "season": 2026,
+    "status": "confirmed",
+    "straightModeZones": [
+      {
+        "from": 15,
+        "to": 1
+      },
+      {
+        "from": 3,
+        "to": 4
+      },
+      {
+        "from": 8,
+        "to": 9
+      },
+      {
+        "from": 14,
+        "to": 15
+      }
+    ],
+    "overtake": {
+      "detection": {
+        "corner": 15,
+        "position": "after"
+      },
+      "activation": {
+        "corner": 15,
+        "position": "after"
+      }
+    },
+    "source": "F1 공식 2026 세팡 가이드(감지 15번 탈출, 작동 메인 스트레이트 시작 지점)"
+  },
+  "character": {
+    "type": "permanent",
+    "summary": {
+      "ko": "넓은 트랙에 긴 직선 두 개와 고속 코너가 섞인 서킷. 덥고 습하며, 1번과 마지막 15번 헤어핀이 추월 지점이다.",
+      "en": "Wide track, two long straights and fast sweepers. Hot and humid, with the T1 and final T15 hairpins as the main passing spots."
+    }
+  }
+}

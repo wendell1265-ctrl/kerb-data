@@ -1,0 +1,31 @@
+{
+  "circuits": {
+    "albert_park": "albert-park",
+    "shanghai": "shanghai",
+    "suzuka": "suzuka",
+    "miami": "miami",
+    "villeneuve": "gilles-villeneuve",
+    "monaco": "monaco",
+    "catalunya": "catalunya",
+    "red_bull_ring": "red-bull-ring",
+    "silverstone": "silverstone",
+    "spa": "spa",
+    "hungaroring": "hu",
+    "zandvoort": "zandvoort",
+    "monza": "monza",
+    "madring": "madring",
+    "baku": "baku",
+    "sepang": "sepang",
+    "marina_bay": "marina-bay",
+    "americas": "cota",
+    "rodriguez": "hermanos-rodriguez",
+    "interlagos": "interlagos",
+    "vegas": "las-vegas",
+    "losail": "lusail",
+    "yas_marina": "yas-marina",
+    "bahrain": "sakhir",
+    "jeddah": "jeddah",
+    "portimao": "portimao",
+    "istanbul": "istanbul-park"
+  }
+}

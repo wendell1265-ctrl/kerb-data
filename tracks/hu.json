@@ -1,0 +1,535 @@
+{
+  "trackId": "hu",
+  "name": "Hungaroring",
+  "lengthMeters": 4381,
+  "rotationDeg": 51,
+  "geojsonFile": "hu-1986",
+  "startOffsetS": 0.9261,
+  "flagAngleDeg": -90,
+  "corners": [
+    {
+      "number": 1,
+      "s": 0.1583,
+      "name": {
+        "ko": "피케",
+        "en": "Piquet"
+      },
+      "dirX": 0.154,
+      "dirY": -0.9881
+    },
+    {
+      "number": 2,
+      "s": 0.2747,
+      "name": {
+        "ko": "해밀턴",
+        "en": "Hamilton"
+      },
+      "dirX": 0.0574,
+      "dirY": -0.9984
+    },
+    {
+      "number": 3,
+      "s": 0.3146,
+      "name": {
+        "ko": "스프링",
+        "en": "Spring"
+      },
+      "dirX": -0.6877,
+      "dirY": -0.726
+    },
+    {
+      "number": 4,
+      "s": 0.4243,
+      "name": {
+        "ko": "만셀",
+        "en": "Mansell"
+      },
+      "dirX": -0.2501,
+      "dirY": -0.9682
+    },
+    {
+      "number": 5,
+      "s": 0.4786,
+      "name": {
+        "ko": "모조로드",
+        "en": "Mogyoród"
+      },
+      "dirX": 0.102,
+      "dirY": -0.9948
+    },
+    {
+      "number": 6,
+      "s": 0.5551,
+      "name": {
+        "ko": "드라이빙 센터 1",
+        "en": "Driving Centre 1"
+      },
+      "dirX": 0.7669,
+      "dirY": 0.6417
+    },
+    {
+      "number": 7,
+      "s": 0.5643,
+      "name": {
+        "ko": "드라이빙 센터 2",
+        "en": "Driving Centre 2"
+      },
+      "dirX": -0.2824,
+      "dirY": -0.9593
+    },
+    {
+      "number": 8,
+      "s": 0.6041,
+      "name": {
+        "ko": "부다",
+        "en": "Buda"
+      },
+      "dirX": 0.9838,
+      "dirY": 0.1791
+    },
+    {
+      "number": 9,
+      "s": 0.6349,
+      "name": {
+        "ko": "페스트",
+        "en": "Pest"
+      },
+      "dirX": 0.9449,
+      "dirY": 0.3275
+    },
+    {
+      "number": 10,
+      "s": 0.6834,
+      "name": {
+        "ko": "다뉴브",
+        "en": "Danube"
+      },
+      "dirX": 0.8107,
+      "dirY": 0.5855
+    },
+    {
+      "number": 11,
+      "s": 0.7221,
+      "name": {
+        "ko": "알레시",
+        "en": "Alesi"
+      },
+      "dirX": 0.664,
+      "dirY": 0.7478
+    },
+    {
+      "number": 12,
+      "s": 0.818,
+      "name": {
+        "ko": "슈마허",
+        "en": "Schumacher"
+      },
+      "dirX": -0.6765,
+      "dirY": 0.7365
+    },
+    {
+      "number": 13,
+      "s": 0.8793,
+      "name": {
+        "ko": "세나",
+        "en": "Senna"
+      },
+      "dirX": 0.0518,
+      "dirY": -0.9987
+    },
+    {
+      "number": 14,
+      "s": 0.9488,
+      "name": {
+        "ko": "시스",
+        "en": "Szisz"
+      },
+      "dirX": -0.3123,
+      "dirY": 0.95
+    }
+  ],
+  "lapRecords": [
+    {
+      "driver": "Lewis Hamilton",
+      "team": "Mercedes",
+      "time": "1:16.627",
+      "year": 2020,
+      "session": "race",
+      "isTrackRecord": true
+    }
+  ],
+  "segments": [
+    {
+      "type": "sector",
+      "label": "S1",
+      "sStart": 0,
+      "sEnd": 0.36945
+    },
+    {
+      "type": "sector",
+      "label": "S2",
+      "sStart": 0.36945,
+      "sEnd": 0.7700499999999999
+    },
+    {
+      "type": "sector",
+      "label": "S3",
+      "sStart": 0.7700499999999999,
+      "sEnd": 1
+    }
+  ],
+  "trackData": {
+    "lengthMeters": 4381,
+    "laps": 70,
+    "cornerCount": 14,
+    "topSpeedKmh": 310,
+    "fullThrottlePercent": 55,
+    "firstHeld": 1986
+  },
+  "sections": [
+    {
+      "id": "t1-t2",
+      "name": {
+        "ko": "피케~해밀턴",
+        "en": "Piquet to Hamilton"
+      },
+      "corners": [
+        1,
+        2
+      ],
+      "guide": {
+        "ko": "스타트 직후 랩에서 가장 강한 제동이 걸리는 우코너(피케). 탈출이 열려있어 진입이 늦으면 바깥으로 밀린다. 이어지는 해밀턴은 내리막 좌코너로 연결된다. 1번에서 2번으로 내려가는 구간도 스트레이트 모드 구간이다.",
+        "en": "A right-hander right after the start with the hardest braking zone of the lap (Piquet). The exit is open, so a late entry pushes the car wide. It leads into Hamilton, a downhill left. The stretch descending from T1 to T2 is also a Straight Mode zone."
+      },
+      "sim": {
+        "summary": {
+          "ko": "100m 보드 부근 · 2단 · 늦은 에이펙스",
+          "en": "Around the 100 m board · 2nd · Late apex"
+        },
+        "popup": {
+          "brake": {
+            "ko": "100m 보드 부근",
+            "en": "~100m board"
+          },
+          "gear": {
+            "ko": "2단",
+            "en": "2nd"
+          },
+          "watch": {
+            "ko": "탈출 시 바깥으로 밀림",
+            "en": "Pushed wide on exit"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 100m 보드 부근, 노면이 거칠어 프론트 락업 주의\n기어: 2단\n라인: 왼쪽에서 진입해 늦은 에이펙스로 공략\n핵심: 랩에서 사실상 유일한 확실한 추월 지점\n주의: 진입이 뜨거우면 탈출에서 바깥으로 밀려 해밀턴 진입 각도가 나빠짐",
+          "en": "Braking: Around the 100 m board; the surface is rough, so watch for front lock-ups\nGear: 2nd\nLine: Enter from the left and attack with a late apex\nKey: Effectively the only reliable overtaking spot on the lap\nWatch: Enter too hot and you run wide on exit, which ruins your entry angle into Hamilton"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t3-t4",
+      "name": {
+        "ko": "스프링~만셀",
+        "en": "Spring to Mansell"
+      },
+      "corners": [
+        3,
+        4
+      ],
+      "guide": {
+        "ko": "오르막을 타는 블라인드 에이펙스 구간. 연석을 적극 활용해야 다음 기술 구간 진입 속도가 산다. 3번과 4번 사이는 짧은 스트레이트 모드 구간이다.",
+        "en": "An uphill stretch with a blind apex. Using the kerbs aggressively here is what carries speed into the technical section that follows. There is a short Straight Mode zone between T3 and T4."
+      },
+      "sim": {
+        "summary": {
+          "ko": "3번 풀스로틀·4번 가볍게 · 4단 · 이른 턴인",
+          "en": "Flat out at T3, light at T4 · 4th · Early turn-in"
+        },
+        "popup": {
+          "brake": {
+            "ko": "3번 풀스로틀, 4번 가볍게",
+            "en": "Flat out at T3, light braking at T4"
+          },
+          "gear": {
+            "ko": "4단",
+            "en": "4th"
+          },
+          "watch": {
+            "ko": "블라인드 에이펙스",
+            "en": "Blind apex"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 3번은 풀스로틀, 4번은 레드-화이트 연석이 시작되는 지점부터 가볍게\n기어: 4단\n라인: 블라인드 에이펙스라 생각보다 일찍 턴인, 안쪽 연석 최대한 활용\n핵심: 여기서 만든 흐름이 이후 기술 구간 전체에 영향을 준다\n주의: 에이펙스가 안 보이니 감으로 늦게 틀면 아웃코스로 밀림",
+          "en": "Braking: Flat out at T3, light braking at T4 from where the red-and-white kerb starts\nGear: 4th\nLine: A blind apex, so turn in earlier than you think and use the inside kerb as much as possible\nKey: The flow you build here carries through the whole technical section that follows\nWatch: You can't see the apex, so turning in late by feel pushes you wide"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t5-t7",
+      "name": {
+        "ko": "모조로드~드라이빙 센터",
+        "en": "Mogyoród to Driving Centre"
+      },
+      "corners": [
+        5,
+        6,
+        7
+      ],
+      "guide": {
+        "ko": "트랙이 계곡 최저점으로 내려가는 구간. 코너가 연속으로 이어지므로 한 코너의 라인이 다음 코너 전부에 영향을 준다.",
+        "en": "The track drops to the lowest point of the valley here. The corners run in one continuous sequence, so the line through one affects all the ones that follow."
+      },
+      "sim": {
+        "summary": {
+          "ko": "연속 제동 · 3단 · 리듬 유지",
+          "en": "Repeated braking · 3rd · Keep the rhythm"
+        },
+        "popup": {
+          "brake": {
+            "ko": "코너마다 짧게 끊어서",
+            "en": "Short braking at each corner"
+          },
+          "gear": {
+            "ko": "3단",
+            "en": "3rd"
+          },
+          "watch": {
+            "ko": "한 코너 라인 이탈이 연쇄 영향",
+            "en": "One bad line ripples through the rest"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 코너마다 짧게 끊어서, 트레일 브레이킹으로 연결\n기어: 3단\n라인: 각 코너를 개별로 보지 말고 하나의 흐름으로 연결\n핵심: 이 구간 전체가 일관된 리듬을 요구한다\n주의: 한 코너에서 라인을 놓치면 다음 코너까지 연쇄적으로 영향",
+          "en": "Braking: Brief at each corner, linked with trail braking\nGear: 3rd\nLine: Don't treat each corner separately; link them as one flow\nKey: This whole section demands a consistent rhythm\nWatch: Miss the line at one corner and it affects the next ones in a chain"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t8-t9",
+      "name": {
+        "ko": "부다~페스트",
+        "en": "Buda to Pest"
+      },
+      "corners": [
+        8,
+        9
+      ],
+      "guide": {
+        "ko": "좌우로 짧게 꺾이는 시케인. 헝가로링 특유의 연석을 최대한 활용해야 코너 스피드가 산다.",
+        "en": "A short left-right chicane. Using Hungaroring's kerbs to the full is what keeps corner speed up here."
+      },
+      "sim": {
+        "summary": {
+          "ko": "짧은 제동 · 3단 · 연석 활용",
+          "en": "Short braking · 3rd · Use the kerbs"
+        },
+        "popup": {
+          "brake": {
+            "ko": "짧고 가볍게",
+            "en": "Short and light"
+          },
+          "gear": {
+            "ko": "3단",
+            "en": "3rd"
+          },
+          "watch": {
+            "ko": "연석 위 차체 불안정",
+            "en": "Unsettled over the kerbs"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 짧고 가볍게\n기어: 3단\n라인: 진입·탈출 연석 둘 다 최대한 사용\n핵심: 연석을 안 쓰면 다음 에세스 구간 진입 속도를 잃는다\n주의: 연석에서 차체가 불안정해지기 쉬우니 스티어링 입력 최소화",
+          "en": "Braking: Short and light\nGear: 3rd\nLine: Use both the entry and exit kerbs as much as possible\nKey: If you don't use the kerbs, you lose entry speed into the next esses section\nWatch: The car easily becomes unstable on the kerbs, so keep steering inputs to a minimum"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t10-t13",
+      "name": {
+        "ko": "다뉴브~세나",
+        "en": "Danube to Senna"
+      },
+      "corners": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "guide": {
+        "ko": "좌-우-좌-우로 이어지는 중고속 연속 코너. 리듬을 이어가는 게 중요한 연속 구간이자 실수가 잦은 곳이다. 세나는 더블 에이펙스로 공략한다. 11번과 12번 사이는 스트레이트 모드 구간이다. 13번과 14번 사이에서 오버테이크를 감지한다.",
+        "en": "A left-right-left-right medium-to-high-speed sequence — a stretch where keeping the rhythm matters most, and where mistakes happen most often. Senna is taken as a double apex. There is a Straight Mode zone between T11 and T12, and Overtake Mode is detected between T13 and T14."
+      },
+      "sim": {
+        "summary": {
+          "ko": "중고속 연속 · 3~4단 · 더블 에이펙스",
+          "en": "Medium-to-high-speed sequence · 3rd–4th · Double apex"
+        },
+        "popup": {
+          "brake": {
+            "ko": "코너별로 가볍게",
+            "en": "Light braking at each corner"
+          },
+          "gear": {
+            "ko": "3~4단",
+            "en": "3rd–4th"
+          },
+          "watch": {
+            "ko": "중간 확폭 지점 방심 금지",
+            "en": "Don't relax at the mid-section widening"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 코너별로 가볍게, 급격한 제동 없음\n기어: 3~4단\n라인: 세나는 첫 에이펙스에서 무리하지 않고 두 번째 에이펙스로 마무리\n핵심: 이 구간 탈출 속도가 시스 진입 속도를 결정\n주의: 중간에 살짝 넓어지는 지점에서 방심하면 라인이 바깥으로 밀림",
+          "en": "Braking: Light at each corner, no sudden braking\nGear: 3rd–4th\nLine: At Senna, don't force the first apex and finish at the second\nKey: The exit speed from this section decides your entry speed at Szisz\nWatch: Relax where the track widens slightly mid-section and your line runs wide"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t14",
+      "name": {
+        "ko": "시스",
+        "en": "Szisz"
+      },
+      "corners": [
+        14
+      ],
+      "guide": {
+        "ko": "타이어가 과열돼 그립이 떨어지기 쉬운 내리막 우코너. 랩의 마지막 코너이자 다음 랩 피케 추월을 준비하는 지점이다. 14번 탈출부터 오버테이크 모드를 쓸 수 있고, 메인 스트레이트는 스트레이트 모드 구간이다.",
+        "en": "A downhill right-hander prone to reduced grip from tyre overheating. It's the final corner of the lap and sets up an overtaking attempt into Piquet on the next lap. Overtake Mode is available from the T14 exit, and the main straight is a Straight Mode zone."
+      },
+      "sim": {
+        "summary": {
+          "ko": "초반 강한 제동 · 4단 · 탈출 우선",
+          "en": "Hard early braking · 4th · Prioritise exit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "진입 초반 강하게",
+            "en": "Hard braking on initial entry"
+          },
+          "gear": {
+            "ko": "4단",
+            "en": "4th"
+          },
+          "watch": {
+            "ko": "리어 흔들림",
+            "en": "Rear can get unsettled"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 진입 초반 강하게, 리어가 흔들리기 쉬워 작은 스티어링 입력\n기어: 4단\n라인: 이른 에이펙스로 진입해 늦은 에이펙스로 마무리\n핵심: 탈출 속도가 다음 랩 피케 추월 시도를 결정\n주의: 욕심내서 속도를 더 실으면 탈출에서 바깥으로 밀림",
+          "en": "Braking: Hard in the early part of the entry; the rear unsettles easily, so use small steering inputs\nGear: 4th\nLine: Enter with an early apex and finish with a late apex\nKey: Exit speed decides your overtaking attempt at Piquet on the next lap\nWatch: If you get greedy and carry more speed, you run wide on exit"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    }
+  ],
+  "highlights": [
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.1483,
+      "sEnd": 0.1583,
+      "label": "피케",
+      "note": {
+        "ko": "랩에서 사실상 유일하게 확실한 추월 지점",
+        "en": "The one truly reliable overtaking spot on the lap"
+      }
+    },
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.9388,
+      "sEnd": 0.9488,
+      "label": "시스",
+      "note": {
+        "ko": "탈출 속도로 다음 랩 피케 추월을 준비하는 지점",
+        "en": "Exit speed here sets up an overtake into Piquet on the next lap"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.6834,
+      "sEnd": 0.8793,
+      "label": "다뉴브~세나",
+      "note": {
+        "ko": "좌우로 연속 이어지는 헝가로링의 리듬 구간",
+        "en": "A continuous left-right sequence — Hungaroring's rhythm section"
+      }
+    }
+  ],
+  "aero": {
+    "season": 2026,
+    "status": "confirmed",
+    "straightModeZones": [
+      {
+        "from": 14,
+        "to": 1
+      },
+      {
+        "from": 1,
+        "to": 2
+      },
+      {
+        "from": 3,
+        "to": 4
+      },
+      {
+        "from": 11,
+        "to": 12
+      }
+    ],
+    "overtake": {
+      "detection": {
+        "corner": 14,
+        "position": "before"
+      },
+      "activation": {
+        "corner": 14,
+        "position": "after"
+      }
+    },
+    "source": "f1chronicle 2026, Formula Live Pulse 2026"
+  },
+  "character": {
+    "type": "permanent",
+    "summary": {
+      "ko": "코너가 촘촘하고 직선이 짧아 추월이 어렵다. 그래서 예선 순위와 타이어 전략의 비중이 크다.",
+      "en": "Tightly packed corners and short straights make passing hard, so qualifying position and tyre strategy carry extra weight."
+    }
+  }
+}

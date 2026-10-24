@@ -1,0 +1,530 @@
+{
+  "trackId": "lusail",
+  "name": "Lusail",
+  "lengthMeters": 5419,
+  "rotationDeg": 298,
+  "geojsonFile": "qa-2004",
+  "startOffsetS": 0.9698,
+  "corners": [
+    {
+      "number": 1,
+      "s": 0.1279,
+      "name": {
+        "ko": "T1",
+        "en": "Turn 1"
+      },
+      "dirX": -0.999,
+      "dirY": 0.0441
+    },
+    {
+      "number": 2,
+      "s": 0.1836,
+      "name": {
+        "ko": "T2",
+        "en": "Turn 2"
+      },
+      "dirX": 0.9655,
+      "dirY": -0.2604
+    },
+    {
+      "number": 3,
+      "s": 0.2261,
+      "name": {
+        "ko": "T3",
+        "en": "Turn 3"
+      },
+      "dirX": -0.7346,
+      "dirY": 0.6785
+    },
+    {
+      "number": 4,
+      "s": 0.3015,
+      "name": {
+        "ko": "T4",
+        "en": "Turn 4"
+      },
+      "dirX": -0.9176,
+      "dirY": -0.3976
+    },
+    {
+      "number": 5,
+      "s": 0.3345,
+      "name": {
+        "ko": "T5",
+        "en": "Turn 5"
+      },
+      "dirX": 0.5083,
+      "dirY": -0.8612
+    },
+    {
+      "number": 6,
+      "s": 0.3883,
+      "name": {
+        "ko": "T6",
+        "en": "Turn 6"
+      },
+      "dirX": 0.2229,
+      "dirY": 0.9748
+    },
+    {
+      "number": 7,
+      "s": 0.4642,
+      "name": {
+        "ko": "T7",
+        "en": "Turn 7"
+      },
+      "dirX": 0.0403,
+      "dirY": -0.9992
+    },
+    {
+      "number": 8,
+      "s": 0.4976,
+      "name": {
+        "ko": "T8",
+        "en": "Turn 8"
+      },
+      "dirX": -0.8427,
+      "dirY": 0.5383
+    },
+    {
+      "number": 9,
+      "s": 0.5249,
+      "name": {
+        "ko": "T9",
+        "en": "Turn 9"
+      },
+      "dirX": 0.9143,
+      "dirY": -0.405
+    },
+    {
+      "number": 10,
+      "s": 0.5655,
+      "name": {
+        "ko": "T10",
+        "en": "Turn 10"
+      },
+      "dirX": -0.7605,
+      "dirY": 0.6494
+    },
+    {
+      "number": 11,
+      "s": 0.6089,
+      "name": {
+        "ko": "T11",
+        "en": "Turn 11"
+      },
+      "dirX": 0.6741,
+      "dirY": 0.7387
+    },
+    {
+      "number": 12,
+      "s": 0.6804,
+      "name": {
+        "ko": "T12",
+        "en": "Turn 12"
+      },
+      "dirX": -0.5963,
+      "dirY": -0.8028
+    },
+    {
+      "number": 13,
+      "s": 0.7196,
+      "name": {
+        "ko": "T13",
+        "en": "Turn 13"
+      },
+      "dirX": 0.593,
+      "dirY": -0.8052
+    },
+    {
+      "number": 14,
+      "s": 0.7558,
+      "name": {
+        "ko": "T14",
+        "en": "Turn 14"
+      },
+      "dirX": 0.9984,
+      "dirY": 0.0573
+    },
+    {
+      "number": 15,
+      "s": 0.8159,
+      "name": {
+        "ko": "T15",
+        "en": "Turn 15"
+      },
+      "dirX": -0.9939,
+      "dirY": 0.1103
+    },
+    {
+      "number": 16,
+      "s": 0.9023,
+      "name": {
+        "ko": "T16",
+        "en": "Turn 16"
+      },
+      "dirX": 0.8255,
+      "dirY": 0.5644
+    }
+  ],
+  "lapRecords": [
+    {
+      "driver": "Lando Norris",
+      "team": "McLaren",
+      "time": "1:22.384",
+      "year": 2024,
+      "session": "race",
+      "isTrackRecord": true
+    }
+  ],
+  "segments": [
+    {
+      "type": "sector",
+      "label": "S1",
+      "sStart": 0,
+      "sEnd": 0.379073205388448
+    },
+    {
+      "type": "sector",
+      "label": "S2",
+      "sStart": 0.379073205388448,
+      "sEnd": 0.671173205388448
+    },
+    {
+      "type": "sector",
+      "label": "S3",
+      "sStart": 0.671173205388448,
+      "sEnd": 1
+    }
+  ],
+  "trackData": {
+    "lengthMeters": 5419,
+    "laps": 57,
+    "cornerCount": 16,
+    "topSpeedKmh": 330,
+    "fullThrottlePercent": 70,
+    "firstHeld": 2021
+  },
+  "sections": [
+    {
+      "id": "t1",
+      "name": {
+        "ko": "T1",
+        "en": "Turn 1"
+      },
+      "corners": [
+        1
+      ],
+      "guide": {
+        "ko": "1km가 넘는 메인 스트레이트 끝에서 강하게 제동하는 U자 모양의 긴 우코너다. 직선이 길어 슬립스트림 효과가 커서 서킷에서 가장 좋은 추월 지점이다. 랩 전체에서 유일하게 강하게 제동하는 곳이기도 하다. 늦은 에이펙스로 빠져나가 2번으로 흐름을 이어간다.",
+        "en": "A long, U-shaped right-hander braked hard at the end of the main straight, which is over 1 km long. The long straight makes the slipstream very effective, so this is the best overtaking spot on the circuit. It is also the only place on the whole lap where cars brake hard. Cars take a late apex and carry the flow on into Turn 2."
+      },
+      "sim": {
+        "summary": {
+          "ko": "100m 보드 · 4단 · 늦은 에이펙스",
+          "en": "100 m board · 4th · Late apex"
+        },
+        "popup": {
+          "brake": {
+            "ko": "1번 100m 보드",
+            "en": "T1 100 m board"
+          },
+          "gear": {
+            "ko": "4단",
+            "en": "4th"
+          },
+          "watch": {
+            "ko": "늦은 제동 시 안쪽 놓침",
+            "en": "Braking too late misses the inside"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 메인 스트레이트 끝 100m 보드에서 강하게\n기어: 4단\n라인: 넓게 들어가 늦은 에이펙스로 2번 진입을 준비\n스로틀: 탈출에서 트랙 폭을 모두 쓰며 점진적으로\n핵심: 긴 직선 끝이라 서킷에서 가장 좋은 추월 지점\n주의: 너무 늦게 밟으면 U자 코너 안쪽을 놓친다",
+          "en": "Braking: Hard at the 100 m board at the end of the main straight\nGear: 4th\nLine: Enter wide and take a late apex to prepare for the T2 entry\nThrottle: Use the full track width on exit, building up gradually\nKey: At the end of a long straight, the best overtaking spot on the circuit\nWatch: Brake too late and you miss the inside of the U-shaped corner"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t2-t5",
+      "name": {
+        "ko": "T2~T5",
+        "en": "Turn 2 to Turn 5"
+      },
+      "corners": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "guide": {
+        "ko": "원래 모터사이클 경주를 위해 지어진 서킷답게 중고속 코너가 끊김 없이 이어진다. 2번은 거의 풀스로틀로, 3번은 길게 돌며 지나고, 4·5번에서 짧게 속도를 조절한다. 조작이 거칠면 타이어가 금방 닳아 부드러운 흐름이 핵심이다.",
+        "en": "True to a circuit originally built for motorcycle racing, medium- and high-speed corners follow one another without a break. Turn 2 is taken almost flat out, Turn 3 is a long sweep, and speed is trimmed briefly at Turns 4 and 5. Rough inputs wear the tyres quickly, so a smooth flow is the key."
+      },
+      "sim": {
+        "summary": {
+          "ko": "짧은 리프트 · 4~5단 · 부드러운 흐름",
+          "en": "Short lift · 4th–5th · Smooth flow"
+        },
+        "popup": {
+          "brake": {
+            "ko": "2번 리프트, 4번 짧게",
+            "en": "Lift at T2, brief braking at T4"
+          },
+          "gear": {
+            "ko": "4~5단",
+            "en": "4th–5th"
+          },
+          "watch": {
+            "ko": "과한 조작 시 타이어 마모",
+            "en": "Heavy inputs wear the tyres"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 2번은 리프트, 4번은 짧게\n기어: 4~5단\n라인: 최소 조향으로 코너를 이어간다\n스로틀: 일정하게 유지하며 미세하게 조절\n핵심: 부드러운 조작이 랩타임과 타이어를 함께 지킨다\n주의: 과한 조작은 타이어를 빠르게 닳게 한다",
+          "en": "Braking: A lift at T2, brief braking at T4\nGear: 4th–5th\nLine: Link the corners with minimal steering\nThrottle: Hold it steady with fine adjustments\nKey: Smooth inputs protect both your lap time and your tyres\nWatch: Heavy inputs wear the tyres quickly"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t6",
+      "name": {
+        "ko": "T6",
+        "en": "Turn 6"
+      },
+      "corners": [
+        6
+      ],
+      "guide": {
+        "ko": "서킷에서 가장 느린 좌측 헤어핀으로, 루사일에서 유일하게 크게 감속하는 저속 코너다. 반경이 넓어서 두 에이펙스를 차례로 잇거나, 짧게 꺾어 V자로 빠져나가는 두 가지 라인이 가능하다.",
+        "en": "The slowest corner on the circuit, a left-hand hairpin and the only low-speed corner at Lusail where cars slow down heavily. Its wide radius allows two lines: linking two apexes one after the other, or turning in short and exiting in a V shape."
+      },
+      "sim": {
+        "summary": {
+          "ko": "강한 제동 · 3단 · 서킷 최저속",
+          "en": "Hard braking · 3rd · Slowest point on the circuit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "6번 진입 전 강하게",
+            "en": "Hard before the T6 entry"
+          },
+          "gear": {
+            "ko": "3단",
+            "en": "3rd"
+          },
+          "watch": {
+            "ko": "두 번째 에이펙스 놓침",
+            "en": "Missing the second apex"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 진입 전 직선에서 강하게\n기어: 3단\n라인: 첫 에이펙스를 찍고 살짝 넓게 빠졌다가 두 번째 에이펙스로\n스로틀: 두 번째 에이펙스부터 점진적으로\n핵심: 탈출 속도가 이어지는 고속 구간을 결정\n주의: 너무 넓게 돌면 두 번째 에이펙스를 놓친다",
+          "en": "Braking: Hard on the straight before entry\nGear: 3rd\nLine: Hit the first apex, run slightly wide, then take the second apex\nThrottle: Build up gradually from the second apex\nKey: Exit speed decides the high-speed section that follows\nWatch: Go too wide and you miss the second apex"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t7-t11",
+      "name": {
+        "ko": "T7~T11",
+        "en": "Turn 7 to Turn 11"
+      },
+      "corners": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "guide": {
+        "ko": "7번 U자 우코너를 지나 8번 좌측 곡선과 빠른 9번 우코너로 이어지는 연속 구간이다. 10번은 탈출이 넓게 열려 속도를 많이 들고 나갈 수 있지만, 연석이 평평해 트랙 리밋을 넘기 쉽다. 11번에서 짧게 속도를 줄이고 마지막 고속 구간으로 들어간다.",
+        "en": "After the U-shaped right-hander at Turn 7, this is a run through the left-hand curve at Turn 8 and the fast right-hander at Turn 9. Turn 10 opens out on exit so cars can carry a lot of speed, but the kerbs are flat and it is easy to exceed track limits. Cars slow briefly at Turn 11 and enter the final high-speed section."
+      },
+      "sim": {
+        "summary": {
+          "ko": "짧은 제동 · 4~5단 · 10번 트랙 리밋",
+          "en": "Short braking · 4th–5th · T10 track limits"
+        },
+        "popup": {
+          "brake": {
+            "ko": "11번 짧게",
+            "en": "Brief braking at T11"
+          },
+          "gear": {
+            "ko": "4~5단",
+            "en": "4th–5th"
+          },
+          "watch": {
+            "ko": "10번 트랙 리밋",
+            "en": "Track limits at T10"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 8번은 가볍게, 11번은 짧게\n기어: 4~5단\n라인: 10번은 넓게 열리는 탈출을 최대한 활용\n스로틀: 10번 탈출에서 일찍\n핵심: 10번 탈출 속도가 마지막 섹터 전체로 이어진다\n주의: 10번 연석이 평평해 트랙 리밋을 넘기 쉽다",
+          "en": "Braking: Light at T8, short at T11\nGear: 4th–5th\nLine: Make the most of the wide-opening exit at T10\nThrottle: Early on the T10 exit\nKey: T10 exit speed carries through the whole final sector\nWatch: The T10 kerb is flat, so it is easy to exceed track limits"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t12-t14",
+      "name": {
+        "ko": "T12~T14",
+        "en": "Turn 12 to Turn 14"
+      },
+      "corners": [
+        12,
+        13,
+        14
+      ],
+      "guide": {
+        "ko": "12~14번은 F1 차에게 하나로 이어진 거대한 우코너처럼 느껴지는 구간으로, 이스탄불 파크의 유명한 8번과 비교된다. 12번은 서킷에서 가장 빠른 코너이고, 연료가 무거울 땐 14번에서 살짝 리프트한다. 오른쪽으로 오래 하중이 걸려 왼쪽 앞 타이어가 가장 크게 닳는다.",
+        "en": "To an F1 car, Turns 12 to 14 feel like one huge right-hander, and are compared with the famous Turn 8 at Istanbul Park. Turn 12 is the fastest corner on the circuit, and with a heavy fuel load cars lift slightly at Turn 14. The load stays on the right side for a long time, so the front-left tyre wears the most."
+      },
+      "sim": {
+        "summary": {
+          "ko": "13·14번 리프트 · 5단 · 하나의 긴 코너",
+          "en": "Lift at T13 and T14 · 5th · One long corner"
+        },
+        "popup": {
+          "brake": {
+            "ko": "13·14번 살짝 리프트",
+            "en": "Slight lift at T13 and T14"
+          },
+          "gear": {
+            "ko": "5단",
+            "en": "5th"
+          },
+          "watch": {
+            "ko": "왼쪽 앞 타이어 마모",
+            "en": "Front-left tyre wear"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 12번은 풀스로틀, 13·14번은 살짝 리프트\n기어: 5단 이상\n라인: 트랙 폭을 모두 써서 조향을 줄인다\n스로틀: 리프트 후 바로 다시 연다\n핵심: 세 코너를 하나의 긴 코너처럼 잇는다\n주의: 왼쪽 앞 타이어 마모가 가장 큰 구간",
+          "en": "Braking: Flat out at T12, a slight lift at T13 and T14\nGear: 5th or higher\nLine: Use the full track width to reduce steering\nThrottle: Get back on it right after the lift\nKey: Link the three corners like one long corner\nWatch: The section with the most front-left tyre wear"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t15-t16",
+      "name": {
+        "ko": "T15~T16",
+        "en": "Turn 15 to Turn 16"
+      },
+      "corners": [
+        15,
+        16
+      ],
+      "guide": {
+        "ko": "15번에서 늦게 제동한 뒤 마지막 16번으로 들어간다. 16번은 1번과 비슷하게 길게 도는 우코너로, 서킷에서 두 번째로 느린 코너지만 여전히 꽤 높은 기어로 돈다. 탈출이 1km가 넘는 메인 스트레이트로 이어져, 랩에서 가장 중요한 코너로 꼽힌다.",
+        "en": "Cars brake late at Turn 15 and then enter the final corner, Turn 16. Like Turn 1 it is a long right-hander; it is the second-slowest corner on the circuit but is still taken in a fairly high gear. Its exit leads onto the main straight of more than 1 km, so it is regarded as the most important corner of the lap."
+      },
+      "sim": {
+        "summary": {
+          "ko": "16번 100m 보드 · 4단 · 탈출이 전부",
+          "en": "100 m board at T16 · 4th · Straighten the exit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "16번 100m 보드",
+            "en": "T16 100 m board"
+          },
+          "gear": {
+            "ko": "16번 4단",
+            "en": "4th at T16"
+          },
+          "watch": {
+            "ko": "과감속 시 직선 손해",
+            "en": "Slowing too much costs time on the straight"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 15번은 75m 보드, 16번은 100m 보드\n기어: 15번 3단, 16번 4단\n라인: 16번은 안쪽 에이펙스를 짧게 찍고 탈출을 곧게\n스로틀: 16번 탈출에서 최대한 일찍\n핵심: 16번 탈출이 메인 스트레이트와 1번 추월을 결정\n주의: 16번에서 속도를 너무 줄이면 직선 전체에서 손해",
+          "en": "Braking: 75 m board at T15, 100 m board at T16\nGear: 3rd at T15, 4th at T16\nLine: Tap the inside apex briefly at T16 and straighten the exit\nThrottle: As early as possible on the T16 exit\nKey: The T16 exit decides the main straight and your T1 overtake\nWatch: Slow down too much at T16 and you lose time along the whole straight"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    }
+  ],
+  "highlights": [
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.11790000000000002,
+      "sEnd": 0.1279,
+      "label": "T1",
+      "note": {
+        "ko": "1km가 넘는 직선 끝, 랩에서 유일한 강한 제동이자 최대 추월 지점",
+        "en": "The end of a straight of over 1 km — the only hard braking of the lap and the best overtaking spot"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.6704,
+      "sEnd": 0.6804,
+      "label": "T12",
+      "note": {
+        "ko": "하나의 거대한 코너처럼 이어지는 서킷 최고속 구간",
+        "en": "The fastest section on the circuit, linked like one huge corner"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.8923,
+      "sEnd": 0.9023,
+      "label": "T16",
+      "note": {
+        "ko": "탈출이 랩타임을 가르는 마지막 코너",
+        "en": "The final corner, where the exit decides lap time"
+      }
+    }
+  ],
+  "aero": {
+    "season": 2026,
+    "status": "pending",
+    "straightModeZones": [],
+    "overtake": null,
+    "source": "2026 카타르 GP 대회 주 FIA 발표 예정"
+  },
+  "character": {
+    "type": "permanent",
+    "summary": {
+      "ko": "중·고속 코너가 끊김 없이 이어지는 야간 경기 서킷. 빠른 코너에서 타이어 부담이 크고, 메인 스트레이트 끝 1번이 주된 추월 지점이다.",
+      "en": "A night race on a circuit of flowing medium- and high-speed corners. Tyre load is high, and T1 at the end of the main straight is the main passing spot."
+    }
+  }
+}

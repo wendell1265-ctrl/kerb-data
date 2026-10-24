@@ -1,0 +1,682 @@
+{
+  "trackId": "miami",
+  "name": "Miami",
+  "lengthMeters": 5412,
+  "rotationDeg": 0,
+  "geojsonFile": "us-2022",
+  "startOffsetS": 0.9985,
+  "corners": [
+    {
+      "number": 1,
+      "s": 0.0492,
+      "name": {
+        "ko": "T1",
+        "en": "Turn 1"
+      },
+      "dirX": 0.9857,
+      "dirY": 0.1683
+    },
+    {
+      "number": 2,
+      "s": 0.0676,
+      "name": {
+        "ko": "T2",
+        "en": "Turn 2"
+      },
+      "dirX": -0.9859,
+      "dirY": -0.1676
+    },
+    {
+      "number": 3,
+      "s": 0.0852,
+      "name": {
+        "ko": "T3",
+        "en": "Turn 3"
+      },
+      "dirX": 0.9035,
+      "dirY": 0.4286
+    },
+    {
+      "number": 4,
+      "s": 0.1895,
+      "name": {
+        "ko": "T4",
+        "en": "Turn 4"
+      },
+      "dirX": -0.1297,
+      "dirY": -0.9915
+    },
+    {
+      "number": 5,
+      "s": 0.2145,
+      "name": {
+        "ko": "T5",
+        "en": "Turn 5"
+      },
+      "dirX": 0.1368,
+      "dirY": 0.9906,
+      "labelOffsetScale": 0.566
+    },
+    {
+      "number": 6,
+      "s": 0.2423,
+      "name": {
+        "ko": "T6",
+        "en": "Turn 6"
+      },
+      "dirX": 0.1974,
+      "dirY": -0.9803
+    },
+    {
+      "number": 7,
+      "s": 0.2772,
+      "name": {
+        "ko": "T7",
+        "en": "Turn 7"
+      },
+      "dirX": -0.9995,
+      "dirY": 0.0316
+    },
+    {
+      "number": 8,
+      "s": 0.2861,
+      "name": {
+        "ko": "T8",
+        "en": "Turn 8"
+      },
+      "dirX": 0,
+      "dirY": 1
+    },
+    {
+      "number": 9,
+      "s": 0.3798,
+      "name": {
+        "ko": "T9",
+        "en": "Turn 9"
+      },
+      "dirX": -0.3019,
+      "dirY": 0.9533
+    },
+    {
+      "number": 10,
+      "s": 0.4375,
+      "name": {
+        "ko": "T10",
+        "en": "Turn 10"
+      },
+      "dirX": 0.7827,
+      "dirY": 0.6224,
+      "labelOffsetScale": 1.214
+    },
+    {
+      "number": 11,
+      "s": 0.5538,
+      "name": {
+        "ko": "T11",
+        "en": "Turn 11"
+      },
+      "dirX": 0.8038,
+      "dirY": 0.5949
+    },
+    {
+      "number": 12,
+      "s": 0.5784,
+      "name": {
+        "ko": "T12",
+        "en": "Turn 12"
+      },
+      "dirX": -0.9741,
+      "dirY": -0.2262
+    },
+    {
+      "number": 13,
+      "s": 0.6004,
+      "name": {
+        "ko": "T13",
+        "en": "Turn 13"
+      },
+      "dirX": 0.5448,
+      "dirY": 0.8386
+    },
+    {
+      "number": 14,
+      "s": 0.6162,
+      "name": {
+        "ko": "T14",
+        "en": "Turn 14"
+      },
+      "dirX": 0.9482,
+      "dirY": 0.3175,
+      "labelOffsetScale": 0.74
+    },
+    {
+      "number": 15,
+      "s": 0.6224,
+      "name": {
+        "ko": "T15",
+        "en": "Turn 15"
+      },
+      "dirX": -0.9822,
+      "dirY": -0.1877,
+      "labelOffsetScale": 0.76
+    },
+    {
+      "number": 16,
+      "s": 0.6383,
+      "name": {
+        "ko": "T16",
+        "en": "Turn 16"
+      },
+      "dirX": 0.9899,
+      "dirY": -0.142
+    },
+    {
+      "number": 17,
+      "s": 0.8818,
+      "name": {
+        "ko": "T17",
+        "en": "Turn 17"
+      },
+      "dirX": -0.9659,
+      "dirY": -0.259
+    },
+    {
+      "number": 18,
+      "s": 0.9109,
+      "name": {
+        "ko": "T18",
+        "en": "Turn 18"
+      },
+      "dirX": 0.0823,
+      "dirY": 0.9966
+    },
+    {
+      "number": 19,
+      "s": 0.9473,
+      "name": {
+        "ko": "T19",
+        "en": "Turn 19"
+      },
+      "dirX": 0.0862,
+      "dirY": 0.9963
+    }
+  ],
+  "lapRecords": [
+    {
+      "driver": "Max Verstappen",
+      "team": "Red Bull Racing",
+      "time": "1:29.708",
+      "year": 2023,
+      "session": "race",
+      "isTrackRecord": true
+    }
+  ],
+  "segments": [
+    {
+      "type": "sector",
+      "label": "S1",
+      "sStart": 0,
+      "sEnd": 0.30642520325203254
+    },
+    {
+      "type": "sector",
+      "label": "S2",
+      "sStart": 0.30642520325203254,
+      "sEnd": 0.6512342202512934
+    },
+    {
+      "type": "sector",
+      "label": "S3",
+      "sStart": 0.6512342202512934,
+      "sEnd": 1
+    }
+  ],
+  "trackData": {
+    "lengthMeters": 5412,
+    "laps": 57,
+    "cornerCount": 19,
+    "topSpeedKmh": 340,
+    "fullThrottlePercent": 60,
+    "firstHeld": 2022
+  },
+  "sections": [
+    {
+      "id": "t1-t3",
+      "name": {
+        "ko": "T1~T3",
+        "en": "Turn 1 to Turn 3"
+      },
+      "corners": [
+        1,
+        2,
+        3
+      ],
+      "guide": {
+        "ko": "메인 스트레이트 끝의 중속 우코너 1번에서 곧바로 2번 좌측 킹크로 이어지고, 3번은 풀스로틀로 길게 도는 우코너다. 1번은 대표 추월 지점이다.",
+        "en": "Turn 1, a medium-speed right at the end of the main straight, leads straight into the left-hand kink of Turn 2, and Turn 3 is a long right-hander taken flat out. Turn 1 is one of the main overtaking spots."
+      },
+      "sim": {
+        "summary": {
+          "ko": "100m 보드 부근 · 3단 · 2번 킹크 연결",
+          "en": "Around the 100 m board · 3rd · Link into the T2 kink"
+        },
+        "popup": {
+          "brake": {
+            "ko": "100m 보드",
+            "en": "~100m board"
+          },
+          "gear": {
+            "ko": "3단",
+            "en": "3rd"
+          },
+          "watch": {
+            "ko": "1번 제동 락업 쉬움",
+            "en": "Easy to lock up braking into T1"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 100m 보드 부근에서 강하게\n기어: 3단\n라인: 1번은 늦은 에이펙스, 2·3번 안쪽 연석은 살짝만 스친다\n스로틀: 3번은 풀스로틀로 길게 유지\n핵심: 1번은 대표 추월 지점이다\n주의: 1번 제동에서 락업하기 쉽다",
+          "en": "Braking: Hard around the 100 m board\nGear: 3rd\nLine: Late apex at T1, and only brush the inside kerbs at T2 and T3\nThrottle: Hold flat out for a long time at T3\nKey: T1 is the signature overtaking spot\nWatch: It's easy to lock up under braking for T1"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t4-t5",
+      "name": {
+        "ko": "T4~T5",
+        "en": "Turn 4 to Turn 5"
+      },
+      "corners": [
+        4,
+        5
+      ],
+      "guide": {
+        "ko": "짧은 직선 뒤 4번 좌코너와 5번 우코너로 빠르게 방향을 바꾸는 고속 구간이다. 라인이 조금만 벗어나도 그립을 잃는다.",
+        "en": "After a short straight, this high-speed section flips direction quickly through the left of Turn 4 and the right of Turn 5. Even a small deviation from the line costs grip."
+      },
+      "sim": {
+        "summary": {
+          "ko": "제동 없음 · 5~6단 · 연석 절제",
+          "en": "No braking · 5th–6th · Restrain the kerbs"
+        },
+        "popup": {
+          "brake": {
+            "ko": "없음",
+            "en": "None"
+          },
+          "gear": {
+            "ko": "5~6단",
+            "en": "5th–6th"
+          },
+          "watch": {
+            "ko": "연석 세게 밟으면 균형 깨짐",
+            "en": "Hitting the kerbs hard unsettles the car"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 제동 없음\n기어: 5~6단\n라인: 4번 연석은 살짝만, 5번에서는 차를 흔들지 않는다\n스로틀: 일정하게 유지하며 부드럽게 조향\n핵심: 라인이 조금만 벗어나도 그립을 잃는다\n주의: 연석을 세게 밟으면 균형이 깨진다",
+          "en": "Braking: No braking\nGear: 5th–6th\nLine: Touch the T4 kerb only lightly, and don't unsettle the car at T5\nThrottle: Keep it steady and steer smoothly\nKey: Drift even slightly off the line and you lose grip\nWatch: Riding the kerbs hard breaks the car's balance"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t6-t8",
+      "name": {
+        "ko": "T6~T8",
+        "en": "Turn 6 to Turn 8"
+      },
+      "corners": [
+        6,
+        7,
+        8
+      ],
+      "guide": {
+        "ko": "에이펙스가 세 개인 긴 좌측 헤어핀이다. 앞 오른쪽 타이어 부담이 커서 레이스에서 특히 문제가 되고, 탈출이 긴 직선으로 이어져 중요하다. 8번 탈출부터 11번까지 스트레이트 모드 구간이다.",
+        "en": "A long left-hander with three apexes. It loads the front-right tyre heavily, which becomes a real issue over a race distance, and the exit matters because it feeds a long straight. The Straight Mode zone runs from the Turn 8 exit through to Turn 11."
+      },
+      "sim": {
+        "summary": {
+          "ko": "일찍 제동 · 3단 · 탈출 우선",
+          "en": "Brake early · 3rd · Prioritise the exit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "6번 진입 일찍",
+            "en": "Early braking into T6"
+          },
+          "gear": {
+            "ko": "3단",
+            "en": "3rd"
+          },
+          "watch": {
+            "ko": "레이스 후반 앞 오른쪽 그립 저하",
+            "en": "Front-right grip fades late in the race"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 일찍 제동해 차를 부드럽게 돌린다\n기어: 3단\n라인: 안쪽 연석을 스치되 과하게 돌리지 않는다\n스로틀: 탈출에서 일찍 가속\n핵심: 탈출이 11번까지 이어지는 긴 직선 속도를 결정한다\n주의: 앞 오른쪽 타이어 부담이 커 레이스 후반에 그립이 떨어진다",
+          "en": "Braking: Brake early to turn the car smoothly\nGear: 3rd\nLine: Brush the inside kerb, but don't over-rotate\nThrottle: Accelerate early on exit\nKey: The exit decides your speed along the long straight that runs to T11\nWatch: The load on the front-right tyre is large, so grip fades late in the race"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t9-t11",
+      "name": {
+        "ko": "T9~T11",
+        "en": "Turn 9 to Turn 11"
+      },
+      "corners": [
+        9,
+        10,
+        11
+      ],
+      "guide": {
+        "ko": "9번과 10번은 사실상 직선에 가까운 완만한 굽이이고, 끝에서 90도 좌코너 11번으로 강하게 제동한다. 차들이 나란히 진입하는 경우가 많은 추월 지점이다.",
+        "en": "Turns 9 and 10 are gentle bends that are almost a straight, ending in hard braking into the 90-degree left of Turn 11. Cars frequently arrive side by side here, making it an overtaking spot."
+      },
+      "sim": {
+        "summary": {
+          "ko": "100m 보드 직후 · 3단 · 늦은 에이펙스",
+          "en": "Just after the 100 m board · 3rd · Late apex"
+        },
+        "popup": {
+          "brake": {
+            "ko": "100m 보드 직후",
+            "en": "Just past the 100m board"
+          },
+          "gear": {
+            "ko": "3단",
+            "en": "3rd"
+          },
+          "watch": {
+            "ko": "직선 끝 락업 쉬움",
+            "en": "Easy to lock up at the end of the straight"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 100m 보드 직후에서 강하게\n기어: 3단\n라인: 오른쪽에서 진입해 늦은 에이펙스\n스로틀: 다음 코너를 위해 부드럽게 다시 가속\n핵심: 대표 추월 지점이다\n주의: 긴 직선 끝이라 락업하기 쉽다",
+          "en": "Braking: Hard just after the 100 m board\nGear: 3rd\nLine: Enter from the right and take a late apex\nThrottle: Smoothly back on the power for the next corner\nKey: The signature overtaking spot\nWatch: It is at the end of a long straight, so lock-ups are easy"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t12-t13",
+      "name": {
+        "ko": "T12~T13",
+        "en": "Turn 12 to Turn 13"
+      },
+      "corners": [
+        12,
+        13
+      ],
+      "guide": {
+        "ko": "진입이 좁았다가 벌어지는 긴 우코너 12번을 지나 약간 오르막인 13번 좌코너로 이어진다. 벽이 가까워 위치 선정이 중요하다.",
+        "en": "Turn 12 is a long right-hander that opens up after a narrow entry, leading into Turn 13, a medium-speed left taken slightly uphill. The wall sits close, so positioning matters."
+      },
+      "sim": {
+        "summary": {
+          "ko": "가벼운 감속 · 4~5단 · 위치 선정",
+          "en": "Light braking · 4th–5th · Positioning"
+        },
+        "popup": {
+          "brake": {
+            "ko": "12번 가볍게 감속",
+            "en": "Light braking into T12"
+          },
+          "gear": {
+            "ko": "4~5단",
+            "en": "4th–5th"
+          },
+          "watch": {
+            "ko": "벽 가까움, 위치 선정 필요",
+            "en": "Wall is close — positioning matters"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 가벼운 감속\n기어: 4~5단\n라인: 넓게 진입해 에이펙스는 좁게, 탈출은 자연스럽게 흘린다\n핵심: 14번 시케인 진입 위치를 여기서 만든다\n주의: 과한 수정 조향은 다음 구간 속도를 깎는다",
+          "en": "Braking: Light braking\nGear: 4th–5th\nLine: Enter wide, take a tight apex, and let the exit flow naturally\nKey: You build your T14 chicane entry position here\nWatch: Overcorrecting with the steering costs speed in the next section"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t14-t16",
+      "name": {
+        "ko": "T14~T16",
+        "en": "Turn 14 to Turn 16"
+      },
+      "corners": [
+        14,
+        15,
+        16
+      ],
+      "guide": {
+        "ko": "오르막으로 들어가 내리막으로 빠지는 좁은 좌-우 시케인이고, 16번 좌코너로 트랙이 다시 열린다. 16번 탈출부터 17번까지 백 스트레이트가 스트레이트 모드 구간이다.",
+        "en": "A narrow left-right chicane taken uphill on entry and downhill on exit, before the track opens up again at the left of Turn 16. The back straight from the Turn 16 exit to Turn 17 is a Straight Mode zone."
+      },
+      "sim": {
+        "summary": {
+          "ko": "14번 진입 제동 · 3단 · 깔끔한 탈출",
+          "en": "Braking into T14 · 3rd · Clean exit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "14번 진입",
+            "en": "Into T14"
+          },
+          "gear": {
+            "ko": "3단",
+            "en": "3rd"
+          },
+          "watch": {
+            "ko": "연석 튐",
+            "en": "Kerb bounce"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 14번 진입에서 제동\n기어: 3단\n라인: 연석은 점진적으로 타고 과하게 밟지 않는다\n스로틀: 16번 탈출부터 백 스트레이트까지 풀스로틀\n핵심: 탈출 속도가 백 스트레이트 전체를 결정한다\n주의: 연석에서 차가 튀기 쉽다",
+          "en": "Braking: Brake on entry to T14\nGear: 3rd\nLine: Take the kerbs progressively and don't overuse them\nThrottle: Flat out from the T16 exit down the back straight\nKey: Exit speed decides the whole back straight\nWatch: The car bounces easily on the kerbs"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t17",
+      "name": {
+        "ko": "T17",
+        "en": "Turn 17"
+      },
+      "corners": [
+        17
+      ],
+      "guide": {
+        "ko": "1.2km 백 스트레이트 끝의 좁은 좌측 헤어핀으로, 랩에서 브레이크 부담이 가장 큰 코너이자 핵심 추월 지점이다. 여기서 못 넘기면 1번에서 한 번 더 기회가 있다. 17번과 18번 사이에서 오버테이크를 감지한다.",
+        "en": "A tight left-hand hairpin at the end of a 1.2km back straight — the hardest corner on the lap for brake wear and a key overtaking spot. A failed move here still leaves a second chance at Turn 1. Overtake Mode is detected between Turns 17 and 18."
+      },
+      "sim": {
+        "summary": {
+          "ko": "100m 보드 부근 · 2단 · 탈출 속도",
+          "en": "Around the 100 m board · 2nd · Traction on exit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "100m 보드",
+            "en": "~100m board"
+          },
+          "gear": {
+            "ko": "2단",
+            "en": "2nd"
+          },
+          "watch": {
+            "ko": "직선 끝 락업, 급가속 시 휠스핀",
+            "en": "Lock-up at the straight's end, wheelspin on hard throttle"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 100m 보드 부근에서 강하게\n기어: 2단\n라인: 조금 넓은 라인으로 돌아 탈출 트랙션을 확보한다\n스로틀: 짧게 끊어 변속해 휠스핀을 줄인다\n핵심: 핵심 추월 지점, 탈출이 1번까지 이어지는 공격을 좌우한다\n주의: 긴 직선 끝이라 락업하기 쉽다",
+          "en": "Braking: Hard around the 100 m board\nGear: 2nd\nLine: Take a slightly wider line to secure traction on exit\nThrottle: Shift briefly to reduce wheelspin\nKey: A key overtaking spot, and the exit decides your attack into T1\nWatch: It is at the end of a long straight, so lock-ups are easy"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t18-t19",
+      "name": {
+        "ko": "T18~T19",
+        "en": "Turn 18 to Turn 19"
+      },
+      "corners": [
+        18,
+        19
+      ],
+      "guide": {
+        "ko": "18번은 예선에선 풀스로틀인 좌측 스위퍼이고, 19번 완만한 우코너를 지나 메인 스트레이트로 나간다. 메인 스트레이트 전체가 스트레이트 모드 구간이고, 17·18번 사이에서 감지된 차는 오버테이크 모드로 1번을 공격한다.",
+        "en": "Turn 18 is a left-hand sweeper taken flat out in qualifying, and Turn 19, a gentle right, leads onto the main straight. The whole main straight is a Straight Mode zone, and a car detected between Turns 17 and 18 can use Overtake Mode to attack into Turn 1."
+      },
+      "sim": {
+        "summary": {
+          "ko": "제동 없음 · 고단 · 메인 스트레이트 연결",
+          "en": "No braking · High gear · Onto the main straight"
+        },
+        "popup": {
+          "brake": {
+            "ko": "없음",
+            "en": "None"
+          },
+          "gear": {
+            "ko": "고단",
+            "en": "High gear"
+          },
+          "watch": {
+            "ko": "타이어 상태 따라 18번 리프트 필요할 수도",
+            "en": "May need a short lift at T18 depending on tyre wear"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 제동 없음\n기어: 고단 유지\n라인: 18번 안쪽에 붙어 속도를 유지한다\n스로틀: 풀스로틀\n핵심: 탈출 속도가 1번 추월 시도를 결정한다\n주의: 레이스에선 타이어 상태에 따라 18번에서 짧은 리프트가 필요할 수 있다",
+          "en": "Braking: No braking\nGear: Stay in a high gear\nLine: Stay close to the inside at T18 to hold your speed\nThrottle: Flat out\nKey: Exit speed decides your T1 overtake attempt\nWatch: In the race, depending on tyre condition, a short lift may be needed at T18"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    }
+  ],
+  "highlights": [
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.8718,
+      "sEnd": 0.8818,
+      "label": "T17",
+      "note": {
+        "ko": "1.2km 백 스트레이트 끝 헤어핀, 핵심 추월 지점",
+        "en": "A hairpin at the end of a 1.2km back straight — the key overtaking spot"
+      }
+    },
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.5438,
+      "sEnd": 0.5538,
+      "label": "T11",
+      "note": {
+        "ko": "긴 직선 끝 90도 좌코너, 나란히 진입하는 추월 지점",
+        "en": "A 90-degree left at the end of a long straight — cars often arrive side by side here"
+      }
+    },
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.0392,
+      "sEnd": 0.0492,
+      "label": "T1",
+      "note": {
+        "ko": "메인 스트레이트 끝, 17번에서 못 넘긴 차의 두 번째 기회",
+        "en": "The end of the main straight — a second chance for a move that failed at T17"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.6062,
+      "sEnd": 0.6224,
+      "label": "T14~T15",
+      "note": {
+        "ko": "고가도로 아래, 오르막으로 들어가 내리막으로 빠지는 좁은 시케인",
+        "en": "A narrow chicane under the highway overpass, taken uphill on entry and downhill on exit"
+      }
+    }
+  ],
+  "aero": {
+    "season": 2026,
+    "status": "confirmed",
+    "straightModeZones": [
+      {
+        "from": 8,
+        "to": 11
+      },
+      {
+        "from": 16,
+        "to": 17
+      },
+      {
+        "from": 19,
+        "to": 1
+      }
+    ],
+    "overtake": {
+      "detection": {
+        "corner": 17,
+        "position": "after"
+      },
+      "activation": null
+    },
+    "source": "F1 공식 2026 마이애미 가이드(감지 17·18번 사이, 메인 스트레이트에서 사용. 작동선 정확한 위치는 미공개)"
+  },
+  "character": {
+    "type": "hybrid",
+    "summary": {
+      "ko": "하드록 스타디움 주변 부지에 만든 서킷. 긴 직선과 강한 제동 구간, 느린 14~15번 시케인이 섞여 있다.",
+      "en": "Built on the grounds around Hard Rock Stadium, combining long straights and heavy braking zones with the slow T14–T15 chicane."
+    }
+  }
+}

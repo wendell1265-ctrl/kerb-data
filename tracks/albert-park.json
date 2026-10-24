@@ -1,0 +1,550 @@
+{
+  "trackId": "albert-park",
+  "name": "Albert Park",
+  "lengthMeters": 5278,
+  "rotationDeg": 314,
+  "geojsonFile": "au-1953",
+  "startOffsetS": 0.9964,
+  "corners": [
+    {
+      "number": 1,
+      "s": 0.0651,
+      "name": {
+        "ko": "T1",
+        "en": "Turn 1"
+      },
+      "dirX": 0.0081,
+      "dirY": 1
+    },
+    {
+      "number": 2,
+      "s": 0.0857,
+      "name": {
+        "ko": "T2",
+        "en": "Turn 2"
+      },
+      "dirX": 0.5749,
+      "dirY": -0.8182
+    },
+    {
+      "number": 3,
+      "s": 0.2044,
+      "name": {
+        "ko": "T3",
+        "en": "Turn 3"
+      },
+      "dirX": -0.7585,
+      "dirY": 0.6516
+    },
+    {
+      "number": 4,
+      "s": 0.232,
+      "name": {
+        "ko": "T4",
+        "en": "Turn 4"
+      },
+      "dirX": 0.9825,
+      "dirY": 0.1864
+    },
+    {
+      "number": 5,
+      "s": 0.2756,
+      "name": {
+        "ko": "T5",
+        "en": "Turn 5"
+      },
+      "dirX": -0.9956,
+      "dirY": 0.0935
+    },
+    {
+      "number": 6,
+      "s": 0.3547,
+      "name": {
+        "ko": "뮐러 슈미츠",
+        "en": "Mueller Schmitz"
+      },
+      "dirX": -0.8287,
+      "dirY": -0.5598
+    },
+    {
+      "number": 7,
+      "s": 0.3705,
+      "name": {
+        "ko": "T7",
+        "en": "Turn 7"
+      },
+      "dirX": 0.4293,
+      "dirY": 0.9032
+    },
+    {
+      "number": 8,
+      "s": 0.4098,
+      "name": {
+        "ko": "T8",
+        "en": "Turn 8"
+      },
+      "dirX": -0.0733,
+      "dirY": -0.9973
+    },
+    {
+      "number": 9,
+      "s": 0.63,
+      "name": {
+        "ko": "T9",
+        "en": "Turn 9"
+      },
+      "dirX": 0.6589,
+      "dirY": 0.7522
+    },
+    {
+      "number": 10,
+      "s": 0.6512,
+      "name": {
+        "ko": "T10",
+        "en": "Turn 10"
+      },
+      "dirX": -0.343,
+      "dirY": -0.9393
+    },
+    {
+      "number": 11,
+      "s": 0.781,
+      "name": {
+        "ko": "T11",
+        "en": "Turn 11"
+      },
+      "dirX": 0.9208,
+      "dirY": 0.3901
+    },
+    {
+      "number": 12,
+      "s": 0.8308,
+      "name": {
+        "ko": "T12",
+        "en": "Turn 12"
+      },
+      "dirX": -0.4005,
+      "dirY": -0.9163
+    },
+    {
+      "number": 13,
+      "s": 0.8778,
+      "name": {
+        "ko": "T13",
+        "en": "Turn 13"
+      },
+      "dirX": -0.6897,
+      "dirY": -0.7241
+    },
+    {
+      "number": 14,
+      "s": 0.9062,
+      "name": {
+        "ko": "T14",
+        "en": "Turn 14"
+      },
+      "dirX": 0.7107,
+      "dirY": 0.7035
+    }
+  ],
+  "lapRecords": [
+    {
+      "driver": "Charles Leclerc",
+      "team": "Ferrari",
+      "time": "1:19.813",
+      "year": 2024,
+      "session": "race",
+      "isTrackRecord": true
+    }
+  ],
+  "segments": [
+    {
+      "type": "sector",
+      "label": "S1",
+      "sStart": 0,
+      "sEnd": 0.3547
+    },
+    {
+      "type": "sector",
+      "label": "S2",
+      "sStart": 0.3547,
+      "sEnd": 0.63
+    },
+    {
+      "type": "sector",
+      "label": "S3",
+      "sStart": 0.63,
+      "sEnd": 1
+    }
+  ],
+  "trackData": {
+    "lengthMeters": 5278,
+    "laps": 58,
+    "cornerCount": 14,
+    "topSpeedKmh": 330,
+    "fullThrottlePercent": 75,
+    "firstHeld": 1996
+  },
+  "sections": [
+    {
+      "id": "t1-t2",
+      "name": {
+        "ko": "T1~T2",
+        "en": "Turn 1 to Turn 2"
+      },
+      "corners": [
+        1,
+        2
+      ],
+      "guide": {
+        "ko": "스타트 직후 랩을 여는 우코너와 이어지는 좌코너가 하나의 시케인처럼 연결된다. 1번 에이펙스가 2번 탈출까지 좌우한다. 2번 탈출부터 3번까지 짧은 스트레이트 모드 구간이다.",
+        "en": "A right-hander that opens the lap right after the start, linked to a left-hander like a single chicane. The apex at Turn 1 shapes the exit at Turn 2 as well. A short Straight Mode zone runs from the Turn 2 exit through to Turn 3."
+      },
+      "sim": {
+        "summary": {
+          "ko": "1번 100m 보드·2번 제동 없음 · 2단 · 1번 에이펙스 중요",
+          "en": "T1 at the 100 m board, none at T2 · 2nd · T1 apex is key"
+        },
+        "popup": {
+          "brake": {
+            "ko": "1번 100m 보드부터, 2번 제동 없음",
+            "en": "T1 from the 100 m board, no braking at T2"
+          },
+          "gear": {
+            "ko": "2단",
+            "en": "2nd"
+          },
+          "watch": {
+            "ko": "탈출 시 리어 흔들림",
+            "en": "Rear can get unsettled on exit"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 1번은 100m 보드부터, 체감보다 조금 일찍. 2번은 제동 없음\n기어: 2단\n라인: 트레일 브레이킹으로 부드럽게 에이펙스 진입, 연석 활용\n핵심: 1번 에이펙스가 2번 탈출 전체를 결정\n주의: 탈출에서 급격히 스로틀을 밟으면 리어가 흔들림",
+          "en": "Braking: T1 from the 100 m board, a little earlier than it feels. No braking at T2\nGear: 2nd\nLine: Trail brake smoothly into the apex and use the kerbs\nKey: The T1 apex decides the whole T2 exit\nWatch: Hard throttle on exit unsettles the rear"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t3-t4",
+      "name": {
+        "ko": "T3~T4",
+        "en": "Turn 3 to Turn 4"
+      },
+      "corners": [
+        3,
+        4
+      ],
+      "guide": {
+        "ko": "긴 직선 뒤 강한 제동이 필요한 우코너, 랩에서 가장 확실한 추월 지점이다. 탈출 후 우측으로 붙여 90도 좌코너 4번의 에이펙스를 연다.",
+        "en": "A right-hander demanding hard braking after a long straight — the most reliable overtaking spot on the lap. On exit, moving to the right opens up the apex of the 90-degree left at Turn 4."
+      },
+      "sim": {
+        "summary": {
+          "ko": "3번 100m 강한 제동·4번 가볍게 · 2단 · 조기 회전",
+          "en": "Hard at T3 from 100 m, light at T4 · 2nd · Rotate early"
+        },
+        "popup": {
+          "brake": {
+            "ko": "3번 100m부터 강하게, 4번 가볍게",
+            "en": "T3 hard from 100 m, T4 light"
+          },
+          "gear": {
+            "ko": "2단",
+            "en": "2nd"
+          },
+          "watch": {
+            "ko": "탈출 스로틀 과감하면 손실",
+            "en": "Loses time if too aggressive on exit throttle"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 3번은 100m부터 강하게, 다운시프트하며 회전 시작. 4번은 가볍게\n기어: 2단\n라인: 조기에 차를 회전시켜 탈출을 준비, 4번 진입은 우측에서\n핵심: 섹터 1 최고의 추월 지점\n주의: 탈출에서 공격적으로 스로틀 밟으면 랩타임 손실",
+          "en": "Braking: T3 hard from 100 m, downshifting as you start to rotate. T4 light\nGear: 2nd\nLine: Rotate the car early to prepare the exit, and take the T4 entry from the right\nKey: The best overtaking spot in Sector 1\nWatch: Aggressive throttle on exit costs lap time"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t5-mueller-schmitz-t7",
+      "name": {
+        "ko": "T5~뮐러 슈미츠~T7",
+        "en": "Turn 5 to Mueller Schmitz to Turn 7"
+      },
+      "corners": [
+        5,
+        6,
+        7
+      ],
+      "guide": {
+        "ko": "5번은 과거엔 완전 개방으로 통과했던 우코너. 5~6번 사이는 짧은 스트레이트 모드 구간이고, 이어지는 뮐러 슈미츠(F1 최초로 이름이 붙은 여성 두 명을 기린 코너)는 제동 중 가볍게 꺾이는 좌킹크이며, 곧바로 7번(우-좌 시케인)으로 연결된다.",
+        "en": "Turn 5 is a right-hander once taken flat out. The stretch between Turns 5 and 6 is a short Straight Mode zone, leading into Mueller Schmitz — the corner named for the first two women honoured in F1 history — a left kink taken under light braking that connects straight into the right-left chicane of Turn 7."
+      },
+      "sim": {
+        "summary": {
+          "ko": "가벼운 제동 · 3단 · 탈출 연결",
+          "en": "Light braking · 3rd · Link the exits"
+        },
+        "popup": {
+          "brake": {
+            "ko": "뮐러 슈미츠 진입에서 가볍게",
+            "en": "Light braking into Mueller Schmitz"
+          },
+          "gear": {
+            "ko": "3단",
+            "en": "3rd"
+          },
+          "watch": {
+            "ko": "개별 공략 시 흐름 끊김",
+            "en": "Attacking each corner alone breaks the flow"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 뮐러 슈미츠 진입에서 가볍게\n기어: 3단\n라인: 시케인 전체를 하나의 흐름으로 연결, 개별 공략 금지\n핵심: 5~6번 사이 짧은 스트레이트 모드 구간을 지나 7번 탈출이 다음 고속 구간 진입 속도를 결정\n주의: 무리하게 초반 코너에서 속도를 내면 탈출 라인이 바깥으로 밀림",
+          "en": "Braking: Light braking into Mueller Schmitz\nGear: 3rd\nLine: Link the whole chicane as one flow, and don't attack the corners individually\nKey: After the short Straight Mode zone between T5 and T6, the T7 exit sets your entry speed into the next fast section\nWatch: Forcing speed in the early corners pushes your exit line wide"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t8-t9-t10",
+      "name": {
+        "ko": "T8~T10",
+        "en": "Turn 8 to Turn 10"
+      },
+      "corners": [
+        8,
+        9,
+        10
+      ],
+      "guide": {
+        "ko": "8번은 코너라기보다 방향만 살짝 트는 지점. 8~9번 사이가 랩의 5개 스트레이트 모드 존 중 가장 긴 구간(과거 활성화 구간보다 더 길어짐)이며, 2021년 개편으로 옛 9·10번 시케인이 사라지면서 생겼다. 9·10번 고속 시케인은 강한 커밋이 필요하고, 10번 탈출 후 다시 짧은 스트레이트 모드 구간(10~11번)으로 이어진다.",
+        "en": "Turn 8 is barely a corner, just a slight kink. The run from Turn 8 to Turn 9 is the longest of the lap's five Straight Mode zones (longer than the old activation zone here), created when the 2021 reprofiling removed the old chicane at 9/10. The high-speed chicane at 9 and 10 demands full commitment, and the exit of Turn 10 leads straight into another Straight Mode zone through to Turn 11."
+      },
+      "sim": {
+        "summary": {
+          "ko": "8번 제동 없음·9번 50m 보드 · 최고단→9번 6단 · 강한 커밋",
+          "en": "No braking at T8, T9 at the 50 m board · Top gear → 6th at T9 · Full commitment"
+        },
+        "popup": {
+          "brake": {
+            "ko": "8번 제동 없음, 9번 50m 보드",
+            "en": "No braking at T8, T9 at the 50 m board"
+          },
+          "gear": {
+            "ko": "최고단, 9번 6단",
+            "en": "Top gear, 6th at T9"
+          },
+          "watch": {
+            "ko": "9·10번 큰 커밋 필요",
+            "en": "Turns 9/10 demand full commitment"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 8번 제동 없음, 9번은 50m 보드, 9·10번 진입에서만 짧게\n기어: 최고단 유지하다 9번에서 6단으로 다운시프트\n라인: 9번 좌코너에서 완전히 나란히 붙어야 추월 인정\n핵심: 8~9번이 랩에서 가장 긴 스트레이트 모드 구간\n주의: 9·10번은 큰 커밋이 필요해 실수하면 큰 손실",
+          "en": "Braking: No braking at T8, 50 m board at T9, and only brief braking on entry to T9 and T10\nGear: Stay in top gear, then downshift to 6th at T9\nLine: You must be fully alongside at the T9 left-hander for the pass to count\nKey: T8–T9 is the longest Straight Mode zone on the lap\nWatch: T9 and T10 demand big commitment, and a mistake is costly"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t11-t12",
+      "name": {
+        "ko": "T11~T12",
+        "en": "Turn 11 to Turn 12"
+      },
+      "corners": [
+        11,
+        12
+      ],
+      "guide": {
+        "ko": "11번은 강한 제동이 필요한 좌코너로 추월 시도가 잦은 지점이다. 탈출 후 완만한 우코너 12번으로 이어지며, 양쪽 다 바깥쪽에 자갈 트랩이 있다.",
+        "en": "Turn 11 is a left-hander demanding hard braking and a frequent overtaking spot. It leads into the gentle right of Turn 12 — both corners have gravel traps on the outside."
+      },
+      "sim": {
+        "summary": {
+          "ko": "강한 제동 · 2단 · 자갈 주의",
+          "en": "Hard braking · 2nd · Mind the gravel"
+        },
+        "popup": {
+          "brake": {
+            "ko": "강하게, 짧게",
+            "en": "Hard and short"
+          },
+          "gear": {
+            "ko": "2단",
+            "en": "2nd"
+          },
+          "watch": {
+            "ko": "양쪽 다 바깥쪽 자갈 트랩",
+            "en": "Gravel traps on the outside of both corners"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 강하게, 탭 정도의 짧은 제동\n기어: 2단\n라인: 늦은 에이펙스로 12번 진입 각도 확보\n핵심: 11번 탈출 직후 추월 시도가 자주 발생\n주의: 양쪽 다 바깥쪽 자갈 트랩, 실수 시 큰 시간 손실",
+          "en": "Braking: Hard but brief, little more than a tap\nGear: 2nd\nLine: Late apex to set up the T12 entry angle\nKey: Overtaking attempts are frequent right after the T11 exit\nWatch: Gravel traps on the outside of both corners, and a mistake costs a lot of time"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t13-t14",
+      "name": {
+        "ko": "T13~T14",
+        "en": "Turn 13 to Turn 14"
+      },
+      "corners": [
+        13,
+        14
+      ],
+      "guide": {
+        "ko": "13번은 욕심내면 탈출에서 밀리는 좌코너. 13번 통과 직후 오버테이크 디텍션 지점이 있고, 14번(랩의 마지막 코너) 진입부터 오버테이크 모드를 쓸 수 있다. 14번 탈출 속도가 다음 랩 피트 스트레이트 전체와 1번 추월 시도에 영향을 준다. 13번 탈출 직후에서 오버테이크를 감지하고 14번 진입 직전부터 작동해, 14번 탈출부터 메인 스트레이트 전체가 스트레이트 모드 구간이다.",
+        "en": "Turn 13 is a left-hander that pushes wide on exit if attacked too hard. The Overtake Detection point sits just after Turn 13, and Overtake Mode becomes available from the entry to Turn 14, the final corner of the lap. Turn 14's exit speed carries through the pit straight and shapes the overtaking attempt into Turn 1 on the next lap. Overtake Mode is detected right after the Turn 13 exit and activates just before the Turn 14 entry, and the whole main straight from the Turn 14 exit is a Straight Mode zone."
+      },
+      "sim": {
+        "summary": {
+          "ko": "13번 조기 회전 · 2단 · 14번 탈출 우선",
+          "en": "Rotate early at T13 · 2nd · Prioritise T14 exit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "13번 늦으면 탈출에서 밀림",
+            "en": "Late braking at 13 pushes the exit wide"
+          },
+          "gear": {
+            "ko": "2단",
+            "en": "2nd"
+          },
+          "watch": {
+            "ko": "13번 늦은 제동이면 14번 각도 나빠짐",
+            "en": "Late braking at 13 worsens the T14 entry angle"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 13번 진입에서 늦게 브레이킹하면 탈출에서 밀림\n기어: 2단\n라인: 13번은 일찍 회전해 탈출 확보, 14번은 라인을 좁게\n핵심: 13번 직후 오버테이크 디텍션, 14번 진입부터 오버테이크 모드 사용 가능\n주의: 13번에서 너무 늦게 제동하면 14번 진입 각도가 나빠짐",
+          "en": "Braking: Braking late into T13 pushes you wide on exit\nGear: 2nd\nLine: Rotate early at T13 to secure the exit, and keep the line tight at T14\nKey: Overtake detection comes right after T13, and Overtake Mode can be used from the T14 entry\nWatch: Braking too late at T13 ruins the T14 entry angle"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    }
+  ],
+  "highlights": [
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.1944,
+      "sEnd": 0.2044,
+      "label": "T3",
+      "note": {
+        "ko": "긴 직선 뒤 강한 제동, 랩에서 가장 확실한 추월 지점",
+        "en": "Hard braking after a long straight — the most reliable overtaking spot on the lap"
+      }
+    },
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.771,
+      "sEnd": 0.781,
+      "label": "T11",
+      "note": {
+        "ko": "강한 제동이 필요한 좌코너, 탈출 직후 추월 시도가 잦은 지점",
+        "en": "A hard-braking left-hander where overtaking attempts are frequent right after the exit"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.3447,
+      "sEnd": 0.3547,
+      "label": "뮐러 슈미츠",
+      "note": {
+        "ko": "2026년 국제 여성의 날 기념 신설, F1 최초로 여성에게 헌정된 코너",
+        "en": "Named in 2026 for International Women's Day — F1's first corner dedicated to women"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.63,
+      "sEnd": 0.6512,
+      "label": "T9~T10",
+      "note": {
+        "ko": "2021년 개편으로 생긴 고속 시케인, 완전 나란히 붙어야 추월 인정",
+        "en": "A high-speed chicane created by the 2021 reprofiling — needs a full side-by-side to count as a pass"
+      }
+    }
+  ],
+  "aero": {
+    "season": 2026,
+    "status": "confirmed",
+    "straightModeZones": [
+      {
+        "from": 14,
+        "to": 1
+      },
+      {
+        "from": 2,
+        "to": 3
+      },
+      {
+        "from": 5,
+        "to": 6
+      },
+      {
+        "from": 8,
+        "to": 9
+      },
+      {
+        "from": 10,
+        "to": 11
+      }
+    ],
+    "overtake": {
+      "detection": {
+        "corner": 13,
+        "position": "after"
+      },
+      "activation": {
+        "corner": 14,
+        "position": "before"
+      }
+    },
+    "source": "PlanetF1 2026, Motor Sport Magazine 2026, LemonWire 2026(스트레이트 모드 5곳: 메인 스트레이트, 2→3번, 5→6번, 8→9번, 10→11번. 감지 13번 탈출 직후, 작동 14번 진입 직전)"
+  },
+  "character": {
+    "type": "hybrid",
+    "summary": {
+      "ko": "공원 둘레 도로를 쓰는 고속 서킷. 2022년 개수로 흐름이 빨라졌고, 벽과 잔디가 가까워 작은 실수도 손해로 이어진다.",
+      "en": "A fast circuit on the roads around a park, quicker since its 2022 rework. Walls and grass sit close, so small mistakes cost time."
+    }
+  }
+}

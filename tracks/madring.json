@@ -1,0 +1,692 @@
+{
+  "trackId": "madring",
+  "name": "Madring",
+  "lengthMeters": 5414,
+  "rotationDeg": 90,
+  "geojsonFile": "es-2026",
+  "startOffsetS": 0.9554,
+  "corners": [
+    {
+      "number": 1,
+      "s": 0.0813,
+      "name": {
+        "ko": "T1",
+        "en": "Turn 1"
+      },
+      "dirX": 0.8547,
+      "dirY": -0.5192
+    },
+    {
+      "number": 2,
+      "s": 0.0925,
+      "name": {
+        "ko": "T2",
+        "en": "Turn 2"
+      },
+      "dirX": -0.9835,
+      "dirY": 0.1811
+    },
+    {
+      "number": 3,
+      "s": 0.1173,
+      "name": {
+        "ko": "오르탈레사",
+        "en": "Hortaleza"
+      },
+      "dirX": -0.7235,
+      "dirY": -0.6903
+    },
+    {
+      "number": 4,
+      "s": 0.2395,
+      "name": {
+        "ko": "T4",
+        "en": "Turn 4"
+      },
+      "dirX": -0.1118,
+      "dirY": -0.9937
+    },
+    {
+      "number": 5,
+      "s": 0.2826,
+      "name": {
+        "ko": "T5",
+        "en": "Turn 5"
+      },
+      "dirX": 0,
+      "dirY": 1
+    },
+    {
+      "number": 6,
+      "s": 0.2972,
+      "name": {
+        "ko": "카르카바스 오르막 1",
+        "en": "Subida de las Cárcavas 1"
+      },
+      "dirX": 0.0993,
+      "dirY": 0.9951
+    },
+    {
+      "number": 7,
+      "s": 0.3259,
+      "name": {
+        "ko": "카르카바스 오르막 2",
+        "en": "Subida de las Cárcavas 2"
+      },
+      "dirX": 0.3229,
+      "dirY": 0.9464
+    },
+    {
+      "number": 8,
+      "s": 0.352,
+      "name": {
+        "ko": "엘 붕커",
+        "en": "El Búnker"
+      },
+      "dirX": -0.0597,
+      "dirY": -0.9982
+    },
+    {
+      "number": 9,
+      "s": 0.3658,
+      "name": {
+        "ko": "T9",
+        "en": "Turn 9"
+      },
+      "dirX": 0,
+      "dirY": 1
+    },
+    {
+      "number": 10,
+      "s": 0.416,
+      "name": {
+        "ko": "라 시칸 1",
+        "en": "La Chicane 1"
+      },
+      "dirX": 0.5751,
+      "dirY": -0.8181
+    },
+    {
+      "number": 11,
+      "s": 0.4366,
+      "name": {
+        "ko": "라 시칸 2",
+        "en": "La Chicane 2"
+      },
+      "dirX": -0.0239,
+      "dirY": -0.9997
+    },
+    {
+      "number": 12,
+      "s": 0.4983,
+      "name": {
+        "ko": "라 모누멘탈",
+        "en": "La Monumental"
+      },
+      "dirX": 0.9987,
+      "dirY": 0.0515
+    },
+    {
+      "number": 13,
+      "s": 0.6088,
+      "name": {
+        "ko": "T13",
+        "en": "Turn 13"
+      },
+      "dirX": 0.1921,
+      "dirY": 0.9814
+    },
+    {
+      "number": 14,
+      "s": 0.6431,
+      "name": {
+        "ko": "발데베바스 1",
+        "en": "Valdebebas 1"
+      },
+      "dirX": 0.5145,
+      "dirY": 0.8575
+    },
+    {
+      "number": 15,
+      "s": 0.6882,
+      "name": {
+        "ko": "발데베바스 2",
+        "en": "Valdebebas 2"
+      },
+      "dirX": -0.6715,
+      "dirY": -0.741
+    },
+    {
+      "number": 16,
+      "s": 0.7239,
+      "name": {
+        "ko": "발데베바스 3",
+        "en": "Valdebebas 3"
+      },
+      "dirX": -1,
+      "dirY": 0
+    },
+    {
+      "number": 17,
+      "s": 0.7364,
+      "name": {
+        "ko": "T17",
+        "en": "Turn 17"
+      },
+      "dirX": 0.9667,
+      "dirY": -0.256
+    },
+    {
+      "number": 18,
+      "s": 0.7801,
+      "name": {
+        "ko": "T18",
+        "en": "Turn 18"
+      },
+      "dirX": 0.8465,
+      "dirY": 0.5324
+    },
+    {
+      "number": 19,
+      "s": 0.8165,
+      "name": {
+        "ko": "T19",
+        "en": "Turn 19"
+      },
+      "dirX": 0.7113,
+      "dirY": 0.7028
+    },
+    {
+      "number": 20,
+      "s": 0.8812,
+      "name": {
+        "ko": "T20",
+        "en": "Turn 20"
+      },
+      "dirX": -0.3532,
+      "dirY": -0.9356
+    },
+    {
+      "number": 21,
+      "s": 0.9104,
+      "name": {
+        "ko": "T21",
+        "en": "Turn 21"
+      },
+      "dirX": 0.6829,
+      "dirY": 0.7305
+    },
+    {
+      "number": 22,
+      "s": 0.9663,
+      "name": {
+        "ko": "엘 파르케",
+        "en": "El Parque"
+      },
+      "dirX": -0.652,
+      "dirY": 0.7582
+    }
+  ],
+  "lapRecords": [
+    {
+      "driver": "George Russell",
+      "team": "Mercedes",
+      "time": "1:35.587",
+      "year": 2026,
+      "session": "race",
+      "isTrackRecord": true
+    }
+  ],
+  "segments": [
+    {
+      "type": "sector",
+      "label": "S1",
+      "sStart": 0,
+      "sEnd": 0.3396749168821574
+    },
+    {
+      "type": "sector",
+      "label": "S2",
+      "sStart": 0.3396749168821574,
+      "sEnd": 0.7181381603250832
+    },
+    {
+      "type": "sector",
+      "label": "S3",
+      "sStart": 0.7181381603250832,
+      "sEnd": 1
+    }
+  ],
+  "trackData": {
+    "lengthMeters": 5414,
+    "laps": 57,
+    "cornerCount": 22,
+    "topSpeedKmh": 340,
+    "fullThrottlePercent": 64,
+    "firstHeld": 2026
+  },
+  "sections": [
+    {
+      "id": "t1-t2",
+      "name": {
+        "ko": "T1~T2",
+        "en": "Turn 1 to Turn 2"
+      },
+      "corners": [
+        1,
+        2
+      ],
+      "guide": {
+        "ko": "589m 메인 스트레이트 끝에서 랩에서 가장 강하게 제동해 1번 좌코너로 들어가고, 곧바로 2번 우코너로 이어진다. 제동이 거의 직선에서 이뤄져 서킷에서 가장 유력한 추월 지점이다. 출발선에서 1번까지 200m 남짓이라 첫 랩엔 혼잡하다. 메인 스트레이트는 스트레이트 모드 구간이다.",
+        "en": "At the end of the 589 m main straight, cars brake harder than anywhere else on the lap into the left-hander at Turn 1, which flows straight into the right-hander at Turn 2. Braking is almost entirely in a straight line, making this the circuit's most likely overtaking spot. The grid is only a little over 200 m from Turn 1, so the first lap is crowded. The main straight is a Straight Mode zone."
+      },
+      "sim": {
+        "summary": {
+          "ko": "메인 스트레이트 끝 · 2단 · 직선 제동",
+          "en": "End of the main straight · 2nd · Braking in a straight line"
+        },
+        "popup": {
+          "brake": {
+            "ko": "메인 스트레이트 끝",
+            "en": "End of the main straight"
+          },
+          "gear": {
+            "ko": "2단",
+            "en": "2nd"
+          },
+          "watch": {
+            "ko": "첫 랩 1번 혼잡",
+            "en": "First-lap crowding at T1"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 메인 스트레이트 끝에서 강하게\n기어: 2단\n라인: 1번 안쪽을 잡고 2번 탈출을 위해 넓게 빠진다\n스로틀: 2번 탈출에서 오르탈레사까지 점진적으로\n핵심: 직선 제동이라 서킷에서 가장 좋은 추월 지점\n주의: 첫 랩엔 거리가 짧아 여러 대가 한꺼번에 들어온다",
+          "en": "Braking: Hard at the end of the main straight\nGear: 2nd\nLine: Take the inside at T1 and run wide to prepare the T2 exit\nThrottle: Build up gradually from the T2 exit to Hortaleza\nKey: Braking in a straight line, so the best overtaking spot on the circuit\nWatch: On the first lap the distance is short and several cars arrive at once"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "hortaleza-t4",
+      "name": {
+        "ko": "오르탈레사~T4",
+        "en": "Hortaleza to Turn 4"
+      },
+      "corners": [
+        3,
+        4
+      ],
+      "guide": {
+        "ko": "3번 오르탈레사는 마드리드의 한 구 이름을 딴 우코너로, 서킷에서 가장 긴 837m 직선의 출발점이다. 스트레이트 모드로 가속해 4번 우코너를 풀스로틀로 지나며, 이곳이 랩에서 가장 빠른 지점이다.",
+        "en": "Turn 3, Hortaleza, is a right-hander named after a district of Madrid and the starting point of the circuit's longest straight, at 837 m. Cars accelerate with Straight Mode and take the right-hander at Turn 4 flat out, which is the fastest point of the lap."
+      },
+      "sim": {
+        "summary": {
+          "ko": "제동 없음 · 고단 · 3번 탈출 속도",
+          "en": "No braking · High gear · T3 exit speed"
+        },
+        "popup": {
+          "brake": {
+            "ko": "3·4번 제동 없음",
+            "en": "No braking through T3 and T4"
+          },
+          "gear": {
+            "ko": "고단",
+            "en": "High gear"
+          },
+          "watch": {
+            "ko": "4번 지나 5번 제동 금방",
+            "en": "The T5 braking zone arrives quickly after T4"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 제동 없음\n기어: 고단 유지\n라인: 3번은 탈출을 넓게 써서 직선 속도를 살린다\n스로틀: 3번 탈출부터 4번까지 풀스로틀\n핵심: 3번 탈출 속도가 5번 추월 시도를 결정\n주의: 4번을 지나면 5번 제동 지점까지 금방이다",
+          "en": "Braking: No braking\nGear: Stay in a high gear\nLine: Use the full width on the T3 exit to carry your straight-line speed\nThrottle: Flat out from the T3 exit to T4\nKey: The T3 exit speed decides your T5 overtake attempt\nWatch: Past T4, the T5 braking point comes up quickly"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t5",
+      "name": {
+        "ko": "T5",
+        "en": "Turn 5"
+      },
+      "corners": [
+        5
+      ],
+      "guide": {
+        "ko": "서킷에서 가장 긴 직선 끝에서 크게 감속하는 코너로, 서킷에서 가장 느린 곳이다. 번호가 따로 없는 5A와 함께 시케인을 이루며, 제동하면서 방향을 틀어야 해 추월 기회이긴 하지만 성공시키기는 까다롭다.",
+        "en": "A corner at the end of the circuit's longest straight where cars slow dramatically, and the slowest point on the circuit. It forms a chicane with the unnumbered Turn 5A, and because drivers have to turn while braking, it is an overtaking chance but a tricky one to pull off."
+      },
+      "sim": {
+        "summary": {
+          "ko": "가장 긴 직선 끝 · 1~2단 · 휘는 제동",
+          "en": "End of the longest straight · 1st–2nd · Braking while turning"
+        },
+        "popup": {
+          "brake": {
+            "ko": "가장 긴 직선 끝",
+            "en": "End of the longest straight"
+          },
+          "gear": {
+            "ko": "1~2단",
+            "en": "1st–2nd"
+          },
+          "watch": {
+            "ko": "휘며 제동 시 락업",
+            "en": "Lock-up when braking while turning"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 가장 긴 직선 끝에서 강하게\n기어: 1~2단\n라인: 제동 중 방향을 트는 구간이라 진입 라인을 미리 잡는다\n스로틀: 5A 탈출에서 휠스핀 없이 점진적으로\n핵심: 추월 기회지만 4번부터 바짝 붙어 있어야 가능\n주의: 휘면서 제동해 앞바퀴가 잠기기 쉽다",
+          "en": "Braking: Hard at the end of the longest straight\nGear: 1st–2nd\nLine: You turn while braking here, so set your entry line in advance\nThrottle: Build up gradually on the T5A exit without wheelspin\nKey: An overtaking chance, but only possible if you stay close from T4\nWatch: Braking while turning makes the front wheels lock easily"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "carcavas-bunker",
+      "name": {
+        "ko": "카르카바스~T9",
+        "en": "Cárcavas to Turn 9"
+      },
+      "corners": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "guide": {
+        "ko": "6·7번 좌코너로 8% 오르막 '카르카바스 오르막'을 오르고, 7번은 오르막에서 제동해야 해 바깥 벽을 스치기 쉽다. 꼭대기의 8번 우코너 엘 붕커는 스페인 내전 때 요새 근처라 붙은 이름으로, 에이펙스가 언덕에 가려 보이지 않고 곧바로 5% 내리막이 이어진다. 9번 우코너를 지나면 시가지 구간이 끝나고 전용 트랙으로 들어간다.",
+        "en": "Turns 6 and 7 are lefts that climb the 8% 'Subida de las Cárcavas' hill, and Turn 7 has to be braked on the uphill, so it's easy to brush the outside wall. The right-hander at the top, Turn 8 El Búnker, is named for a Spanish Civil War fortification nearby; its apex is hidden by the crest, and a 5% downhill follows immediately. After the right-hander at Turn 9, the street section ends and the track moves onto the dedicated circuit."
+      },
+      "sim": {
+        "summary": {
+          "ko": "7번 오르막 제동 · 3단 · 8번 블라인드",
+          "en": "Uphill braking at T7 · 3rd · Blind T8"
+        },
+        "popup": {
+          "brake": {
+            "ko": "7번 오르막 위",
+            "en": "On the uphill at T7"
+          },
+          "gear": {
+            "ko": "3단",
+            "en": "3rd"
+          },
+          "watch": {
+            "ko": "7번 바깥 벽",
+            "en": "Outside wall at T7"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 7번은 오르막 위에서, 8번은 언덕 꼭대기 직전에 마무리\n기어: 3단\n라인: 8번은 보이지 않는 에이펙스를 기준점으로 미리 잡는다\n스로틀: 9번 탈출에서 일찍\n핵심: 8번을 자신 있게 넘는 것이 랩타임을 가른다\n주의: 7번에서 바깥 벽을 스치기 쉽다",
+          "en": "Braking: At T7 on the uphill, finishing just before the crest at T8\nGear: 3rd\nLine: Fix the apex you can't see at T8 in advance, using a reference point\nThrottle: Early on the T9 exit\nKey: Taking T8 over the crest with confidence separates lap times\nWatch: It is easy to brush the outside wall at T7"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "chicane-monumental",
+      "name": {
+        "ko": "라 시칸~T13",
+        "en": "La Chicane to Turn 13"
+      },
+      "corners": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "guide": {
+        "ko": "10·11번 라 시칸에서 속도를 줄인 뒤 마드링의 상징인 12번 라 모누멘탈로 들어간다. 약 13.5도(24% 경사)로 기울어진 550m 길이의 우코너로, F1에서 가장 긴 뱅크 코너이며 풀스로틀로 약 6초 동안 달린다. 대부분 안쪽 라인을 타서 바깥엔 마블이 쌓인다. 뱅크를 빠져나오자마자 13번에서 제동하며, 이곳은 서킷의 주요 추월 지점이다.",
+        "en": "After slowing for the La Chicane at Turns 10 and 11, cars enter Turn 12, La Monumental, the symbol of Madring. It is a 550 m right-hander banked at about 13.5 degrees (a 24% slope), the longest banked corner in F1, and cars run it flat out for about six seconds. Most drivers take the inside line, so marbles build up on the outside. Right after leaving the banking, cars brake at Turn 13, one of the circuit's main overtaking spots."
+      },
+      "sim": {
+        "summary": {
+          "ko": "13번 뱅크 탈출 직후 · 4~5단 · 추월 지점",
+          "en": "Just after the banking exit at T13 · 4th–5th · Overtaking spot"
+        },
+        "popup": {
+          "brake": {
+            "ko": "13번 뱅크 탈출 직후",
+            "en": "T13 just after the banking exit"
+          },
+          "gear": {
+            "ko": "12번 4~5단",
+            "en": "4th–5th at T12"
+          },
+          "watch": {
+            "ko": "12번 바깥 마블",
+            "en": "Marbles on the outside at T12"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 10번은 시케인 진입 직전, 12번은 풀스로틀, 13번은 뱅크 탈출 직후 제동\n기어: 10·11번 3단, 12번 4~5단, 13번 3단\n라인: 12번은 안쪽 라인이 기본, 13번은 넓은 진입을 활용\n스로틀: 12번은 뱅크를 믿고 끝까지 유지\n핵심: 13번은 뱅크 탈출 속도를 그대로 살린 추월 지점\n주의: 12번 바깥 라인엔 마블이 쌓여 미끄럽다",
+          "en": "Braking: Just before the chicane entry at T10, flat out at T12, braking just after the banking exit at T13\nGear: 3rd at T10 and T11, 4th–5th at T12, 3rd at T13\nLine: The inside line is the default at T12, and use the wide entry at T13\nThrottle: Trust the banking at T12 and hold it to the end\nKey: T13 is an overtaking spot that makes use of your banking exit speed\nWatch: Marbles build up on the outside line at T12, and it is slippery"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "valdebebas-t17",
+      "name": {
+        "ko": "발데베바스~T17",
+        "en": "Valdebebas to Turn 17"
+      },
+      "corners": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "guide": {
+        "ko": "14·15·16번 발데베바스 연결 코너는 좌우로 이어지는 풀스로틀 구간이다. 끝의 17번 우코너는 스티어링을 꺾은 채 제동해야 해 앞바퀴가 잠기기 쉽지만, 서킷 공식 자료가 꼽는 추월 지점이다.",
+        "en": "The Valdebebas linking corners at Turns 14, 15 and 16 are a flat-out stretch alternating left and right. The right-hander at the end, Turn 17, has to be braked with the steering turned, so the front wheels lock easily, but it is an overtaking spot the circuit's own material highlights."
+      },
+      "sim": {
+        "summary": {
+          "ko": "17번 진입 · 3단 · 꺾은 채 제동",
+          "en": "T17 entry · 3rd · Braking while turned in"
+        },
+        "popup": {
+          "brake": {
+            "ko": "17번 꺾은 채 진입",
+            "en": "T17 entry while turning"
+          },
+          "gear": {
+            "ko": "17번 3단",
+            "en": "3rd at T17"
+          },
+          "watch": {
+            "ko": "앞바퀴 잠김",
+            "en": "Front wheels lock"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 14~16번은 제동 없이, 17번은 꺾은 채로 제동\n기어: 14~16번 고단, 17번 3단\n라인: 14~16번은 최소 조향으로 잇는다\n스로틀: 16번까지 풀스로틀\n핵심: 17번은 과감한 추월 시도 지점\n주의: 17번은 꺾은 채 제동해 앞바퀴가 잠기기 쉽다",
+          "en": "Braking: No braking at T14–T16, braking at T17 while turned in\nGear: High gear at T14–T16, 3rd at T17\nLine: Link T14–T16 with minimal steering\nThrottle: Flat out to T16\nKey: T17 is the spot for bold overtaking attempts\nWatch: Braking while turned in at T17 makes the front wheels lock easily"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t18-el-parque",
+      "name": {
+        "ko": "T18~엘 파르케",
+        "en": "Turn 18 to El Parque"
+      },
+      "corners": [
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "guide": {
+        "ko": "18·19번을 고속으로 지난 뒤 20번 우코너에서 제동하며, 벽이 좁아지는 가장 느린 구간으로 들어간다. 20번(번호 없는 20A 포함) 진입은 마지막 추월 기회다. 이어지는 21번 우코너를 지나 마지막 코너로 향한다. 마지막 22번 엘 파르케는 근처 공원 이름을 딴 좁은 우코너로, 진입 직전에서 오버테이크를 감지하고 탈출부터 작동해 메인 스트레이트에서 쓸 수 있다.",
+        "en": "After taking Turns 18 and 19 at high speed, cars brake at the Turn 20 right-hander and enter the slowest stretch, where the walls close in. The Turn 20 entry (including the unnumbered 20A) is the last overtaking chance. After the right-hander at Turn 21, the track heads to the last corner. The final corner, Turn 22 El Parque, is a narrow right-hander named after the nearby park; Overtake Mode is detected just before its entry and activates from the exit, so it can be used on the main straight."
+      },
+      "sim": {
+        "summary": {
+          "ko": "20번 IFEMA 건물 앞 제동 · 2단 · 마지막 탈출",
+          "en": "Braking at T20 in front of the IFEMA building · 2nd · Final exit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "20번 IFEMA 건물 앞",
+            "en": "In front of the IFEMA building at T20"
+          },
+          "gear": {
+            "ko": "20번 2단",
+            "en": "2nd at T20"
+          },
+          "watch": {
+            "ko": "좁은 벽 접촉",
+            "en": "Contact with the narrow walls"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 18·19번은 제동 없이, 20번은 IFEMA 건물 앞 직선 끝에서, 22번은 진입 직전\n기어: 20번 2단, 22번 2~3단\n라인: 20번과 21번을 이어 22번 진입 위치를 잡고, 22번은 늦은 에이펙스로 탈출 우선\n스로틀: 22번 탈출에서 일찍\n핵심: 22번 탈출이 1번 추월 시도를 결정\n주의: 벽이 좁아져 작은 실수도 접촉으로 이어진다",
+          "en": "Braking: No braking at T18 and T19, at T20 at the end of the straight in front of the IFEMA building, and just before entry at T22\nGear: 2nd at T20, 2nd–3rd at T22\nLine: Link T20 and T21 to set your T22 entry position, and take a late apex at T22 to prioritise the exit\nThrottle: Early on the T22 exit\nKey: The T22 exit decides your T1 overtake attempt\nWatch: The walls narrow, so even small mistakes lead to contact"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    }
+  ],
+  "highlights": [
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.0713,
+      "sEnd": 0.0813,
+      "label": "T1",
+      "note": {
+        "ko": "직선 제동, 서킷에서 가장 좋은 추월 지점",
+        "en": "Straight-line braking — the best overtaking spot on the circuit"
+      }
+    },
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.2726,
+      "sEnd": 0.2826,
+      "label": "T5",
+      "note": {
+        "ko": "가장 긴 직선 끝, 서킷에서 가장 느린 코너",
+        "en": "At the end of the longest straight — the slowest corner on the circuit"
+      }
+    },
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.5988,
+      "sEnd": 0.6088,
+      "label": "T13",
+      "note": {
+        "ko": "라 모누멘탈을 빠져나오자마자 제동하는 추월 지점",
+        "en": "An overtaking spot where cars brake right after leaving La Monumental"
+      }
+    },
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.7264,
+      "sEnd": 0.7364,
+      "label": "T17",
+      "note": {
+        "ko": "고속 연결 구간 끝, 꺾은 채 제동하는 추월 지점",
+        "en": "At the end of the high-speed linking section — an overtaking spot braked with the steering turned"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.4883,
+      "sEnd": 0.4983,
+      "label": "라 모누멘탈",
+      "note": {
+        "ko": "약 13.5도로 기운 550m, F1에서 가장 긴 뱅크 코너",
+        "en": "A 550 m corner banked at about 13.5 degrees — the longest banked corner in F1"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.34199999999999997,
+      "sEnd": 0.352,
+      "label": "엘 붕커",
+      "note": {
+        "ko": "8% 오르막 끝 언덕에 가려 보이지 않는 에이펙스",
+        "en": "An apex hidden by the crest at the end of an 8% climb"
+      }
+    }
+  ],
+  "aero": {
+    "season": 2026,
+    "status": "confirmed",
+    "straightModeZones": [
+      {
+        "from": 22,
+        "to": 1
+      },
+      {
+        "from": 3,
+        "to": 4
+      }
+    ],
+    "overtake": {
+      "detection": {
+        "corner": 22,
+        "position": "before"
+      },
+      "activation": {
+        "corner": 22,
+        "position": "after"
+      }
+    },
+    "source": "F1 공식 2026 마드링 가이드"
+  },
+  "character": {
+    "type": "hybrid",
+    "summary": {
+      "ko": "2026년 새로 열린 마드리드 서킷. IFEMA 전시장 주변 도로와 전용 구간을 섞었고, 경사가 큰 뱅크 코너 라 모누멘탈이 상징이다.",
+      "en": "Madrid's new circuit for 2026, mixing roads around the IFEMA exhibition centre with purpose-built sections. The steeply banked La Monumental is its signature."
+    }
+  }
+}

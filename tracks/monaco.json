@@ -1,0 +1,637 @@
+{
+  "trackId": "monaco",
+  "name": "Monaco",
+  "lengthMeters": 3337,
+  "rotationDeg": 45,
+  "geojsonFile": "mc-1929",
+  "startOffsetS": 0.7159,
+  "corners": [
+    {
+      "number": 1,
+      "s": 0.0792,
+      "name": {
+        "en": "Sainte Devote",
+        "ko": "생트 데보트"
+      },
+      "dirX": -0.2818,
+      "dirY": -0.9595
+    },
+    {
+      "number": 2,
+      "s": 0.1937,
+      "name": {
+        "en": "Beau Rivage",
+        "ko": "보 리바주"
+      },
+      "dirX": 0.535,
+      "dirY": -0.8448
+    },
+    {
+      "number": 3,
+      "s": 0.2433,
+      "name": {
+        "en": "Massenet",
+        "ko": "마세네"
+      },
+      "dirX": -0.2138,
+      "dirY": -0.9769
+    },
+    {
+      "number": 4,
+      "s": 0.2841,
+      "name": {
+        "en": "Casino",
+        "ko": "카지노"
+      },
+      "dirX": -0.8103,
+      "dirY": -0.5861
+    },
+    {
+      "number": 5,
+      "s": 0.3524,
+      "name": {
+        "en": "Mirabeau Haute",
+        "ko": "미라보 오트"
+      },
+      "dirX": 0.4848,
+      "dirY": -0.8746
+    },
+    {
+      "number": 6,
+      "s": 0.3936,
+      "name": {
+        "en": "Fairmont Hairpin (Grand Hotel Hairpin)",
+        "ko": "페어몬트 헤어핀 (그랜드 호텔 헤어핀)"
+      },
+      "dirX": -0.4779,
+      "dirY": 0.8784
+    },
+    {
+      "number": 7,
+      "s": 0.4212,
+      "name": {
+        "en": "Mirabeau Bas",
+        "ko": "미라보 바"
+      },
+      "dirX": 0.3131,
+      "dirY": 0.9497
+    },
+    {
+      "number": 8,
+      "s": 0.448,
+      "name": {
+        "en": "Portier",
+        "ko": "포르티에"
+      },
+      "dirX": 0.9492,
+      "dirY": -0.3148
+    },
+    {
+      "number": 9,
+      "s": 0.5542,
+      "name": {
+        "en": "Tunnel",
+        "ko": "터널"
+      },
+      "dirX": 0.0434,
+      "dirY": 0.9991
+    },
+    {
+      "number": 10,
+      "s": 0.6447,
+      "name": {
+        "en": "Nouvelle Chicane 1",
+        "ko": "누벨 시케인 1"
+      },
+      "dirX": -0.266,
+      "dirY": 0.964,
+      "labelOffsetScale": 0.833
+    },
+    {
+      "number": 11,
+      "s": 0.6619,
+      "name": {
+        "en": "Nouvelle Chicane 2",
+        "ko": "누벨 시케인 2"
+      },
+      "dirX": -0.7516,
+      "dirY": 0.6597
+    },
+    {
+      "number": 12,
+      "s": 0.7317,
+      "name": {
+        "en": "Tabac",
+        "ko": "타박"
+      },
+      "dirX": 0.0164,
+      "dirY": 0.9999
+    },
+    {
+      "number": 13,
+      "s": 0.775,
+      "name": {
+        "en": "Louis Chiron 1",
+        "ko": "루이 시롱 1 (수영장 진입)"
+      },
+      "dirX": 0.9285,
+      "dirY": 0.3714
+    },
+    {
+      "number": 14,
+      "s": 0.7878,
+      "name": {
+        "en": "Louis Chiron 2",
+        "ko": "루이 시롱 2"
+      },
+      "dirX": 0.9318,
+      "dirY": 0.3629
+    },
+    {
+      "number": 15,
+      "s": 0.8268,
+      "name": {
+        "en": "Piscine 1",
+        "ko": "피신 1 (수영장 진출)"
+      },
+      "dirX": -0.2299,
+      "dirY": -0.9732,
+      "labelOffsetScale": 0.648
+    },
+    {
+      "number": 16,
+      "s": 0.8342,
+      "name": {
+        "en": "Piscine 2",
+        "ko": "피신 2"
+      },
+      "dirX": 0.2275,
+      "dirY": 0.9738,
+      "labelOffsetScale": 0.913
+    },
+    {
+      "number": 17,
+      "s": 0.8752,
+      "name": {
+        "en": "La Rascasse 1",
+        "ko": "라 라스카스 1"
+      },
+      "dirX": 1,
+      "dirY": 0.0052
+    },
+    {
+      "number": 18,
+      "s": 0.8931,
+      "name": {
+        "en": "La Rascasse 2",
+        "ko": "라 라스카스 2"
+      },
+      "dirX": 0.4717,
+      "dirY": 0.8818
+    },
+    {
+      "number": 19,
+      "s": 0.9207,
+      "name": {
+        "en": "Antony Noghes",
+        "ko": "안토니 노게스"
+      },
+      "dirX": -0.9999,
+      "dirY": -0.0151
+    }
+  ],
+  "lapRecords": [
+    {
+      "driver": "Lewis Hamilton",
+      "team": "Mercedes",
+      "time": "1:12.909",
+      "year": 2021,
+      "session": "race",
+      "isTrackRecord": true
+    },
+    {
+      "driver": "Lando Norris",
+      "team": "McLaren",
+      "time": "1:09.954",
+      "year": 2025,
+      "session": "qualifying",
+      "isTrackRecord": false
+    }
+  ],
+  "segments": [
+    {
+      "type": "sector",
+      "label": "S1",
+      "sStart": 0,
+      "sEnd": 0.31825000000000003
+    },
+    {
+      "type": "sector",
+      "label": "S2",
+      "sStart": 0.31825000000000003,
+      "sEnd": 0.6968000000000001
+    },
+    {
+      "type": "sector",
+      "label": "S3",
+      "sStart": 0.6968000000000001,
+      "sEnd": 1
+    }
+  ],
+  "trackData": {
+    "lengthMeters": 3337,
+    "laps": 78,
+    "cornerCount": 19,
+    "topSpeedKmh": 280,
+    "fullThrottlePercent": 34,
+    "firstHeld": 1950
+  },
+  "sections": [
+    {
+      "id": "sainte-devote",
+      "name": {
+        "en": "Sainte Devote",
+        "ko": "생트 데보트"
+      },
+      "corners": [
+        1
+      ],
+      "guide": {
+        "ko": "스타트/피니시 직선이 끝나며 나오는 첫 코너. 90도 우코너이고 피트 출구가 안쪽에 합류한다. 첫 랩 접촉사고가 잦은 구간이다. 2026년엔 모나코가 캘린더에서 유일하게 스트레이트 모드가 없는 서킷이다. 3초 이상 이어지는 구간이 없기 때문이다. 대신 라 라스카스 전에 오버테이크를 감지하고, 마지막 코너부터 이 코너까지 오버테이크 모드를 쓴다.",
+        "en": "The first corner at the end of the start/finish straight — a 90-degree right-hander where the pit exit joins on the inside. A frequent site of first-lap contact. In 2026, Monaco is the only circuit on the calendar with no Straight Mode zone, since there is no stretch longer than 3 seconds. Instead, Overtake Mode is detected before La Rascasse and can be used from the final corner through to here."
+      },
+      "sim": {
+        "summary": {
+          "ko": "100m 보드 부근 · 7단 → 2단 · 직선 라인 유지",
+          "en": "Around the 100 m board · 7th → 2nd · Hold a straight line"
+        },
+        "popup": {
+          "brake": {
+            "ko": "100m 보드 부근",
+            "en": "~100m board"
+          },
+          "gear": {
+            "ko": "7단 → 2단",
+            "en": "7th → 2nd"
+          },
+          "watch": {
+            "ko": "피트 출구 합류",
+            "en": "Pit exit merges on the inside"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 100m 보드 부근\n기어: 7단 → 2단\n라인: 우회전, 진입이 늦으면 그대로 바깥쪽 배리어\n핵심: 피트 출구 차량과의 합류 지점이라 세이프티카 상황 등에서 각별히 주의\n주의: 1코너답게 첫 랩 접촉사고가 잦음",
+          "en": "Braking: Around the 100 m board\nGear: 7th → 2nd\nLine: A right-hander; if you turn in late you run straight into the outside barrier\nKey: The pit exit merges here, so take extra care under the Safety Car and similar situations\nWatch: As Turn 1, first-lap contact is frequent"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "beau-rivage-casino",
+      "name": {
+        "en": "Beau Rivage to Casino",
+        "ko": "보 리바주~카지노"
+      },
+      "corners": [
+        2,
+        3,
+        4
+      ],
+      "guide": {
+        "ko": "언덕을 오르며 좌우로 흔들리는 슬라럼 구간. 마세네는 크레스트를 넘으며 진입하는 중속 좌코너라 실수가 잦고, 카지노는 앞이 안 보이는 블라인드 우코너다.",
+        "en": "An uphill slalom that snakes left-right. Massenet is a medium-speed left taken over a blind crest and a common source of mistakes; Casino is a blind right-hander with almost no run-off."
+      },
+      "sim": {
+        "summary": {
+          "ko": "제동 거의 없음 · 3~4단 · 크레스트 타이밍",
+          "en": "Almost no braking · 3rd–4th · Crest timing"
+        },
+        "popup": {
+          "brake": {
+            "ko": "마세네 크레스트 직전 가볍게",
+            "en": "Light braking before Massenet crest"
+          },
+          "gear": {
+            "ko": "3~4단",
+            "en": "3rd–4th"
+          },
+          "watch": {
+            "ko": "카지노 블라인드 에이펙스",
+            "en": "Blind apex at Casino"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 마세네 크레스트 직전 가볍게\n기어: 3~4단, 보 리바주 오르막은 7단 풀스로틀\n라인: 마세네는 크레스트 정점에서 시야가 뜨는 순간 스티어링을 넣는다\n핵심: 카지노는 안쪽 배리어가 에이펙스 바로 옆이라 여유가 거의 없다\n주의: 두 코너 다 블라인드 진입이라 라인을 미리 외워둬야 한다",
+          "en": "Braking: Light braking just before the Massenet crest\nGear: 3rd–4th, with the uphill at Beau Rivage taken in 7th, flat out\nLine: At Massenet, turn in the moment your view opens up at the crest\nKey: At Casino the inside barrier sits right by the apex, leaving almost no margin\nWatch: Both corners are blind on entry, so learn the line in advance"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "mirabeau-hairpin",
+      "name": {
+        "en": "Mirabeau to Fairmont Hairpin",
+        "ko": "미라보~페어몬트 헤어핀"
+      },
+      "corners": [
+        5,
+        6,
+        7
+      ],
+      "guide": {
+        "ko": "짧은 내리막 직선 뒤 미라보 오트에서 감속, 이어서 F1 캘린더 전체에서 가장 느린 코너(페어몬트 헤어핀)로 연결된다. 휠베이스가 짧을수록 유리한 구간.",
+        "en": "A short downhill straight into Mirabeau Haute, leading straight into the slowest corner on the entire F1 calendar — the Fairmont Hairpin. Cars with a shorter wheelbase have an advantage here."
+      },
+      "sim": {
+        "summary": {
+          "ko": "미라보 오트 언덕 넘어서 제동·헤어핀 일찍 · 1단 · 연석 활용",
+          "en": "Brake over the Mirabeau Haute crest, early for the hairpin · 1st · Use the kerbs"
+        },
+        "popup": {
+          "brake": {
+            "ko": "미라보 오트 언덕 넘어서, 헤어핀 일찍",
+            "en": "Mirabeau Haute after the crest, the hairpin early"
+          },
+          "gear": {
+            "ko": "1단",
+            "en": "1st"
+          },
+          "watch": {
+            "ko": "배리어가 라인 좁힘",
+            "en": "Barrier narrows the line"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 미라보 오트는 언덕을 넘어서 제동하고 헤어핀은 일찍 제동한다. 도로가 아래로 꺼지면서 배리어가 라인을 좁힌다\n기어: 2단(미라보 오트) → 1단(헤어핀) → 2단(미라보 바)\n라인: 헤어핀은 최대한 안쪽으로 붙여 진입해 연석을 타면서 회전 반경을 줄인다\n핵심: 휠베이스가 짧을수록 유리한 캘린더 최저속 코너\n주의: 미라보 바까지 감속이 한 세트로 이어진다",
+          "en": "Braking: At Mirabeau Haute, brake after the crest; for the hairpin, brake early. The road drops away and the barrier narrows the line\nGear: 2nd (Mirabeau Haute) → 1st (hairpin) → 2nd (Mirabeau Bas)\nLine: Take the hairpin as tight to the inside as you can and use the kerb to reduce your turning radius\nKey: The slowest corner on the calendar, where a shorter wheelbase helps\nWatch: Deceleration through to Mirabeau Bas comes as one set"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "portier-tunnel",
+      "name": {
+        "en": "Portier to the Tunnel",
+        "ko": "포르티에~터널"
+      },
+      "corners": [
+        8,
+        9
+      ],
+      "guide": {
+        "ko": "헤어핀 직후 우측 코너로 터널 입구로 이어진다. 터널 안은 시야 변화(밝기 차이)에 적응하면서도 랩 최고속 구간 중 하나다.",
+        "en": "A right-hander right after the hairpin that leads into the tunnel entrance. Inside the tunnel, drivers hit one of the highest speeds of the lap while adapting to the change in light."
+      },
+      "sim": {
+        "summary": {
+          "ko": "가벼운 제동 · 3단→터널 7단 · 터널 진입 속도",
+          "en": "Light braking · 3rd → 7th in the tunnel · Tunnel entry speed"
+        },
+        "popup": {
+          "brake": {
+            "ko": "포르티에 가벼운 감속",
+            "en": "Light braking at Portier"
+          },
+          "gear": {
+            "ko": "포르티에 3단, 터널 7단",
+            "en": "3rd at Portier, 7th in the tunnel"
+          },
+          "watch": {
+            "ko": "터널 진입 시야 변화",
+            "en": "Light change entering the tunnel"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 포르티에 진입 전 가볍게\n기어: 포르티에 3단부터 가속, 터널 7단\n스로틀: 포르티에 탈출부터 터널 끝까지 전 구간 풀스로틀 유지\n핵심: 포르티에 진입이 늦으면 터널 전체 속도가 떨어진다\n주의: 터널 안에서는 밝기 변화에 대비해 시선을 미리 앞에 둔다",
+          "en": "Braking: Light braking before Portier entry\nGear: Accelerate from 3rd at Portier, 7th in the tunnel\nThrottle: Stay flat out from the Portier exit to the end of the tunnel\nKey: A late entry at Portier lowers your speed through the whole tunnel\nWatch: Look ahead early to prepare for the change in brightness inside the tunnel"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "nouvelle-chicane",
+      "name": {
+        "en": "Nouvelle Chicane",
+        "ko": "누벨 시케인"
+      },
+      "corners": [
+        10,
+        11
+      ],
+      "guide": {
+        "ko": "터널을 빠져나오며 최고속 상태에서 급격히 감속하는 좌우 시케인. 랩에서 가장 큰 속도 낙차가 발생하는 지점 중 하나다. 모나코에서 가장 좋은 추월 지점으로 꼽힌다.",
+        "en": "A left-right chicane taken right at the exit of the tunnel, where cars brake hard from top speed — one of the biggest speed drops anywhere on the lap. It is regarded as the best overtaking spot at Monaco."
+      },
+      "sim": {
+        "summary": {
+          "ko": "100m 보드 직후 강한 제동 · 7단→2단 · 밝기 적응",
+          "en": "Hard braking just after the 100 m board · 7th → 2nd · Adapting to the light"
+        },
+        "popup": {
+          "brake": {
+            "ko": "터널 출구 100m 보드 직후",
+            "en": "Just after the 100 m board at the tunnel exit"
+          },
+          "gear": {
+            "ko": "7단→2단",
+            "en": "7th down to 2nd"
+          },
+          "watch": {
+            "ko": "밝기 적응+감속 동시",
+            "en": "Light adaptation and braking at once"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 터널 출구 후 100m 보드 직후 강하게\n기어: 7단 → 2단\n스로틀: 두 번째 에이펙스 통과 직후부터 재가속, 타박 진입 전까지 유지\n핵심: 터널 출구 밝기 적응과 강한 브레이킹이 겹쳐서 난이도가 높다\n주의: 과도하게 늦게 브레이킹하면 시케인을 못 넘어간다",
+          "en": "Braking: Hard, just after the 100 m board once you are out of the tunnel\nGear: 7th → 2nd\nThrottle: Re-accelerate right after the second apex and hold it until Tabac entry\nKey: Adapting to the light at the tunnel exit and hard braking come together, which makes it difficult\nWatch: Brake too late and you can't make the chicane"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "tabac-piscine",
+      "name": {
+        "en": "Tabac to Piscine (Swimming Pool)",
+        "ko": "타박~피신"
+      },
+      "corners": [
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "guide": {
+        "ko": "항구를 따라 이어지는 고속 좌우 연속 구간. 타박은 가벼운 좌코너, 이어지는 루이 시롱~피신(스위밍풀) 시케인은 좌-우-좌-우로 이어지는 리듬 구간이다. 안쪽 배리어 접촉 시 서스펜션 파손 사례가 있다.",
+        "en": "A fast, flowing left-right sequence along the harbour. Tabac is a gentle left, leading into the Louis Chiron–Piscine (Swimming Pool) chicane — a left-right-left-right rhythm section. Clipping the inside barrier here has broken suspensions in the past."
+      },
+      "sim": {
+        "summary": {
+          "ko": "타박 살짝 리프트·수영장 뒤쪽 짧게 제동 · 4~5단 · 리듬 유지",
+          "en": "Slight lift at Tabac, brief braking late in the Swimming Pool · 4th–5th · Keep the rhythm"
+        },
+        "popup": {
+          "brake": {
+            "ko": "타박 살짝 리프트, 수영장 뒤쪽 짧게",
+            "en": "Slight lift at Tabac, brief braking late in the Swimming Pool"
+          },
+          "gear": {
+            "ko": "4~5단",
+            "en": "4th–5th"
+          },
+          "watch": {
+            "ko": "안쪽 배리어 접촉 시 서스펜션 파손",
+            "en": "Clipping the inside barrier has broken suspensions before"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 타박 진입 전 살짝 리프트, 수영장은 뒷부분에서 짧게 제동\n기어: 4~5단\n라인: 진입 라인이 다음 코너 진입 각도를 결정하므로 전체를 하나의 흐름으로 연결한다\n핵심: 한 코너씩 따로 보지 말고 피신 전체를 한 시퀀스로 공략\n주의: 안쪽 배리어 접촉 시 서스펜션 파손 사례가 있다",
+          "en": "Braking: A slight lift before Tabac entry; in the Swimming Pool, brake briefly towards the end\nGear: 4th–5th\nLine: Each entry line sets the angle into the next corner, so link them all as one flow\nKey: Don't treat the corners one by one; attack the whole Piscine as a single sequence\nWatch: Clipping the inside barrier has broken suspensions before"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "rascasse-noghes",
+      "name": {
+        "en": "La Rascasse to Antony Noghes",
+        "ko": "라 라스카스~안토니 노게스"
+      },
+      "corners": [
+        17,
+        18,
+        19
+      ],
+      "guide": {
+        "ko": "피신을 빠져나와 항구 앞을 달리다 랩의 마지막 저속 구간으로 들어선다. 라 라스카스는 강한 브레이킹이 필요한 우측 헤어핀이고, 안토니 노게스는 출구가 좁아지며 바로 스타트/피니시 직선으로 연결된다.",
+        "en": "After Piscine, a run along the harbour front leads into the last slow section of the lap. La Rascasse is a right-hand hairpin needing hard braking, and Antony Noghes has a tightening exit that feeds straight onto the start/finish straight."
+      },
+      "sim": {
+        "summary": {
+          "ko": "강한 제동 · 라 라스카스 1단·노게스 2단 · 출구 폭 확보",
+          "en": "Hard braking · 1st at La Rascasse, 2nd at Noghes · Leave room at the exit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "라 라스카스 강한 감속",
+            "en": "Hard braking at La Rascasse"
+          },
+          "gear": {
+            "ko": "라 라스카스 1단·노게스 2단",
+            "en": "1st at La Rascasse, 2nd at Noghes"
+          },
+          "watch": {
+            "ko": "노게스 출구 폭 좁아짐",
+            "en": "Noghes exit narrows"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 라 라스카스 진입 전 강하게\n기어: 라 라스카스 1단, 안토니 노게스 2단\n핵심: 라 라스카스에서 실수하면 랩타임 손실이 크다\n주의: 노게스는 출구 폭이 좁아지는 걸 감안해 탈출 라인을 여유 있게 잡는다",
+          "en": "Braking: Hard, before La Rascasse entry\nGear: 1st at La Rascasse, 2nd at Antony Noghes\nKey: A mistake at La Rascasse costs a lot of lap time\nWatch: The exit at Noghes narrows, so leave yourself room on the exit line"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    }
+  ],
+  "highlights": [
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.8831,
+      "sEnd": 0.8931,
+      "label": "라 라스카스",
+      "note": {
+        "ko": "느린 헤어핀, 상대가 실수하면 추월 기회가 생기는 곳",
+        "en": "A slow hairpin — overtaking chances come from the car ahead making a mistake."
+      }
+    },
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.6347,
+      "sEnd": 0.6619,
+      "label": "누벨 시케인",
+      "note": {
+        "ko": "터널 출구 강한 제동, 모나코에서 가장 좋은 추월 지점",
+        "en": "Hard braking at the tunnel exit — the best overtaking spot at Monaco"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.2741,
+      "sEnd": 0.2841,
+      "label": "카지노",
+      "note": {
+        "ko": "모나코에서 가장 상징적인 촬영 포인트. 카지노를 배경으로 블라인드 코너를 공략하는 모습을 볼 수 있다.",
+        "en": "Monaco's most iconic photo spot — cars tackling a blind corner with the Casino de Monte-Carlo as the backdrop."
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.775,
+      "sEnd": 0.8342,
+      "label": "Piscine",
+      "note": {
+        "ko": "항구를 배경으로 한 고속 좌우 연속 구간. 스위밍풀 옆을 스치듯 지나가는 모습이 모나코의 상징적인 장면 중 하나다.",
+        "en": "A fast left-right sequence with the harbour as a backdrop — cars skimming past the swimming pool is one of Monaco's signature sights."
+      }
+    }
+  ],
+  "aero": {
+    "season": 2026,
+    "status": "noStraightMode",
+    "straightModeZones": [],
+    "overtake": {
+      "detection": {
+        "corner": 17,
+        "position": "before"
+      },
+      "activation": {
+        "corner": 19,
+        "position": "after"
+      }
+    },
+    "source": "f1chronicle 2026(스트레이트 모드 없음, 라 라스카스 전 감지, 마지막 코너~생트 데보트 구간 사용)"
+  },
+  "character": {
+    "type": "street",
+    "summary": {
+      "ko": "가장 짧고 느린 서킷. 좁은 도로와 높은 방호벽 때문에 추월이 드물어 예선 순위가 결과를 크게 좌우한다.",
+      "en": "The shortest and slowest track on the calendar. Narrow roads and high barriers make passing rare, so qualifying largely decides the result."
+    }
+  }
+}

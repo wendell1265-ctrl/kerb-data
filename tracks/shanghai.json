@@ -1,0 +1,568 @@
+{
+  "trackId": "shanghai",
+  "name": "Shanghai",
+  "lengthMeters": 5451,
+  "rotationDeg": 123,
+  "geojsonFile": "cn-2004",
+  "startOffsetS": 0.92,
+  "corners": [
+    {
+      "number": 1,
+      "s": 0.1212,
+      "name": {
+        "ko": "T1",
+        "en": "Turn 1"
+      },
+      "dirX": 0.1301,
+      "dirY": -0.9915
+    },
+    {
+      "number": 2,
+      "s": 0.1456,
+      "name": {
+        "ko": "T2",
+        "en": "Turn 2"
+      },
+      "dirX": 0.8387,
+      "dirY": 0.5446
+    },
+    {
+      "number": 3,
+      "s": 0.1732,
+      "name": {
+        "ko": "T3",
+        "en": "Turn 3"
+      },
+      "dirX": 0.5897,
+      "dirY": 0.8076
+    },
+    {
+      "number": 4,
+      "s": 0.1978,
+      "name": {
+        "ko": "T4",
+        "en": "Turn 4"
+      },
+      "dirX": -0.0828,
+      "dirY": 0.9966
+    },
+    {
+      "number": 5,
+      "s": 0.2557,
+      "name": {
+        "ko": "T5",
+        "en": "Turn 5"
+      },
+      "dirX": 0.0448,
+      "dirY": -0.999
+    },
+    {
+      "number": 6,
+      "s": 0.2993,
+      "name": {
+        "ko": "T6",
+        "en": "Turn 6"
+      },
+      "dirX": 0.9235,
+      "dirY": -0.3836
+    },
+    {
+      "number": 7,
+      "s": 0.3827,
+      "name": {
+        "ko": "T7",
+        "en": "Turn 7"
+      },
+      "dirX": 0.8387,
+      "dirY": 0.5446
+    },
+    {
+      "number": 8,
+      "s": 0.4393,
+      "name": {
+        "ko": "T8",
+        "en": "Turn 8"
+      },
+      "dirX": -0.879,
+      "dirY": -0.4767
+    },
+    {
+      "number": 9,
+      "s": 0.478,
+      "name": {
+        "ko": "T9",
+        "en": "Turn 9"
+      },
+      "dirX": -0.9217,
+      "dirY": -0.388
+    },
+    {
+      "number": 10,
+      "s": 0.4979,
+      "name": {
+        "ko": "T10",
+        "en": "Turn 10"
+      },
+      "dirX": -0.5446,
+      "dirY": 0.8387
+    },
+    {
+      "number": 11,
+      "s": 0.5851,
+      "name": {
+        "ko": "T11",
+        "en": "Turn 11"
+      },
+      "dirX": -0.6273,
+      "dirY": -0.7788
+    },
+    {
+      "number": 12,
+      "s": 0.6017,
+      "name": {
+        "ko": "T12",
+        "en": "Turn 12"
+      },
+      "dirX": -0.7348,
+      "dirY": -0.6783
+    },
+    {
+      "number": 13,
+      "s": 0.6302,
+      "name": {
+        "ko": "T13",
+        "en": "Turn 13"
+      },
+      "dirX": 0.9407,
+      "dirY": -0.3394
+    },
+    {
+      "number": 14,
+      "s": 0.8892,
+      "name": {
+        "ko": "T14",
+        "en": "Turn 14"
+      },
+      "dirX": -0.9778,
+      "dirY": 0.2097
+    },
+    {
+      "number": 15,
+      "s": 0.9036,
+      "name": {
+        "ko": "T15",
+        "en": "Turn 15"
+      },
+      "dirX": -0.3557,
+      "dirY": -0.9346
+    },
+    {
+      "number": 16,
+      "s": 0.9561,
+      "name": {
+        "ko": "T16",
+        "en": "Turn 16"
+      },
+      "dirX": -0.4639,
+      "dirY": -0.8859
+    }
+  ],
+  "lapRecords": [
+    {
+      "driver": "Michael Schumacher",
+      "team": "Ferrari",
+      "time": "1:32.238",
+      "year": 2004,
+      "session": "race",
+      "isTrackRecord": true
+    }
+  ],
+  "segments": [
+    {
+      "type": "sector",
+      "label": "S1",
+      "sStart": 0,
+      "sEnd": 0.2717821133736929
+    },
+    {
+      "type": "sector",
+      "label": "S2",
+      "sStart": 0.2717821133736929,
+      "sEnd": 0.556848303063658
+    },
+    {
+      "type": "sector",
+      "label": "S3",
+      "sStart": 0.556848303063658,
+      "sEnd": 1
+    }
+  ],
+  "trackData": {
+    "lengthMeters": 5451,
+    "laps": 56,
+    "cornerCount": 16,
+    "topSpeedKmh": 325,
+    "fullThrottlePercent": 60,
+    "firstHeld": 2004
+  },
+  "sections": [
+    {
+      "id": "t1-t4-snail",
+      "name": {
+        "ko": "첫 번째 스네일",
+        "en": "First Snail"
+      },
+      "corners": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "guide": {
+        "ko": "긴 직선 뒤 우측으로 계속 조여지는 270도 커브가 2번까지 이어지고, 이어서 좌측으로 도는 3~4번으로 연결된다. 달팽이처럼 안으로 계속 감기는 구조라 리듬을 잃으면 코너 중간에 언더스티어가 난다. 코너 중반부는 시야가 가린다.",
+        "en": "A tightening 270-degree right-hander after a long straight runs through to Turn 2, then connects into the left-handed Turns 3 and 4. It coils inward like a snail shell, so losing rhythm mid-corner causes understeer. Visibility is blocked through the middle of the sequence."
+      },
+      "sim": {
+        "summary": {
+          "ko": "가벼운 리프트 · 4~5단 · 트레일 브레이킹",
+          "en": "Light lift · 4th–5th · Trail braking"
+        },
+        "popup": {
+          "brake": {
+            "ko": "100m 지점부터 가볍게, 점진적으로 강화",
+            "en": "Light from the 100m marker, building progressively"
+          },
+          "gear": {
+            "ko": "4~5단에서 2단까지",
+            "en": "4th–5th down to 2nd"
+          },
+          "watch": {
+            "ko": "중반부 블라인드, 성급한 스로틀 위험",
+            "en": "Blind mid-section — early throttle is risky"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 100m 지점부터 가볍게, 코너가 조여지며 점진적으로 강화. 4번은 리프트 또는 짧은 탭\n기어: 4~5단에서 시작해 2단까지 (4번 3단)\n라인: 넓게 진입해 트레일 브레이킹으로 깊게 감아 들어간다\n핵심: 스티어링을 부드럽게, 스로틀은 인내심 있게\n주의: 코너 중반부가 블라인드, 성급한 스로틀은 언더스티어 유발",
+          "en": "Braking: Light from the 100 m point, building progressively as the corner tightens. A lift or short tap at T4\nGear: Start in 4th–5th and go down to 2nd (3rd at T4)\nLine: Enter wide and trail brake deep into the corner\nKey: Smooth steering, patient throttle\nWatch: The middle of the corner is blind, and a hasty throttle causes understeer"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t5-t6",
+      "name": {
+        "ko": "T5~T6",
+        "en": "Turn 5 to Turn 6"
+      },
+      "corners": [
+        5,
+        6
+      ],
+      "guide": {
+        "ko": "5번은 코너라기보다 가벼운 우측 킹크로 섹터 1을 마무리한다. 이어지는 6번은 강한 브레이킹이 필요한 우측 헤어핀으로, 런오프가 넓어 실수해도 회복 여지가 있다. 4번 탈출부터 6번까지 스트레이트 모드 구간이다.",
+        "en": "Turn 5 is barely a corner — a light right kink that closes out Sector 1. Turn 6 that follows is a right-hand hairpin demanding hard braking, with a wide run-off that gives room to recover from a mistake. The Straight Mode zone runs from the Turn 4 exit through to Turn 6."
+      },
+      "sim": {
+        "summary": {
+          "ko": "6번 늦고 강한 제동 · 2단 · 런오프 여유",
+          "en": "Late, hard braking at T6 · 2nd · Room in the run-off"
+        },
+        "popup": {
+          "brake": {
+            "ko": "6번 진입에서 늦게 강하게",
+            "en": "Late and hard into Turn 6"
+          },
+          "gear": {
+            "ko": "2단",
+            "en": "2nd"
+          },
+          "watch": {
+            "ko": "아웃브레이킹 시도 잦음",
+            "en": "Frequent out-braking attempts here"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 5번은 풀스로틀 또는 거의, 6번 진입에서 늦게 강하게\n기어: 2단\n라인: 늦은 에이펙스로 탈출 각도 확보\n핵심: 섹터 1의 마지막 코너, 탈출이 섹터 2 진입 속도를 결정\n주의: 런오프가 넓어 밀어붙이는 라이벌의 아웃브레이킹이 잦음",
+          "en": "Braking: Flat out or nearly at T5, late and hard on entry to T6\nGear: 2nd\nLine: Late apex to secure the exit angle\nKey: The last corner of Sector 1, and the exit decides your entry speed into Sector 2\nWatch: The run-off is wide, so rivals out-brake you often"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t7-t10",
+      "name": {
+        "ko": "T7~T10",
+        "en": "Turn 7 to Turn 10"
+      },
+      "corners": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "guide": {
+        "ko": "오르막 좌코너 7번은 횡G가 매우 크고, 이어지는 8번도 여전히 빠른 우코너다. 9·10번은 저속 좌코너 두 개로 짧은 직선을 앞두고 탈출 속도가 중요하다. 10번 탈출부터 11번까지 짧은 스트레이트 모드 구간이다.",
+        "en": "The uphill left of Turn 7 loads very high lateral G, and Turn 8 that follows is still a fast right-hander. Turns 9 and 10 are two low-speed lefts ahead of a short straight, where exit speed matters most. There is a short Straight Mode zone from the Turn 10 exit through to Turn 11."
+      },
+      "sim": {
+        "summary": {
+          "ko": "7~8번 제동 없음 · 9번 강한 제동 · 3단",
+          "en": "No braking at T7–T8 · Hard braking at T9 · 3rd"
+        },
+        "popup": {
+          "brake": {
+            "ko": "7·8번 없음, 9번 강하게",
+            "en": "None at 7/8, hard at 9"
+          },
+          "gear": {
+            "ko": "7번 5단·8번 4단, 9·10번 3단",
+            "en": "5th at T7, 4th at T8, 3rd at T9/T10"
+          },
+          "watch": {
+            "ko": "7·8번 횡G 매우 큼",
+            "en": "Very high lateral G through 7/8"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 7·8번 제동 없음, 9번 강하게\n기어: 7번 5단·8번 4단, 9·10번 3단\n라인: 8번 탈출에서 오른쪽에 붙여 9번 브레이킹 준비\n핵심: 10번 탈출 속도가 다음 짧은 직선 전체를 좌우\n주의: 7·8번 연속 고속 구간에서 횡G가 매우 크다",
+          "en": "Braking: No braking at T7 and T8, hard at T9\nGear: 5th at T7, 4th at T8, 3rd at T9 and T10\nLine: Hug the right on the T8 exit to prepare for braking at T9\nKey: The T10 exit speed decides the whole short straight that follows\nWatch: The lateral g is very high through the linked high-speed corners at T7 and T8"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t11-t13-snail",
+      "name": {
+        "ko": "두 번째 스네일",
+        "en": "Second Snail"
+      },
+      "corners": [
+        11,
+        12,
+        13
+      ],
+      "guide": {
+        "ko": "저속 좌우 시케인(11·12번)이 낮은 트랙션으로 이어지고, 서서히 벌어지는 긴 우코너 13번으로 연결된다. 13번 탈출이 랩에서 가장 긴 직선(1.2km) 전체 속도를 결정한다. 13번 탈출부터 14번까지 1.2km 백 스트레이트 전체가 스트레이트 모드 구간이다.",
+        "en": "A low-speed left-right chicane (Turns 11 and 12) at low traction leads into Turn 13, a long, gradually opening right-hander. The exit speed here sets up the entire 1.2km straight that follows — the longest on the lap. The entire 1.2km back straight from the Turn 13 exit to Turn 14 is a Straight Mode zone."
+      },
+      "sim": {
+        "summary": {
+          "ko": "11번 강한 제동 · 3단 · 13번 탈출 우선",
+          "en": "Hard braking at T11 · 3rd · Prioritise the T13 exit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "11번 강하게, 12·13번 가볍게",
+            "en": "Hard at 11, light at 12/13"
+          },
+          "gear": {
+            "ko": "3단",
+            "en": "3rd"
+          },
+          "watch": {
+            "ko": "저속 구간, 트랙션 확보 우선",
+            "en": "Low-speed section — traction comes first"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 11번 강하게, 12·13번은 가볍게\n기어: 3단\n라인: 연석을 적극 활용하되 트랙션 낮은 구간이라 스로틀은 점진적으로\n핵심: 13번 탈출이 1.2km 직선 전체의 속도를 결정\n주의: 저속 구간이라 트랙션 확보가 최우선, 성급한 스로틀은 손해",
+          "en": "Braking: Hard at T11, light at T12 and T13\nGear: 3rd\nLine: Use the kerbs actively, but traction is low here, so build the throttle gradually\nKey: The T13 exit decides your speed along the whole 1.2 km straight\nWatch: A low-speed section, so traction comes first and a hasty throttle costs you"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t14",
+      "name": {
+        "ko": "T14",
+        "en": "Turn 14"
+      },
+      "corners": [
+        14
+      ],
+      "guide": {
+        "ko": "랩에서 가장 긴 직선 끝의 헤어핀. 가장 강한 브레이킹 구간이자 대표적인 추월 지점이다. 2026 스프린트와 그랑프리에서도 주요 추월이 이 코너에서 나왔다.",
+        "en": "A hairpin at the end of the lap's longest straight — the hardest braking zone on the lap and its signature overtaking spot. Major overtakes in the 2026 sprint and grand prix also happened here."
+      },
+      "sim": {
+        "summary": {
+          "ko": "랩 최강 제동 · 2단 · 확실한 추월",
+          "en": "Hardest braking of the lap · 2nd · Reliable overtaking spot"
+        },
+        "popup": {
+          "brake": {
+            "ko": "100m 보드, 최고 속도에서 급격히",
+            "en": "From the 100 m board, sharp braking from top speed"
+          },
+          "gear": {
+            "ko": "2단",
+            "en": "2nd"
+          },
+          "watch": {
+            "ko": "첫 랩 접촉사고 잦음",
+            "en": "Frequent first-lap contact here"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 최고 속도에서 100m 보드부터 급격히 감속, 랩에서 가장 강한 제동\n기어: 2단\n라인: 늦은 에이펙스로 탈출 각도 확보\n핵심: 랩에서 가장 확실한 추월 지점\n주의: 아웃브레이킹 시도가 몰려 첫 랩 접촉사고 잦음",
+          "en": "Braking: Sharp braking from top speed starting at the 100 m board, the hardest braking of the lap\nGear: 2nd\nLine: Late apex to secure the exit angle\nKey: The surest overtaking spot on the lap\nWatch: Out-braking attempts crowd in here, so first-lap contact is frequent"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t15-t16",
+      "name": {
+        "ko": "T15~T16",
+        "en": "Turn 15 to Turn 16"
+      },
+      "corners": [
+        15,
+        16
+      ],
+      "guide": {
+        "ko": "15번은 짧게 연결되는 코너, 16번은 겉보기보다 까다로운 좌코너로 탈출 연석에서 스핀이 잦다. 탈출 속도가 피트 스트레이트 전체를 결정한다. 16번 진입에서 오버테이크를 감지하고, 16번 탈출부터 1번까지 메인 스트레이트가 스트레이트 모드 구간이다.",
+        "en": "Turn 15 is a short connecting corner. Turn 16 is a trickier left than it looks, where spins over the exit kerb are common. Exit speed here sets up the entire pit straight. Overtake Mode is detected on the Turn 16 entry, and the main straight from the Turn 16 exit to Turn 1 is a Straight Mode zone."
+      },
+      "sim": {
+        "summary": {
+          "ko": "가벼운 제동 · 4단 · 탈출 연석 주의",
+          "en": "Light braking · 4th · Mind the exit kerb"
+        },
+        "popup": {
+          "brake": {
+            "ko": "16번 진입에서 가볍게 탭",
+            "en": "Light tap into Turn 16"
+          },
+          "gear": {
+            "ko": "4단",
+            "en": "4th"
+          },
+          "watch": {
+            "ko": "탈출 연석에서 스핀 위험",
+            "en": "Spin risk over the exit kerb"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 16번 진입에서 가볍게 탭\n기어: 4단\n라인: 일찍 브레이킹하면 오히려 탈출 속도를 더 실을 수 있다\n핵심: 탈출 속도가 피트 스트레이트 전체 속도를 결정\n주의: 탈출 연석을 과하게 쓰면 스핀 위험",
+          "en": "Braking: A light tap on entry to T16\nGear: 4th\nLine: Braking early can actually let you carry more exit speed\nKey: Exit speed decides your speed along the whole pit straight\nWatch: Overusing the exit kerb risks a spin"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    }
+  ],
+  "highlights": [
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.8792,
+      "sEnd": 0.8892,
+      "label": "T14",
+      "note": {
+        "ko": "랩에서 가장 확실한 추월 지점, 최강 브레이킹 존",
+        "en": "The lap's most reliable overtaking spot and its hardest braking zone"
+      }
+    },
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.2893,
+      "sEnd": 0.2993,
+      "label": "T6",
+      "note": {
+        "ko": "넓은 런오프, 아웃브레이킹 시도가 잦은 지점",
+        "en": "A wide run-off area where out-braking attempts are common"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.1212,
+      "sEnd": 0.1978,
+      "label": "첫 번째 스네일",
+      "note": {
+        "ko": "F1 캘린더에서 가장 독특한 코너 구성, 달팽이처럼 계속 감기는 270도 커브",
+        "en": "One of the most distinctive corner sequences on the F1 calendar — a 270-degree curve that keeps coiling inward like a snail shell"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.5851,
+      "sEnd": 0.6302,
+      "label": "두 번째 스네일",
+      "note": {
+        "ko": "저속 시케인에서 1.2km 직선으로 이어지는 극적인 속도 전환",
+        "en": "A dramatic shift in pace — from a low-speed chicane straight into a 1.2km straight"
+      }
+    }
+  ],
+  "aero": {
+    "season": 2026,
+    "status": "confirmed",
+    "straightModeZones": [
+      {
+        "from": 16,
+        "to": 1
+      },
+      {
+        "from": 4,
+        "to": 6
+      },
+      {
+        "from": 10,
+        "to": 11
+      },
+      {
+        "from": 13,
+        "to": 14
+      }
+    ],
+    "overtake": {
+      "detection": {
+        "corner": 16,
+        "position": "before"
+      },
+      "activation": {
+        "corner": 16,
+        "position": "after"
+      }
+    },
+    "source": "RaceFans 2026(FIA 발표), f1technical 2026"
+  },
+  "character": {
+    "type": "permanent",
+    "summary": {
+      "ko": "점점 조여드는 1~4번 스네일과 1.2km 백 스트레이트가 특징. 직선 끝 14번 헤어핀이 가장 좋은 추월 지점이다.",
+      "en": "Known for the tightening T1–T4 snail and a 1.2 km back straight. The T14 hairpin at its end is the best place to pass."
+    }
+  }
+}

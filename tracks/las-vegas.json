@@ -1,0 +1,565 @@
+{
+  "trackId": "las-vegas",
+  "name": "Las Vegas",
+  "lengthMeters": 6201,
+  "rotationDeg": 269,
+  "geojsonFile": "us-2023",
+  "startOffsetS": 0.9727,
+  "corners": [
+    {
+      "number": 1,
+      "s": 0.0465,
+      "name": {
+        "ko": "T1",
+        "en": "Turn 1"
+      },
+      "dirX": 0.1464,
+      "dirY": -0.9892
+    },
+    {
+      "number": 2,
+      "s": 0.0609,
+      "name": {
+        "ko": "T2",
+        "en": "Turn 2"
+      },
+      "dirX": -0.9972,
+      "dirY": 0.0754
+    },
+    {
+      "number": 3,
+      "s": 0.0884,
+      "name": {
+        "ko": "T3",
+        "en": "Turn 3"
+      },
+      "dirX": 0.9721,
+      "dirY": -0.2344
+    },
+    {
+      "number": 4,
+      "s": 0.1106,
+      "name": {
+        "ko": "T4",
+        "en": "Turn 4"
+      },
+      "dirX": -0.6086,
+      "dirY": -0.7935
+    },
+    {
+      "number": 5,
+      "s": 0.2584,
+      "name": {
+        "ko": "T5",
+        "en": "Turn 5"
+      },
+      "dirX": -1,
+      "dirY": -0.0014
+    },
+    {
+      "number": 6,
+      "s": 0.3126,
+      "name": {
+        "ko": "T6",
+        "en": "Turn 6"
+      },
+      "dirX": 0.5638,
+      "dirY": -0.8259
+    },
+    {
+      "number": 7,
+      "s": 0.3323,
+      "name": {
+        "ko": "T7",
+        "en": "Turn 7"
+      },
+      "dirX": -0.8551,
+      "dirY": -0.5184
+    },
+    {
+      "number": 8,
+      "s": 0.3458,
+      "name": {
+        "ko": "T8",
+        "en": "Turn 8"
+      },
+      "dirX": -0.088,
+      "dirY": 0.9961
+    },
+    {
+      "number": 9,
+      "s": 0.3653,
+      "name": {
+        "ko": "T9",
+        "en": "Turn 9"
+      },
+      "dirX": -0.844,
+      "dirY": -0.5363
+    },
+    {
+      "number": 10,
+      "s": 0.4433,
+      "name": {
+        "ko": "T10",
+        "en": "Turn 10"
+      },
+      "dirX": 0.7091,
+      "dirY": 0.7051
+    },
+    {
+      "number": 11,
+      "s": 0.488,
+      "name": {
+        "ko": "T11",
+        "en": "Turn 11"
+      },
+      "dirX": -0.701,
+      "dirY": -0.7132
+    },
+    {
+      "number": 12,
+      "s": 0.5235,
+      "name": {
+        "ko": "T12",
+        "en": "Turn 12"
+      },
+      "dirX": -0.7822,
+      "dirY": 0.623
+    },
+    {
+      "number": 13,
+      "s": 0.6243,
+      "name": {
+        "ko": "T13",
+        "en": "Turn 13"
+      },
+      "dirX": -0.2654,
+      "dirY": 0.9642
+    },
+    {
+      "number": 14,
+      "s": 0.8369,
+      "name": {
+        "ko": "T14",
+        "en": "Turn 14"
+      },
+      "dirX": 0.5861,
+      "dirY": 0.8102
+    },
+    {
+      "number": 15,
+      "s": 0.8447,
+      "name": {
+        "ko": "T15",
+        "en": "Turn 15"
+      },
+      "dirX": -0.94,
+      "dirY": -0.3411
+    },
+    {
+      "number": 16,
+      "s": 0.8587,
+      "name": {
+        "ko": "T16",
+        "en": "Turn 16"
+      },
+      "dirX": 0.9845,
+      "dirY": 0.1751
+    },
+    {
+      "number": 17,
+      "s": 0.9853,
+      "name": {
+        "ko": "T17",
+        "en": "Turn 17"
+      },
+      "dirX": 0.902,
+      "dirY": -0.4317
+    }
+  ],
+  "lapRecords": [
+    {
+      "driver": "Max Verstappen",
+      "team": "Red Bull Racing",
+      "time": "1:33.365",
+      "year": 2025,
+      "session": "race",
+      "isTrackRecord": true
+    }
+  ],
+  "segments": [
+    {
+      "type": "sector",
+      "label": "S1",
+      "sStart": 0,
+      "sEnd": 0.30453678438961457
+    },
+    {
+      "type": "sector",
+      "label": "S2",
+      "sStart": 0.30453678438961457,
+      "sEnd": 0.5315632156103853
+    },
+    {
+      "type": "sector",
+      "label": "S3",
+      "sStart": 0.5315632156103853,
+      "sEnd": 1
+    }
+  ],
+  "trackData": {
+    "lengthMeters": 6201,
+    "laps": 50,
+    "cornerCount": 17,
+    "topSpeedKmh": 368,
+    "fullThrottlePercent": 79,
+    "firstHeld": 2023
+  },
+  "sections": [
+    {
+      "id": "t1-t4",
+      "name": {
+        "ko": "T1~T4",
+        "en": "Turn 1 to Turn 4"
+      },
+      "corners": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "guide": {
+        "ko": "폴 포지션에서 첫 제동 지점까지 112m밖에 안 돼, 출발하자마자 1번 좌측 헤어핀에서 강하게 제동한다. 살짝 왼쪽으로 휘는 2번을 지나 길게 조여드는 3번 우코너로 들어가고, 4번까지 이어서 돌며 상설 구간에서 시가지로 넘어간다. 4번 탈출 트랙션이 코발 레인 직선 속도를 정한다.",
+        "en": "From pole position it is only 112 m to the first braking point, so cars brake hard for the Turn 1 left-hand hairpin right after the start. They pass the gentle left of Turn 2, enter the long, tightening right-hander at Turn 3 and carry on through Turn 4, moving from the permanent section onto the city streets. Traction out of Turn 4 sets the speed along Koval Lane."
+      },
+      "sim": {
+        "summary": {
+          "ko": "100m 보드 · 3단 · 4번 탈출 트랙션",
+          "en": "100 m board · 3rd · T4 exit traction"
+        },
+        "popup": {
+          "brake": {
+            "ko": "1번 100m 보드",
+            "en": "T1 100 m board"
+          },
+          "gear": {
+            "ko": "1번 3단",
+            "en": "3rd at T1"
+          },
+          "watch": {
+            "ko": "출발 직후 접촉",
+            "en": "Contact right after the start"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 1번은 100m 보드에서 강하게, 2번은 풀스로틀\n기어: 1번 3단, 4번 탈출까지 6단으로\n라인: 3번은 조여드는 코너라 진입을 서두르지 않는다\n스로틀: 4번 탈출에서 휠스핀 없이 점진적으로\n핵심: 4번 탈출이 코발 레인 직선을 결정\n주의: 출발 직후 1번까지 거리가 짧아 접촉이 잦다",
+          "en": "Braking: Hard at the 100 m board at T1, flat out at T2\nGear: 3rd at T1, up to 6th by the T4 exit\nLine: T3 is a tightening corner, so don't rush the entry\nThrottle: Build up gradually on the T4 exit without wheelspin\nKey: The T4 exit decides the Koval Lane straight\nWatch: The distance from the start to T1 is short, so contact is frequent"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t5-t9",
+      "name": {
+        "ko": "T5~T9",
+        "en": "Turn 5 to Turn 9"
+      },
+      "corners": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "guide": {
+        "ko": "코발 레인 직선 끝의 5번은 90도로 꺾이는 우코너로, 강하게 제동하는 추월 지점이다. 밤 경기라 기온이 낮고 그립이 부족하면 앞바퀴가 쉽게 잠긴다. 이어 거대한 공연장 스피어를 감싸는 6번 좌코너를 높은 기어로 돌고, 7·8번 저속 시케인에서 다시 감속한다. 7·8번은 진입이 보이지 않고 휘면서 제동해야 해서 시케인을 가로지르기 쉽고, 반복하면 트랙 리밋 경고를 받는다. 9번 좌코너를 지나 샌즈 애비뉴로 나간다.",
+        "en": "Turn 5 at the end of the Koval Lane straight is a 90-degree right-hander and a hard-braking overtaking spot. It is a night race, so with low temperatures and little grip the front wheels lock easily. Cars then take the long left of Turn 6 around the giant Sphere venue in a high gear and slow again for the low-speed chicane at Turns 7 and 8. The entry to Turns 7 and 8 is blind and cars must brake while turning, so it is easy to cut the chicane, and repeated cutting draws track-limit warnings. After the left-hander at Turn 9 they head out onto Sands Avenue."
+      },
+      "sim": {
+        "summary": {
+          "ko": "5번 100m 보드 · 2단 · 7번 80m 보드",
+          "en": "100 m board at T5 · 2nd · 80 m board at T7"
+        },
+        "popup": {
+          "brake": {
+            "ko": "5번 100m 보드",
+            "en": "T5 100 m board"
+          },
+          "gear": {
+            "ko": "5번 2단",
+            "en": "2nd at T5"
+          },
+          "watch": {
+            "ko": "저온 락업",
+            "en": "Lock-ups in the cold"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 5번은 100m 보드, 7번은 80m 보드에서 휘면서, 8번은 리프트, 9번은 진입 전 가볍게\n기어: 5번 2단, 6번 8단\n라인: 6번은 스피어를 따라 넓게, 7·8번은 연석을 과하게 타지 않는다\n스로틀: 6번은 길게 유지, 9번 탈출에서 일찍\n핵심: 5번은 낮은 기온에서 그립 관리가 승부\n주의: 7·8번은 제동 지점이 잘 안 보여 시케인을 가로지르기 쉽다",
+          "en": "Braking: 100 m board at T5; at T7 braking from the 80 m board while turning; a lift at T8; light before entry at T9\nGear: 2nd at T5, 8th at T6\nLine: Take T6 wide along the Sphere, and don't overuse the kerbs at T7 and T8\nThrottle: Hold it long at T6, and early on the T9 exit\nKey: At T5, managing grip in the cold decides the corner\nWatch: The braking points at T7 and T8 are hard to see, so it's easy to cut across the chicane"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t10-t12",
+      "name": {
+        "ko": "T10~T12",
+        "en": "Turn 10 to Turn 12"
+      },
+      "corners": [
+        10,
+        11,
+        12
+      ],
+      "guide": {
+        "ko": "샌즈 애비뉴의 10·11번은 대형 리조트 사이를 풀스로틀로 빠르게 지나는 킹크다. 곧이어 12번 좁은 좌코너에서 강하게 제동해 라스베이거스 대로, 일명 스트립으로 들어간다. 제동 지점을 놓쳐 코스를 벗어나는 일이 잦은 곳이고, 12번 탈출이 서킷에서 가장 긴 직선 전체를 좌우한다.",
+        "en": "Turns 10 and 11 on Sands Avenue are kinks taken flat out between the big resorts. Right after, cars brake hard for the narrow left-hander at Turn 12 and turn onto Las Vegas Boulevard, known as the Strip. Missing the braking point and running off is common here, and the exit of Turn 12 decides the whole of the longest straight on the circuit."
+      },
+      "sim": {
+        "summary": {
+          "ko": "12번 70m 보드 · 2단 · 스트립 진입",
+          "en": "70 m board at T12 · 2nd · Entering the Strip"
+        },
+        "popup": {
+          "brake": {
+            "ko": "12번 다리 아래 70m",
+            "en": "T12 70 m under the bridge"
+          },
+          "gear": {
+            "ko": "12번 2단",
+            "en": "2nd at T12"
+          },
+          "watch": {
+            "ko": "제동 지점 놓침",
+            "en": "Missing the braking point"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 10·11번은 풀스로틀, 12번은 다리 아래 70m 부근에서 강하게\n기어: 10·11번 8단, 12번 2단\n라인: 12번은 늦은 에이펙스로 스트립 탈출을 우선\n스로틀: 12번 탈출에서 휠스핀 없이 최대한 일찍\n핵심: 12번 탈출이 스트립과 14번 추월을 결정\n주의: 고속에서 12번 제동 지점을 놓치기 쉽다",
+          "en": "Braking: Flat out at T10 and T11, hard at T12 around 70 m under the bridge\nGear: 8th at T10 and T11, 2nd at T12\nLine: Late apex at T12, prioritising the exit onto the Strip\nThrottle: As early as possible on the T12 exit without wheelspin\nKey: The T12 exit decides the Strip and your T14 overtake\nWatch: At high speed it's easy to miss the T12 braking point"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "strip",
+      "name": {
+        "ko": "스트립",
+        "en": "The Strip"
+      },
+      "corners": [
+        13
+      ],
+      "guide": {
+        "ko": "라스베이거스의 상징인 대로를 따라 약 1.9km를 달리는 F1에서 가장 긴 직선 중 하나다. 13번은 이 직선 위의 약한 곡선으로, 풀스로틀로 지난다. 벨라지오 분수와 에펠탑 모형을 지나며, 2024년 시즌 최고 속도가 이곳에서 나왔다.",
+        "en": "Running about 1.9 km along the city's signature boulevard, this is one of the longest straights in F1. Turn 13 is a slight curve on this straight, taken flat out. Cars pass the Bellagio fountains and the Eiffel Tower replica, and the top speed of the 2024 season was set here."
+      },
+      "sim": {
+        "summary": {
+          "ko": "제동 없음 · 최고단 · 슬립스트림",
+          "en": "No braking · Top gear · Slipstream"
+        },
+        "popup": {
+          "brake": {
+            "ko": "13번 제동 없음",
+            "en": "No braking at T13"
+          },
+          "gear": {
+            "ko": "최고단",
+            "en": "Top gear"
+          },
+          "watch": {
+            "ko": "12번 탈출 늦으면 손해",
+            "en": "A late T12 exit costs time"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 13번 제동 없음\n기어: 최고단\n라인: 13번을 최단 거리로 지나 14번 진입 위치를 미리 잡는다\n스로틀: 풀스로틀\n핵심: 슬립스트림을 타고 14번 추월을 준비\n주의: 12번 탈출이 늦으면 직선 전체에서 손해",
+          "en": "Braking: No braking at T13\nGear: Top gear\nLine: Take T13 by the shortest route and set your T14 entry position in advance\nThrottle: Flat out\nKey: Use the slipstream to prepare for the T14 overtake\nWatch: A late T12 exit costs you along the whole straight"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t14-t16",
+      "name": {
+        "ko": "T14~T16",
+        "en": "Turn 14 to Turn 16"
+      },
+      "corners": [
+        14,
+        15,
+        16
+      ],
+      "guide": {
+        "ko": "스트립 끝에서 강하게 제동하는 14번 좌코너는 서킷에서 가장 좋은 추월 지점이다. 좌-우-좌로 이어지는 시케인 14~16번을 지나 플래닛 할리우드 앞에서 하먼 애비뉴로 빠져나간다.",
+        "en": "The left-hander at Turn 14, braked hard at the end of the Strip, is the best overtaking spot on the circuit. Cars go through the left-right-left chicane of Turns 14 to 16 and exit onto Harmon Avenue in front of Planet Hollywood."
+      },
+      "sim": {
+        "summary": {
+          "ko": "14번 스트립 끝 · 2단 · 최대 추월 지점",
+          "en": "T14 at the end of the Strip · 2nd · Best overtaking spot"
+        },
+        "popup": {
+          "brake": {
+            "ko": "14번 스트립 끝",
+            "en": "T14 end of the Strip"
+          },
+          "gear": {
+            "ko": "14번 2단",
+            "en": "2nd at T14"
+          },
+          "watch": {
+            "ko": "식은 타이어 락업",
+            "en": "Lock-ups on cooled tyres"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 스트립 끝에서 랩에서 가장 강하게\n기어: 14번 2단, 15·16번 2~3단\n라인: 14번 안쪽을 지키고 16번 탈출을 넓게\n스로틀: 16번 탈출에서 점진적으로\n핵심: 서킷에서 가장 좋은 추월 지점\n주의: 긴 직선 끝이라 타이어가 식어 락업이 쉽다",
+          "en": "Braking: The hardest of the lap, at the end of the Strip\nGear: 2nd at T14, 2nd–3rd at T15 and T16\nLine: Defend the inside at T14 and take the T16 exit wide\nThrottle: Build up gradually on the T16 exit\nKey: The best overtaking spot on the circuit\nWatch: At the end of a long straight the tyres have cooled, so lock-ups are easy"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t17",
+      "name": {
+        "ko": "T17",
+        "en": "Turn 17"
+      },
+      "corners": [
+        17
+      ],
+      "guide": {
+        "ko": "하먼 애비뉴 직선을 달려 마지막 17번 좌코너를 풀스로틀로 돌아 메인 스트레이트로 나간다. 코너 안쪽에 피트 입구가 있다. 2025년 베르스타펜이 마지막 랩에 이 코너를 전속력으로 돌며 패스티스트 랩을 세웠다.",
+        "en": "Cars run down Harmon Avenue and take the final left-hander at Turn 17 flat out onto the main straight. The pit entrance is on the inside of the corner. In 2025 Verstappen took this corner at full speed on the last lap to set the fastest lap."
+      },
+      "sim": {
+        "summary": {
+          "ko": "제동 없음 · 고단 · 풀스로틀 마지막 코너",
+          "en": "No braking · High gear · Flat-out final corner"
+        },
+        "popup": {
+          "brake": {
+            "ko": "17번 제동 없음",
+            "en": "No braking at T17"
+          },
+          "gear": {
+            "ko": "고단",
+            "en": "High gear"
+          },
+          "watch": {
+            "ko": "16번 탈출 늦으면 손해",
+            "en": "A late T16 exit costs time"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 17번 제동 없음\n기어: 고단\n라인: 피트 입구 쪽을 피해 바깥에서 들어간다\n스로틀: 풀스로틀\n핵심: 탈출 속도가 메인 스트레이트와 1번 공방을 결정\n주의: 16번 탈출이 늦으면 하먼 애비뉴 전체에서 손해",
+          "en": "Braking: No braking at T17\nGear: High gear\nLine: Enter from the outside to avoid the pit entry side\nThrottle: Flat out\nKey: Exit speed decides the main straight and the fight into T1\nWatch: A late T16 exit costs you along the whole of Harmon Avenue"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    }
+  ],
+  "highlights": [
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.8269,
+      "sEnd": 0.8369,
+      "label": "T14",
+      "note": {
+        "ko": "1.9km 스트립 끝, 랩에서 가장 강한 제동이자 최대 추월 지점",
+        "en": "The end of the 1.9 km Strip — the hardest braking of the lap and the best overtaking spot"
+      }
+    },
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.2484,
+      "sEnd": 0.2584,
+      "label": "T5",
+      "note": {
+        "ko": "코발 레인 끝 90도 코너, 낮은 기온에서 락업이 잦은 곳",
+        "en": "A 90-degree corner at the end of Koval Lane, where lock-ups are common in the cold"
+      }
+    },
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.0365,
+      "sEnd": 0.0465,
+      "label": "T1",
+      "note": {
+        "ko": "폴에서 첫 제동 지점까지 112m, 출발 직후 혼전",
+        "en": "Only 112 m from pole to the first braking point, so the start is chaotic"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.6143,
+      "sEnd": 0.6243,
+      "label": "스트립",
+      "note": {
+        "ko": "라스베이거스 대로를 따라 달리는 약 1.9km 직선",
+        "en": "A straight of about 1.9 km running along Las Vegas Boulevard"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.3026,
+      "sEnd": 0.3126,
+      "label": "T6",
+      "note": {
+        "ko": "거대한 공연장 스피어를 감싸고 도는 코너",
+        "en": "A corner wrapping around the giant Sphere venue"
+      }
+    }
+  ],
+  "aero": {
+    "season": 2026,
+    "status": "pending",
+    "straightModeZones": [],
+    "overtake": null,
+    "source": "2026 라스베이거스 GP 대회 주 FIA 발표 예정"
+  },
+  "character": {
+    "type": "street",
+    "summary": {
+      "ko": "스트립을 따라 달리는 1.9km 직선이 있는 야간 시가지 서킷. 기온이 낮아 타이어를 적정 온도로 유지하는 것이 관건이다.",
+      "en": "A night street circuit with a 1.9 km run along the Strip. Cold temperatures make keeping tyres up to temperature the key challenge."
+    }
+  }
+}

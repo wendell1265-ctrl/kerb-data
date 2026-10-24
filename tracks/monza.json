@@ -1,0 +1,595 @@
+{
+  "trackId": "monza",
+  "name": "Monza",
+  "lengthMeters": 5793,
+  "rotationDeg": 265,
+  "geojsonFile": "it-1922",
+  "corners": [
+    {
+      "number": 1,
+      "s": 0.1042,
+      "name": {
+        "en": "Rettifilo 1",
+        "ko": "레티필로 1"
+      },
+      "dirX": -0.1284,
+      "dirY": 0.9917
+    },
+    {
+      "number": 2,
+      "s": 0.1167,
+      "name": {
+        "en": "Rettifilo 2",
+        "ko": "레티필로 2"
+      },
+      "dirX": 0.0187,
+      "dirY": -0.9998
+    },
+    {
+      "number": 3,
+      "s": 0.1975,
+      "name": {
+        "en": "Curva Grande",
+        "ko": "쿠르바 그란데"
+      },
+      "dirX": 0.5485,
+      "dirY": -0.8361
+    },
+    {
+      "number": 4,
+      "s": 0.3175,
+      "name": {
+        "en": "Roggia 1",
+        "ko": "로지아 1"
+      },
+      "dirX": 0.9247,
+      "dirY": -0.3807
+    },
+    {
+      "number": 5,
+      "s": 0.325,
+      "name": {
+        "en": "Roggia 2",
+        "ko": "로지아 2"
+      },
+      "dirX": -0.9056,
+      "dirY": 0.4241
+    },
+    {
+      "number": 6,
+      "s": 0.3917,
+      "name": {
+        "en": "Lesmo 1",
+        "ko": "레스모 1"
+      },
+      "dirX": -0.7802,
+      "dirY": -0.6255
+    },
+    {
+      "number": 7,
+      "s": 0.4433,
+      "name": {
+        "en": "Lesmo 2",
+        "ko": "레스모 2"
+      },
+      "dirX": 0.373,
+      "dirY": -0.9278
+    },
+    {
+      "number": 8,
+      "s": 0.6275,
+      "name": {
+        "en": "Ascari 1",
+        "ko": "아스카리 1"
+      },
+      "dirX": -0.3899,
+      "dirY": 0.9208
+    },
+    {
+      "number": 9,
+      "s": 0.6433,
+      "name": {
+        "en": "Ascari 2",
+        "ko": "아스카리 2"
+      },
+      "dirX": 0.3317,
+      "dirY": -0.9434
+    },
+    {
+      "number": 10,
+      "s": 0.6625,
+      "name": {
+        "en": "Ascari 3",
+        "ko": "아스카리 3"
+      },
+      "dirX": -0.282,
+      "dirY": 0.9594
+    },
+    {
+      "number": 11,
+      "s": 0.8442,
+      "name": {
+        "en": "Parabolica (Curva Alboreto)",
+        "ko": "파라볼리카 (쿠르바 알보레토)"
+      },
+      "dirX": 0.8628,
+      "dirY": -0.5055
+    }
+  ],
+  "lapRecords": [
+    {
+      "driver": "Daniel Ricciardo",
+      "team": "McLaren",
+      "time": "1:24.812",
+      "year": 2021,
+      "session": "race",
+      "isTrackRecord": false
+    },
+    {
+      "driver": "Sergio Pérez",
+      "team": "Red Bull",
+      "time": "1:24.030",
+      "year": 2022,
+      "session": "race",
+      "isTrackRecord": false
+    },
+    {
+      "driver": "Oscar Piastri",
+      "team": "McLaren",
+      "time": "1:25.072",
+      "year": 2023,
+      "session": "race",
+      "isTrackRecord": false
+    },
+    {
+      "driver": "Lando Norris",
+      "team": "McLaren",
+      "time": "1:21.432",
+      "year": 2024,
+      "session": "race",
+      "isTrackRecord": false
+    },
+    {
+      "driver": "Lando Norris",
+      "team": "McLaren",
+      "time": "1:20.901",
+      "year": 2025,
+      "session": "race",
+      "isTrackRecord": true
+    },
+    {
+      "driver": "Kimi Antonelli",
+      "team": "Mercedes",
+      "time": "1:23.504",
+      "year": 2026,
+      "session": "race",
+      "isTrackRecord": false
+    }
+  ],
+  "segments": [
+    {
+      "type": "sector",
+      "label": "S1",
+      "sStart": 0,
+      "sEnd": 0.2575
+    },
+    {
+      "type": "sector",
+      "label": "S2",
+      "sStart": 0.2575,
+      "sEnd": 0.59066
+    },
+    {
+      "type": "sector",
+      "label": "S3",
+      "sStart": 0.59066,
+      "sEnd": 1
+    }
+  ],
+  "trackData": {
+    "lengthMeters": 5793,
+    "laps": 53,
+    "cornerCount": 11,
+    "topSpeedKmh": 372.6,
+    "fullThrottlePercent": 80,
+    "firstHeld": 1950
+  },
+  "sections": [
+    {
+      "id": "rettifilo",
+      "name": {
+        "ko": "레티필로",
+        "en": "Rettifilo"
+      },
+      "corners": [
+        1,
+        2
+      ],
+      "guide": {
+        "ko": "가장 빠른 속도에서 2단까지 급격히 떨어지는 몬자 최대 감속 구간. 2단까지 내려가는 좁은 시케인이라 초반 접촉 사고와 추월이 가장 많이 나오는 곳이다.",
+        "en": "Braking zone from top speed down to 2nd gear, the hardest stop on the lap. A tight chicane down to 2nd gear — where first-lap contact and overtakes happen most."
+      },
+      "sim": {
+        "summary": {
+          "ko": "150m 전후 · 2단 · 늦은 턴인",
+          "en": "Around 150 m · 2nd · Late turn-in"
+        },
+        "popup": {
+          "brake": {
+            "ko": "150m 보드 전후",
+            "en": "Around the 150m board"
+          },
+          "gear": {
+            "ko": "2단",
+            "en": "2nd"
+          },
+          "watch": {
+            "ko": "일찍 꺾으면 T2 탈출 손해",
+            "en": "Early turn-in costs T2 exit"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 150m 보드 부근부터 강하게 (100~150m 사이 조정 가능)\n기어: 5/6단 → 2단\n라인: 우회전에서 최대한 늦게 턴인, 이어서 바로 좌회전하며 욕심내지 말고 차를 왼쪽으로 정렬\n핵심: T1 진입 속도보다 T2 탈출과 T3 접근 속도가 중요\n주의: T1에서 너무 일찍 꺾으면 T2에서 바깥쪽으로 밀려 가속이 늦어진다",
+          "en": "Braking: Hard from around the 150 m board (anywhere between the 100 and 150 m boards)\nGear: 5th/6th → 2nd\nLine: Turn in as late as possible for the right-hander, then go straight into the left without getting greedy and settle the car to the left\nKey: Exit speed from T2 and approach speed to T3 matter more than T1 entry speed\nWatch: Turning in too early at T1 pushes you wide at T2 and delays your acceleration"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "curva-grande",
+      "name": {
+        "ko": "쿠르바 그란데",
+        "en": "Curva Grande"
+      },
+      "corners": [
+        3
+      ],
+      "guide": {
+        "ko": "브레이킹이 거의 필요 없는 고속 우측 스윕. 다운포스가 적은 몬자 세팅 특성상 그립 한계 근처에서 밀어붙이는 구간. 쿠르바 그란데 탈출부터 로지아까지 스트레이트 모드 구간이다.",
+        "en": "A high-speed right sweep needing almost no braking. With Monza's low-downforce setup, cars run close to the grip limit here. The Straight Mode zone runs from the Curva Grande exit through to Roggia."
+      },
+      "sim": {
+        "summary": {
+          "ko": "제동 없음 · 6단+ · 풀스로틀",
+          "en": "No braking · 6th+ · Flat out"
+        },
+        "popup": {
+          "brake": {
+            "ko": "제동 없음",
+            "en": "No braking"
+          },
+          "gear": {
+            "ko": "6단+",
+            "en": "6th+"
+          },
+          "watch": {
+            "ko": "불필요한 조작 금지",
+            "en": "Avoid unnecessary inputs"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 기본적으로 없음\n기어: 6단~최고단\n라인: 우측으로 자연스럽게 붙으면서 부드럽게\n스로틀: 거의/완전 풀스로틀\n핵심: 차를 불필요하게 움직이지 말 것. 다음 T4 제동을 준비하며 차를 우측으로 가져간다\n주의: 슬립스트림으로 붙은 뒤차가 로지아 진입에서 아웃브레이킹을 시도하므로 탈출 라인을 미리 정해둔다",
+          "en": "Braking: None as a rule\nGear: 6th to top gear\nLine: Settle gently to the right and keep it smooth\nThrottle: Flat out, or very nearly\nKey: Don't move the car unnecessarily. Move to the right to prepare for the T4 braking zone\nWatch: A car in your slipstream will try to out-brake you into Roggia, so decide your exit line early"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "roggia",
+      "name": {
+        "ko": "로지아",
+        "en": "Roggia"
+      },
+      "corners": [
+        4,
+        5
+      ],
+      "guide": {
+        "ko": "레티필로보다는 약하지만 여전히 확실한 감속이 필요한 좌우 시케인. 탈출 속도가 이어지는 레스모 구간 전체에 영향을 준다. 레티필로 다음가는 추월 지점이다.",
+        "en": "A left-right chicane with a milder but still real braking zone. Exit speed here carries through the whole Lesmo sequence. It is the second-best overtaking spot after Rettifilo."
+      },
+      "sim": {
+        "summary": {
+          "ko": "150~120m · 2~3단 · 제동 안정성",
+          "en": "150–120 m · 2nd–3rd · Stable braking"
+        },
+        "popup": {
+          "brake": {
+            "ko": "150~120m 보드",
+            "en": "150–120m board"
+          },
+          "gear": {
+            "ko": "2~3단",
+            "en": "2nd–3rd"
+          },
+          "watch": {
+            "ko": "연석에 차가 튀지 않게",
+            "en": "Don't get bounced by kerbs"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 약 150~120m 전후\n기어: 5단 → 2~3단\n라인: 좌회전은 너무 깊게 들어가지 말고, 이어지는 우회전은 T4에서 만든 라인 그대로 탈출\n스로틀: T5 에이펙스 이후 빠르게 풀스로틀\n주의: 연석을 적극 사용할 수 있지만 차가 튀면서 트랙션을 잃지 않게 할 것\n핵심: 시케인 탈출이 레스모까지의 가속 구간 전체를 좌우한다",
+          "en": "Braking: Around 150–120 m\nGear: 5th → 2nd–3rd\nLine: Don't dive too deep into the left; take the following right on the line you built at T4\nThrottle: Back to flat out quickly after the T5 apex\nWatch: You can use the kerbs hard, but don't let the car bounce and lose traction\nKey: The chicane exit sets your speed all the way along the run to Lesmo"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "lesmo1",
+      "name": {
+        "ko": "레스모 1",
+        "en": "Lesmo 1"
+      },
+      "corners": [
+        6
+      ],
+      "guide": {
+        "ko": "중속 우코너로 진입 각이 중요하다. 다음 레스모 2와 바로 연결되는 구간이라 여기서 라인을 놓치면 레스모 2 진입 각도까지 영향을 받는다.",
+        "en": "A medium-speed right where entry angle matters. It flows directly into Lesmo 2, so missing the line here throws off the entry angle there too."
+      },
+      "sim": {
+        "summary": {
+          "ko": "100~80m · 4단 · 부드러운 턴인",
+          "en": "100–80 m · 4th · Smooth turn-in"
+        },
+        "popup": {
+          "brake": {
+            "ko": "100~80m 보드",
+            "en": "100–80m board"
+          },
+          "gear": {
+            "ko": "4단",
+            "en": "4th"
+          },
+          "watch": {
+            "ko": "T7 진입 위치 확보",
+            "en": "Set up position for T7"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 약 100~80m\n기어: 4단\n라인: 늦은 턴인 → 안쪽 에이펙스 → 바깥쪽 탈출\n스로틀: 에이펙스부터 점진적으로 풀스로틀\n핵심: T6 자체보다 T7 진입을 위한 위치 선정이 중요\n주의: 진입 속도가 과하면 레스모 2 진입 라인이 바깥으로 밀린다. 탈출 바깥쪽은 자갈",
+          "en": "Braking: Around 100–80 m\nGear: 4th\nLine: Late turn-in → inside apex → wide exit\nThrottle: Build to flat out from the apex\nKey: Positioning for T7 entry matters more than T6 itself\nWatch: Too much entry speed pushes your Lesmo 2 line wide. The run-off on the exit is gravel"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "lesmo2",
+      "name": {
+        "ko": "레스모 2",
+        "en": "Lesmo 2"
+      },
+      "corners": [
+        7
+      ],
+      "guide": {
+        "ko": "레스모 1보다 살짝 더 조이는 우코너. 이후 백스트레이트로 이어지는 만큼 탈출 가속이 랩타임에 크게 반영된다. 레스모 2 탈출부터 아스카리까지 스트레이트 모드 구간이다.",
+        "en": "A slightly tighter right than Lesmo 1. It feeds the back straight, so exit acceleration here matters a lot for lap time. The Straight Mode zone runs from the Lesmo 2 exit through to Ascari."
+      },
+      "sim": {
+        "summary": {
+          "ko": "짧은 제동 · 3~4단 · 직선 진입 속도",
+          "en": "Short braking · 3rd–4th · Speed onto the straight"
+        },
+        "popup": {
+          "brake": {
+            "ko": "짧은 제동",
+            "en": "Short braking"
+          },
+          "gear": {
+            "ko": "3~4단",
+            "en": "3rd–4th"
+          },
+          "watch": {
+            "ko": "과가속 시 언더스티어",
+            "en": "Too much throttle causes understeer"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 강한 제동보다는 짧은 트레일 브레이킹\n기어: 4단 → 3/4단\n라인: T6 출구에서 바깥쪽으로 나갔다가 늦게 턴인\n스로틀: 에이펙스부터 최대한 일찍\n핵심: T7 출구가 매우 중요 — 이후 긴 직선의 속도를 결정\n주의: 너무 빨리 가속하면 언더스티어로 바깥쪽 밀림 → 직선 속도 손실",
+          "en": "Braking: A short trail-braking touch rather than hard braking\nGear: 4th → 3rd/4th\nLine: Run wide out of T6, then turn in late\nThrottle: As early as possible from the apex\nKey: The T7 exit is critical — it sets your speed down the long straight that follows\nWatch: Accelerating too early causes understeer and a wide exit → lost straight-line speed"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "ascari",
+      "name": {
+        "ko": "아스카리",
+        "en": "Ascari"
+      },
+      "corners": [
+        8,
+        9,
+        10
+      ],
+      "guide": {
+        "ko": "좌-우-좌로 이어지는 3단 시케인. 몬자에서 가장 어려운 구간으로 꼽히며, 리듬을 타야 하는 곳이라 한 코너에서 라인이 어긋나면 나머지 두 개까지 순서대로 영향을 받는다. 아스카리 탈출부터 파라볼리카까지 스트레이트 모드 구간이다.",
+        "en": "A left-right-left three-part chicane, widely seen as Monza's toughest sequence. It's about rhythm — lose the line in one apex and the next two are thrown off too. The Straight Mode zone runs from the Ascari exit through to Parabolica."
+      },
+      "sim": {
+        "summary": {
+          "ko": "150~120m · 4단 · 첫 턴이 핵심",
+          "en": "150–120 m · 4th · First turn is key"
+        },
+        "popup": {
+          "brake": {
+            "ko": "150~120m 보드",
+            "en": "150–120m board"
+          },
+          "gear": {
+            "ko": "4단",
+            "en": "4th"
+          },
+          "watch": {
+            "ko": "연석 과하게 밟지 말 것",
+            "en": "Don't overuse the kerbs"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 약 150~120m, T8 진입 전에 끝낼 것\n기어: 6단 → 4단\n라인: 첫 번째 좌회전이 가장 중요, 이어지는 우회전은 가능한 속도를 유지하고, 마지막 좌회전은 빠르게 탈출하며 풀스로틀\n핵심: T8을 제대로 잡으면 T9-T10은 한 동작처럼 연결된다\n주의: 연석을 과하게 밟으면 차가 튀면서 그립을 잃을 수 있다",
+          "en": "Braking: Around 150–120 m, and finish before T8 entry\nGear: 6th → 4th\nLine: The first left is the most important; keep as much speed as possible through the right that follows, then exit the last left quickly and go flat out\nKey: Get T8 right and T9–T10 link together as one movement\nWatch: Overusing the kerbs can bounce the car and cost you grip"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "parabolica",
+      "name": {
+        "ko": "파라볼리카",
+        "en": "Parabolica"
+      },
+      "corners": [
+        11
+      ],
+      "guide": {
+        "ko": "감기듯 도는 긴 우코너로 탈출 속도가 메인 스트레이트 최고속도를 결정한다. 다음 1번 코너까지 이어지는 슬립스트림 추월의 시작점. 11번 진입 직전에서 오버테이크를 감지하고, 탈출부터 메인 스트레이트까지 오버테이크 모드를 쓸 수 있다.",
+        "en": "A long, winding right-hander whose exit speed sets the top speed down the main straight. The start of the slipstream move into Turn 1. Overtake Mode is detected just before the T11 entry and can be used from the exit through the main straight."
+      },
+      "sim": {
+        "summary": {
+          "ko": "150~120m · 3~4단 · 탈출 속도",
+          "en": "150–120 m · 3rd–4th · Exit speed"
+        },
+        "popup": {
+          "brake": {
+            "ko": "150~120m 보드",
+            "en": "150–120m board"
+          },
+          "gear": {
+            "ko": "3~4단",
+            "en": "3rd–4th"
+          },
+          "watch": {
+            "ko": "진입보다 탈출 우선",
+            "en": "Exit matters more than entry"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 약 150~120m\n기어: 5단 → 3/4단\n라인: 생각보다 늦게, 에이펙스는 코너 중후반부. 탈출은 트랙 바깥쪽까지 넓게 사용\n스로틀: 차가 안정되면 최대한 일찍 풀스로틀\n핵심: 진입 속도보다 탈출 속도가 중요하다\n주의: 탈출 흰 선 트랙 리밋 판정이 엄격하다. 성급한 스로틀은 메인 스트레이트 속도를 깎는다",
+          "en": "Braking: Around 150–120 m\nGear: 5th → 3rd/4th\nLine: Later than you think, with the apex in the middle-to-late part of the corner. Use the full width of the track out to the outside on exit\nThrottle: Flat out as early as the car is stable\nKey: Exit speed matters more than entry speed\nWatch: Track limits at the white line on exit are policed strictly. Rushing the throttle costs speed down the main straight"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    }
+  ],
+  "highlights": [
+    {
+      "tags": [
+        "overtake",
+        "view"
+      ],
+      "sStart": 0.8442,
+      "sEnd": 0.1042,
+      "label": "Rettifilo",
+      "note": {
+        "ko": "메인 스트레이트 슬립스트림 후 브레이킹 지점. 몬자 최고의 추월 포인트이자 1코너 다중 접촉이 자주 나오는 곳.",
+        "en": "The braking point after the slipstream down the main straight — Monza's best overtaking spot, and a frequent site of Turn 1 pile-ups."
+      }
+    },
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.3075,
+      "sEnd": 0.3175,
+      "label": "로지아",
+      "note": {
+        "ko": "쿠르바 그란데 뒤 강한 제동, 두 번째 추월 지점",
+        "en": "A hard braking zone after Curva Grande — the second overtaking spot"
+      }
+    },
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.4433,
+      "sEnd": 0.6275,
+      "label": "Ascari 진입",
+      "note": {
+        "ko": "백스트레이트 슬립스트림을 활용한 아스카리 진입 추월.",
+        "en": "A slipstream-assisted overtake into the Ascari chicane after the back straight."
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.6275,
+      "sEnd": 0.6625,
+      "label": "Variante Ascari",
+      "note": {
+        "ko": "3단 시케인을 연속으로 공략하는 모습을 볼 수 있는 기술적 구간. 리듬이 깨지는 드라이버가 나오는 지점이라 관전 포인트로 인기.",
+        "en": "A technical section where drivers chain three apexes in sequence — popular to watch because it's where rhythm breaks down."
+      }
+    }
+  ],
+  "aero": {
+    "season": 2026,
+    "status": "confirmed",
+    "straightModeZones": [
+      {
+        "from": 11,
+        "to": 1
+      },
+      {
+        "from": 3,
+        "to": 4
+      },
+      {
+        "from": 7,
+        "to": 8
+      },
+      {
+        "from": 10,
+        "to": 11
+      }
+    ],
+    "overtake": {
+      "detection": {
+        "corner": 11,
+        "position": "before"
+      },
+      "activation": {
+        "corner": 11,
+        "position": "after"
+      }
+    },
+    "source": "F1 공식 2026 몬자 가이드"
+  },
+  "character": {
+    "type": "permanent",
+    "summary": {
+      "ko": "랩의 약 80%를 풀스로틀로 달리는 가장 빠른 서킷. 다운포스를 줄인 세팅에 슬립스트림과 직선 끝 시케인 제동이 승부처다.",
+      "en": "The fastest track on the calendar, with around 80% of the lap at full throttle. Low-downforce set-ups, slipstreaming and braking into the chicanes decide races."
+    }
+  }
+}

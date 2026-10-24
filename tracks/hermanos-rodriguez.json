@@ -1,0 +1,511 @@
+{
+  "trackId": "hermanos-rodriguez",
+  "name": "Hermanos Rodríguez",
+  "lengthMeters": 4304,
+  "rotationDeg": 352,
+  "geojsonFile": "mx-1962",
+  "startOffsetS": 0.9874,
+  "corners": [
+    {
+      "number": 1,
+      "s": 0.2809,
+      "name": {
+        "ko": "모이세스 솔라나 1",
+        "en": "Moisés Solana 1"
+      },
+      "dirX": 0.5388,
+      "dirY": -0.8424
+    },
+    {
+      "number": 2,
+      "s": 0.2991,
+      "name": {
+        "ko": "모이세스 솔라나 2",
+        "en": "Moisés Solana 2"
+      },
+      "dirX": -0.9999,
+      "dirY": -0.0111
+    },
+    {
+      "number": 3,
+      "s": 0.313,
+      "name": {
+        "ko": "모이세스 솔라나 3",
+        "en": "Moisés Solana 3"
+      },
+      "dirX": 0.7618,
+      "dirY": -0.6478
+    },
+    {
+      "number": 4,
+      "s": 0.4762,
+      "name": {
+        "ko": "에세 델 라고",
+        "en": "Ese del Lago"
+      },
+      "dirX": 0.9307,
+      "dirY": -0.3657
+    },
+    {
+      "number": 5,
+      "s": 0.4944,
+      "name": {
+        "ko": "T5",
+        "en": "Turn 5"
+      },
+      "dirX": 0.9412,
+      "dirY": 0.3378
+    },
+    {
+      "number": 6,
+      "s": 0.5275,
+      "name": {
+        "ko": "오르키야",
+        "en": "Horquilla"
+      },
+      "dirX": -0.4131,
+      "dirY": 0.9107
+    },
+    {
+      "number": 7,
+      "s": 0.6057,
+      "name": {
+        "ko": "에세스 1",
+        "en": "Esses 1"
+      },
+      "dirX": 0.9804,
+      "dirY": -0.1972
+    },
+    {
+      "number": 8,
+      "s": 0.6285,
+      "name": {
+        "ko": "에세스 2",
+        "en": "Esses 2"
+      },
+      "dirX": -0.5635,
+      "dirY": 0.8261
+    },
+    {
+      "number": 9,
+      "s": 0.6546,
+      "name": {
+        "ko": "에세스 3",
+        "en": "Esses 3"
+      },
+      "dirX": 0.4152,
+      "dirY": -0.9097
+    },
+    {
+      "number": 10,
+      "s": 0.6952,
+      "name": {
+        "ko": "에세스 4",
+        "en": "Esses 4"
+      },
+      "dirX": -0.5379,
+      "dirY": 0.843
+    },
+    {
+      "number": 11,
+      "s": 0.7179,
+      "name": {
+        "ko": "에세스 5",
+        "en": "Esses 5"
+      },
+      "dirX": 0.6516,
+      "dirY": -0.7585
+    },
+    {
+      "number": 12,
+      "s": 0.8494,
+      "name": {
+        "ko": "포로 솔 1",
+        "en": "Foro Sol 1"
+      },
+      "dirX": -0.6563,
+      "dirY": 0.7545
+    },
+    {
+      "number": 13,
+      "s": 0.8928,
+      "name": {
+        "ko": "포로 솔 2",
+        "en": "Foro Sol 2"
+      },
+      "dirX": -0.2514,
+      "dirY": -0.9679
+    },
+    {
+      "number": 14,
+      "s": 0.9061,
+      "name": {
+        "ko": "포로 솔 3",
+        "en": "Foro Sol 3"
+      },
+      "dirX": 0.4861,
+      "dirY": 0.8739
+    },
+    {
+      "number": 15,
+      "s": 0.9153,
+      "name": {
+        "ko": "포로 솔 4",
+        "en": "Foro Sol 4"
+      },
+      "dirX": -0.1599,
+      "dirY": 0.9871
+    },
+    {
+      "number": 16,
+      "s": 0.9352,
+      "name": {
+        "ko": "포로 솔 5",
+        "en": "Foro Sol 5"
+      },
+      "dirX": -0.8087,
+      "dirY": 0.5883
+    },
+    {
+      "number": 17,
+      "s": 0.9644,
+      "name": {
+        "ko": "페랄타다",
+        "en": "Peraltada"
+      },
+      "dirX": -0.5696,
+      "dirY": -0.8219
+    }
+  ],
+  "lapRecords": [
+    {
+      "driver": "Valtteri Bottas",
+      "team": "Mercedes",
+      "time": "1:17.774",
+      "year": 2021,
+      "session": "race",
+      "isTrackRecord": true
+    }
+  ],
+  "segments": [
+    {
+      "type": "sector",
+      "label": "S1",
+      "sStart": 0,
+      "sEnd": 0.4645828996282528
+    },
+    {
+      "type": "sector",
+      "label": "S2",
+      "sStart": 0.4645828996282528,
+      "sEnd": 0.8377828996282528
+    },
+    {
+      "type": "sector",
+      "label": "S3",
+      "sStart": 0.8377828996282528,
+      "sEnd": 1
+    }
+  ],
+  "trackData": {
+    "lengthMeters": 4304,
+    "laps": 71,
+    "cornerCount": 17,
+    "topSpeedKmh": 345,
+    "fullThrottlePercent": 50,
+    "firstHeld": 1963
+  },
+  "sections": [
+    {
+      "id": "moises-solana",
+      "name": {
+        "ko": "모이세스 솔라나",
+        "en": "Moisés Solana"
+      },
+      "corners": [
+        1,
+        2,
+        3
+      ],
+      "guide": {
+        "ko": "약 1.2km 메인 스트레이트 끝의 1~3번 시케인으로, 멕시코의 세 번째 F1 드라이버 모이세스 솔라나의 이름을 땄다. 이 서킷은 출발선과 결승선이 230m 떨어져 있고, 폴 포지션에서 1번까지 830m나 돼 출발 직후 슬립스트림 싸움이 치열하다. 1번 우코너 뒤 짧게 꺾는 2번 좌코너를 지나 좁은 3번 우코너를 빠져나가는 탈출이 다음 직선 속도를 정한다.",
+        "en": "A chicane at Turns 1 to 3 at the end of the main straight of about 1.2 km, named after Moisés Solana, Mexico's third F1 driver. On this circuit the start line and the finish line are 230 m apart, and pole position is as much as 830 m from Turn 1, so slipstream battles right after the start are intense. After the right-hander at Turn 1, cars pass the short left-hand flick at Turn 2, and the exit from the tight right-hander at Turn 3 sets the speed down the next straight."
+      },
+      "sim": {
+        "summary": {
+          "ko": "100m 보드 · 2단 · 시케인 탈출",
+          "en": "100 m board · 2nd · Chicane exit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "1번 100m 보드",
+            "en": "T1 100 m board"
+          },
+          "gear": {
+            "ko": "2단",
+            "en": "2nd"
+          },
+          "watch": {
+            "ko": "진입 락업",
+            "en": "Lock-up on entry"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 메인 스트레이트 끝 100m 보드에서 강하게\n기어: 2단\n라인: 2번 연석을 과하게 타지 않고 3번 탈출 위치를 잡는다\n스로틀: 3번 탈출에서 휠스핀 없이 점진적으로\n핵심: 긴 직선 끝이라 서킷에서 가장 좋은 추월 지점\n주의: 진입에서 앞바퀴가 잠기기 쉽다",
+          "en": "Braking: Hard at the 100 m board at the end of the main straight\nGear: 2nd\nLine: Don't overuse the T2 kerb, and set your position for the T3 exit\nThrottle: Build up gradually on the T3 exit without wheelspin\nKey: At the end of a long straight, the best overtaking spot on the circuit\nWatch: The front wheels lock easily on entry"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "ese-del-lago-horquilla",
+      "name": {
+        "ko": "에세 델 라고~오르키야",
+        "en": "Ese del Lago to Horquilla"
+      },
+      "corners": [
+        4,
+        5,
+        6
+      ],
+      "guide": {
+        "ko": "짧은 직선 끝 4번 에세 델 라고에서 다시 강하게 제동하고, 5번을 지나 좁게 꺾이는 6번 오르키야로 이어진다. 파머가 까다롭다고 꼽은 랩 전반부의 큰 제동 구간이며, 너무 빠르게 들어가면 세 코너의 리듬이 한꺼번에 어긋난다.",
+        "en": "At the end of a short straight, cars brake hard again at Turn 4, Ese del Lago, then pass Turn 5 and continue to the tightly turning Turn 6, Horquilla. It is the big braking zone in the first half of the lap that Palmer calls tricky, and going in too fast throws the rhythm of all three corners off at once."
+      },
+      "sim": {
+        "summary": {
+          "ko": "4번 100m 보드 · 2~3단 · 6번 트레일 브레이킹",
+          "en": "100 m board at T4 · 2nd–3rd · Trail braking at T6"
+        },
+        "popup": {
+          "brake": {
+            "ko": "4번 100m 보드",
+            "en": "T4 100 m board"
+          },
+          "gear": {
+            "ko": "2~3단",
+            "en": "2nd–3rd"
+          },
+          "watch": {
+            "ko": "과속 진입 시 리듬 어긋남",
+            "en": "Too fast on entry throws the rhythm off"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 4번 100m 보드에서 강하게, 6번은 트레일 브레이킹으로\n기어: 2~3단\n라인: 4번 탈출에서 5번과 6번을 한 흐름으로 잇는다\n스로틀: 5번에서 서두르지 않고 6번 탈출에서 연다\n핵심: 4번 탈출부터 6번까지 리듬\n주의: 진입 속도가 과하면 세 코너 모두 손해",
+          "en": "Braking: Hard at the 100 m board at T4, trail braking at T6\nGear: 2nd–3rd\nLine: Link T5 and T6 into one flow from the T4 exit\nThrottle: Don't rush at T5, open up at the T6 exit\nKey: Rhythm from the T4 exit through to T6\nWatch: Too much entry speed costs you in all three corners"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "esses",
+      "name": {
+        "ko": "에세스",
+        "en": "Esses"
+      },
+      "corners": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "guide": {
+        "ko": "7~11번이 S자로 이어지는 고속 구간이다. 해발 2,000m가 넘는 고지대라 공기가 희박해서, 날개를 최대로 세워도 다운포스가 부족해 차가 늘 불안정하다. 연석을 과하게 타면 크게 흔들리고, 11번 탈출이 스타디움 구간 앞 직선 속도를 정한다.",
+        "en": "A high-speed stretch where Turns 7 to 11 run together as S-curves. The circuit sits at an altitude of more than 2,000 m, where the air is thin, so even with the wings at maximum the downforce is short and the car is always unstable. Hitting the kerbs too hard shakes the car badly, and the exit of Turn 11 sets the speed on the straight before the stadium section."
+      },
+      "sim": {
+        "summary": {
+          "ko": "7번 살짝 리프트 · 4~5단 · 낮은 다운포스",
+          "en": "Slight lift at T7 · 4th–5th · Low downforce"
+        },
+        "popup": {
+          "brake": {
+            "ko": "7번 살짝 리프트",
+            "en": "Slight lift at T7"
+          },
+          "gear": {
+            "ko": "4~5단",
+            "en": "4th–5th"
+          },
+          "watch": {
+            "ko": "10번 연석 과용",
+            "en": "Overusing the T10 kerb"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 7번은 살짝 리프트, 나머지는 스로틀 조절로\n기어: 4~5단\n라인: 라인을 벗어나지 않게 최소 조향으로 잇는다\n스로틀: 11번 탈출에서 일찍 열어 직선으로\n핵심: 공기가 희박해 다운포스가 약하니 부드러운 조작\n주의: 10번 안쪽 연석을 과하게 타면 차가 크게 흔들린다",
+          "en": "Braking: A slight lift at T7, and the rest with throttle control\nGear: 4th–5th\nLine: Link them with minimal steering so you don't leave the line\nThrottle: Open early on the T11 exit onto the straight\nKey: The thin air means weak downforce, so be smooth with your inputs\nWatch: Overusing the inside kerb at T10 unsettles the car badly"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "foro-sol",
+      "name": {
+        "ko": "포로 솔",
+        "en": "Foro Sol"
+      },
+      "corners": [
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "guide": {
+        "ko": "야구장 관중석 사이를 그대로 관통하는 스타디움 구간으로, 캘린더에서 가장 느리고 좁은 구간 중 하나다. 12번에서 강하게 제동한 뒤 13·14번을 가장 낮은 기어로 돌고, 요철이 있는 15번을 지나 에이펙스가 두 개인 넓은 16번으로 빠져나간다. 경기장은 2024년부터 '에스타디오 GNP 세구로스'로 이름이 바뀌었지만, 구간 이름은 여전히 포로 솔로 불린다.",
+        "en": "A stadium section that runs straight through the grandstands of a baseball park, one of the slowest and tightest sections on the calendar. After braking hard at Turn 12, cars take Turns 13 and 14 in the lowest gear, pass the bumpy Turn 15, and leave through the wide Turn 16 with two apexes. The stadium has been renamed 'Estadio GNP Seguros' since 2024, but the section is still called Foro Sol."
+      },
+      "sim": {
+        "summary": {
+          "ko": "12번 강한 제동 · 1~2단 · 휠스핀 관리",
+          "en": "Hard braking at T12 · 1st–2nd · Manage wheelspin"
+        },
+        "popup": {
+          "brake": {
+            "ko": "12번 진입 강하게",
+            "en": "Hard, on entry to T12"
+          },
+          "gear": {
+            "ko": "1~2단",
+            "en": "1st–2nd"
+          },
+          "watch": {
+            "ko": "15번 요철",
+            "en": "Bumps at T15"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 12번 진입에서 강하게, 13번에서 다시\n기어: 13·14번 1~2단\n라인: 16번은 두 에이펙스로 넓게 돌아 직선 탈출을 우선\n스로틀: 짧게 변속하며 휠스핀을 막는다\n핵심: 16번 탈출이 페랄타다와 메인 스트레이트 속도로 이어진다\n주의: 15번 요철에서 뒤가 쉽게 미끄러진다",
+          "en": "Braking: Hard on entry to T12, and again at T13\nGear: 1st–2nd through T13 and T14\nLine: Take T16 wide with two apexes and prioritise the exit onto the straight\nThrottle: Shift briefly to prevent wheelspin\nKey: The T16 exit carries through to Peraltada and your speed down the main straight\nWatch: The rear slides easily over the bumps at T15"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "peraltada",
+      "name": {
+        "ko": "페랄타다",
+        "en": "Peraltada"
+      },
+      "corners": [
+        17
+      ],
+      "guide": {
+        "ko": "한때 F1에서 가장 무서운 코너로 꼽히던 경사진 180도 코너 페랄타다의 뒤쪽 절반이다. 서킷 이름의 주인공인 로드리게스 형제 중 동생 리카르도가 1962년 이곳에서 사고로 숨졌다. 지금은 야구장 구간을 거쳐 코너 중간부터 다시 합류하며, 거의 풀스로틀로 지나 1.2km 메인 스트레이트로 나간다.",
+        "en": "This is the back half of Peraltada, a banked 180-degree corner once ranked as the scariest in F1. Ricardo, the younger of the Rodríguez brothers for whom the circuit is named, died here in an accident in 1962. Today the track rejoins the corner midway after the stadium section, and cars take it almost flat out onto the 1.2 km main straight."
+      },
+      "sim": {
+        "summary": {
+          "ko": "제동 없음 · 고단 · 메인 스트레이트 탈출",
+          "en": "No braking · High gear · Exit onto the main straight"
+        },
+        "popup": {
+          "brake": {
+            "ko": "17번 제동 없음",
+            "en": "No braking at T17"
+          },
+          "gear": {
+            "ko": "고단",
+            "en": "High gear"
+          },
+          "watch": {
+            "ko": "16번 탈출이 늦으면 손해",
+            "en": "A late T16 exit costs time"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 제동 없음\n기어: 고단\n라인: 바깥으로 넓게 빠지며 직선 진입 속도를 살린다\n스로틀: 풀스로틀\n핵심: 탈출 속도가 1.2km 직선과 1번 추월을 결정\n주의: 16번 탈출이 늦으면 직선 전체에서 손해",
+          "en": "Braking: No braking\nGear: High gear\nLine: Run wide to the outside to carry your speed onto the straight\nThrottle: Flat out\nKey: Exit speed decides the 1.2 km straight and your T1 overtake\nWatch: A late T16 exit costs you along the whole straight"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    }
+  ],
+  "highlights": [
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.2709,
+      "sEnd": 0.2809,
+      "label": "모이세스 솔라나",
+      "note": {
+        "ko": "1.2km 직선 끝, 서킷에서 가장 좋은 추월 지점",
+        "en": "At the end of the 1.2 km straight — the best overtaking spot on the circuit"
+      }
+    },
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.4662,
+      "sEnd": 0.4762,
+      "label": "에세 델 라고",
+      "note": {
+        "ko": "직선 끝 두 번째 큰 제동 구간",
+        "en": "The second big braking zone at the end of a straight"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.8828,
+      "sEnd": 0.8928,
+      "label": "포로 솔",
+      "note": {
+        "ko": "야구장 관중석 사이를 관통하는 스타디움 구간",
+        "en": "A stadium section running through the grandstands of a baseball park"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.9544,
+      "sEnd": 0.9644,
+      "label": "페랄타다",
+      "note": {
+        "ko": "로드리게스 형제의 역사가 담긴 옛 고속 코너의 뒤쪽 절반",
+        "en": "The back half of the old high-speed corner that carries the history of the Rodríguez brothers"
+      }
+    }
+  ],
+  "aero": {
+    "season": 2026,
+    "status": "pending",
+    "straightModeZones": [],
+    "overtake": null,
+    "source": "2026 멕시코시티 GP 대회 주 FIA 발표 예정"
+  },
+  "character": {
+    "type": "permanent",
+    "summary": {
+      "ko": "해발 2,200m가 넘는 고지대라 공기가 희박해 다운포스와 냉각이 부족해진다. 관중석에 둘러싸인 야구장 구간 포로 솔이 상징이다.",
+      "en": "At over 2,200 m above sea level, thin air cuts downforce and cooling. The Foro Sol stadium section, ringed by grandstands, is its signature."
+    }
+  }
+}

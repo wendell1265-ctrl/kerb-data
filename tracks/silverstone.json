@@ -1,0 +1,602 @@
+{
+  "trackId": "silverstone",
+  "name": "Silverstone",
+  "lengthMeters": 5891,
+  "rotationDeg": 91,
+  "geojsonFile": "gb-1948",
+  "startOffsetS": 0.531,
+  "corners": [
+    {
+      "number": 1,
+      "s": 0.0586,
+      "name": {
+        "en": "Abbey",
+        "ko": "애비"
+      },
+      "dirX": 0.9764,
+      "dirY": -0.2161
+    },
+    {
+      "number": 2,
+      "s": 0.0939,
+      "name": {
+        "en": "Farm Curve",
+        "ko": "팜 커브"
+      },
+      "dirX": -0.9728,
+      "dirY": 0.2316
+    },
+    {
+      "number": 3,
+      "s": 0.1395,
+      "name": {
+        "en": "Village",
+        "ko": "빌리지"
+      },
+      "dirX": -0.9339,
+      "dirY": -0.3575
+    },
+    {
+      "number": 4,
+      "s": 0.1641,
+      "name": {
+        "en": "The Loop",
+        "ko": "더 루프"
+      },
+      "dirX": -0.9979,
+      "dirY": -0.0647
+    },
+    {
+      "number": 5,
+      "s": 0.2003,
+      "name": {
+        "en": "Aintree",
+        "ko": "에인트리"
+      },
+      "dirX": -0.6499,
+      "dirY": -0.76
+    },
+    {
+      "number": 6,
+      "s": 0.3232,
+      "name": {
+        "en": "Brooklands",
+        "ko": "브룩랜즈"
+      },
+      "dirX": -0.9067,
+      "dirY": 0.4218
+    },
+    {
+      "number": 7,
+      "s": 0.3612,
+      "name": {
+        "en": "Luffield",
+        "ko": "러필드"
+      },
+      "dirX": -0.8171,
+      "dirY": -0.5765
+    },
+    {
+      "number": 8,
+      "s": 0.4113,
+      "name": {
+        "en": "Woodcote",
+        "ko": "우드코트"
+      },
+      "dirX": 0.769,
+      "dirY": -0.6393
+    },
+    {
+      "number": 9,
+      "s": 0.5111,
+      "name": {
+        "en": "Copse",
+        "ko": "콥스"
+      },
+      "dirX": 0.8238,
+      "dirY": 0.5669
+    },
+    {
+      "number": 10,
+      "s": 0.6015,
+      "name": {
+        "en": "Maggotts 1",
+        "ko": "매곳츠 1"
+      },
+      "dirX": -0.3605,
+      "dirY": -0.9328
+    },
+    {
+      "number": 11,
+      "s": 0.6189,
+      "name": {
+        "en": "Maggotts 2",
+        "ko": "매곳츠 2"
+      },
+      "dirX": 0.3606,
+      "dirY": 0.9327
+    },
+    {
+      "number": 12,
+      "s": 0.6463,
+      "name": {
+        "en": "Becketts 1",
+        "ko": "베케츠 1"
+      },
+      "dirX": 0.1809,
+      "dirY": 0.9835
+    },
+    {
+      "number": 13,
+      "s": 0.6712,
+      "name": {
+        "en": "Becketts 2",
+        "ko": "베케츠 2"
+      },
+      "dirX": 0.0173,
+      "dirY": 0.9998
+    },
+    {
+      "number": 14,
+      "s": 0.6968,
+      "name": {
+        "en": "Chapel",
+        "ko": "채플"
+      },
+      "dirX": -0.8701,
+      "dirY": 0.4928
+    },
+    {
+      "number": 15,
+      "s": 0.8479,
+      "name": {
+        "en": "Stowe",
+        "ko": "스토우"
+      },
+      "dirX": -0.9951,
+      "dirY": -0.099
+    },
+    {
+      "number": 16,
+      "s": 0.9247,
+      "name": {
+        "en": "Vale",
+        "ko": "베일"
+      },
+      "dirX": -0.992,
+      "dirY": -0.1266
+    },
+    {
+      "number": 17,
+      "s": 0.9391,
+      "name": {
+        "en": "Club 1",
+        "ko": "클럽 1"
+      },
+      "dirX": -0.9175,
+      "dirY": -0.3978
+    },
+    {
+      "number": 18,
+      "s": 0.9672,
+      "name": {
+        "en": "Club 2",
+        "ko": "클럽 2"
+      },
+      "dirX": 0.2002,
+      "dirY": -0.9797
+    }
+  ],
+  "lapRecords": [
+    {
+      "driver": "Max Verstappen",
+      "team": "Red Bull Racing",
+      "time": "1:27.097",
+      "year": 2020,
+      "session": "race",
+      "isTrackRecord": true
+    }
+  ],
+  "segments": [
+    {
+      "type": "sector",
+      "label": "S1",
+      "sStart": 0,
+      "sEnd": 0.3232
+    },
+    {
+      "type": "sector",
+      "label": "S2",
+      "sStart": 0.3232,
+      "sEnd": 0.6968
+    },
+    {
+      "type": "sector",
+      "label": "S3",
+      "sStart": 0.6968,
+      "sEnd": 1
+    }
+  ],
+  "trackData": {
+    "lengthMeters": 5891,
+    "laps": 52,
+    "cornerCount": 18,
+    "topSpeedKmh": 325,
+    "fullThrottlePercent": 80,
+    "firstHeld": 1950
+  },
+  "sections": [
+    {
+      "id": "abbey-farm",
+      "name": {
+        "en": "Abbey to Farm Curve",
+        "ko": "애비~팜 커브"
+      },
+      "corners": [
+        1,
+        2
+      ],
+      "guide": {
+        "ko": "해밀턴 스트레이트가 끝나자마자 바로 나오는 고속 우코너. 현대 F1 머신은 대부분 풀스로틀로 통과한다. 이어지는 팜 커브는 빠른 좌측 킹크로, 첫 번째 강한 브레이킹 존으로 연결된다. 애비 진입 직전까지는 해밀턴 스트레이트의 스트레이트 모드 구간이다.",
+        "en": "A fast right-hander that comes right after the Hamilton Straight ends — modern F1 cars take it flat out. The following Farm Curve is a quick left-hand kink that leads into the first hard braking zone. The Hamilton Straight is a Straight Mode zone all the way up to the Abbey entry."
+      },
+      "sim": {
+        "summary": {
+          "ko": "제동 없음 · 7단+ · 라인 유지",
+          "en": "No braking · 7th+ · Hold your line"
+        },
+        "popup": {
+          "brake": {
+            "ko": "애비 제동 없음",
+            "en": "No braking at Abbey"
+          },
+          "gear": {
+            "ko": "7단+",
+            "en": "7th+"
+          },
+          "watch": {
+            "ko": "애비 출구 트랙 리밋",
+            "en": "Track limits on Abbey exit"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 애비는 제동 없이 통과, 팜 커브도 리프트 없음\n기어: 7단 이상 유지\n라인: 애비 진입은 트랙 왼쪽 끝에서, 출구는 오른쪽 연석까지 사용\n핵심: 팜 커브에서 좌측으로 차를 정렬해 빌리지 제동 준비\n주의: 애비 출구 트랙 리밋, 2026년 블루 라인 추가된 구간",
+          "en": "Braking: Abbey is taken without braking, and there is no lift at Farm Curve either\nGear: Stay in 7th or higher\nLine: Enter Abbey from the left edge of the track and use the track out to the right-hand kerb on exit\nKey: Line the car up to the left at Farm Curve to prepare for braking into Village\nWatch: Track limits on the Abbey exit, a section that got a blue line in 2026"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "village-loop-aintree",
+      "name": {
+        "en": "Village to Aintree",
+        "ko": "빌리지~에인트리"
+      },
+      "corners": [
+        3,
+        4,
+        5
+      ],
+      "guide": {
+        "ko": "랩에서 가장 느린 구간. 빌리지는 강한 브레이킹이 필요한 좁은 우코너로 첫 랩 혼잡이 자주 발생한다. 더 루프는 저속 좌측 헤어핀이라 트랙션이 핵심이고, 에인트리는 웰링턴 스트레이트로 이어지는 풀스로틀 좌측 킹크다. 에인트리 탈출부터 웰링턴 스트레이트의 스트레이트 모드 구간이 시작돼, 루프 탈출 트랙션이 더 중요해진다.",
+        "en": "The slowest part of the lap. Village is a tight right-hander needing hard braking and a frequent site of first-lap congestion. The Loop is a low-speed left-hand hairpin where traction is everything, and Aintree is a flat-out left kink leading onto the Wellington Straight. The Wellington Straight Straight Mode zone begins right at the Aintree exit, which makes Loop exit traction even more important."
+      },
+      "sim": {
+        "summary": {
+          "ko": "빌리지 두 보드 사이 강한 제동 · 2단 · 루프 트랙션",
+          "en": "Hard braking between the two boards at Village · 2nd · Traction at The Loop"
+        },
+        "popup": {
+          "brake": {
+            "ko": "빌리지 두 보드 사이",
+            "en": "Between the two boards at Village"
+          },
+          "gear": {
+            "ko": "2단",
+            "en": "2nd"
+          },
+          "watch": {
+            "ko": "루프 탈출 트랙션",
+            "en": "Traction on Loop exit"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 빌리지는 두 보드 사이에서 강하게, 루프는 짧고 가볍게\n기어: 빌리지 2단, 루프 1~2단, 에인트리 6단 이상\n라인: 빌리지는 늦은 에이펙스, 루프는 안쪽 연석 붙여 회전 반경 축소\n핵심: 루프 탈출 트랙션이 웰링턴 스트레이트 전체 속도를 결정\n주의: 빌리지에서 과하게 밀면 루프 진입 각도가 벌어짐",
+          "en": "Braking: Hard between the two boards at Village, short and light at The Loop\nGear: 2nd at Village, 1st–2nd at The Loop, 6th or higher at Aintree\nLine: Late apex at Village; at The Loop hug the inside kerb to reduce the turning radius\nKey: Traction on the Loop exit decides your speed along the whole Wellington Straight\nWatch: Push too hard at Village and the entry angle into The Loop opens up"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "brooklands-luffield-woodcote",
+      "name": {
+        "en": "Brooklands to Woodcote",
+        "ko": "브룩랜즈~우드코트"
+      },
+      "corners": [
+        6,
+        7,
+        8
+      ],
+      "guide": {
+        "ko": "웰링턴 스트레이트 끝의 좌코너 브룩랜즈는 추월 시도가 나오는 지점이다. 이어지는 러필드는 길게 감기는 U자형 우코너로, 탈출에서 열린다. 우드코트를 지나면 콥스로 향하는 직선이다. 러필드 탈출부터 우드코트를 지나 콥스까지 짧은 스트레이트 모드 구간이 있고, 비가 오면 이 구간은 해제된다.",
+        "en": "Brooklands, a left-hander at the end of the Wellington Straight, is where overtaking attempts happen. It leads into Luffield, a long, winding U-shaped right that opens up on exit. Woodcote follows, feeding onto the straight toward Copse. There is a short Straight Mode zone from the Luffield exit through Woodcote to Copse, which is disabled in wet conditions."
+      },
+      "sim": {
+        "summary": {
+          "ko": "50m 보드 · 2~3단 · 러필드 탈출",
+          "en": "50 m board · 2nd–3rd · Luffield exit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "브룩랜즈 50m 보드",
+            "en": "50m board at Brooklands"
+          },
+          "gear": {
+            "ko": "2~3단",
+            "en": "2nd–3rd"
+          },
+          "watch": {
+            "ko": "러필드 휠스핀",
+            "en": "Wheelspin at Luffield"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 브룩랜즈 50m 보드부터 트레일 브레이킹, 우드코트는 풀스로틀\n기어: 브룩랜즈 5단→2단, 러필드 2~3단, 우드코트 4단\n라인: 브룩랜즈는 늦은 에이펙스, 러필드는 길게 감다가 탈출에서 개방\n핵심: 러필드 탈출이 콥스까지의 직선 속도를 만듦\n주의: 러필드에서 성급한 스로틀은 횡하중 때문에 휠스핀 유발",
+          "en": "Braking: Trail braking from the 50 m board at Brooklands, flat out at Woodcote\nGear: 5th → 2nd at Brooklands, 2nd–3rd at Luffield, 4th at Woodcote\nLine: Late apex at Brooklands; at Luffield turn in long and open up on exit\nKey: The exit from Luffield builds your straight-line speed to Copse\nWatch: A hasty throttle at Luffield causes wheelspin because of the lateral load"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "copse",
+      "name": {
+        "en": "Copse",
+        "ko": "콥스"
+      },
+      "corners": [
+        9
+      ],
+      "guide": {
+        "ko": "실버스톤에서 가장 빠른 코너 중 하나. 횡G가 5g를 넘는다. 코너 너머가 보이지 않아 진입 시점을 외워야 한다.",
+        "en": "One of the fastest corners at Silverstone. It sees more than 5g of lateral load. The corner is blind beyond the entry, so the braking/turn-in point has to be memorized."
+      },
+      "sim": {
+        "summary": {
+          "ko": "리프트만 · 7단 · 진입 커밋",
+          "en": "Lift only · 7th · Commit on entry"
+        },
+        "popup": {
+          "brake": {
+            "ko": "리프트 또는 제동 없음",
+            "en": "Lift or no braking"
+          },
+          "gear": {
+            "ko": "7단",
+            "en": "7th"
+          },
+          "watch": {
+            "ko": "블라인드 진입",
+            "en": "Blind entry"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 리프트만, 차에 따라 제동 없이 통과\n기어: 7단\n라인: 진입은 트랙 왼쪽 끝, 시선은 안쪽 연석에 미리 고정\n스로틀: 진입부터 탈출까지 풀스로틀, 리프트 없이 유지가 기본\n핵심: 브레이킹보다 진입 커밋이 랩타임을 좌우\n주의: 코너 너머가 보이지 않는 블라인드 진입, 턴인 지점 암기 필요",
+          "en": "Braking: A lift only, and depending on the car no braking at all\nGear: 7th\nLine: Enter from the left edge of the track, with your eyes fixed on the inside kerb in advance\nThrottle: Flat out from entry to exit; the default is to hold it with no lift\nKey: Commitment on entry decides lap time more than braking does\nWatch: A blind entry where you can't see beyond the corner, so you must memorise the turn-in point"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "maggotts-becketts-chapel",
+      "name": {
+        "en": "Maggotts to Chapel",
+        "ko": "매곳츠~채플"
+      },
+      "corners": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "guide": {
+        "ko": "F1 캘린더 전체에서 가장 유명한 고속 연속 코너. 좌-우-좌-우로 네 번 방향이 바뀌며 속도를 유지한 채 통과한다. 하나의 코너를 희생해서 다음 코너를 살리는 흐름 판단이 핵심이다. 채플 탈출부터 행거 스트레이트의 스트레이트 모드 구간이다.",
+        "en": "The most famous high-speed sequence on the entire F1 calendar. Four direction changes — left-right-left-right — taken with speed maintained throughout. The key is reading the flow: sacrificing one corner slightly to set up the next. The Hangar Straight Straight Mode zone begins right at the Chapel exit."
+      },
+      "sim": {
+        "summary": {
+          "ko": "작은 리프트 · 5~6단 · 리듬",
+          "en": "Small lift · 5th–6th · Rhythm"
+        },
+        "popup": {
+          "brake": {
+            "ko": "베케츠 작은 리프트",
+            "en": "Small lift through Becketts"
+          },
+          "gear": {
+            "ko": "5-6단",
+            "en": "5th–6th"
+          },
+          "watch": {
+            "ko": "채플 탈출 속도",
+            "en": "Exit speed at Chapel"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 매곳츠 진입 직선에서만, 베케츠는 작은 리프트나 살짝 터치\n기어: 5~6단 유지\n라인: 매곳츠 전 차를 오른쪽으로 정렬, 연석은 최소한만 사용\n스로틀: 매곳츠~베케츠는 완전히 떼지 않고 미세 조절만, 채플 탈출부터 재가속\n핵심: 한 코너를 희생해 다음 코너를 살리는 흐름 판단\n주의: 개별 공략하면 뒤로 갈수록 라인이 바깥으로 밀림, 채플 탈출이 행거 속도 결정",
+          "en": "Braking: Only on the straight into Maggotts; at Becketts a small lift or a light touch\nGear: Stay in 5th–6th\nLine: Line the car up to the right before Maggotts, and use the kerbs only minimally\nThrottle: Don't fully lift through Maggotts and Becketts, just fine adjustments, and re-accelerate from the Chapel exit\nKey: Judging the flow: sacrifice one corner to set up the next\nWatch: Attack each corner separately and your line gets pushed wider as you go; the Chapel exit decides your Hangar speed"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "stowe-vale-club",
+      "name": {
+        "en": "Stowe to Club",
+        "ko": "스토우~클럽"
+      },
+      "corners": [
+        15,
+        16,
+        17,
+        18
+      ],
+      "guide": {
+        "ko": "행거 스트레이트 끝의 고속 우코너 스토우, 강한 브레이킹이 필요한 좌코너 베일, 그리고 더블 에이펙스 우코너 클럽으로 랩이 마무리된다. 클럽 탈출 속도가 해밀턴 스트레이트 전체를 좌우한다.",
+        "en": "The lap wraps up with Stowe, a fast right-hander at the end of the Hangar Straight, Vale, a left needing hard braking, and Club, a double-apex right. Exit speed out of Club dictates the whole Hamilton Straight that follows."
+      },
+      "sim": {
+        "summary": {
+          "ko": "스토우 50m 보드 직전·베일 100m 보드 직후 제동 · 스토우 6~7단·베일 2단 · 클럽 탈출",
+          "en": "Stowe just before the 50 m board, Vale just after the 100 m board · 6th–7th at Stowe, 2nd at Vale · Club exit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "스토우 50m 보드 직전, 베일 100m 보드 직후",
+            "en": "Stowe just before the 50 m board, Vale just after the 100 m board"
+          },
+          "gear": {
+            "ko": "스토우 6~7단·베일 2단",
+            "en": "6th–7th at Stowe, 2nd at Vale"
+          },
+          "watch": {
+            "ko": "클럽 탈출 속도",
+            "en": "Exit speed at Club"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 스토우는 50m 보드 직전 고속에서 강하게, 베일은 100m 보드 직후 강한 제동\n기어: 스토우 6~7단, 베일 2단, 클럽 2~3단\n라인: 스토우는 점진적 턴인, 클럽은 두 번째 에이펙스 기준으로 라인 설정\n스로틀: 클럽 두 번째 에이펙스부터 점진적으로 개방, 해밀턴 스트레이트로 연결\n핵심: 클럽 탈출 속도가 해밀턴 스트레이트 전체를 좌우\n주의: 스토우는 고속 제동 중 횡하중이 커서 안정성 확보 필요",
+          "en": "Braking: Hard at Stowe at high speed just before the 50 m board; hard at Vale just after the 100 m board\nGear: 6th–7th at Stowe, 2nd at Vale, 2nd–3rd at Club\nLine: Progressive turn-in at Stowe; at Club set your line from the second apex\nThrottle: Open progressively from the second apex at Club, linking onto the Hamilton Straight\nKey: Exit speed from Club decides the whole Hamilton Straight\nWatch: Lateral load is high under high-speed braking at Stowe, so you need to secure stability"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    }
+  ],
+  "highlights": [
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.3132,
+      "sEnd": 0.3232,
+      "label": "브룩랜즈",
+      "note": {
+        "ko": "웰링턴 스트레이트 끝, 추월 지점",
+        "en": "An overtaking spot right at the end of the Wellington Straight"
+      }
+    },
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.8379,
+      "sEnd": 0.8479,
+      "label": "스토우",
+      "note": {
+        "ko": "행거 스트레이트 끝, 고속에서 안쪽을 파고드는 추월",
+        "en": "A high-speed dive up the inside at the end of the Hangar Straight"
+      }
+    },
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.9147,
+      "sEnd": 0.9247,
+      "label": "베일",
+      "note": {
+        "ko": "강한 제동 좌코너, 추월이 자주 나오는 지점",
+        "en": "A hard-braking left-hander where overtakes often happen"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.6015,
+      "sEnd": 0.6968,
+      "label": "매곳츠~베케츠",
+      "note": {
+        "ko": "리프트 없이 네 번 방향이 바뀌는 F1 최고의 연속 코너",
+        "en": "F1's finest high-speed sequence — four direction changes with no lift"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.5011,
+      "sEnd": 0.5111,
+      "label": "콥스",
+      "note": {
+        "ko": "커밋의 상징",
+        "en": "The iconic commitment corner"
+      }
+    }
+  ],
+  "aero": {
+    "season": 2026,
+    "status": "confirmed",
+    "straightModeZones": [
+      {
+        "from": 18,
+        "to": 1
+      },
+      {
+        "from": 5,
+        "to": 6
+      },
+      {
+        "from": 7,
+        "to": 9
+      },
+      {
+        "from": 14,
+        "to": 15
+      }
+    ],
+    "overtake": {
+      "detection": {
+        "corner": 17,
+        "position": "after"
+      },
+      "activation": {
+        "corner": 18,
+        "position": "before"
+      }
+    },
+    "source": "F1 공식 2026 실버스톤 가이드, Formula Live Pulse 2026"
+  },
+  "character": {
+    "type": "permanent",
+    "summary": {
+      "ko": "콥스, 매곳츠~베케츠~채플처럼 고속 연속 코너가 핵심. 공기역학 성능과 고속 안정성이 중요하다.",
+      "en": "Built around fast sequences like Copse and Maggotts–Becketts–Chapel, so aerodynamic performance and high-speed stability matter most."
+    }
+  }
+}

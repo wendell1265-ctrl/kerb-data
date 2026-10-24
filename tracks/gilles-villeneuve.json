@@ -1,0 +1,590 @@
+{
+  "trackId": "gilles-villeneuve",
+  "name": "Gilles Villeneuve",
+  "lengthMeters": 4361,
+  "rotationDeg": 295,
+  "geojsonFile": "ca-1978",
+  "startOffsetS": 0.0455,
+  "corners": [
+    {
+      "number": 1,
+      "s": 0.0562,
+      "name": {
+        "ko": "T1",
+        "en": "Turn 1"
+      },
+      "dirX": -0.2576,
+      "dirY": 0.9663,
+      "labelOffsetScale": 0.75
+    },
+    {
+      "number": 2,
+      "s": 0.08,
+      "name": {
+        "ko": "비라주 세나",
+        "en": "Virage Senna"
+      },
+      "dirX": 0.7724,
+      "dirY": -0.6351,
+      "labelOffsetScale": 0.75
+    },
+    {
+      "number": 3,
+      "s": 0.1679,
+      "name": {
+        "ko": "T3",
+        "en": "Turn 3"
+      },
+      "dirX": -0.2464,
+      "dirY": 0.9692,
+      "labelOffsetScale": 0.75
+    },
+    {
+      "number": 4,
+      "s": 0.1803,
+      "name": {
+        "ko": "T4",
+        "en": "Turn 4"
+      },
+      "dirX": 0.2996,
+      "dirY": -0.9541,
+      "labelOffsetScale": 0.75
+    },
+    {
+      "number": 5,
+      "s": 0.2316,
+      "name": {
+        "ko": "T5",
+        "en": "Turn 5"
+      },
+      "dirX": 0.2082,
+      "dirY": 0.9781,
+      "labelOffsetScale": 0.75
+    },
+    {
+      "number": 6,
+      "s": 0.2854,
+      "name": {
+        "ko": "T6",
+        "en": "Turn 6"
+      },
+      "dirX": -0.0556,
+      "dirY": -0.9985,
+      "labelOffsetScale": 0.75
+    },
+    {
+      "number": 7,
+      "s": 0.3099,
+      "name": {
+        "ko": "T7",
+        "en": "Turn 7"
+      },
+      "dirX": 0.3576,
+      "dirY": 0.9339,
+      "labelOffsetScale": 0.75
+    },
+    {
+      "number": 8,
+      "s": 0.4571,
+      "name": {
+        "ko": "T8",
+        "en": "Turn 8"
+      },
+      "dirX": -0.7597,
+      "dirY": 0.6502,
+      "labelOffsetScale": 0.75
+    },
+    {
+      "number": 9,
+      "s": 0.4713,
+      "name": {
+        "ko": "T9",
+        "en": "Turn 9"
+      },
+      "dirX": 0.9958,
+      "dirY": -0.0915,
+      "labelOffsetScale": 0.75
+    },
+    {
+      "number": 10,
+      "s": 0.6203,
+      "name": {
+        "ko": "레핑글",
+        "en": "L'Épingle"
+      },
+      "dirX": -0.9642,
+      "dirY": -0.2653,
+      "labelOffsetScale": 0.75
+    },
+    {
+      "number": 11,
+      "s": 0.6508,
+      "name": {
+        "ko": "T11",
+        "en": "Turn 11"
+      },
+      "dirX": 0.1031,
+      "dirY": -0.9947,
+      "labelOffsetScale": 0.75
+    },
+    {
+      "number": 12,
+      "s": 0.7353,
+      "name": {
+        "ko": "T12",
+        "en": "Turn 12"
+      },
+      "dirX": 0.1003,
+      "dirY": -0.995,
+      "labelOffsetScale": 0.75
+    },
+    {
+      "number": 13,
+      "s": 0.8923,
+      "name": {
+        "ko": "T13",
+        "en": "Turn 13"
+      },
+      "dirX": 0.2298,
+      "dirY": -0.9732,
+      "labelOffsetScale": 0.75
+    },
+    {
+      "number": 14,
+      "s": 0.9071,
+      "name": {
+        "ko": "T14",
+        "en": "Turn 14"
+      },
+      "dirX": -0.2188,
+      "dirY": 0.9758,
+      "labelOffsetScale": 0.75
+    }
+  ],
+  "lapRecords": [
+    {
+      "driver": "Valtteri Bottas",
+      "team": "Mercedes",
+      "time": "1:13.078",
+      "year": 2019,
+      "session": "race",
+      "isTrackRecord": true
+    }
+  ],
+  "segments": [
+    {
+      "type": "sector",
+      "label": "S1",
+      "sStart": 0,
+      "sEnd": 0.252150745241917
+    },
+    {
+      "type": "sector",
+      "label": "S2",
+      "sStart": 0.252150745241917,
+      "sEnd": 0.5767320110066498
+    },
+    {
+      "type": "sector",
+      "label": "S3",
+      "sStart": 0.5767320110066498,
+      "sEnd": 1
+    }
+  ],
+  "trackData": {
+    "lengthMeters": 4361,
+    "laps": 70,
+    "cornerCount": 14,
+    "topSpeedKmh": 306,
+    "fullThrottlePercent": 65,
+    "firstHeld": 1978
+  },
+  "sections": [
+    {
+      "id": "t1-virage-senna",
+      "name": {
+        "ko": "T1~비라주 세나",
+        "en": "Turn 1 to Virage Senna"
+      },
+      "corners": [
+        1,
+        2
+      ],
+      "guide": {
+        "ko": "메인 스트레이트 끝에서 오른쪽으로 살짝 휘며 제동한 뒤 1번 좌코너로 꺾고, 곧바로 2번 우측 헤어핀 비라주 세나로 이어진다. 피트 출구가 2번으로 합류하고, 첫 랩 혼잡이 잦은 구간이다.",
+        "en": "A right-hand kink under braking at the end of the main straight leads into the left of Turn 1, and straight into Virage Senna, a right-hand hairpin at Turn 2. The pit exit joins at Turn 2, and first-lap congestion is common here."
+      },
+      "sim": {
+        "summary": {
+          "ko": "주황색 벽 표시에서 강한 제동 · 2단 · 2번 탈출",
+          "en": "Hard braking at the orange wall marker · 2nd · T2 exit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "주황색 벽 표시, 오른쪽 굽이에서",
+            "en": "At the orange wall marker, through the right-hand kink"
+          },
+          "gear": {
+            "ko": "2단",
+            "en": "2nd"
+          },
+          "watch": {
+            "ko": "추운 날 그립 부족",
+            "en": "Less grip on cold days"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 주황색 벽 표시에서, 오른쪽으로 살짝 휘어지는 상태에서 강하게 제동\n기어: 2단\n라인: 1번에서 흔들리면 2번 쪽으로 코너를 잘라먹게 된다\n스로틀: 2번 탈출은 리어가 미끄러지지 않게 섬세하게\n핵심: 첫 랩 혼잡이 잦아 위치 싸움이 치열하다\n주의: 추운 날엔 타이어 예열이 부족해 그립이 떨어진다",
+          "en": "Braking: Hard from the orange wall marker, while still on the slight right-hand bend\nGear: 2nd\nLine: Get unsettled at T1 and you end up cutting the corner into T2\nThrottle: Be delicate on the T2 exit so the rear doesn't slide\nKey: The first lap is often crowded, so the fight for position is intense\nWatch: On cold days the tyres aren't warm enough and grip drops"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t3-t5",
+      "name": {
+        "ko": "T3~T5",
+        "en": "Turn 3 to Turn 5"
+      },
+      "corners": [
+        3,
+        4,
+        5
+      ],
+      "guide": {
+        "ko": "언덕을 오른 뒤 우-좌 시케인 3·4번을 지나고, 5번은 풀스로틀로 지나는 우코너다. 4번 바깥에는 콘크리트 벽이 바로 붙어 있다.",
+        "en": "After a short uphill run, a right-left chicane through Turns 3 and 4 leads into Turn 5, a right-hander taken flat out. A concrete wall sits right on the outside of Turn 4."
+      },
+      "sim": {
+        "summary": {
+          "ko": "3번 50m 보드 짧게 · 3단 · 4번 벽",
+          "en": "Short at the T3 50 m board · 3rd · T4 wall"
+        },
+        "popup": {
+          "brake": {
+            "ko": "3번 50m 보드 짧게",
+            "en": "Short, at the 50 m board into T3"
+          },
+          "gear": {
+            "ko": "3단",
+            "en": "3rd"
+          },
+          "watch": {
+            "ko": "4번 탈출 벽 근접",
+            "en": "Wall close on T4 exit"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 3번은 50m 보드에서 짧게\n기어: 3단\n라인: 높은 연석을 공략하되 4번 탈출은 오른쪽 벽에 바짝 붙는다\n스로틀: 5번은 풀스로틀\n핵심: 4번 탈출 위치가 6번 제동 준비를 결정한다\n주의: 4번 바깥 콘크리트 벽",
+          "en": "Braking: Short at the 50 m board for T3\nGear: 3rd\nLine: Attack the high kerbs, but hug the right-hand wall on the T4 exit\nThrottle: Flat out at T5\nKey: Where you exit T4 decides your preparation for braking into T6\nWatch: The concrete wall on the outside of T4"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t6-t7",
+      "name": {
+        "ko": "T6~T7",
+        "en": "Turn 6 to Turn 7"
+      },
+      "corners": [
+        6,
+        7
+      ],
+      "guide": {
+        "ko": "느리고 반경이 큰 6번 좌코너에 이어 7번 우코너로 백 스트레이트에 들어간다. 6번 라인을 조금 양보해야 7번 탈출이 산다. 7번 탈출부터 8번까지 스트레이트 모드 구간이다.",
+        "en": "The slow, wide-radius left of Turn 6 leads into Turn 7, a right-hander onto the back straight. Giving up a little of the line at Turn 6 is what makes the Turn 7 exit work. The Straight Mode zone runs from the Turn 7 exit through to Turn 8."
+      },
+      "sim": {
+        "summary": {
+          "ko": "75m 부근 · 2단 · 7번 탈출",
+          "en": "Around 75 m · 2nd · T7 exit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "75m 보드 부근",
+            "en": "Around the 75m board"
+          },
+          "gear": {
+            "ko": "2단",
+            "en": "2nd"
+          },
+          "watch": {
+            "ko": "6번 욕심내면 7번 탈출 늦어짐",
+            "en": "Pushing T6 delays the T7 exit"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 6번은 75m 부근에서 강하게\n기어: 2단\n라인: 6번 라인을 양보해 7번 탈출 각도를 확보\n스로틀: 7번 연석을 스치며 풀스로틀로 전환\n핵심: 7번 탈출이 백 스트레이트 속도를 결정한다\n주의: 6번에서 욕심내면 7번 탈출이 늦어진다",
+          "en": "Braking: Hard around 75 m at T6\nGear: 2nd\nLine: Give up the T6 line to secure the T7 exit angle\nThrottle: Brush the T7 kerb and switch to flat out\nKey: The T7 exit decides your speed down the back straight\nWatch: Getting greedy at T6 delays the T7 exit"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t8-t9",
+      "name": {
+        "ko": "T8~T9",
+        "en": "Turn 8 to Turn 9"
+      },
+      "corners": [
+        8,
+        9
+      ],
+      "guide": {
+        "ko": "백 스트레이트 끝의 우-좌 시케인으로 탈출에서 트랙이 열린다. 9번 바깥에 콘크리트 벽이 있어 라인이 흐트러지면 바로 닿는다. 9번 탈출부터 10번까지 스트레이트 모드 구간이다.",
+        "en": "A right-left chicane at the end of the back straight that opens up on exit. A concrete wall sits on the outside of Turn 9, close enough to catch any line that drifts wide. The Straight Mode zone runs from the Turn 9 exit through to Turn 10."
+      },
+      "sim": {
+        "summary": {
+          "ko": "강한 제동 · 3단 · 9번 벽",
+          "en": "Hard braking · 3rd · T9 wall"
+        },
+        "popup": {
+          "brake": {
+            "ko": "8번 터널 입구에서 강하게",
+            "en": "Hard braking at the tunnel entrance, T8"
+          },
+          "gear": {
+            "ko": "3단",
+            "en": "3rd"
+          },
+          "watch": {
+            "ko": "9번 탈출 벽 근접",
+            "en": "Wall close on T9 exit"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 8번은 터널 입구에서 강하게\n기어: 3단\n라인: 8번에서 속도를 충분히 줄여 9번 탈출을 넓게\n핵심: 9번 탈출이 10번 헤어핀까지 가속을 좌우한다\n주의: 9번 바깥 콘크리트 벽",
+          "en": "Braking: Hard at the tunnel entrance for T8\nGear: 3rd\nLine: Slow down enough at T8 to take the T9 exit wide\nKey: The T9 exit decides your acceleration to the T10 hairpin\nWatch: The concrete wall on the outside of T9"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "lepingle",
+      "name": {
+        "ko": "레핑글",
+        "en": "L'Épingle"
+      },
+      "corners": [
+        10
+      ],
+      "guide": {
+        "ko": "급하게 꺾이는 우측 헤어핀으로 서킷에서 가장 좋은 추월 지점이다. 탈출 뒤로 긴 직선이 이어져 트랙션이 핵심이다.",
+        "en": "A sharp right-hand hairpin and the best overtaking spot on the circuit. A long straight follows the exit, so traction is everything here."
+      },
+      "sim": {
+        "summary": {
+          "ko": "100m 보드 강한 제동 · 2단 · 탈출 트랙션",
+          "en": "Hard at the 100 m board · 2nd · Exit traction"
+        },
+        "popup": {
+          "brake": {
+            "ko": "10번 100m 보드 강하게",
+            "en": "Hard, at the 100 m board into T10"
+          },
+          "gear": {
+            "ko": "2단",
+            "en": "2nd"
+          },
+          "watch": {
+            "ko": "트랙션 잃으면 직선 손해",
+            "en": "Losing traction costs the whole straight"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 100m 보드에서 강하게\n기어: 2단\n라인: 늦은 에이펙스로 탈출 각도 확보\n스로틀: 휠스핀 없이 점진적으로 개방\n핵심: 서킷에서 가장 좋은 추월 지점\n주의: 탈출 트랙션을 잃으면 긴 직선 전체에서 손해",
+          "en": "Braking: Hard at the 100 m board\nGear: 2nd\nLine: Late apex to secure the exit angle\nThrottle: Open gradually without wheelspin\nKey: The best overtaking spot on the circuit\nWatch: Lose exit traction and you lose time along the whole long straight"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t11-t12",
+      "name": {
+        "ko": "T11~T12",
+        "en": "Turn 11 to Turn 12"
+      },
+      "corners": [
+        11,
+        12
+      ],
+      "guide": {
+        "ko": "헤어핀을 나와 11번 좌측 킹크와 12번 우측 킹크를 지나는 풀스로틀 구간이다. 10번에서 13번까지가 랩에서 가장 긴 풀스로틀 구간이고, 11번부터 13번까지 스트레이트 모드 구간이다. 11번은 비가 올 때만 까다롭다.",
+        "en": "A flat-out stretch out of the hairpin through the left kink of Turn 11 and the right kink of Turn 12. The run from Turn 10 to Turn 13 is the longest flat-out section of the lap, and the Straight Mode zone runs from Turn 11 through to Turn 13. Turn 11 only becomes tricky in the rain."
+      },
+      "sim": {
+        "summary": {
+          "ko": "제동 없음 · 고단 · 슬립스트림",
+          "en": "No braking · High gear · Slipstream"
+        },
+        "popup": {
+          "brake": {
+            "ko": "없음",
+            "en": "None"
+          },
+          "gear": {
+            "ko": "고단",
+            "en": "High gear"
+          },
+          "watch": {
+            "ko": "비 오면 11번 흔들림",
+            "en": "Car gets unsettled at T11 in the rain"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 제동 없음\n기어: 고단 유지\n라인: 킹크는 최소한의 조향으로 직선처럼 연결\n스로틀: 풀스로틀\n핵심: 슬립스트림으로 13번 추월을 준비하는 구간\n주의: 비가 오면 11번에서 차가 흔들린다",
+          "en": "Braking: No braking\nGear: Stay in a high gear\nLine: Link the kink like a straight with minimal steering\nThrottle: Flat out\nKey: A section for using the slipstream to set up a T13 overtake\nWatch: In the rain the car gets unsettled at T11"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t13-t14",
+      "name": {
+        "ko": "T13~T14",
+        "en": "Turn 13 to Turn 14"
+      },
+      "corners": [
+        13,
+        14
+      ],
+      "guide": {
+        "ko": "긴 직선 끝의 우-좌 시케인으로, 랩에서 가장 강한 제동이 걸린다. 14번 탈출 바로 옆에 1999년 힐·빌뇌브·슈마허가 모두 부딪혀 이름이 붙은 '월 오브 챔피언스'가 있다. 13번 진입 직전에서 오버테이크를 감지하고, 14번 탈출부터 메인 스트레이트에서 오버테이크 모드를 쓸 수 있다.",
+        "en": "A right-left chicane at the end of a long straight, where the hardest braking of the lap happens. Right beside the Turn 14 exit is the Wall of Champions, named for the 1999 crashes of Hill, Villeneuve, and Schumacher. Overtake Mode is detected just before the Turn 13 entry and can be used from the Turn 14 exit down the main straight."
+      },
+      "sim": {
+        "summary": {
+          "ko": "강한 제동 · 6단 · 탈출 벽",
+          "en": "Hard braking · 6th · Exit wall"
+        },
+        "popup": {
+          "brake": {
+            "ko": "직선 끝 시케인 진입",
+            "en": "Chicane entry at the end of the straight"
+          },
+          "gear": {
+            "ko": "6단",
+            "en": "6th"
+          },
+          "watch": {
+            "ko": "14번 탈출 벽에 바짝",
+            "en": "Close to the wall on T14 exit"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 직선 끝에서 랩에서 가장 강하게\n기어: 6단\n라인: 13번 연석을 공략하되 14번 탈출은 벽과 여유를 둔다\n스로틀: 14번 탈출에서 벽을 스치지 않을 만큼만 개방\n핵심: 대표 추월 지점, 탈출이 메인 스트레이트 속도를 결정\n주의: 14번 탈출의 월 오브 챔피언스",
+          "en": "Braking: The hardest of the lap, at the end of the straight\nGear: 6th\nLine: Attack the T13 kerb, but leave a margin to the wall on the T14 exit\nThrottle: Open only as much as you can without brushing the wall on the T14 exit\nKey: The signature overtaking spot, and the exit decides your main straight speed\nWatch: The Wall of Champions on the T14 exit"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    }
+  ],
+  "highlights": [
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.6103,
+      "sEnd": 0.6203,
+      "label": "레핑글",
+      "note": {
+        "ko": "서킷에서 가장 좋은 추월 지점, 탈출 트랙션 싸움",
+        "en": "The best overtaking spot on the circuit — a battle for exit traction"
+      }
+    },
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.8823,
+      "sEnd": 0.8923,
+      "label": "T13",
+      "note": {
+        "ko": "긴 직선 끝 랩 최강 제동, 마지막 시케인 추월",
+        "en": "The hardest braking of the lap at the end of a long straight — overtakes at the final chicane"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.8971,
+      "sEnd": 0.9071,
+      "label": "월 오브 챔피언스",
+      "note": {
+        "ko": "1999년 챔피언 세 명이 부딪힌 벽이 있는 마지막 시케인 출구",
+        "en": "The final chicane exit, home to the wall three champions hit in 1999"
+      }
+    }
+  ],
+  "aero": {
+    "season": 2026,
+    "status": "confirmed",
+    "straightModeZones": [
+      {
+        "from": 14,
+        "to": 1
+      },
+      {
+        "from": 7,
+        "to": 8
+      },
+      {
+        "from": 9,
+        "to": 10
+      },
+      {
+        "from": 11,
+        "to": 13
+      }
+    ],
+    "overtake": {
+      "detection": {
+        "corner": 13,
+        "position": "before"
+      },
+      "activation": {
+        "corner": 14,
+        "position": "after"
+      }
+    },
+    "source": "F1 공식 2026 캐나다 가이드"
+  },
+  "character": {
+    "type": "hybrid",
+    "summary": {
+      "ko": "섬 안 공원 도로에 직선·시케인·헤어핀이 이어진다. 마지막 시케인 탈출 쪽 월 오브 챔피언스에 닿는 실수가 잦다.",
+      "en": "Straights, chicanes and a hairpin on the park roads of an island. The Wall of Champions on the final chicane's exit often catches drivers out."
+    }
+  }
+}

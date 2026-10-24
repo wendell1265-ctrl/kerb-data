@@ -1,0 +1,653 @@
+{
+  "trackId": "baku",
+  "name": "Baku",
+  "lengthMeters": 6003,
+  "rotationDeg": 48,
+  "geojsonFile": "az-2016",
+  "startOffsetS": 0.9674,
+  "corners": [
+    {
+      "number": 1,
+      "s": 0.0628,
+      "name": {
+        "ko": "T1",
+        "en": "Turn 1"
+      },
+      "dirX": 0.2325,
+      "dirY": 0.9726
+    },
+    {
+      "number": 2,
+      "s": 0.1202,
+      "name": {
+        "ko": "T2",
+        "en": "Turn 2"
+      },
+      "dirX": 0.8465,
+      "dirY": -0.5324
+    },
+    {
+      "number": 3,
+      "s": 0.2651,
+      "name": {
+        "ko": "T3",
+        "en": "Turn 3"
+      },
+      "dirX": 0.028,
+      "dirY": -0.9996
+    },
+    {
+      "number": 4,
+      "s": 0.3031,
+      "name": {
+        "ko": "T4",
+        "en": "Turn 4"
+      },
+      "dirX": -0.2789,
+      "dirY": -0.9603,
+      "labelOffsetScale": 0.897
+    },
+    {
+      "number": 5,
+      "s": 0.3586,
+      "name": {
+        "ko": "T5",
+        "en": "Turn 5"
+      },
+      "dirX": -0.0892,
+      "dirY": -0.996
+    },
+    {
+      "number": 6,
+      "s": 0.368,
+      "name": {
+        "ko": "T6",
+        "en": "Turn 6"
+      },
+      "dirX": -0.6283,
+      "dirY": -0.778
+    },
+    {
+      "number": 7,
+      "s": 0.4339,
+      "name": {
+        "ko": "T7",
+        "en": "Turn 7"
+      },
+      "dirX": 0.8622,
+      "dirY": -0.5065,
+      "labelOffsetScale": 1.05
+    },
+    {
+      "number": 8,
+      "s": 0.4673,
+      "name": {
+        "ko": "T8",
+        "en": "Turn 8"
+      },
+      "dirX": 0.8939,
+      "dirY": 0.4482,
+      "labelOffsetScale": 0.857
+    },
+    {
+      "number": 9,
+      "s": 0.4715,
+      "name": {
+        "ko": "T9",
+        "en": "Turn 9"
+      },
+      "dirX": -0.9653,
+      "dirY": 0.2612,
+      "labelOffsetScale": 0.671
+    },
+    {
+      "number": 10,
+      "s": 0.4761,
+      "name": {
+        "ko": "T10",
+        "en": "Turn 10"
+      },
+      "dirX": 0.9466,
+      "dirY": -0.3224,
+      "labelOffsetScale": 0.79
+    },
+    {
+      "number": 11,
+      "s": 0.484,
+      "name": {
+        "ko": "T11",
+        "en": "Turn 11"
+      },
+      "dirX": -0.9994,
+      "dirY": -0.0333,
+      "labelOffsetScale": 0.821
+    },
+    {
+      "number": 12,
+      "s": 0.4966,
+      "name": {
+        "ko": "T12",
+        "en": "Turn 12"
+      },
+      "dirX": 0.8823,
+      "dirY": -0.4706,
+      "labelOffsetScale": 0.765
+    },
+    {
+      "number": 13,
+      "s": 0.5622,
+      "name": {
+        "ko": "T13",
+        "en": "Turn 13"
+      },
+      "dirX": -0.0905,
+      "dirY": -0.9959
+    },
+    {
+      "number": 14,
+      "s": 0.5958,
+      "name": {
+        "ko": "T14",
+        "en": "Turn 14"
+      },
+      "dirX": -0.4321,
+      "dirY": -0.9018
+    },
+    {
+      "number": 15,
+      "s": 0.6379,
+      "name": {
+        "ko": "T15",
+        "en": "Turn 15"
+      },
+      "dirX": -0.9909,
+      "dirY": -0.1349
+    },
+    {
+      "number": 16,
+      "s": 0.6963,
+      "name": {
+        "ko": "T16",
+        "en": "Turn 16"
+      },
+      "dirX": -0.6222,
+      "dirY": 0.7829
+    },
+    {
+      "number": 17,
+      "s": 0.7273,
+      "name": {
+        "ko": "T17",
+        "en": "Turn 17"
+      },
+      "dirX": -0.0736,
+      "dirY": -0.9973
+    },
+    {
+      "number": 18,
+      "s": 0.7701,
+      "name": {
+        "ko": "T18",
+        "en": "Turn 18"
+      },
+      "dirX": 0.3724,
+      "dirY": 0.9281
+    },
+    {
+      "number": 19,
+      "s": 0.7948,
+      "name": {
+        "ko": "T19",
+        "en": "Turn 19"
+      },
+      "dirX": 0.1409,
+      "dirY": 0.99
+    },
+    {
+      "number": 20,
+      "s": 0.8553,
+      "name": {
+        "ko": "T20",
+        "en": "Turn 20"
+      },
+      "dirX": -0.3367,
+      "dirY": 0.9416
+    }
+  ],
+  "lapRecords": [
+    {
+      "driver": "Charles Leclerc",
+      "team": "Ferrari",
+      "time": "1:43.009",
+      "year": 2019,
+      "session": "race",
+      "isTrackRecord": true
+    }
+  ],
+  "segments": [
+    {
+      "type": "sector",
+      "label": "S1",
+      "sStart": 0,
+      "sEnd": 0.3586
+    },
+    {
+      "type": "sector",
+      "label": "S2",
+      "sStart": 0.3586,
+      "sEnd": 0.6963
+    },
+    {
+      "type": "sector",
+      "label": "S3",
+      "sStart": 0.6963,
+      "sEnd": 1
+    }
+  ],
+  "trackData": {
+    "lengthMeters": 6003,
+    "laps": 51,
+    "cornerCount": 20,
+    "topSpeedKmh": 350,
+    "fullThrottlePercent": 56,
+    "firstHeld": 2016
+  },
+  "sections": [
+    {
+      "id": "t1-t2",
+      "name": {
+        "ko": "T1~T2",
+        "en": "Turn 1 to Turn 2"
+      },
+      "corners": [
+        1,
+        2
+      ],
+      "guide": {
+        "ko": "메인 스트레이트 끝의 강한 제동 구간. 진입이 늦으면 타이어 배리어와 가깝다. 1번 탈출 직후 짧게 가속한 뒤 바로 2번으로 연결되며, 2번 탈출 속도가 이어지는 가속 구간 전체를 좌우한다. 폴 포지션에서 1번 제동 지점까지는 약 141m로 캘린더에서 가장 짧다. 2번 탈출부터 3번까지는 스트레이트 모드 구간이다.",
+        "en": "The hard braking zone at the end of the main straight — a late entry puts you close to the tyre barrier. A short burst of acceleration out of T1 leads straight into T2, and the exit speed there sets the tone for the acceleration zone that follows. From pole position to the T1 braking point is only about 141m, the shortest on the calendar. The Straight Mode zone runs from the T2 exit to T3."
+      },
+      "sim": {
+        "summary": {
+          "ko": "1번 100m 보드 직전·2번 75m 보드 · 2단 · 탈출 트랙션",
+          "en": "T1 just before the 100 m board, T2 at the 75 m board · 2nd · Traction on exit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "1번 100m 보드 직전, 2번 75m 보드",
+            "en": "T1 just before the 100m board, T2 at the 75m board"
+          },
+          "gear": {
+            "ko": "2단",
+            "en": "2nd"
+          },
+          "watch": {
+            "ko": "런오프 직행 시 시간 손실",
+            "en": "Running off costs time getting back on track"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 1번은 100m 보드 직전에서 강하게, 직선 상태로. 2번은 75m 보드\n기어: 2단\n라인: 오른쪽에 붙여 진입, 이른 에이펙스로 1번 공략\n스로틀: 2번 탈출부터 이어지는 가속 구간까지 트랙션 우선\n핵심: 1번은 랩에서 가장 확실한 추월 지점\n주의: 진입이 늦으면 런오프로 직행, 다시 트랙 복귀에 시간 손실",
+          "en": "Braking: Hard just before the 100 m board at T1, in a straight line. 75 m board at T2\nGear: 2nd\nLine: Enter from the right and take the early apex at T1\nThrottle: Prioritise traction from the T2 exit through the acceleration zone that follows\nKey: T1 is the most reliable overtaking spot on the lap\nWatch: A late entry sends you straight into the run-off, and rejoining the track costs time"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t3-t4",
+      "name": {
+        "ko": "T3~T4",
+        "en": "Turn 3 to Turn 4"
+      },
+      "corners": [
+        3,
+        4
+      ],
+      "guide": {
+        "ko": "3번은 진입점이 잘 안 보이는 좌코너, 4번은 첫 우코너로 탈출이 살짝 열려 벽 쪽으로 끌려가기 쉽다. 3번은 긴 직선 끝의 강한 제동 구간으로, 1번과 함께 대표 추월 지점이다.",
+        "en": "T3 is a left-hander with a hard-to-see entry point; T4 is the first right-hander, whose slightly open exit tends to pull cars toward the wall. T3 is a hard braking zone at the end of a long straight, and together with T1 it is one of the main overtaking spots."
+      },
+      "sim": {
+        "summary": {
+          "ko": "3번 100m 보드·4번 가볍게 · 2단 · 탈출 경계",
+          "en": "T3 at the 100 m board, light at T4 · 2nd · Mind the exit wall"
+        },
+        "popup": {
+          "brake": {
+            "ko": "3번 100m 보드, 4번 가볍게",
+            "en": "T3 at the 100 m board, T4 light"
+          },
+          "gear": {
+            "ko": "2단",
+            "en": "2nd"
+          },
+          "watch": {
+            "ko": "4번 탈출 시 벽 쪽으로 밀림",
+            "en": "Pushed toward the wall on T4 exit"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 3번은 100m 보드(펜스의 브레이킹 마커 기준), 4번은 가볍게\n기어: 2단\n라인: 3번은 왼쪽으로 붙여 진입, 4번은 탈출이 열려도 욕심내지 않는다\n핵심: 4번 탈출에서 벽 쪽으로 밀리면 다음 시케인 진입 각도가 나빠진다\n주의: 3번은 시야 확보가 어려운 코너",
+          "en": "Braking: 100 m board at T3 (by the brake marker on the fence), light at T4\nGear: 2nd\nLine: Enter T3 hugging the left, and don't get greedy at T4 even when the exit opens up\nKey: If you are pushed toward the wall on the T4 exit, the entry angle into the next chicane suffers\nWatch: T3 is a corner with poor visibility"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t5-t6",
+      "name": {
+        "ko": "T5~T6 시케인",
+        "en": "Turn 5-6 Chicane"
+      },
+      "corners": [
+        5,
+        6
+      ],
+      "guide": {
+        "ko": "좌-우로 이어지는 시케인. 5번에서 탈출을 조금 희생해야 6번 진입이 열린다. 탈출 벽이 좁아진다.",
+        "en": "A left-right chicane — exit speed has to be sacrificed a little at T5 to open up the entry to T6, where the exit wall narrows."
+      },
+      "sim": {
+        "summary": {
+          "ko": "5·6번 가볍게 제동 · 3단 · 5번 희생",
+          "en": "Light braking at T5 and T6 · 3rd · Sacrifice T5"
+        },
+        "popup": {
+          "brake": {
+            "ko": "5·6번 가볍게",
+            "en": "Light braking at T5 and T6"
+          },
+          "gear": {
+            "ko": "3단",
+            "en": "3rd"
+          },
+          "watch": {
+            "ko": "탈출 벽이 좁아짐",
+            "en": "Exit wall narrows"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 5·6번은 가볍게\n기어: 3단\n라인: 5번 탈출에서 왼쪽에 붙여 6번을 넓게 진입\n핵심: 5번을 희생해야 6번 이후 직선이 산다\n주의: 탈출 벽이 안쪽으로 좁아지니 여유를 남긴다",
+          "en": "Braking: Light at T5 and T6\nGear: 3rd\nLine: From the T5 exit, move to the left and enter T6 wide\nKey: Sacrifice T5 so the straight after T6 works for you\nWatch: The exit wall narrows inward, so leave a margin"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t7",
+      "name": {
+        "ko": "T7",
+        "en": "Turn 7"
+      },
+      "corners": [
+        7
+      ],
+      "guide": {
+        "ko": "반경이 일정하지 않은 우코너. 캐슬 섹션 진입 직전의 마지막 준비 구간이다.",
+        "en": "A right-hander with an uneven radius — the last preparation zone right before the Castle Section."
+      },
+      "sim": {
+        "summary": {
+          "ko": "7번 일찍 제동 · 1~2단 · 이른 에이펙스",
+          "en": "Brake early at T7 · 1st–2nd · Early apex"
+        },
+        "popup": {
+          "brake": {
+            "ko": "7번 일찍",
+            "en": "Early at T7"
+          },
+          "gear": {
+            "ko": "1~2단",
+            "en": "1st–2nd"
+          },
+          "watch": {
+            "ko": "반경 불균일, 감으로 타면 밀림",
+            "en": "Uneven radius — guessing the line runs wide"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 7번(성벽 진입)은 일찍\n기어: 1~2단\n라인: 늦은 턴인처럼 보이지만 실제론 이른 에이펙스가 빠름\n핵심: 탈출 연석을 최대한 활용해 8번 진입 각도를 줄인다\n주의: 반경이 일정하지 않아 감으로 타면 아웃코스로 밀림",
+          "en": "Braking: Early at T7 (the castle entry)\nGear: 1st–2nd\nLine: It looks like a late turn-in, but an early apex is actually quicker\nKey: Use the exit kerb as much as possible to reduce your entry angle into T8\nWatch: The radius isn't constant, so driving it by feel pushes you wide"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "castle-section",
+      "name": {
+        "ko": "캐슬 섹션",
+        "en": "Castle Section"
+      },
+      "corners": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "guide": {
+        "ko": "구시가지 성벽 사이 7.6m 폭의 F1 최협소 구간. 8~12번이 연속으로 이어지며 한 코너의 라인이 다음 코너 전부에 영향을 준다. 11번에서 잠깐 폭이 열리고, 12번 탈출이 이후 고속 구간 전체의 속도를 결정한다.",
+        "en": "A 7.6m-wide stretch through the old town walls, the narrowest point on the F1 calendar. T8 through T12 run in one continuous sequence where the line through one corner affects all the ones that follow. It opens up briefly at T11, and the exit speed out of T12 sets up the whole high-speed section that follows."
+      },
+      "sim": {
+        "summary": {
+          "ko": "50m 보드 · 2단 · 벽과의 거리",
+          "en": "50 m board · 2nd · Distance to the walls"
+        },
+        "popup": {
+          "brake": {
+            "ko": "8번 50m 보드 직전부터",
+            "en": "From just before the 50m board at T8"
+          },
+          "gear": {
+            "ko": "2단 유지",
+            "en": "Hold 2nd"
+          },
+          "watch": {
+            "ko": "양쪽 벽 여유 없음",
+            "en": "No margin on either wall"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 8번 50m 보드 직전부터, 바깥쪽 벽에 붙은 채로\n기어: 2단 유지\n라인: 8번 라인이 9~12번 전체를 결정, 욕심내지 않는다\n핵심: 12번 탈출이 이어지는 고속 구간 진입 속도를 좌우\n주의: 양쪽 벽 여유가 거의 없다, 두 대가 나란히 지날 공간 없음",
+          "en": "Braking: From just before the 50 m board at T8, staying tight to the outside wall\nGear: Stay in 2nd\nLine: The T8 line decides all of T9–T12, so don't get greedy\nKey: The T12 exit sets your entry speed into the high-speed section that follows\nWatch: Almost no room to the walls on either side, and no space for two cars side by side"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t13-t16",
+      "name": {
+        "ko": "T13~T16",
+        "en": "Turn 13 to Turn 16"
+      },
+      "corners": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "guide": {
+        "ko": "13·14번은 언덕 정상을 넘는 완전 개방 킹크. 이어 내리막에서 15번 브레이킹이 어렵고, 16번은 위험 요소는 적지만 이후 메인 스트레이트 진입 속도를 정하는 가장 중요한 코너다. 15번은 바쿠에서 가장 까다로운 코너로 꼽힌다. 앞이 안 보이는 좌코너인데 오른쪽으로 살짝 틀면서 제동해야 한다. 16번 직후에서 오버테이크를 감지한다.",
+        "en": "T13 and T14 are a flat-out kink over the crest of a hill. The downhill braking into T15 that follows is tricky, and while T16 itself carries little risk, it's the single most important corner for setting entry speed onto the main straight. T15 is regarded as the trickiest corner at Baku — a blind left-hander that needs a slight right-hand dab under braking. Overtake Mode is detected right after T16."
+      },
+      "sim": {
+        "summary": {
+          "ko": "15번 80m 보드 내리막 제동 · 2단 · 16번 탈출 우선",
+          "en": "Downhill braking at the T15 80 m board · 2nd · Prioritise T16 exit"
+        },
+        "popup": {
+          "brake": {
+            "ko": "15번 80m 보드(내리막), 16번 100m 보드",
+            "en": "T15 at the 80 m board (downhill), T16 at the 100 m board"
+          },
+          "gear": {
+            "ko": "15·16번 2단",
+            "en": "2nd at T15/T16"
+          },
+          "watch": {
+            "ko": "16번 탈출 속도가 핵심",
+            "en": "Exit speed at T16 is critical"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 13·14번 제동 없음, 15번은 80m 보드에서 내리막이라 브레이킹 포인트 까다로움, 16번은 100m 보드\n기어: 13·14번 4~5단 유지, 15·16번 2단\n라인: 15번은 안쪽 연석을 피해 진입, 16번은 탈출 폭을 최대한 사용\n스로틀: 13·14번 완전 개방 유지\n핵심: 16번 탈출 속도가 2km 구간 전체의 최고속을 결정\n주의: 15번 내리막 브레이킹은 타이밍을 놓치기 쉽다",
+          "en": "Braking: No braking at T13 and T14, T15 at the 80 m board (downhill, so the braking point is tricky), T16 at the 100 m board\nGear: Stay in 4th–5th through T13 and T14, 2nd at T15 and T16\nLine: Enter T15 avoiding the inside kerb, and use the full exit width at T16\nThrottle: Stay flat out through T13 and T14\nKey: T16 exit speed sets the top speed along the whole 2 km stretch\nWatch: Braking downhill into T15 is easy to mistime"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    },
+    {
+      "id": "t17-t20",
+      "name": {
+        "ko": "T17~T20",
+        "en": "Turn 17 to Turn 20"
+      },
+      "corners": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "guide": {
+        "ko": "16번 탈출부터 1번 진입까지 2.2km를 완전 개방으로 달리는 구간. 사실상 직선이지만 18·19번에서 급격한 방향 전환이 이어진다. 메인 스트레이트를 마무리하고 1번 진입으로 연결된다. 17번 진입부터 오버테이크 모드를 쓸 수 있고, 19번 탈출부터 1번까지 스트레이트 모드 구간이다.",
+        "en": "A flat-out 2.2km run from the T16 exit to the T1 braking zone — essentially a straight, but with sharp direction changes at T18 and T19. It closes out the main straight and leads into the T1 braking zone. Overtake Mode is available from the T17 entry, and the Straight Mode zone runs from the T19 exit to T1."
+      },
+      "sim": {
+        "summary": {
+          "ko": "제동 없음 · 최고단 · 방향전환 유지",
+          "en": "No braking · Top gear · Hold your line through the changes of direction"
+        },
+        "popup": {
+          "brake": {
+            "ko": "제동 없음",
+            "en": "No braking"
+          },
+          "gear": {
+            "ko": "최고단",
+            "en": "Top gear"
+          },
+          "watch": {
+            "ko": "고속 방향전환 입력 최소화",
+            "en": "Minimal inputs through the high-speed direction changes"
+          }
+        },
+        "detail": {
+          "ko": "브레이킹: 제동 없음, 전 구간 완전 개방\n기어: 최고단 유지\n라인: 18·19번 방향전환 시에도 스티어링 입력만 최소로\n스로틀: 16번 탈출부터 1번 브레이킹 직전까지 완전 개방 유지\n핵심: 이 구간 탈출 속도가 1번 추월 시도 성패를 가른다\n주의: 고속 방향전환이라 작은 입력 실수도 크게 증폭됨",
+          "en": "Braking: No braking, flat out all the way\nGear: Stay in top gear\nLine: Keep steering inputs to a minimum even through the T18 and T19 direction changes\nThrottle: Flat out from the T16 exit until just before the T1 braking zone\nKey: Exit speed from this section decides whether a T1 overtake works\nWatch: Direction changes at high speed amplify even small input mistakes"
+        },
+        "basis": {
+          "ko": "참고용 · 세팅과 차량에 따라 다름",
+          "en": "For reference · varies with setup and car"
+        },
+        "verified": false
+      }
+    }
+  ],
+  "highlights": [
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.05279999999999999,
+      "sEnd": 0.0628,
+      "label": "T1",
+      "note": {
+        "ko": "메인 스트레이트 끝, 랩에서 가장 확실한 추월 지점",
+        "en": "The most reliable overtaking spot on the lap, at the end of the main straight"
+      }
+    },
+    {
+      "tags": [
+        "overtake"
+      ],
+      "sStart": 0.2551,
+      "sEnd": 0.2651,
+      "label": "T3",
+      "note": {
+        "ko": "T1 다음으로 확실한 추월 지점, 긴 제동 구간",
+        "en": "The second most reliable overtaking spot after T1, with a long braking zone"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.4673,
+      "sEnd": 0.4966,
+      "label": "캐슬 섹션",
+      "note": {
+        "ko": "구시가지 성벽 사이 7.6m 폭, F1 캘린더 최협소 구간",
+        "en": "A 7.6m-wide stretch through the old town walls — the narrowest section on the F1 calendar"
+      }
+    },
+    {
+      "tags": [
+        "view"
+      ],
+      "sStart": 0.7701,
+      "sEnd": 0.7948,
+      "label": "T18~19",
+      "note": {
+        "ko": "급격한 방향 전환, 메인 스트레이트의 하이라이트",
+        "en": "Sharp direction changes — the highlight of the main straight"
+      }
+    }
+  ],
+  "aero": {
+    "season": 2026,
+    "status": "confirmed",
+    "straightModeZones": [
+      {
+        "from": 2,
+        "to": 3
+      },
+      {
+        "from": 19,
+        "to": 1
+      }
+    ],
+    "overtake": {
+      "detection": {
+        "corner": 16,
+        "position": "after"
+      },
+      "activation": {
+        "corner": 17,
+        "position": "before"
+      }
+    },
+    "source": "F1 공식 2026 바쿠 가이드"
+  },
+  "character": {
+    "type": "street",
+    "summary": {
+      "ko": "구시가지 성벽 사이 좁은 구간과 2km가 넘는 해안 풀스로틀 구간이 한 랩에 있다. 직선 끝 1번·3번에서 추월이 많이 나온다.",
+      "en": "Pairs a narrow section between the old city walls with a flat-out seafront run of over 2 km. Most passes come into T1 and T3 at the ends of the straights."
+    }
+  }
+}
