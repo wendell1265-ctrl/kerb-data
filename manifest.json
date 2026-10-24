@@ -1,7 +1,7 @@
 {
-  "dataVersion": 2,
+  "dataVersion": 3,
   "minAppVersion": "1.0",
-  "generatedAt": "2026-10-24T12:12:20Z",
+  "generatedAt": "2026-10-24T12:20:22Z",
   "files": [
     {
       "path": "tracks/albert-park.json",
@@ -20,8 +20,8 @@
     },
     {
       "path": "tracks/cota.json",
-      "sha256": "649d9d35dc1441ac8f3c14d75a929052625c3fc4171512dc210b70505e58474c",
-      "size": 25531
+      "sha256": "2472b1dec3d1b4b74e4d08839e574ab4f747784f05116f98b542f59dbe83afb5",
+      "size": 26130
     },
     {
       "path": "tracks/gilles-villeneuve.json",

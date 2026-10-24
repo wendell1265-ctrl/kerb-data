@@ -256,8 +256,8 @@
         1
       ],
       "guide": {
-        "ko": "출발선에서 에이펙스까지 약 31m를 단숨에 오르는 급경사 끝, 서킷 최고점에 있는 좁은 좌측 헤어핀이다. 서킷 공동 창립자 레드 맥콤스를 기려 '빅 레드'라는 이름이 붙었다. 오르막이 스파의 라디용보다 가파르고, 에이펙스가 언덕에 가려 거의 보이지 않는다. 코너 폭이 넓어 출발 직후엔 여러 라인이 엇갈리며 혼잡해진다.",
-        "en": "A tight left-hand hairpin at the highest point of the circuit, at the top of a steep climb of about 31 m from the start line up to the apex. It is named Big Red in honour of Red McCombs, a co-founder of the circuit. The climb is steeper than Raidillon at Spa, and the apex is hidden by the crest and almost impossible to see. The corner is wide, so right after the start several lines cross and it gets crowded."
+        "ko": "출발선에서 에이펙스까지 약 31m를 단숨에 오르는 급경사 끝, 서킷 최고점에 있는 좁은 좌측 헤어핀이다. 서킷 공동 창립자 레드 맥콤스를 기려 '빅 레드'라는 이름이 붙었다. 오르막이 스파의 라디용보다 가파르고, 에이펙스가 언덕에 가려 거의 보이지 않는다. 코너 폭이 넓어 출발 직후엔 여러 라인이 엇갈리며 혼잡해진다. 오르막 끝의 블라인드 에이펙스라 바람과 노면 요철 때문에 제동 지점을 정확히 맞추는 것이 핵심이다.",
+        "en": "A tight left-hand hairpin at the highest point of the circuit, at the top of a steep climb of about 31 m from the start line up to the apex. It is named Big Red in honour of Red McCombs, a co-founder of the circuit. The climb is steeper than Raidillon at Spa, and the apex is hidden by the crest and almost impossible to see. The corner is wide, so right after the start several lines cross and it gets crowded. It is a blind apex at the top of the climb, so with the wind and the bumps, hitting the braking point exactly is the key."
       },
       "sim": {
         "summary": {
@@ -435,8 +435,8 @@
         12
       ],
       "guide": {
-        "ko": "약 1km 백 스트레이트 끝의 좌측 헤어핀으로, 서킷에서 가장 좋은 추월 지점이다. 바깥 런오프가 넓어 무리하게 늦게 밟는 유혹이 있지만, 제동 지점을 정확히 지키는 것이 핵심이다. 여기서부터 관중석에 둘러싸인 스타디움 구간이 시작된다.",
-        "en": "A left-hand hairpin at the end of the back straight of about 1 km, and the best overtaking spot on the circuit. The wide outside run-off tempts drivers to brake too late, but hitting the braking point exactly is the key. From here the stadium section, surrounded by grandstands, begins."
+        "ko": "약 1km 백 스트레이트 끝의 좌측 헤어핀으로, 서킷에서 가장 좋은 추월 지점이다. 바깥 런오프가 넓어 무리하게 늦게 밟는 유혹이 있지만, 제동 지점을 정확히 지키는 것이 핵심이다. 긴 직선 끝의 강한 제동이라 바퀴가 잠기기 쉽다. 여기서부터 관중석에 둘러싸인 스타디움 구간이 시작된다.",
+        "en": "A left-hand hairpin at the end of the back straight of about 1 km, and the best overtaking spot on the circuit. The wide outside run-off tempts drivers to brake too late, but hitting the braking point exactly is the key. It is a heavy braking zone at the end of a long straight, so the wheels lock easily. From here the stadium section, surrounded by grandstands, begins."
       },
       "sim": {
         "summary": {
@@ -525,8 +525,8 @@
         18
       ],
       "guide": {
-        "ko": "이스탄불 파크의 8번을 좌우 반전해 옮긴, 에이펙스가 세 개인 긴 우코너다. 진입에서 살짝 리프트한 뒤 스로틀을 일정하게 유지하며 세 에이펙스를 차례로 잇는다.",
-        "en": "A long right-hander with three apexes, copied from Turn 8 at Istanbul Park and mirrored left to right. After a slight lift on entry, drivers keep the throttle steady and link the three apexes one after another."
+        "ko": "이스탄불 파크의 8번을 좌우 반전해 옮긴, 에이펙스가 세 개인 긴 우코너다. 진입에서 살짝 리프트한 뒤 스로틀을 일정하게 유지하며 세 에이펙스를 차례로 잇는다. 좁은 연석 사이로 라인을 정확히 잡아야 한다.",
+        "en": "A long right-hander with three apexes, copied from Turn 8 at Istanbul Park and mirrored left to right. After a slight lift on entry, drivers keep the throttle steady and link the three apexes one after another. The line has to be placed precisely between the narrow kerbs."
       },
       "sim": {
         "summary": {
@@ -677,7 +677,7 @@
         "position": "after"
       }
     },
-    "source": "F1 Live Pulse 2026-10-19(공식 서킷맵 인용), ScuderiaFans 2026-10-20. FIA 원본 PDF 미확인"
+    "source": "FIA 2026 United States GP Competition Notes - Circuit Map (2026-10-23): 스트레이트 모드 T11 뒤 110m·T20 뒤 120m 시작, 오버테이크 감지 T20 뒤 30m"
   },
   "character": {
     "type": "permanent",
