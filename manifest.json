@@ -1,7 +1,7 @@
 {
-  "dataVersion": 3,
+  "dataVersion": 4,
   "minAppVersion": "1.0",
-  "generatedAt": "2026-10-24T12:20:22Z",
+  "generatedAt": "2026-10-26T08:46:08Z",
   "files": [
     {
       "path": "tracks/albert-park.json",
@@ -148,5 +148,10 @@
       "sha256": "765ae485118a957c86fa472fcc25883d8fdec04165de6e7fbe272fc95c6ae97c",
       "size": 780
     }
+  ],
+  "freeTracks": [
+    "red-bull-ring",
+    "monza",
+    "miami"
   ]
 }
