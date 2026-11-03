@@ -1,0 +1,82 @@
+name: race-results
+
+# 레이스 주(일·월·화, UTC)에 30분마다: Jolpica에 결승 결과가 아직 없으면 FIA 순위 문서(Final/Provisional)로
+# results/{시즌}-{라운드}.json 보완 파일을 만들어 manifest와 함께 커밋한다. 검증에 실패하면 아무것도 올리지 않고 issue를 만든다.
+on:
+  schedule:
+    - cron: "*/30 * * * 0,1,2"
+  workflow_dispatch:
+    inputs:
+      round:
+        description: "라운드 번호(비워 두면 자동으로 대상 라운드를 고른다)"
+        required: false
+      force:
+        description: "Jolpica에 결과가 있어도 강제로 만든다(true/false)"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: race-results
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install pypdf
+        run: python -m pip install --quiet pypdf
+      - name: Fetch results
+        id: fetch
+        env:
+          FETCH_RESULTS_ERROR_FILE: ${{ runner.temp }}/fetch-results-error.txt
+        run: |
+          args=""
+          if [ -n "${{ github.event.inputs.round }}" ]; then args="$args --round ${{ github.event.inputs.round }}"; fi
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then args="$args --force"; fi
+          set +e
+          python tools/fetch-results.py $args
+          code=$?
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          exit 0
+      - name: Commit results
+        if: steps.fetch.outputs.code == '0'
+        run: |
+          git config user.name "kerb-data bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add results manifest.json
+          if git diff --cached --quiet; then
+            echo "바뀐 것이 없다."
+          else
+            git commit -m "Race results (FIA classification) — automated"
+            git pull --rebase -q origin "${GITHUB_REF_NAME}" || true
+            git push -q origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+      - name: Open an issue when validation failed
+        if: steps.fetch.outputs.code != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ERR_FILE: ${{ runner.temp }}/fetch-results-error.txt
+        run: |
+          msg="$(cat "$ERR_FILE" 2>/dev/null || echo 'fetch-results가 오류로 끝났다(메시지 없음)')"
+          title="결과 보완 실패: $(date -u +%Y-%m-%d)"
+          if gh issue list --state open --search "결과 보완 실패" --json title -q '.[].title' | grep -qF "결과 보완 실패"; then
+            echo "이미 열린 issue가 있어 새로 만들지 않는다."
+          else
+            gh issue create --title "$title" --body "자동 결과 보완이 검증에 실패해 아무것도 올리지 않았다.
+
+          \`\`\`
+          $msg
+          \`\`\`
+
+          실행: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          fi
+          exit 1
