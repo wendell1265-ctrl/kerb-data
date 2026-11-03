@@ -10,7 +10,7 @@ import hashlib, json, pathlib, sys, datetime
 
 # KERB Pro 원격 설정(선택): tools/pro-config.json 의 freeTracks(무료 주행 상세 트랙 id 목록), earlyAccessUntil(ISO 날짜).
 # 파일이 없거나 키가 없으면 manifest에 넣지 않는다(앱은 번들 기본값 사용). 값이 바뀌면 dataVersion을 올린다.
-PRO_KEYS = ("freeTracks", "earlyAccessUntil")
+PRO_KEYS = ("freeTracks", "earlyAccessUntil", "proSalesEnabled")
 
 def pro_extras(prev=None):
     """tools/pro-config.json이 있으면 그 값, 없으면 이전 manifest의 값을 그대로 이어 쓴다(워크플로가 Pro 설정을 지우지 않게)."""
