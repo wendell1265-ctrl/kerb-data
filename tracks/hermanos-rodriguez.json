@@ -228,8 +228,8 @@
         3
       ],
       "guide": {
-        "ko": "약 1.2km 메인 스트레이트 끝의 1~3번 시케인으로, 멕시코의 세 번째 F1 드라이버 모이세스 솔라나의 이름을 땄다. 이 서킷은 출발선과 결승선이 230m 떨어져 있고, 폴 포지션에서 1번까지 830m나 돼 출발 직후 슬립스트림 싸움이 치열하다. 1번 우코너 뒤 짧게 꺾는 2번 좌코너를 지나 좁은 3번 우코너를 빠져나가는 탈출이 다음 직선 속도를 정한다.",
-        "en": "A chicane at Turns 1 to 3 at the end of the main straight of about 1.2 km, named after Moisés Solana, Mexico's third F1 driver. On this circuit the start line and the finish line are 230 m apart, and pole position is as much as 830 m from Turn 1, so slipstream battles right after the start are intense. After the right-hander at Turn 1, cars pass the short left-hand flick at Turn 2, and the exit from the tight right-hander at Turn 3 sets the speed down the next straight."
+        "ko": "약 1.2km 메인 스트레이트 끝의 1~3번 시케인으로, 멕시코의 세 번째 F1 드라이버 모이세스 솔라나의 이름을 땄다. 이 서킷은 출발선과 결승선이 230m 떨어져 있고, 폴 포지션에서 1번까지 830m나 돼 출발 직후 슬립스트림 싸움이 치열하다. 1번 우코너 뒤 짧게 꺾는 2번 좌코너를 지나 좁은 3번 우코너를 빠져나가는 탈출이 다음 직선 속도를 정한다. 출발선에서 1번까지가 캘린더에서 가장 길어 제동 지점 선택이 핵심이고, 첫 랩에는 코스 밖으로 밀리기 쉽다.",
+        "en": "A chicane at Turns 1 to 3 at the end of the main straight of about 1.2 km, named after Moisés Solana, Mexico's third F1 driver. On this circuit the start line and the finish line are 230 m apart, and pole position is as much as 830 m from Turn 1, so slipstream battles right after the start are intense. After the right-hander at Turn 1, cars pass the short left-hand flick at Turn 2, and the exit from the tight right-hander at Turn 3 sets the speed down the next straight. The run from the grid to Turn 1 is the longest on the calendar, so choosing the braking point is the key, and cars are easily pushed off the track on the first lap."
       },
       "sim": {
         "summary": {
@@ -273,8 +273,8 @@
         6
       ],
       "guide": {
-        "ko": "짧은 직선 끝 4번 에세 델 라고에서 다시 강하게 제동하고, 5번을 지나 좁게 꺾이는 6번 오르키야로 이어진다. 파머가 까다롭다고 꼽은 랩 전반부의 큰 제동 구간이며, 너무 빠르게 들어가면 세 코너의 리듬이 한꺼번에 어긋난다.",
-        "en": "At the end of a short straight, cars brake hard again at Turn 4, Ese del Lago, then pass Turn 5 and continue to the tightly turning Turn 6, Horquilla. It is the big braking zone in the first half of the lap that Palmer calls tricky, and going in too fast throws the rhythm of all three corners off at once."
+        "ko": "긴 직선 끝 4번 에세 델 라고는 90도로 꺾이는 좌코너로, 강하게 감속해야 해서 대표적인 추월 포인트다. 5번을 지나 좁게 꺾이는 6번 오르키야로 이어진다. 파머가 까다롭다고 꼽은 랩 전반부의 큰 제동 구간이며, 너무 빠르게 들어가면 세 코너의 리듬이 한꺼번에 어긋난다.",
+        "en": "At the end of a long straight, Turn 4, Ese del Lago, is a 90-degree left-hander that needs hard slowing, which makes it a classic overtaking point. Cars then pass Turn 5 and continue to the tightly turning Turn 6, Horquilla. It is the big braking zone in the first half of the lap that Palmer calls tricky, and going in too fast throws the rhythm of all three corners off at once."
       },
       "sim": {
         "summary": {
@@ -367,8 +367,8 @@
         16
       ],
       "guide": {
-        "ko": "야구장 관중석 사이를 그대로 관통하는 스타디움 구간으로, 캘린더에서 가장 느리고 좁은 구간 중 하나다. 12번에서 강하게 제동한 뒤 13·14번을 가장 낮은 기어로 돌고, 요철이 있는 15번을 지나 에이펙스가 두 개인 넓은 16번으로 빠져나간다. 경기장은 2024년부터 '에스타디오 GNP 세구로스'로 이름이 바뀌었지만, 구간 이름은 여전히 포로 솔로 불린다.",
-        "en": "A stadium section that runs straight through the grandstands of a baseball park, one of the slowest and tightest sections on the calendar. After braking hard at Turn 12, cars take Turns 13 and 14 in the lowest gear, pass the bumpy Turn 15, and leave through the wide Turn 16 with two apexes. The stadium has been renamed 'Estadio GNP Seguros' since 2024, but the section is still called Foro Sol."
+        "ko": "야구장 관중석 사이를 그대로 관통하는 스타디움 구간으로, 캘린더에서 가장 느리고 좁은 구간 중 하나다. 가장 느린 구간이라 12번 늦은 제동으로 추월을 노릴 수 있다. 12번에서 강하게 제동한 뒤 13·14번을 가장 낮은 기어로 돌고, 요철이 있는 15번을 지나 에이펙스가 두 개인 넓은 16번으로 빠져나간다. 경기장은 2024년부터 '에스타디오 GNP 세구로스'로 이름이 바뀌었지만, 구간 이름은 여전히 포로 솔로 불린다.",
+        "en": "A stadium section that runs straight through the grandstands of a baseball park, one of the slowest and tightest sections on the calendar. Because it is the slowest part of the lap, late braking at Turn 12 offers an overtaking chance. After braking hard at Turn 12, cars take Turns 13 and 14 in the lowest gear, pass the bumpy Turn 15, and leave through the wide Turn 16 with two apexes. The stadium has been renamed 'Estadio GNP Seguros' since 2024, but the section is still called Foro Sol."
       },
       "sim": {
         "summary": {
@@ -496,10 +496,32 @@
   ],
   "aero": {
     "season": 2026,
-    "status": "pending",
-    "straightModeZones": [],
-    "overtake": null,
-    "source": "2026 멕시코시티 GP 대회 주 FIA 발표 예정"
+    "status": "confirmed",
+    "straightModeZones": [
+      {
+        "from": 17,
+        "to": 1
+      },
+      {
+        "from": 3,
+        "to": 4
+      },
+      {
+        "from": 11,
+        "to": 12
+      }
+    ],
+    "overtake": {
+      "detection": {
+        "corner": 15,
+        "position": "at"
+      },
+      "activation": {
+        "corner": 17,
+        "position": "at"
+      }
+    },
+    "source": "FIA 2026 Mexico City GP Competition Notes - Circuit Map (2026-10-29): 스트레이트 모드 T17→T1·T3→T4·T11→T12, 오버테이크 감지 T15 중간·작동 T17 중간"
   },
   "character": {
     "type": "permanent",
