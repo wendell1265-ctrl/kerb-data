@@ -206,8 +206,8 @@
         2
       ],
       "guide": {
-        "ko": "가장 빠른 속도에서 2단까지 급격히 떨어지는 몬자 최대 감속 구간. 2단까지 내려가는 좁은 시케인이라 초반 접촉 사고와 추월이 가장 많이 나오는 곳이다.",
-        "en": "Braking zone from top speed down to 2nd gear, the hardest stop on the lap. A tight chicane down to 2nd gear — where first-lap contact and overtakes happen most."
+        "ko": "가장 빠른 속도에서 2단까지 급격히 떨어지는 몬자 최대 감속 구간. 좁은 시케인이라 초반 접촉 사고와 추월이 가장 많이 나오는 곳이다.",
+        "en": "Braking zone from top speed down to 2nd gear, the hardest stop on the lap. A tight chicane, so first-lap contact and overtakes happen here most."
       },
       "sim": {
         "summary": {

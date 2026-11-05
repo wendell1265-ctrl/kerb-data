@@ -1,7 +1,7 @@
 {
-  "dataVersion": 6,
+  "dataVersion": 7,
   "minAppVersion": "1.0",
-  "generatedAt": "2026-11-03T13:31:04Z",
+  "generatedAt": "2026-11-05T14:52:37Z",
   "files": [
     {
       "path": "tracks/albert-park.json",
@@ -85,8 +85,8 @@
     },
     {
       "path": "tracks/monza.json",
-      "sha256": "fc0ef84c805ff8578d5812dad1eba673b8c95b949e89143141d202db3e3c3259",
-      "size": 21728
+      "sha256": "d08f28bc38289d9fd2654acd09e4bacfd384001ee58f5333fbcd4035bdc2d312",
+      "size": 21686
     },
     {
       "path": "tracks/portimao.json",
