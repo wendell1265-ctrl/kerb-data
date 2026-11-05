@@ -431,8 +431,8 @@
         12
       ],
       "guide": {
-        "ko": "헤어핀을 나와 11번 좌측 킹크와 12번 우측 킹크를 지나는 풀스로틀 구간이다. 10번에서 13번까지가 랩에서 가장 긴 풀스로틀 구간이고, 11번부터 13번까지 스트레이트 모드 구간이다. 11번은 비가 올 때만 까다롭다.",
-        "en": "A flat-out stretch out of the hairpin through the left kink of Turn 11 and the right kink of Turn 12. The run from Turn 10 to Turn 13 is the longest flat-out section of the lap, and the Straight Mode zone runs from Turn 11 through to Turn 13. Turn 11 only becomes tricky in the rain."
+        "ko": "헤어핀을 나와 11번 좌측 킹크와 12번 우측 킹크를 지나는 풀스로틀 구간이다. 10번에서 13번까지가 랩에서 스로틀을 끝까지 연 채 가장 길게 달리는 구간이고, 11번부터 13번까지 스트레이트 모드 구간이다. 11번은 비가 올 때만 까다롭다.",
+        "en": "A flat-out stretch out of the hairpin through the left kink of Turn 11 and the right kink of Turn 12. The run from Turn 10 to Turn 13 is the longest full-throttle section of the lap, and the Straight Mode zone runs from Turn 11 through to Turn 13. Turn 11 only becomes tricky in the rain."
       },
       "sim": {
         "summary": {

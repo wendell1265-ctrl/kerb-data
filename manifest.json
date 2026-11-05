@@ -1,7 +1,7 @@
 {
-  "dataVersion": 7,
+  "dataVersion": 8,
   "minAppVersion": "1.0",
-  "generatedAt": "2026-11-05T14:52:37Z",
+  "generatedAt": "2026-11-05T14:54:02Z",
   "files": [
     {
       "path": "tracks/albert-park.json",
@@ -25,8 +25,8 @@
     },
     {
       "path": "tracks/gilles-villeneuve.json",
-      "sha256": "41fa754ea908d3a5943848b125e791feeedf353198b22e0f0d0478aa735444b2",
-      "size": 20381
+      "sha256": "300da95ad0125c27bc84384c99e44082fb44ff353311ee28e17e557eda2066f7",
+      "size": 20417
     },
     {
       "path": "tracks/hermanos-rodriguez.json",
@@ -40,8 +40,8 @@
     },
     {
       "path": "tracks/interlagos.json",
-      "sha256": "f55cbb7a5b3fd2e7463426798ed075f41db490570ff78a020b0c1ce57051998a",
-      "size": 21330
+      "sha256": "41cbaa6f4895162c5b7d54ba2ba3800161f3b155dc1fd4d23f18da0d9d6f7671",
+      "size": 21366
     },
     {
       "path": "tracks/istanbul-park.json",
@@ -120,8 +120,8 @@
     },
     {
       "path": "tracks/spa.json",
-      "sha256": "2a04054630551a7f66591d9c36778252bde0251b92fda312ffe778f06c067d0f",
-      "size": 23328
+      "sha256": "9097ef0c8f2d7ea5754df51cc0f85cba032287990f5a28356fea006859ec9cd1",
+      "size": 23336
     },
     {
       "path": "tracks/suzuka.json",

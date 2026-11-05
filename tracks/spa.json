@@ -293,7 +293,7 @@
       ],
       "guide": {
         "ko": "F1에서 가장 유명한 코너 구간. 좌-우-좌로 이어지는 오르막이며 현대 F1 머신은 대부분 완전 가속으로 통과한다. 시야가 멀리 있어야 하고, 입력은 부드러워야 한다. 라 소스 탈출부터 오 루즈 진입 전까지, 그리고 라디용을 지난 뒤 케멜 스트레이트 전체가 스트레이트 모드 구간이다. 오 루즈~라디용 자체는 포함되지 않는다. 비가 오면 풀스로틀이 어려운 실제 코너가 된다.",
-        "en": "The most famous corner sequence in F1 — a left-right-left uphill run that modern F1 cars take almost entirely flat out. It demands a long look-ahead and smooth inputs. The Straight Mode zone runs from the La Source exit to just before Eau Rouge, then resumes after Raidillon for the entire Kemmel Straight — Eau Rouge–Raidillon itself is not included. In wet conditions, it becomes a real corner that is hard to take flat out."
+        "en": "The most famous corner sequence in F1 — a left-right-left uphill run that modern F1 cars take almost entirely flat out. It demands a long look-ahead and smooth inputs. The Straight Mode zone runs from the La Source exit to just before Eau Rouge, then resumes after Raidillon for the entire Kemmel Straight — Eau Rouge–Raidillon itself is not included. In wet conditions, it becomes a real corner that is hard to take at full throttle."
       },
       "sim": {
         "summary": {

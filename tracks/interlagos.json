@@ -472,8 +472,8 @@
         15
       ],
       "guide": {
-        "ko": "13~15번은 오르막을 따라 왼쪽으로 살짝 휘는 킹크로, 사실상 직선처럼 풀스로틀로 지난다. 중상 탈출부터 세나 S까지가 캘린더에서 가장 긴 풀스로틀 구간 중 하나라, 엔진 성능과 슬립스트림이 그대로 드러난다.",
-        "en": "Turns 13 to 15 are kinks that bend gently left along the uphill, taken flat out as if they were a straight. The run from the Junção exit to the Senna S is one of the longest flat-out stretches on the calendar, so engine performance and slipstream show up directly."
+        "ko": "13~15번은 오르막을 따라 왼쪽으로 살짝 휘는 킹크로, 사실상 직선처럼 풀스로틀로 지난다. 중상 탈출부터 세나 S까지가 캘린더에서 스로틀을 끝까지 연 채 가장 오래 달리는 구간 중 하나라, 엔진 성능과 슬립스트림이 그대로 드러난다.",
+        "en": "Turns 13 to 15 are kinks that bend gently left along the uphill, taken flat out as if they were a straight. The run from the Junção exit to the Senna S is one of the longest full-throttle stretches on the calendar, so engine performance and slipstream show up directly."
       },
       "sim": {
         "summary": {
