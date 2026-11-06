@@ -207,8 +207,8 @@
         2
       ],
       "guide": {
-        "ko": "아일톤 세나의 이름을 딴, 내리막으로 꺾이는 좌우 연속 코너다. 오르막 메인 스트레이트 끝에서 1번 좌코너로 강하게 제동한 뒤 곧바로 2번 우코너로 넘어가며, 출발과 재출발 때마다 늦은 제동 추월이 벌어지는 인터라고스의 대표 추월 지점이다.",
-        "en": "Named after Ayrton Senna, this is a pair of linked corners, left then right, that turn downhill. Cars brake hard for the left-hander at Turn 1 at the end of the uphill main straight and go straight into the right-hander at Turn 2. Late-braking passes happen here at every start and restart, making it Interlagos's signature overtaking spot."
+        "ko": "아일톤 세나의 이름을 딴, 내리막으로 꺾이는 좌우 연속 코너다. 오르막 메인 스트레이트 끝에서 1번 좌코너로 강하게 제동한 뒤 곧바로 2번 우코너로 넘어가며, 출발과 재출발 때마다 늦은 제동 추월이 벌어지는 인터라고스의 대표 추월 지점이다. 다만 1번은 노면이 크게 기울어 있어 앞바퀴가 쉽게 잠긴다.",
+        "en": "Named after Ayrton Senna, this is a pair of linked corners, left then right, that turn downhill. Cars brake hard for the left-hander at Turn 1 at the end of the uphill main straight and go straight into the right-hander at Turn 2. Late-braking passes happen here at every start and restart, making it Interlagos's signature overtaking spot. Turn 1, however, tilts sharply across the track, so the front tyres lock up easily."
       },
       "sim": {
         "summary": {
@@ -250,8 +250,8 @@
         3
       ],
       "guide": {
-        "ko": "'태양의 커브'라는 뜻의 넓게 도는 좌코너로, 풀스로틀로 지난다. 쓸 수 있는 라인이 사실상 하나뿐이라, 여기서의 탈출 속도가 서킷에서 가장 긴 직선 헤타 오포스타 전체를 좌우한다.",
-        "en": "A wide-radius left-hander whose name means 'curve of the sun', taken flat out. There is effectively only one usable line, so the exit speed here decides the whole of Reta Oposta, the longest straight on the circuit."
+        "ko": "'태양의 커브'라는 뜻의 넓게 도는 좌코너로, 풀스로틀로 지난다. 쓸 수 있는 라인이 사실상 하나뿐이라, 여기서의 탈출 속도가 서킷에서 가장 긴 직선 헤타 오포스타 전체를 좌우한다. 1번에서 밀려도 2번에서 되받아칠 수 있고, 3번 안쪽을 잡아 4번까지 싸움이 이어지므로 1~4번은 차 위치 선정이 핵심이다.",
+        "en": "A wide-radius left-hander whose name means 'curve of the sun', taken flat out. There is effectively only one usable line, so the exit speed here decides the whole of Reta Oposta, the longest straight on the circuit. A driver pushed wide at Turn 1 can fight back at Turn 2 and take the inside of Turn 3, with the battle running on to Turn 4, so car positioning through Turns 1 to 4 is the key."
       },
       "sim": {
         "summary": {
@@ -294,8 +294,8 @@
         5
       ],
       "guide": {
-        "ko": "'호수로 내려가는 길'이라는 뜻의 내리막 좌코너 두 개다. 헤타 오포스타 끝에서 강하게 제동하는 4번은 1번 다음가는 추월 지점이고, 5번을 지나면 짧은 직선을 따라 다시 오르막을 탄다.",
-        "en": "Two downhill left-handers whose name means 'the way down to the lake'. Turn 4, braked hard at the end of Reta Oposta, is the overtaking spot second only to Turn 1, and after Turn 5 the track climbs again along a short straight."
+        "ko": "'호수로 내려가는 길'이라는 뜻의 내리막 좌코너 두 개다. 헤타 오포스타 끝에서 강하게 제동하는 4번은 1번 다음가는 추월 지점이고, 5번을 지나면 짧은 직선을 따라 다시 오르막을 탄다. 이 서킷의 추월은 대부분 메인 스트레이트와 헤타 오포스타, 두 직선 끝에서 나온다.",
+        "en": "Two downhill left-handers whose name means 'the way down to the lake'. Turn 4, braked hard at the end of Reta Oposta, is the overtaking spot second only to Turn 1, and after Turn 5 the track climbs again along a short straight. Most of the overtaking at this circuit happens at the end of the two straights, the main straight and Reta Oposta."
       },
       "sim": {
         "summary": {
@@ -427,8 +427,8 @@
         12
       ],
       "guide": {
-        "ko": "'다이빙'이라는 뜻의 11번 메르굴류는 내리막을 따라 일정하게 도는 좌코너로, 풀스로틀로 지나 곧장 더 날카로운 12번 중상('교차점')으로 들어간다. 중상의 탈출이 결승선까지 이어지는 긴 오르막 풀스로틀 구간 전체를 좌우해, 랩타임을 결정하는 코너로 꼽힌다.",
-        "en": "Turn 11, Mergulho ('dive'), is a left-hander with a constant radius that follows the downhill, taken flat out before going straight into the sharper Turn 12, Junção ('junction'). The exit of Junção decides the whole long uphill flat-out stretch that runs to the finish line, so it is regarded as the corner that decides lap time."
+        "ko": "'다이빙'이라는 뜻의 11번 메르굴류는 내리막을 따라 일정하게 도는 좌코너로, 풀스로틀로 지나 곧장 더 날카로운 12번 중상('교차점')으로 들어간다. 중상은 오르막 메인 스트레이트에 들어서기 전 마지막 느린 코너로, 탈출이 결승선까지 이어지는 긴 오르막 풀스로틀 구간 전체를 좌우해, 랩타임을 결정하는 코너로 꼽힌다.",
+        "en": "Turn 11, Mergulho ('dive'), is a left-hander with a constant radius that follows the downhill, taken flat out before going straight into the sharper Turn 12, Junção ('junction'). Junção is the last slow corner before the uphill main straight, and its exit decides the whole long uphill flat-out stretch that runs to the finish line, so it is regarded as the corner that decides lap time."
       },
       "sim": {
         "summary": {
@@ -585,8 +585,8 @@
   "character": {
     "type": "permanent",
     "summary": {
-      "ko": "고저차가 큰 반시계 방향 서킷. 오르막 메인 스트레이트 끝 세나 S가 추월 지점이고, 날씨가 자주 바뀌어 경기 흐름이 달라지기 쉽다.",
-      "en": "An anticlockwise circuit with big elevation changes. The Senna S at the end of the uphill main straight is the passing spot, and changeable weather often reshapes races."
+      "ko": "고저차가 큰 반시계 방향 서킷. 오르막 메인 스트레이트 끝 세나 S가 추월 지점이고, 비가 자주 오며 비가 오면 랩 곳곳에서 추월 기회가 생긴다.",
+      "en": "An anticlockwise circuit with big elevation changes. The Senna S at the end of the uphill main straight is the passing spot, and rain is frequent — when it falls, overtaking chances open up all around the lap."
     }
   }
 }
