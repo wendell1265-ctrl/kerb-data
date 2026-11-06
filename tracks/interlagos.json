@@ -559,10 +559,28 @@
   ],
   "aero": {
     "season": 2026,
-    "status": "pending",
-    "straightModeZones": [],
-    "overtake": null,
-    "source": "2026 상파울루 GP 대회 주 FIA 발표 예정"
+    "status": "confirmed",
+    "straightModeZones": [
+      {
+        "from": 14,
+        "to": 1
+      },
+      {
+        "from": 3,
+        "to": 4
+      }
+    ],
+    "overtake": {
+      "detection": {
+        "corner": 12,
+        "position": "after"
+      },
+      "activation": {
+        "corner": 13,
+        "position": "after"
+      }
+    },
+    "source": "FIA 2026 São Paulo GP Competition Notes - Circuit Map (2026-11-05): 스트레이트 모드 T14→T1·T3→T4, 오버테이크 감지 T12 뒤 20m·작동 T13 뒤 30m"
   },
   "character": {
     "type": "permanent",
