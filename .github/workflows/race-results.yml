@@ -1,5 +1,6 @@
 name: race-results
 
+# 종료 코드: 0 성공·할 일 없음, 2 검증 실패(issue 생성), 3 일시적 네트워크 오류(issue 없이 다음 30분 실행에서 재시도).
 # 레이스 주(일·월·화, UTC)에 30분마다: Jolpica에 결승 결과가 아직 없으면 FIA 순위 문서(Final/Provisional)로
 # results/{시즌}-{라운드}.json 보완 파일을 만들어 manifest와 함께 커밋한다. 검증에 실패하면 아무것도 올리지 않고 issue를 만든다.
 on:
@@ -28,8 +29,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - name: Install pypdf
@@ -61,8 +62,12 @@ jobs:
             git pull --rebase -q origin "${GITHUB_REF_NAME}" || true
             git push -q origin "HEAD:${GITHUB_REF_NAME}"
           fi
+      - name: Transient network error (retry on the next run)
+        if: steps.fetch.outputs.code == '3'
+        run: |
+          echo "::warning::일시적 네트워크 오류로 이번 실행은 건너뛴다(다음 30분 실행에서 다시 시도): $(cat "${{ runner.temp }}/fetch-results-error.txt" 2>/dev/null)"
       - name: Open an issue when validation failed
-        if: steps.fetch.outputs.code != '0'
+        if: steps.fetch.outputs.code != '0' && steps.fetch.outputs.code != '3'
         env:
           GH_TOKEN: ${{ github.token }}
           ERR_FILE: ${{ runner.temp }}/fetch-results-error.txt

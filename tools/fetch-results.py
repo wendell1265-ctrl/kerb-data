@@ -29,7 +29,11 @@ POINTS = [25, 18, 15, 12, 10, 8, 6, 4, 2, 1]   # 2026: 최고 랩 보너스 점�
 
 
 class Fail(Exception):
-    """검증 실패 — 아무것도 쓰지 않고 issue로 알린다."""
+    """검증 실패 — 아무것도 쓰지 않고 issue로 알린다(종료 코드 2)."""
+
+
+class NetworkFail(Fail):
+    """일시적 네트워크 오류(시간 초과·연결 실패·429·5xx) — issue를 만들지 않고 다음 30분 실행에서 다시 시도한다(종료 코드 3)."""
 
 
 _last_jolpica = [0.0]
@@ -37,7 +41,7 @@ _last_jolpica = [0.0]
 
 def get(url, binary=False, retries=4):
     import time, urllib.error
-    last = None
+    last, transient = None, True
     for attempt in range(retries):
         try:
             if "jolpi.ca" in url:   # Jolpica 요청 제한(초당 4) 보호: 요청 사이 0.35초
@@ -50,11 +54,14 @@ def get(url, binary=False, retries=4):
             return data if binary else data.decode("utf-8", "replace")
         except urllib.error.HTTPError as e:
             last = e
+            transient = e.code in (408, 429) or e.code >= 500
             time.sleep(5 * (attempt + 1) if e.code == 429 else 2)
-        except Exception as e:  # noqa: BLE001
+        except Exception as e:  # noqa: BLE001  (시간 초과·연결 실패 등)
             last = e
+            transient = True
             time.sleep(2)
-    raise Fail(f"요청 실패: {url} ({last})")
+    msg = f"요청 실패: {url} ({last})"
+    raise (NetworkFail if transient else Fail)(msg)
 
 
 def jolpica(path):
@@ -120,6 +127,9 @@ class _Docs(HTMLParser):
             self._buf += data
 
 
+EVENT_ALIASES = {"Brazilian Grand Prix": ("São Paulo Grand Prix", "Sao Paulo Grand Prix")}
+
+
 def find_classification(year, race_name):
     """(문서 제목, PDF 주소, 'final'|'provisional') — 목록 페이지의 링크만 쓴다. 없으면 None."""
     season_url = None
@@ -135,8 +145,10 @@ def find_classification(year, race_name):
         season_page = get(season_url) if season_url else page
     p = _Options(); p.feed(season_page)
     event_url = None
+    # Jolpica와 FIA의 대회 이름이 다른 곳: Jolpica "Brazilian Grand Prix" = FIA "São Paulo Grand Prix"(2026-11 확인)
+    wanted = {race_name.strip().lower()} | {a.lower() for a in EVENT_ALIASES.get(race_name.strip(), ())}
     for value, label in p.options:
-        if "/event/" in value and label.strip().lower() == race_name.strip().lower():
+        if "/event/" in value and label.strip().lower() in wanted:
             event_url = FIA + value if value.startswith("/") else value
     if not event_url:
         return None
@@ -184,6 +196,10 @@ ROW2_NC = re.compile(
     r"(?P<kmh>\d{2,3}\.\d{3}) (?P<fast>\d+:\d{2}\.\d{3}) (?P<on>\d+)$")
 
 
+# 출발하지 못한 드라이버는 팀·랩 수·상태만 있는 짧은 줄이다("Atlassian Williams F1 Team 0 DNS", 2026 라스베이거스 앨본)
+ROW2_DNS = re.compile(r"^(?P<team>.+?) (?P<laps>\d+) (?P<status>DNS|DSQ|DNQ)$")
+
+
 def parse_classification(text):
     """FIA 순위 PDF 텍스트 → [{'pos','no','name','team','laps','time','nc','fast','on','pts'}] (classified + not classified)"""
     lines = [l.rstrip() for l in text.splitlines()]
@@ -205,15 +221,15 @@ def parse_classification(text):
         if i + 1 >= len(lines):
             raise Fail("팀/기록 줄이 없음")
         l2 = lines[i + 1].strip()
-        m2 = (ROW2_NC if nc else ROW2).match(l2)
+        m2 = (ROW2_NC if nc else ROW2).match(l2) or ROW2_DNS.match(l2)
         if not m2:
             raise Fail(f"기록 줄을 해석하지 못함: {l2!r}")
         g = m2.groupdict()
         rows.append({
             "pos": None if nc else int(m.group("pos")), "no": int(m.group("no")), "name": " ".join(m.group("name").split()),
-            "team": g["team"], "laps": int(g["laps"]), "time": g["time"], "nc": nc,
-            "status": g.get("status") if nc else None, "rest": g.get("rest"),
-            "fast": g["fast"], "on": int(g["on"]), "pts": int(g["pts"]) if g.get("pts") else 0,
+            "team": g["team"], "laps": int(g["laps"]), "time": g.get("time"), "nc": nc or g.get("status") in ("DNS", "DSQ", "DNQ"),
+            "status": g.get("status"), "rest": g.get("rest"),
+            "fast": g.get("fast"), "on": int(g["on"]) if g.get("on") else 0, "pts": int(g["pts"]) if g.get("pts") else 0,
         })
         i += 2
     return rows
@@ -292,7 +308,7 @@ def build(year, rnd, rows, source, status, include_round_in_maps):
     winner = rows[0]
     winner_ms = to_ms(winner["time"])
     # 최고 랩 순위(기록이 빠른 순)
-    ranked = sorted(rows, key=lambda r: (to_ms(r["fast"]), r["on"]))
+    ranked = sorted((r for r in rows if r["fast"]), key=lambda r: (to_ms(r["fast"]), r["on"]))
     rank_of = {r["no"]: i + 1 for i, r in enumerate(ranked)}
     out, position = [], 0
     for r in rows:
@@ -304,7 +320,12 @@ def build(year, rnd, rows, source, status, include_round_in_maps):
             raise Fail(f"차번 {r['no']}: FIA '{r['name']}' ≠ Jolpica '{d['givenName']} {d['familyName']}'")
         position += 1
         if r["nc"]:
-            pos_text, status_txt, time = "R", "Retired", None
+            # 미분류: DNF/NC → R·Retired, 출발 못 함(DNS) → W·Did not start, 실격(DSQ) → D·Disqualified (Jolpica 표기)
+            pos_text, status_txt = {"DNS": ("W", "Did not start"), "DNQ": ("W", "Did not start"), "DSQ": ("D", "Disqualified")}.get(r["status"], ("R", "Retired"))
+            time = None
+        elif "DNF" in (r.get("rest") or ""):
+            # 90% 이상 달려 순위는 받았지만 리타이어한 드라이버(2026 라스베이거스 알론소): Jolpica는 Retired·간격 없음
+            pos_text, status_txt, time = str(r["pos"]), "Retired", None
         else:
             pos_text = str(r["pos"])
             lapped = r["laps"] < winner["laps"]
@@ -316,10 +337,12 @@ def build(year, rnd, rows, source, status, include_round_in_maps):
             "position": position, "positionText": pos_text, "driverId": d["driverId"],
             "driverCode": d.get("code") or family[:3].upper(), "givenName": d["givenName"], "familyName": d["familyName"],
             "constructorName": team, "grid": 0, "laps": r["laps"], "status": status_txt, "time": time, "points": points,
-            "fastestLap": {"rank": rank_of[r["no"]], "lap": r["on"], "time": r["fast"]},
+            "fastestLap": {"rank": rank_of[r["no"]], "lap": r["on"], "time": r["fast"]} if r["fast"] else None,
         }
         if time is None:
             del item["time"]
+        if item["fastestLap"] is None:
+            del item["fastestLap"]
         out.append(item)
     return {
         "status": status, "season": year, "round": rnd, "source": source,
@@ -342,7 +365,7 @@ def compare(result, jol):
         checks = [
             ("position", r["position"], int(e["position"])), ("positionText", r["positionText"], e["positionText"]),
             ("laps", r["laps"], int(e["laps"])), ("points", r["points"], float(e["points"])),
-            ("time", r.get("time"), (e.get("Time") or {}).get("time")), ("constructor", r["constructorName"], e["Constructor"]["name"]),
+            ("time", r.get("time") or None, (e.get("Time") or {}).get("time") or None), ("constructor", r["constructorName"], e["Constructor"]["name"]),
         ]
         fl = e.get("FastestLap")
         if fl:
@@ -439,6 +462,13 @@ def main():
             print("대상 라운드 없음(결승 종료 후 72시간 이내인 라운드가 없다)."); return
         for r in targets:
             run_round(year, r["round"], r["name"], a.root, a.force, not a.dry_run)
+    except NetworkFail as e:
+        # 일시적 네트워크 오류: 아무것도 쓰지 않고 종료 코드 3 — 워크플로는 issue를 만들지 않고 다음 30분 실행에서 다시 시도한다
+        msg = f"fetch-results 네트워크 오류(다음 실행에서 재시도): {e}"
+        print(msg, file=sys.stderr)
+        with open(a.error_file, "w") as f:
+            f.write(msg + "\n")
+        sys.exit(3)
     except Fail as e:
         msg = f"fetch-results 실패: {e}"
         print(msg, file=sys.stderr)
