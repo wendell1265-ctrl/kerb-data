@@ -299,8 +299,8 @@
           }
         },
         "detail": {
-          "ko": "브레이킹: 5번은 100m 보드, 7번은 80m 보드에서 휘면서, 8번은 리프트, 9번은 진입 전 가볍게\n기어: 5번 2단, 6번 8단\n라인: 6번은 스피어를 따라 넓게, 7·8번은 연석을 과하게 타지 않는다\n스로틀: 6번은 길게 유지, 9번 탈출에서 일찍\n핵심: 5번은 낮은 기온에서 그립 관리가 승부\n주의: 7·8번은 제동 지점이 잘 안 보여 시케인을 가로지르기 쉽다",
-          "en": "Braking: 100 m board at T5; at T7 braking from the 80 m board while turning; a lift at T8; light before entry at T9\nGear: 2nd at T5, 8th at T6\nLine: Take T6 wide along the Sphere, and don't overuse the kerbs at T7 and T8\nThrottle: Hold it long at T6, and early on the T9 exit\nKey: At T5, managing grip in the cold decides the corner\nWatch: The braking points at T7 and T8 are hard to see, so it's easy to cut across the chicane"
+          "ko": "브레이킹: 5번은 100m 보드, 7번은 80m 보드에서 휘면서, 8번은 리프트, 9번은 진입 전 가볍게\n기어: 5번 2단, 6번 8단\n라인: 6번은 스피어를 따라 넓게, 7·8번은 연석을 과하게 타지 않는다\n스로틀: 6번은 길게 유지, 9번 탈출에서 일찍\n핵심: 5번은 낮은 기온에서 그립 관리가 승부\n주의: 7·8번은 제동 지점이 잘 안 보여 시케인을 가로지르기 쉽고, 6번을 가속해 나오자마자 7번에서 제동해야 해서 안쪽 앞바퀴가 잠기기 쉽다",
+          "en": "Braking: 100 m board at T5; at T7 braking from the 80 m board while turning; a lift at T8; light before entry at T9\nGear: 2nd at T5, 8th at T6\nLine: Take T6 wide along the Sphere, and don't overuse the kerbs at T7 and T8\nThrottle: Hold it long at T6, and early on the T9 exit\nKey: At T5, managing grip in the cold decides the corner\nWatch: The braking points at T7 and T8 are hard to see, so it's easy to cut across the chicane, and braking at T7 right after accelerating out of T6 makes the inside front wheel lock easily"
         },
         "basis": {
           "ko": "참고용 · 세팅과 차량에 따라 다름",
@@ -364,8 +364,8 @@
         13
       ],
       "guide": {
-        "ko": "라스베이거스의 상징인 대로를 따라 약 1.9km를 달리는 F1에서 가장 긴 직선 중 하나다. 13번은 이 직선 위의 약한 곡선으로, 풀스로틀로 지난다. 벨라지오 분수와 에펠탑 모형을 지나며, 2024년 시즌 최고 속도가 이곳에서 나왔다.",
-        "en": "Running about 1.9 km along the city's signature boulevard, this is one of the longest straights in F1. Turn 13 is a slight curve on this straight, taken flat out. Cars pass the Bellagio fountains and the Eiffel Tower replica, and the top speed of the 2024 season was set here."
+        "ko": "라스베이거스의 상징인 대로를 따라 약 1.9km를 달리는 F1에서 가장 긴 직선 중 하나다. 13번은 이 직선 위의 약한 곡선으로, 풀스로틀로 지난다. 벨라지오 분수와 에펠탑 모형을 지나며, 2024년 시즌 최고 속도가 이곳에서 나왔다. 이 직선은 12번 탈출부터 14번 진입까지 스트레이트 모드 구간이다. 다운포스를 줄인 세팅이라 차가 불안정하고, 2026년 규정에서 에너지 관리가 가장 까다로운 서킷 중 하나다.",
+        "en": "Running about 1.9 km along the city's signature boulevard, this is one of the longest straights in F1. Turn 13 is a slight curve on this straight, taken flat out. Cars pass the Bellagio fountains and the Eiffel Tower replica, and the top speed of the 2024 season was set here. This straight is a Straight Mode zone, from the Turn 12 exit to the Turn 14 entry. With a low-downforce set-up the cars are unstable, and under the 2026 rules this is one of the hardest circuits for energy management."
       },
       "sim": {
         "summary": {
@@ -550,10 +550,32 @@
   ],
   "aero": {
     "season": 2026,
-    "status": "pending",
-    "straightModeZones": [],
-    "overtake": null,
-    "source": "2026 라스베이거스 GP 대회 주 FIA 발표 예정"
+    "status": "confirmed",
+    "straightModeZones": [
+      {
+        "from": 4,
+        "to": 5
+      },
+      {
+        "from": 12,
+        "to": 14
+      },
+      {
+        "from": 16,
+        "to": 17
+      }
+    ],
+    "overtake": {
+      "detection": {
+        "corner": 16,
+        "position": "after"
+      },
+      "activation": {
+        "corner": 16,
+        "position": "after"
+      }
+    },
+    "source": "FIA 2026 Las Vegas GP Competition Notes - Circuit Map (2026-11-18): 스트레이트 모드 T4→T5·T12→T14·T16→T17 (작동 T4 뒤 40m·T12 뒤 110m·T16 뒤 45m, 저그립 시 90m·150m·95m), 오버테이크 감지 T16 탈출·작동 T16 뒤 40m"
   },
   "character": {
     "type": "street",

@@ -1,7 +1,7 @@
 {
-  "dataVersion": 11,
+  "dataVersion": 12,
   "minAppVersion": "1.0",
-  "generatedAt": "2026-11-06T14:12:38Z",
+  "generatedAt": "2026-11-23T13:11:33Z",
   "files": [
     {
       "path": "tracks/albert-park.json",
@@ -55,8 +55,8 @@
     },
     {
       "path": "tracks/las-vegas.json",
-      "sha256": "e1a8107f8daaee000990857b75c8acbd0fc652f233c2ca9c3619ace33fe82038",
-      "size": 20304
+      "sha256": "93dd21998b0835b15c586f790f9001999b831e08777d80c51fc70858c65901f3",
+      "size": 21478
     },
     {
       "path": "tracks/lusail.json",
