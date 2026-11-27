@@ -1,7 +1,7 @@
 {
-  "dataVersion": 13,
+  "dataVersion": 14,
   "minAppVersion": "1.0",
-  "generatedAt": "2026-11-23T13:18:12Z",
+  "generatedAt": "2026-11-27T13:39:08Z",
   "files": [
     {
       "path": "tracks/albert-park.json",
@@ -60,8 +60,8 @@
     },
     {
       "path": "tracks/lusail.json",
-      "sha256": "727b1d73a871d5a1ae0c70bd0d4abae624642247e72c53bf2b87e0f11d6696d3",
-      "size": 18801
+      "sha256": "ac8ac5d1fc1246447e56c0189a0e08a4737d72946ce3409abdaf8d5e38f3d387",
+      "size": 20227
     },
     {
       "path": "tracks/madring.json",

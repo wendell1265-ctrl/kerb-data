@@ -352,8 +352,8 @@
         11
       ],
       "guide": {
-        "ko": "7번 U자 우코너를 지나 8번 좌측 곡선과 빠른 9번 우코너로 이어지는 연속 구간이다. 10번은 탈출이 넓게 열려 속도를 많이 들고 나갈 수 있지만, 연석이 평평해 트랙 리밋을 넘기 쉽다. 11번에서 짧게 속도를 줄이고 마지막 고속 구간으로 들어간다.",
-        "en": "After the U-shaped right-hander at Turn 7, this is a run through the left-hand curve at Turn 8 and the fast right-hander at Turn 9. Turn 10 opens out on exit so cars can carry a lot of speed, but the kerbs are flat and it is easy to exceed track limits. Cars slow briefly at Turn 11 and enter the final high-speed section."
+        "ko": "7번 U자 우코너를 지나 8번 좌측 곡선과 빠른 9번 우코너로 이어지는 연속 구간이다. 10번은 탈출이 넓게 열려 속도를 많이 들고 나갈 수 있지만, 연석이 평평해 트랙 리밋을 넘기 쉽다. 10번 탈출부터 거의 직선인 11번을 지나 12번 진입 전까지는 마른 노면에서만 쓸 수 있는 스트레이트 모드 구간이라, 11번은 날개를 눕힌 채 지나고 12번 앞에서 날개를 세운 뒤 마지막 고속 구간으로 들어간다.",
+        "en": "After the U-shaped right-hander at Turn 7, this is a run through the left-hand curve at Turn 8 and the fast right-hander at Turn 9. Turn 10 opens out on exit so cars can carry a lot of speed, but the kerbs are flat and it is easy to exceed track limits. From the Turn 10 exit through the near-straight Turn 11 to the Turn 12 entry is a Straight Mode zone, usable only in the dry, so cars take Turn 11 with the wings flattened, close them before Turn 12 and head into the final high-speed section."
       },
       "sim": {
         "summary": {
@@ -397,8 +397,8 @@
         14
       ],
       "guide": {
-        "ko": "12~14번은 F1 차에게 하나로 이어진 거대한 우코너처럼 느껴지는 구간으로, 이스탄불 파크의 유명한 8번과 비교된다. 12번은 서킷에서 가장 빠른 코너이고, 연료가 무거울 땐 14번에서 살짝 리프트한다. 오른쪽으로 오래 하중이 걸려 왼쪽 앞 타이어가 가장 크게 닳는다.",
-        "en": "To an F1 car, Turns 12 to 14 feel like one huge right-hander, and are compared with the famous Turn 8 at Istanbul Park. Turn 12 is the fastest corner on the circuit, and with a heavy fuel load cars lift slightly at Turn 14. The load stays on the right side for a long time, so the front-left tyre wears the most."
+        "ko": "12~14번은 F1 차에게 하나로 이어진 거대한 우코너처럼 느껴지는 구간으로, 이스탄불 파크의 유명한 8번과 비교된다. 12번은 서킷에서 가장 빠른 코너이고, 연료가 무거울 땐 14번에서 살짝 리프트한다. 오른쪽으로 오래 하중이 걸려 왼쪽 앞 타이어가 가장 크게 닳는다. 에너지 관리도 까다로운 서킷이다.",
+        "en": "To an F1 car, Turns 12 to 14 feel like one huge right-hander, and are compared with the famous Turn 8 at Istanbul Park. Turn 12 is the fastest corner on the circuit, and with a heavy fuel load cars lift slightly at Turn 14. The load stays on the right side for a long time, so the front-left tyre wears the most. Energy management is also tricky at this circuit."
       },
       "sim": {
         "summary": {
@@ -441,8 +441,8 @@
         16
       ],
       "guide": {
-        "ko": "15번에서 늦게 제동한 뒤 마지막 16번으로 들어간다. 16번은 1번과 비슷하게 길게 도는 우코너로, 서킷에서 두 번째로 느린 코너지만 여전히 꽤 높은 기어로 돈다. 탈출이 1km가 넘는 메인 스트레이트로 이어져, 랩에서 가장 중요한 코너로 꼽힌다.",
-        "en": "Cars brake late at Turn 15 and then enter the final corner, Turn 16. Like Turn 1 it is a long right-hander; it is the second-slowest corner on the circuit but is still taken in a fairly high gear. Its exit leads onto the main straight of more than 1 km, so it is regarded as the most important corner of the lap."
+        "ko": "15번에서 늦게 제동한 뒤 마지막 16번으로 들어간다. 16번은 1번과 비슷하게 길게 도는 우코너로, 서킷에서 두 번째로 느린 코너지만 여전히 꽤 높은 기어로 돈다. 탈출이 1km가 넘는 메인 스트레이트로 이어져, 랩에서 가장 중요한 코너로 꼽힌다. 15번과 16번 사이의 짧은 직선도 스트레이트 모드 구간이고, 16번 탈출에서 오버테이크 모드 감지가 이뤄진다.",
+        "en": "Cars brake late at Turn 15 and then enter the final corner, Turn 16. Like Turn 1 it is a long right-hander; it is the second-slowest corner on the circuit but is still taken in a fairly high gear. Its exit leads onto the main straight of more than 1 km, so it is regarded as the most important corner of the lap. The short straight between Turns 15 and 16 is also a Straight Mode zone, and Overtake Mode detection takes place at the Turn 16 exit."
       },
       "sim": {
         "summary": {
@@ -515,10 +515,36 @@
   ],
   "aero": {
     "season": 2026,
-    "status": "pending",
-    "straightModeZones": [],
-    "overtake": null,
-    "source": "2026 카타르 GP 대회 주 FIA 발표 예정"
+    "status": "confirmed",
+    "straightModeZones": [
+      {
+        "from": 16,
+        "to": 1
+      },
+      {
+        "from": 3,
+        "to": 4
+      },
+      {
+        "from": 10,
+        "to": 12
+      },
+      {
+        "from": 15,
+        "to": 16
+      }
+    ],
+    "overtake": {
+      "detection": {
+        "corner": 16,
+        "position": "after"
+      },
+      "activation": {
+        "corner": 16,
+        "position": "after"
+      }
+    },
+    "source": "FIA 2026 Qatar GP Competition Notes - Circuit Map (Document 7, 2026-11-26, 원문 대조 완료): 스트레이트 모드 T16→T1·T3→T4·T10→T12·T15→T16 (작동 T16 뒤 40m·T3 뒤 60m·T10 뒤 70m·T15 뒤 70m, 저그립 시 100m·120m·없음(T10→T12는 마른 노면 전용)·110m), 오버테이크 감지 T16 탈출·작동 T16 뒤 40m"
   },
   "character": {
     "type": "permanent",
