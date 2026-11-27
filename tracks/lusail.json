@@ -357,17 +357,17 @@
       },
       "sim": {
         "summary": {
-          "ko": "짧은 제동 · 4~5단 · 10번 트랙 리밋",
-          "en": "Short braking · 4th–5th · T10 track limits"
+          "ko": "8번 가벼운 제동 · 9번 4단 · 10번 트랙 리밋",
+          "en": "Light braking at T8 · 4th at T9 · T10 track limits"
         },
         "popup": {
           "brake": {
-            "ko": "11번 짧게",
-            "en": "Brief braking at T11"
+            "ko": "8번 가볍게",
+            "en": "Light braking at T8"
           },
           "gear": {
-            "ko": "4~5단",
-            "en": "4th–5th"
+            "ko": "9번 4단",
+            "en": "4th at T9"
           },
           "watch": {
             "ko": "10번 트랙 리밋",
@@ -375,8 +375,8 @@
           }
         },
         "detail": {
-          "ko": "브레이킹: 8번은 가볍게, 11번은 짧게\n기어: 4~5단\n라인: 10번은 넓게 열리는 탈출을 최대한 활용\n스로틀: 10번 탈출에서 일찍\n핵심: 10번 탈출 속도가 마지막 섹터 전체로 이어진다\n주의: 10번 연석이 평평해 트랙 리밋을 넘기 쉽다",
-          "en": "Braking: Light at T8, short at T11\nGear: 4th–5th\nLine: Make the most of the wide-opening exit at T10\nThrottle: Early on the T10 exit\nKey: T10 exit speed carries through the whole final sector\nWatch: The T10 kerb is flat, so it is easy to exceed track limits"
+          "ko": "브레이킹: 8번은 가볍게. 11번은 마른 노면에선 스트레이트 모드로 그대로 지나고, 젖은 노면에서만 짧게 감속\n기어: 9번 4단\n라인: 10번은 넓게 열리는 탈출을 최대한 활용\n스로틀: 10번 탈출에서 일찍\n핵심: 10번 탈출 속도가 마지막 섹터 전체로 이어진다\n주의: 10번 연석이 평평해 트랙 리밋을 넘기 쉽다",
+          "en": "Braking: Light at T8. In the dry, take T11 in Straight Mode without braking; slow briefly only in the wet\nGear: 4th at T9\nLine: Make the most of the wide-opening exit at T10\nThrottle: Early on the T10 exit\nKey: T10 exit speed carries through the whole final sector\nWatch: The T10 kerb is flat, so it is easy to exceed track limits"
         },
         "basis": {
           "ko": "참고용 · 세팅과 차량에 따라 다름",
