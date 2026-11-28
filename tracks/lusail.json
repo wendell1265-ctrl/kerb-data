@@ -216,8 +216,8 @@
         1
       ],
       "guide": {
-        "ko": "1km가 넘는 메인 스트레이트 끝에서 강하게 제동하는 U자 모양의 긴 우코너다. 직선이 길어 슬립스트림 효과가 커서 서킷에서 가장 좋은 추월 지점이다. 랩 전체에서 유일하게 강하게 제동하는 곳이기도 하다. 늦은 에이펙스로 빠져나가 2번으로 흐름을 이어간다.",
-        "en": "A long, U-shaped right-hander braked hard at the end of the main straight, which is over 1 km long. The long straight makes the slipstream very effective, so this is the best overtaking spot on the circuit. It is also the only place on the whole lap where cars brake hard. Cars take a late apex and carry the flow on into Turn 2."
+        "ko": "1km가 넘는 메인 스트레이트 끝에서 확실하게 제동해 들어가는 U자 모양의 긴 우코너다. 1번 자체는 빠르게 도는 코너지만, 긴 직선 끝이라 슬립스트림 효과가 커서 서킷에서 가장 좋은 추월 지점이다. 늦은 에이펙스로 빠져나가 2번으로 흐름을 이어간다.",
+        "en": "A long, U-shaped right-hander entered with firm braking at the end of the main straight, which is over 1 km long. Turn 1 itself is a fast corner, but after such a long straight the slipstream is very effective, so this is the best overtaking spot on the circuit. Cars take a late apex and carry the flow on into Turn 2."
       },
       "sim": {
         "summary": {
@@ -239,8 +239,8 @@
           }
         },
         "detail": {
-          "ko": "브레이킹: 메인 스트레이트 끝 100m 보드에서 강하게\n기어: 4단\n라인: 넓게 들어가 늦은 에이펙스로 2번 진입을 준비\n스로틀: 탈출에서 트랙 폭을 모두 쓰며 점진적으로\n핵심: 긴 직선 끝이라 서킷에서 가장 좋은 추월 지점\n주의: 너무 늦게 밟으면 U자 코너 안쪽을 놓친다",
-          "en": "Braking: Hard at the 100 m board at the end of the main straight\nGear: 4th\nLine: Enter wide and take a late apex to prepare for the T2 entry\nThrottle: Use the full track width on exit, building up gradually\nKey: At the end of a long straight, the best overtaking spot on the circuit\nWatch: Brake too late and you miss the inside of the U-shaped corner"
+          "ko": "브레이킹: 메인 스트레이트 끝 100m 보드에서 확실하게\n기어: 4단\n라인: 넓게 들어가 늦은 에이펙스로 2번 진입을 준비\n스로틀: 탈출에서 트랙 폭을 모두 쓰며 점진적으로\n핵심: 긴 직선 끝이라 서킷에서 가장 좋은 추월 지점\n주의: 너무 늦게 밟으면 U자 코너 안쪽을 놓친다",
+          "en": "Braking: Firmly at the 100 m board at the end of the main straight\nGear: 4th\nLine: Enter wide and take a late apex to prepare for the T2 entry\nThrottle: Use the full track width on exit, building up gradually\nKey: At the end of a long straight, the best overtaking spot on the circuit\nWatch: Brake too late and you miss the inside of the U-shaped corner"
         },
         "basis": {
           "ko": "참고용 · 세팅과 차량에 따라 다름",
@@ -305,8 +305,8 @@
         6
       ],
       "guide": {
-        "ko": "서킷에서 가장 느린 좌측 헤어핀으로, 루사일에서 유일하게 크게 감속하는 저속 코너다. 반경이 넓어서 두 에이펙스를 차례로 잇거나, 짧게 꺾어 V자로 빠져나가는 두 가지 라인이 가능하다.",
-        "en": "The slowest corner on the circuit, a left-hand hairpin and the only low-speed corner at Lusail where cars slow down heavily. Its wide radius allows two lines: linking two apexes one after the other, or turning in short and exiting in a V shape."
+        "ko": "서킷에서 가장 느린 좌측 헤어핀으로, 루사일에서 유일하게 크게 감속하는 저속 코너다. 랩에서 가장 강하게 제동하는 곳도 여기다. 반경이 넓어서 두 에이펙스를 차례로 잇거나, 짧게 꺾어 V자로 빠져나가는 두 가지 라인이 가능하다.",
+        "en": "The slowest corner on the circuit, a left-hand hairpin and the only low-speed corner at Lusail where cars slow down heavily. It is also where the heaviest braking of the lap happens. Its wide radius allows two lines: linking two apexes one after the other, or turning in short and exiting in a V shape."
       },
       "sim": {
         "summary": {
@@ -484,8 +484,8 @@
       "sEnd": 0.1279,
       "label": "T1",
       "note": {
-        "ko": "1km가 넘는 직선 끝, 랩에서 유일한 강한 제동이자 최대 추월 지점",
-        "en": "The end of a straight of over 1 km — the only hard braking of the lap and the best overtaking spot"
+        "ko": "1km가 넘는 직선 끝, 최대 추월 지점",
+        "en": "The end of a straight of over 1 km — the best overtaking spot"
       }
     },
     {
